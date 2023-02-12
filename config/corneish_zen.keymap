@@ -16,52 +16,74 @@
   };
 };
 
-/ {
-        keymap {
-                compatible = "zmk,keymap";
-
-                default_layer {
-                        label = "QWERTY";
-// -----------------------------------------------------------------------------------------
-// |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
-// | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
-// | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
-//                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
-                        bindings = <
-   &kp TAB   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
-   &kp LCTRL &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
-   &kp LSHFT &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp ESC
-                  &kp LGUI &mo 1 &kp SPACE   &kp RET &mo 2 &kp RALT
-                        >;
-                };
-                lower_layer {
-                        label = "NUMBER";
-// -----------------------------------------------------------------------------------------
-// |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
-// | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
-// | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
-//                    | GUI |     | SPC |   | ENT |     | ALT |
-                        bindings = <
-   &kp TAB    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp BSPC
-   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
-   &kp LSHFT  &trans       &trans       &trans       &trans       &trans         &trans   &trans   &trans &trans    &trans &trans
-                          	        &kp LGUI     &trans       &kp SPACE      &kp RET  &trans   &kp RALT
-                        >;
-                };
-
-                raise_layer {
-                        label = "SYMBOL";
-// -----------------------------------------------------------------------------------------
-// |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
-// | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
-// | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
-//                    | GUI |     | SPC |   | ENT |     | ALT |
-                        bindings = <
-   &kp  TAB  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp BSPC
-   &kp LCTRL &trans   &trans &trans   &trans   &trans      &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp BSLH &kp GRAVE
-   &kp LSHFT &trans   &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp LBRC        &kp RBRC &kp PIPE &kp TILDE
-                    	     &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
-                        >;
-                };
+ / {
+    keymap {
+      compatible = "zmk,keymap";
+  layer0 {
+          bindings = <
+          &kp ESCAPE &kp J &kp D &kp U &kp A &kp X &kp P &kp H &kp L &kp M &kp W &kp BACKSPACE OSL(12) &kp C &kp T &kp I &kp E &kp O &kp B &kp N &kp R &kp S &kp G &kp ENTER &to 1 &kp F &kp V &kp MINUS &kp Y &kp Q &kp Z &kp SEMICOLON &kp LEFT_BRACKET &kp SINGLE_QUOTE &kp K &to 0 OSL(3) &kp SPACE OSL(2) OSL(1) OSL(14) OSL(4)
+          >;
+        };layer1 {
+          bindings = <
+          &kp ESCAPE &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp BACKSPACE OSL(12) &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp ENTER &to 1 LSFT(KC_7) LSFT(KC_8) LSFT(KC_9) LSFT(KC_RBRC) LSFT(KC_0) &kp X &kp RIGHT_BRACKET &kp COMMA &kp DOT &kp SLASH &to 0 OSL(3) &kp SPACE OSL(2) &mo 1 OSL(14) OSL(4)
+          >;
+        };layer2 {
+          bindings = <
+          &kp ESCAPE LCTL(KC_1) LCTL(KC_2) LCTL(KC_3) LCTL(KC_4) LCTL(KC_5) LCTL(KC_6) LCTL(KC_7) LCTL(KC_8) LCTL(KC_9) LCTL(KC_0) LALT(KC_F4) RSA(KC_TAB) LGUI(KC_1) LGUI(KC_2) LGUI(KC_3) LGUI(KC_4) LGUI(KC_5) LGUI(KC_6) LGUI(KC_7) LGUI(KC_8) LGUI(KC_9) LGUI(KC_0) LALT(KC_TAB) &to 1 RALT(KC_MINS) LSFT(KC_5) RALT(KC_Q) RALT(KC_E) LSFT(KC_BSLS) LSFT(KC_2) LSFT(KC_1) LSFT(KC_COMM) LSFT(KC_DOT) LSFT(KC_MINS) &to 0 &kp F20 OSM(MOD_LGUI) OSM(MOD_LALT) &kp F20 &kp F20 &kp F20
+          >;
+        };layer3 {
+          bindings = <
+          &kp ESCAPE RCS(KC_B) RCS(KC_U) RCS(KC_F) RCS(KC_K) RCS(KC_QUOT) LGUI(KC_DOT) LCTL(KC_Y) LALT(KC_UP) LCTL(KC_Z) HYPR(KC_O) LCTL(KC_DEL) HYPR(KC_F) LALT(KC_E) RCS(KC_C) RCS(KC_V) LCTL(KC_ESC) &kp F11 &kp F12 LCTL(KC_LEFT) LALT(KC_DOWN) LCTL(KC_RGHT) HYPR(KC_P) HYPR(KC_T) &to 1 HYPR(KC_R) LALT(KC_LEFT) LALT(KC_RGHT) HYPR(KC_S) HYPR(KC_G) HYPR(KC_H) RCS(KC_TAB) LALT(KC_UP) &kp ENTER LCTL(KC_TAB) &to 0 &trans OSM(MOD_LCTL|MOD_LGUI) &kp F20 &kp F20 &kp F20 &kp F20
+          >;
+        };layer4 {
+          bindings = <
+          &kp ESCAPE LCTL(KC_J) LCTL(KC_D) LCTL(KC_U) LCTL(KC_A) LCTL(KC_X) LCTL(KC_P) LCTL(KC_H) LCTL(KC_L) LCTL(KC_M) LCTL(KC_W) LCTL(KC_BSPC) LCTL(KC_PMNS) LCTL(KC_C) LCTL(KC_T) LCTL(KC_I) LCTL(KC_E) LCTL(KC_O) LCTL(KC_B) LCTL(KC_N) LCTL(KC_R) LCTL(KC_S) LCTL(KC_G) LCTL(KC_PPLS) &to 1 LCTL(KC_F) LCTL(KC_V) LCTL(KC_MINS) LCTL(KC_Y) LCTL(KC_Q) LCTL(KC_Z) LCTL(KC_SCLN) LCTL(KC_LBRC) LCTL(KC_QUOT) LCTL(KC_K) &to 0 &kp F20 &kp F20 &kp F20 &kp F20 OSM(MOD_LCTL|MOD_LALT) OSL(5)
+          >;
+        };layer5 {
+          bindings = <
+          &kp ESCAPE RCS(KC_J) RCS(KC_D) RCS(KC_U) RCS(KC_A) RCS(KC_X) RCS(KC_P) RCS(KC_H) RCS(KC_L) RCS(KC_M) RCS(KC_W) LSFT(KC_HOME) LGUI(KC_I) RCS(KC_C) RCS(KC_T) RCS(KC_I) RCS(KC_E) RCS(KC_O) RCS(KC_B) RCS(KC_N) RCS(KC_R) RCS(KC_S) RCS(KC_G) SGUI(KC_S) &to 1 RCS(KC_F) RCS(KC_V) RCS(KC_MINS) RCS(KC_Y) RCS(KC_Q) RCS(KC_Z) RCS(KC_SCLN) RCS(KC_LBRC) RCS(KC_QUOT) RCS(KC_K) &to 0 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &trans
+          >;
+        };layer6 {
+          bindings = <
+          &kp ESCAPE &kp J &kp D &kp U &kp A &kp X &kp P &kp H &kp L &kp M &kp W &kp BACKSPACE OSL(13) &kp C &kp T &kp I &kp E &kp O &kp B &kp N &kp R &kp S &kp G &kp ENTER &to 7 &kp F &kp V &kp MINUS &kp Y &kp Q &kp Z &kp SEMICOLON &kp LEFT_BRACKET &kp SINGLE_QUOTE &kp K &to 6 OSL(9) &kp SPACE OSL(8) OSL(7) OSL(14) OSL(10)
+          >;
+        };layer7 {
+          bindings = <
+          &kp ESCAPE LGUI(KC_1) LGUI(KC_2) LGUI(KC_3) LGUI(KC_4) LGUI(KC_5) LGUI(KC_6) LGUI(KC_7) LGUI(KC_8) LGUI(KC_9) LGUI(KC_0) &kp BACKSPACE OSL(13) &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp ENTER &to 7 LSFT(KC_7) LSFT(KC_8) LSFT(KC_9) LSFT(KC_RBRC) LSFT(KC_0) &kp X &kp RIGHT_BRACKET &kp COMMA &kp DOT &kp SLASH &to 6 OSL(9) &kp SPACE OSL(8) &mo 7 OSL(14) OSL(10)
+          >;
+        };layer8 {
+          bindings = <
+          &kp ESCAPE HYPR(KC_J) HYPR(KC_D) HYPR(KC_U) HYPR(KC_A) HYPR(KC_X) HYPR(KC_P) HYPR(KC_H) HYPR(KC_L) HYPR(KC_M) HYPR(KC_W) LGUI(KC_Q) SGUI(KC_TAB) HYPR(KC_F1) HYPR(KC_F2) HYPR(KC_F3) HYPR(KC_F4) HYPR(KC_F5) HYPR(KC_F6) HYPR(KC_F7) HYPR(KC_F8) HYPR(KC_F9) HYPR(KC_F10) LGUI(KC_TAB) &to 7 LSA(KC_7) LSFT(KC_5) LALT(KC_L) RALT(KC_E) LSFT(KC_BSLS) LSFT(KC_2) LSFT(KC_1) LSFT(KC_COMM) LSFT(KC_DOT) LSFT(KC_MINS) &to 6 &kp F20 OSM(MOD_LCTL|MOD_LGUI) OSM(MOD_RALT|MOD_RGUI) &kp F20 &kp F20 &kp F20
+          >;
+        };layer9 {
+          bindings = <
+          &kp ESCAPE SGUI(KC_B) LGUI(KC_U) LGUI(KC_B) LGUI(KC_I) SGUI(KC_EQL) LGUI(LCTL(KC_SPC LGUI(KC_Y) LAG(KC_UP) SGUI(KC_Y) HYPR(KC_S) LALT(KC_DEL) HYPR(KC_C) SGUI(KC_G) RAG(KC_C) RAG(KC_V) LGUI(KC_SPC) &kp F11 &kp F12 LAG(KC_LEFT) LAG(KC_DOWN) LAG(KC_RGHT) HYPR(KC_G) HYPR(KC_T) &to 7 HYPR(KC_O) LGUI(KC_SCLN) LGUI(KC_QUOT) HYPR(KC_B) HYPR(KC_Q) HYPR(KC_Y) RCS(KC_TAB) LGUI(KC_UP) LGUI(KC_DOWN) LCTL(KC_TAB) &to 6 &trans OSM(MOD_RCTL|MOD_RSFT|MOD_RGUI) &kp F20 &kp F20 &kp F20 &kp F20
+          >;
+        };layer10 {
+          bindings = <
+          &kp ESCAPE LGUI(KC_J) LGUI(KC_D) LGUI(KC_U) LGUI(KC_A) LGUI(KC_X) LGUI(KC_P) LGUI(KC_H) LGUI(KC_L) LGUI(KC_M) LGUI(KC_W) LALT(KC_BSPC) LGUI(KC_PMNS) LGUI(KC_C) LGUI(KC_T) LGUI(KC_I) LGUI(KC_E) LGUI(KC_O) LGUI(KC_B) LGUI(KC_N) LGUI(KC_R) LGUI(KC_S) LGUI(KC_G) LGUI(KC_PPLS) &to 7 LGUI(KC_F) LGUI(KC_V) LGUI(KC_MINS) LGUI(KC_Y) LGUI(KC_Q) LGUI(KC_Z) LGUI(KC_SCLN) LGUI(KC_LBRC) LGUI(KC_QUOT) LGUI(KC_K) &to 6 &kp F20 &kp F20 &kp F20 &kp F20 OSM(MOD_RSFT|MOD_RALT|MOD_RGUI) OSL(11)
+          >;
+        };layer11 {
+          bindings = <
+          &kp ESCAPE SGUI(KC_J) SGUI(KC_D) SGUI(KC_U) SGUI(KC_A) SGUI(KC_X) SGUI(KC_P) SGUI(KC_H) SGUI(KC_L) SGUI(KC_M) SGUI(KC_W) LGUI(KC_BSPC) LGUI(KC_COMM) SGUI(KC_C) SGUI(KC_T) SGUI(KC_I) SGUI(KC_E) SGUI(KC_O) SGUI(KC_B) SGUI(KC_N) SGUI(KC_R) SGUI(KC_S) SGUI(KC_G) RSG(KC_5) &to 7 SGUI(KC_F) SGUI(KC_V) SGUI(KC_MINS) SGUI(KC_Y) SGUI(KC_Q) SGUI(KC_Z) SGUI(KC_SCLN) SGUI(KC_LBRC) SGUI(KC_QUOT) SGUI(KC_K) &to 6 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &trans
+          >;
+        };layer12 {
+          bindings = <
+          HYPR(KC_Q) &kp LEFT_ALT LSFT(KC_HOME) &kp INSERT LSFT(KC_END) LCTL(KC_SPC) LCTL(KC_HOME) &kp HOME &kp UP &kp END &kp PAGE_UP &kp DELETE &trans &kp LEFT_SHIFT &kp LEFT_GUI &kp LEFT_ALT &kp LEFT_CONTROL &kp CAPSLOCK LCTL(KC_END) &kp LEFT &kp DOWN &kp RIGHT &kp PAGE_DOWN &kp ENTER &to 1 RCS(KC_ESC) RCS(KC_LEFT) RCS(KC_RGHT) LGUI(KC_T) LSFT(KC_SPC) RCS(KC_F10) LSFT(KC_TAB) LCTL(KC_LEFT) LCTL(KC_RGHT) &kp TAB &to 0 &trans &kp SPACE &trans &trans &kp LEFT_SHIFT &trans
+          >;
+        };layer13 {
+          bindings = <
+          HYPR(KC_V) &kp LEFT_GUI RSG(KC_LEFT) &kp INSERT RSG(KC_RGHT) LCTL(KC_SPC) LGUI(KC_UP) LGUI(KC_LEFT) &kp UP LGUI(KC_RGHT) &kp PAGE_UP &kp DELETE &trans &kp LEFT_SHIFT OSM(MOD_LCTL|MOD_LGUI) &kp LEFT_ALT &kp LEFT_GUI &kp CAPSLOCK LGUI(KC_DOWN) &kp LEFT &kp DOWN &kp RIGHT &kp PAGE_DOWN &kp ENTER &to 7 RAG(KC_ESC) RSA(KC_LEFT) RSA(KC_RGHT) HYPR(KC_Z) LSFT(KC_SPC) HYPR(KC_E) LSFT(KC_TAB) LALT(KC_LEFT) LALT(KC_RGHT) &kp TAB &to 6 &trans &kp SPACE &trans &trans &kp LEFT_SHIFT &trans
+          >;
+        };layer14 {
+          bindings = <
+          &kp ESCAPE LSFT(KC_J) LSFT(KC_D) LSFT(KC_U) LSFT(KC_A) LSFT(KC_X) LSFT(KC_P) LSFT(KC_H) LSFT(KC_L) LSFT(KC_M) LSFT(KC_W) &kp BACKSPACE &kp F20 LSFT(KC_C) LSFT(KC_T) LSFT(KC_I) LSFT(KC_E) LSFT(KC_O) LSFT(KC_B) LSFT(KC_N) LSFT(KC_R) LSFT(KC_S) LSFT(KC_G) &kp ENTER &trans LSFT(KC_F) LSFT(KC_V) LSFT(KC_MINS) LSFT(KC_Y) LSFT(KC_Q) LSFT(KC_Z) LSFT(KC_SCLN) LSFT(KC_LBRC) LSFT(KC_QUOT) LSFT(KC_K) &trans &kp F20 &trans &kp F20 &kp F20 OSL(15) &kp F20
+          >;
+        };layer15 {
+          bindings = <
+          &kp ESCAPE &to 6 &kp C_VOLUME_DOWN RGB_TOG &kp C_VOLUME_UP RGB_VAD RGB_VAI &kp C_PREVIOUS &kp C_PLAY_PAUSE &kp C_NEXT &to 0 &kp BACKSPACE &kp F20 &kp BACKSLASH &kp NON_US_BACKSLASH LSFT(KC_NUBS) LSFT(KC_6) RGB_RMOD RGB_MOD LSFT(KC_3) LSFT(KC_4) RALT(KC_M) LSFT(KC_SLSH) &kp ENTER &trans LALT(KC_5) &kp GRAVE LSFT(KC_GRV) LALT(KC_6) RALT(KC_3) RALT(KC_2) RALT(KC_7) RALT(KC_8) RALT(KC_9) RALT(KC_0) &trans &kp F20 &trans &kp F20 &kp F20 &trans &kp F20
+          >;
         };
-};
+    };
+  };
+  
