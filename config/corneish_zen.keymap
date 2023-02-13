@@ -122,7 +122,7 @@
 			&kp NUMBER_0
 			&kp ENTER 
 
-			&none
+			&tog 1
 			&kp LS(NUMBER_7)
 			&kp LS(NUMBER_8)
 			&kp LS(NUMBER_9)
@@ -133,7 +133,7 @@
 			&kp COMMA
 			&kp DOT
 			&kp SLASH
-			&none
+			&tog 0
 	
 			&sl 3 
 			&kp SPACE 
@@ -154,17 +154,54 @@
                 program_layer {
                         label = "PROGRAM";
 
-// -----------------------------------------------------------------------------------------
-// |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
-// | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
-// | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
-//                    | GUI |     | SPC |   | ENT |     | ALT |
 
                         bindings = <
-   &kp  TAB  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp BSPC
-   &kp LCTRL &trans   &trans &trans   &trans   &trans      &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp BSLH &kp GRAVE
-   &kp LSHFT &trans   &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp LBRC        &kp RBRC &kp PIPE &kp TILDE
-                    	     &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
+
+			&kp ESCAPE 
+			&none	
+			&none	
+			&none	
+			&none	
+			&none	
+			&none	
+			&none	
+			&none	
+			&none	
+			&none		
+			&kp lg(Q) 
+
+			&kp ls(lg(TAB)) 
+			&none	 
+			&none	
+			&none	
+			&none	
+			&none	
+			&none	
+			&none	
+			&none	
+			&none	
+			&kp lg(TAB)
+
+			&tog 1
+			&kp ls(la(NUMBER_7))
+			&kp ls(NUMBER_5)
+			&kp la(L)
+			&kp ra(E)
+			&kp APOS
+			&kp DQT
+			&kp ls(NUMBER_1)
+			&kp ls(COMMA)
+			&kp ls(DOT)
+			&kp QMARK
+			&tog 0
+	
+			&none 
+			&sk LC(LGUI)  
+			&tk LA(LGUI)
+			&none 
+			&none 
+			&none
+
                         >;
                 };
 
@@ -176,17 +213,54 @@
 		function_layer {
                         label = "FUNCTION";
 
-// -----------------------------------------------------------------------------------------
-// |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
-// | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
-// | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
-//                    | GUI |     | SPC |   | ENT |     | ALT |
-
                         bindings = <
-   &kp  TAB  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp BSPC
-   &kp LCTRL &trans   &trans &trans   &trans   &trans      &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp BSLH &kp GRAVE
-   &kp LSHFT &trans   &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp LBRC        &kp RBRC &kp PIPE &kp TILDE
-                    	     &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
+
+			&kp ESCAPE 
+			&kp LG(LS(B)) 
+			&kp LG(U) 
+			&kp LG(B) 
+			&kp LG(I)
+			&kp LG(LS(EQUAL)) 
+			&kp LG(LC(SPACE))
+			&kp LG(Y)
+			&kp LG(LA(UP)) 
+			&kp LG(LS(Y)) 
+			&kp LG(LS(LA(LC(S))))
+			&kp LA(DELETE)
+	
+			&kp LG(LS(LA(LC(C))))
+			&kp LG(LS(G)) 
+			&kp LG(LA(C)) 
+			&kp LG(LA(V)) 
+			&kp LG(SPACE)  
+			&kp F11	
+			&kp F12
+			&kp LG(LA(LEFT)) 
+			&kp LG(LA(DOWN)) 
+			&kp LG(LA(RIGHT))  
+			&kp LG(LS(LA(LC(G))))
+			&kp LG(LS(LA(LC(T))))
+
+			&tog 1 
+			&kp LG(LS(LA(LC(O))))
+			&kp LG(LS(LA(LC(COMMA))))
+			&kp LG(LS(LA(LC(DOT))))
+			&kp LG(LS(LA(LC(B))))
+			&kp LG(LS(LA(LC(Q))))
+			&kp LG(LS(LA(LC(Y))))
+			&kp LC(LS(TAB))
+			&kp LG(UP)
+			&kp LG(DOWN)
+			&kp LC(TAB)
+			&tog 0 
+	
+			&trans
+			&sk LC(LS(LGUI))
+			&none
+			&none 
+			&none 
+			&none
+	
                         >;
                 };
 
