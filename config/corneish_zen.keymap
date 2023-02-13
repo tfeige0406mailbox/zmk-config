@@ -441,7 +441,7 @@
 			&kp SPACE 
 			&trans 
 			&trans 
-			&kp LSHIFT 
+			&kp LSHFT 
 			&trans
 
                         >;
