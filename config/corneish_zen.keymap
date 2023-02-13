@@ -183,7 +183,7 @@
 			&kp LG(TAB)
 
 			&tog 1
-			&kp LS(la(NUMBER_7))
+			&kp LS(LA(NUMBER_7))
 			&kp LS(NUMBER_5)
 			&kp LA(L)
 			&kp RA(E)
