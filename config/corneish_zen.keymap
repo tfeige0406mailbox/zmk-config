@@ -439,12 +439,9 @@
 			&kp TAB
 			&tog 0
 
-                        &none
-			&kp SPACE 
-			&none 
-			&none 
-			&kp LSHIFT 
-			&none
+ &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
+
+                    
 
                         >;
                 };
