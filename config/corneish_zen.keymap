@@ -428,8 +428,8 @@
 
 			&tog 1
 			&none
-			&kp LS(LA(LEFT)
-			&kp LS(LA(RIGHT)
+			&kp LS(LA(LEFT))
+			&kp LS(LA(RIGHT))
 			&none
 			&kp LS(SPACE)
 			&none
@@ -439,7 +439,13 @@
 			&kp TAB
 			&tog 0
 
- &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
+
+			&none
+			&kp SPACE 
+			&none 
+			&none 
+			&kp LSHIFT 
+			&none
 
                     
 
