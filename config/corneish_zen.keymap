@@ -63,7 +63,7 @@
 			&kp G 
 			&kp ENTER 
 
-			&tog 1
+			&to 1
 			&kp F 
 			&kp V 
 			&kp MINUS 
@@ -74,7 +74,7 @@
 			&kp LEFT_BRACKET 
 			&kp SINGLE_QUOTE 
 			&kp K 
-			&tog 0
+			&to 0
 	
 			&sl 3 
 			&kp SPACE 
@@ -122,7 +122,7 @@
 			&kp NUMBER_0
 			&kp ENTER 
 
-			&tog 1
+			&to 1
 			&kp LS(NUMBER_7)
 			&kp LS(NUMBER_8)
 			&kp LS(NUMBER_9)
@@ -133,7 +133,7 @@
 			&kp COMMA
 			&kp DOT
 			&kp SLASH
-			&tog 0
+			&to 0
 	
 			&sl 3 
 			&kp SPACE 
@@ -183,18 +183,18 @@
 			&none	
 			&kp LG(TAB)
 
-			&tog 1
+			&to 1
 			&kp LS(LA(NUMBER_7))
 			&kp LS(NUMBER_5)
 			&kp LA(L)
 			&kp RA(E)
-			&kp LS(BSLS)
+			&kp LS(BSLH)
 			&kp LS(NUMBER_2)
 			&kp LS(NUMBER_1)
 			&kp LS(COMMA)
 			&kp LS(DOT)
 			&kp UNDER
-			&tog 0
+			&to 0
 	
 			&none 
 			&sk LC(LGUI)  
@@ -242,7 +242,7 @@
 			&kp LG(LS(LA(LC(G))))
 			&kp LG(LS(LA(LC(T))))
 
-			&tog 1 
+			&to 1 
 			&kp LG(LS(LA(LC(O))))
 			&kp LG(LS(LA(LC(COMMA))))
 			&kp LG(LS(LA(LC(DOT))))
@@ -253,7 +253,7 @@
 			&kp LG(UP)
 			&kp LG(DOWN)
 			&kp LC(TAB)
-			&tog 0 
+			&to 0 
 	
 			&trans
 			&sk LC(LS(LGUI))
@@ -301,7 +301,7 @@
 			&kp LG(G) 
 			&kp LG(PLUS)
 
-			&tog 1
+			&to 1
 			&kp LG(F)
 			&kp LG(V)
 			&kp LG(MINUS)
@@ -312,7 +312,7 @@
 			&kp LG(LEFT_BRACKET)
 			&kp LG(SINGLE_QUOTE)
 			&kp LG(K) 
-			&tog 0
+			&to 0
 	
 			&none 
 			&none
@@ -364,7 +364,7 @@
 			&kp LG(LS(G)) 
 			&kp LG(LS(NUMBER_5))
 
-			&tog 1
+			&to 1
 			&kp LG(LS(F))
 			&kp LG(LS(V))
 			&kp LG(LS(MINUS))
@@ -375,7 +375,7 @@
 			&kp LG(LS(LEFT_BRACKET))
 			&kp LG(LS(SINGLE_QUOTE))
 			&kp LG(LS(K))
-			&tog 0
+			&to 0
 	
 			&none 
 			&none
@@ -427,7 +427,7 @@
 			&kp ENTER
 
 
-			&tog 1
+			&to 1
 			&none
 			&kp LS(LA(LEFT))
 			&kp LS(LA(RIGHT))
@@ -438,7 +438,7 @@
 			&kp LA(LEFT)
 			&kp LA(RIGHT)
 			&kp TAB
-			&tog 0
+			&to 0
 
 
 			&none
@@ -486,7 +486,7 @@
 			&kp LS(G)
 			&kp LS(ENTER)
 
-			&tog 1
+			&to 1
 			&kp LS(F)
 			&kp LS(V)
 			&kp LS(MINUS)
@@ -497,7 +497,7 @@
 			&kp LS(LEFT_BRACKET)
 			&kp LS(SINGLE_QUOTE)
 			&kp LS(K) 
-			&tog 0 
+			&to 0 
 	
 			&none 
 			&kp SPACE 
