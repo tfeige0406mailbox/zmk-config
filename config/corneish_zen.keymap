@@ -91,7 +91,7 @@
 
 
                 number_layer {
-                        label = "NUMBER";
+                        label = "NR";
 
 
                         bindings = <
@@ -152,7 +152,7 @@
 
 
                 program_layer {
-                        label = "PROGRAM";
+                        label = "PRG";
 
 
                         bindings = <
@@ -211,7 +211,7 @@
 
 
 		function_layer {
-                        label = "FUNCTION";
+                        label = "FUNC";
 
                         bindings = <
 
@@ -270,19 +270,57 @@
 
 
 		command_layer {
-                        label = "COMMAND";
-
-// -----------------------------------------------------------------------------------------
-// |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
-// | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
-// | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
-//                    | GUI |     | SPC |   | ENT |     | ALT |
+                        label = "GUI";
 
                         bindings = <
-   &kp  TAB  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp BSPC
-   &kp LCTRL &trans   &trans &trans   &trans   &trans      &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp BSLH &kp GRAVE
-   &kp LSHFT &trans   &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp LBRC        &kp RBRC &kp PIPE &kp TILDE
-                    	     &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
+
+			&kp ESCAPE 
+			&kp LG(J) 
+			&kp LG(D)
+			&kp LG(U) 
+			&kp LG(A) 
+			&kp LG(X)
+			&kp LG(P) 
+			&kp LG(H) 
+			&kp LG(L) 
+			&kp LG(M) 
+			&kp LG(W) 
+			&kp LA(BACKSPACE) 
+	
+			&kp LG(MINUS)
+			&kp LG(C)
+			&kp LG(T)
+			&kp LG(I)
+			&kp LG(E)
+			&kp LG(O)	
+			&kp LG(B) 
+			&kp LG(N) 
+			&kp LG(R) 
+			&kp LG(S) 
+			&kp LG(G) 
+			&kp LG(PLUS)
+
+			&tog 1
+			&kp LG(F)
+			&kp LG(V)
+			&kp LG(MINUS)
+			&kp LG(Y)
+			&kp LG(Q)
+			&kp LG(Z)
+			&kp LG(SEMICOLON)
+			&kp LG(LEFT_BRACKET)
+			&kp LG(SINGLE_QUOTE)
+			&kp LG(K) 
+			&tog 0
+	
+			&none 
+			&none
+			&none 
+			&none
+			&sl LS(LA(LGUI)) 
+			&sl 5
+
+
                         >;
                 };
 
@@ -294,19 +332,57 @@
 
 
 		scommand_layer {
-                        label = "SCOMMAND";
+                        label = "SGUI";
 
-// -----------------------------------------------------------------------------------------
-// |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
-// | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
-// | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
-//                    | GUI |     | SPC |   | ENT |     | ALT |
 
                         bindings = <
-   &kp  TAB  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp BSPC
-   &kp LCTRL &trans   &trans &trans   &trans   &trans      &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp BSLH &kp GRAVE
-   &kp LSHFT &trans   &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp LBRC        &kp RBRC &kp PIPE &kp TILDE
-                    	     &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
+ 
+			&kp ESCAPE 
+			&kp LG(LS(J))
+			&kp LG(LS(D))
+			&kp LG(LS(U))
+			&kp LG(LS(A))
+			&kp LG(LS(X))
+			&kp LG(LS(P)) 
+			&kp LG(LS(H)) 
+			&kp LG(LS(L)) 
+			&kp LG(LS(M)) 
+			&kp LG(LS(W)) 
+			&kp LG(BACKSPACE)
+	
+			&kp LG(COMMA)
+			&kp LG(LS(C))
+			&kp LG(LS(T))
+			&kp LG(LS(I))
+			&kp LG(LS(E))
+			&kp LG(LS(O))	
+			&kp LG(LS(B)) 
+			&kp LG(LS(N)) 
+			&kp LG(LS(R)) 
+			&kp LG(LS(S)) 
+			&kp LG(LS(G)) 
+			&kp LG(LS(NUMBER_5))
+
+			&tog 1
+			&kp LG(LS(F))
+			&kp LG(LS(V))
+			&kp LG(LS(MINUS))
+			&kp LG(LS(Y))
+			&kp LG(LS(Q))
+			&kp LG(LS(Z))
+			&kp LG(LS(SEMICOLON))
+			&kp LG(LS(LEFT_BRACKET))
+			&kp LG(LS(SINGLE_QUOTE))
+			&kp LG(LS(K))
+			&tog 0
+	
+			&none 
+			&none
+			&none 
+			&none
+			&none
+			&trans
+
                         >;
                 };
 
@@ -317,19 +393,57 @@
 
 
 		navigation_layer {
-                        label = "NAVIGATION";
+                        label = "NAV";
 
-// -----------------------------------------------------------------------------------------
-// |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
-// | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
-// | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
-//                    | GUI |     | SPC |   | ENT |     | ALT |
 
                         bindings = <
-   &kp  TAB  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp BSPC
-   &kp LCTRL &trans   &trans &trans   &trans   &trans      &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp BSLH &kp GRAVE
-   &kp LSHFT &trans   &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp LBRC        &kp RBRC &kp PIPE &kp TILDE
-                    	     &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
+
+			&kp LG(LS(LA(LC(V))))
+			&kp LGUI 
+			&kp LG(LS(LEFT)) 
+			&kp INSERT
+			&kp LG(LS(RIGHT)) 
+           	 	&kp LCTL(SPACE) 
+			&kp LG(UP)
+			&kp LG(LEFT) 
+			&kp UP
+			&kp LG(RIGHT)
+			&kp PG_UP 
+			&kp DELETE
+	
+			&trans 
+			&kp LEFT_SHIFT
+			&kp LEFT_CONTROL 
+			&kp LEFT_ALT
+			&kp LEFT_GUI
+			&kp CAPSLOCK
+			&kp LG(DOWN) 
+			&kp LEFT 
+			&kp DOWN
+			&kp RIGHT 	
+			&kp PAGE_DOWN 
+			&kp ENTER
+
+			&tog 1
+			&kp RG(RA(ESC)) 
+			&kp RS(RA(LEFT)
+			&kp RS(RA(RIGHT)
+			&kp &kp LG(LS(LA(LC(Z)))) 
+			&kp LS(SPACE)
+			&kp &kp LG(LS(LA(LC(E)))) 
+			&kp LS(TAB)
+			&kp LA(LEFT)
+			&kp LA(RIGHT)
+			&kp TAB
+			&tog 0
+	
+			&trans
+			&kp SPACE 
+			&trans 
+			&trans 
+			&kp LSHIFT 
+			&trans
+
                         >;
                 };
 
