@@ -168,9 +168,9 @@
 			&none	
 			&none	
 			&none		
-			&kp lg(Q) 
+			&kp LG(Q) 
 
-			&kp ls(lg(TAB)) 
+			&kp LS(LG(TAB)) 
 			&none	 
 			&none	
 			&none	
@@ -180,18 +180,18 @@
 			&none	
 			&none	
 			&none	
-			&kp lg(TAB)
+			&kp LG(TAB)
 
 			&tog 1
-			&kp ls(la(NUMBER_7))
-			&kp ls(NUMBER_5)
-			&kp la(L)
-			&kp ra(E)
+			&kp LS(la(NUMBER_7))
+			&kp LS(NUMBER_5)
+			&kp LA(L)
+			&kp RA(E)
 			&kp APOS
 			&kp DQT
-			&kp ls(NUMBER_1)
-			&kp ls(COMMA)
-			&kp ls(DOT)
+			&kp LS(NUMBER_1)
+			&kp LS(COMMA)
+			&kp LS(DOT)
 			&kp QMARK
 			&tog 0
 	
