@@ -427,12 +427,12 @@
 
 
 			&tog 1
-			&kp RG(RA(ESC)) 
+			&none
 			&kp RS(RA(LEFT)
 			&kp RS(RA(RIGHT)
-			&kp LG(LS(LA(LC(Z)))) 
+			&none
 			&kp LS(SPACE)
-			&kp LG(LS(LA(LC(E)))) 
+			&none
 			&kp LS(TAB)
 			&kp LA(LEFT)
 			&kp LA(RIGHT)
@@ -440,7 +440,7 @@
 			&tog 0
 
 
-                    	     &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
+                        &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
 
                         >;
                 };
