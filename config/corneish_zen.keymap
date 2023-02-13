@@ -60,7 +60,7 @@
 
                         bindings = <
 
-          &kp ESCAPE LGUI(KC_1) LGUI(KC_2) LGUI(KC_3) LGUI(KC_4) LGUI(KC_5) LGUI(KC_6) LGUI(KC_7) LGUI(KC_8) LGUI(KC_9) LGUI(KC_0) &kp BACKSPACE OSL(7) &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp ENTER &kp F20 LSFT(KC_7) LSFT(KC_8) LSFT(KC_9) LSFT(KC_RBRC) LSFT(KC_0) &kp X &kp RIGHT_BRACKET &kp COMMA &kp DOT &kp SLASH &kp F20 OSL(3) &kp SPACE OSL(2) &mo 1 OSL(8) OSL(4)
+  &kp ESCAPE &kp J &kp D &kp U &kp A &kp X &kp P &kp H &kp L &kp M &kp W &kp BACKSPACE &sl 7 &kp C &kp T &kp I &kp E &kp O &kp B &kp N &kp R &kp S &kp G &kp ENTER &trans &kp F &kp V &kp MINUS &kp Y &kp Q &kp Z &kp SEMICOLON &kp LEFT_BRACKET &kp SINGLE_QUOTE &kp K &trans &sl 3 &kp SPACE &sl 2 &sl 1 &sl 8 &sl 4
 
                         >;
                 };
