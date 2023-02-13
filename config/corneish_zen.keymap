@@ -412,7 +412,18 @@
 			&kp DELETE
 
 
-   &kp LCTRL &trans   &trans &trans   &trans   &trans      &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp BSLH &kp GRAVE
+			&trans 
+			&kp LSHIFT
+			&kp LCTRL
+			&kp LALT
+			&kp LGUI
+			&kp CAPSLOCK
+			&kp LG(DOWN) 
+			&kp LEFT 
+			&kp DOWN
+			&kp RIGHT 	
+			&kp PG_DOWN
+			&kp ENTER
 
 
    &kp LSHFT &trans   &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp LBRC        &kp RBRC &kp PIPE &kp TILDE
