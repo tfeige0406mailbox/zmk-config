@@ -172,6 +172,7 @@
 
 			&kp LS(LG(TAB)) 
 			&none	 
+			&none	 
 			&none	
 			&none	
 			&none	
@@ -187,12 +188,12 @@
 			&kp LS(NUMBER_5)
 			&kp LA(L)
 			&kp RA(E)
-			&kp APOS
-			&kp DQT
+			&kp LS(BSLS)
+			&kp LS(NUMBER_2)
 			&kp LS(NUMBER_1)
 			&kp LS(COMMA)
 			&kp LS(DOT)
-			&kp QMARK
+			&kp UNDER
 			&tog 0
 	
 			&none 
@@ -542,7 +543,7 @@
 			&kp LS(NUMBER_3) 
 			&kp LS(NUMBER_4) 
 			&kp RA(M) 
-			&kp UNDER
+			&kp QMARK
 			&kp ENTER 
 
 			&tog 1 
