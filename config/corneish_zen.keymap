@@ -398,12 +398,12 @@
 
                         bindings = <
 
-			  &kp LG(LS(LA(LC(V))))
-			&kp LGUI 
+			&kp LG(LS(LA(LC(V))))
+			&kp LGUI
 			&kp LG(LS(LEFT)) 
 			&kp INSERT
 			&kp LG(LS(RIGHT)) 
-           	 	&kp LCTL(SPACE) 
+           	 	&kp LC(SPACE) 
 			&kp LG(UP)
 			&kp LG(LEFT) 
 			&kp UP
