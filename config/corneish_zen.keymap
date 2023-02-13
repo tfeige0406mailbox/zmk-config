@@ -426,7 +426,18 @@
 			&kp ENTER
 
 
-   &kp LSHFT &trans   &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp LBRC        &kp RBRC &kp PIPE &kp TILDE
+			&tog 1
+			&kp RG(RA(ESC)) 
+			&kp RS(RA(LEFT)
+			&kp RS(RA(RIGHT)
+			&kp LG(LS(LA(LC(Z)))) 
+			&kp LS(SPACE)
+			&kp LG(LS(LA(LC(E)))) 
+			&kp LS(TAB)
+			&kp LA(LEFT)
+			&kp LA(RIGHT)
+			&kp TAB
+			&tog 0
 
 
                     	     &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
