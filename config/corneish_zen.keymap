@@ -288,7 +288,7 @@
 			&kp LG(W) 
 			&kp LA(BACKSPACE) 
 	
-			&kp LG(MINUS)
+			&kp LG(SLASH)
 			&kp LG(C)
 			&kp LG(T)
 			&kp LG(I)
@@ -299,7 +299,7 @@
 			&kp LG(R) 
 			&kp LG(S) 
 			&kp LG(G) 
-			&kp LG(PLUS)
+			&kp LG(RBKT)
 
 			&to 1
 			&kp LG(F)
