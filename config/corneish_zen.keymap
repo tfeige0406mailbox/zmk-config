@@ -338,7 +338,7 @@
 
                         bindings = <
  
-			&kp LG(LA(ESCAPE) )
+			&kp LG(LA(ESCAPE))
 			&kp LG(LS(J))
 			&kp LG(LS(D))
 			&kp LG(LS(U))
