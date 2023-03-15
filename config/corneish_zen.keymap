@@ -229,7 +229,7 @@
 			&kp LG(LS(LA(LC(S))))
 			&kp LA(DELETE)
 	
-			&kp LG(MINUS)
+			&kp LG(KP_MINUS)
 			&kp LG(LS(G)) 
 			&kp LG(LA(C)) 
 			&kp LG(LA(V)) 
@@ -240,7 +240,7 @@
 			&kp LG(LA(DOWN)) 
 			&kp LG(LA(RIGHT))  
 			&kp LG(LS(LA(LC(G))))
-			&kp LG(PLUS)
+			&kp LG(KP_PLUS)
 
 			&to 1 
 			&kp LG(LS(LA(LC(C))))
