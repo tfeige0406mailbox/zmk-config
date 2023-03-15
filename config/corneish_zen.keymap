@@ -150,6 +150,67 @@
 
 
 
+		navigation_layer {
+                        label = "NAV";
+
+
+                        bindings = <
+
+			&kp LG(LA(LC(LS(F12))))
+			&kp LGUI
+			&kp LG(LS(LEFT)) 
+			&kp LCTRL
+			&kp LG(LS(RIGHT)) 
+           	&kp LG(LA(LC(LS(F5))))
+			&kp LG(UP)
+			&kp LG(LEFT) 
+			&kp UP
+			&kp LG(RIGHT)
+			&kp PG_UP 
+			&kp DELETE
+
+
+			&trans 
+			&kp LSHIFT
+			&none
+			&kp LALT
+			&kp LGUI
+			&kp &kp LG(LA(LC(LS(F6))))
+			&kp LG(DOWN) 
+			&kp LEFT 
+			&kp DOWN
+			&kp RIGHT 	
+			&kp PG_DN
+			&kp ENTER
+
+
+			&to 1
+			&kp CAPSLOCK
+			&kp LS(LA(LEFT))
+			&kp LS(LA(RIGHT))
+			&kp LG(LA(LC(LS(F1))))
+			&kp LG(LA(LC(LS(F7))))
+			&kp LG(LA(LC(LS(F2))))
+			&kp LS(TAB)
+			&kp LA(LEFT)
+			&kp LA(RIGHT)
+			&kp TAB
+			&to 0
+
+			&none
+			&kp SPACE 
+			&none 
+			&none 
+			&kp LSHIFT 
+			&none
+
+                    
+
+                        >;
+                };
+
+
+
 
 
         };
