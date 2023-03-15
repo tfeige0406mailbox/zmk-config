@@ -20,15 +20,8 @@
 
 
 
-
-
         keymap {
                 compatible = "zmk,keymap";
-
-
-
-
-
 
 
                 char_layer {
