@@ -51,9 +51,9 @@
 			&kp BACKSPACE 
 	
 			&sl 6 
-			&kp T 
-			&kp I 
-			&kp M 
+			&kp C
+			&kp T
+			&kp I
 			&kp E 
 			&kp O 	
 			&kp B 
@@ -157,30 +157,30 @@
 
                         bindings = <
 
-			&kp ESCAPE 
-			&none	
-			&none	
-			&none	
-			&none	
-			&none	
-			&none	
-			&none	
-			&none	
-			&none	
-			&none		
+			&kp LG(H)
+			&kp LG(LA(LC(LS(J))))	
+			&kp LG(LA(LC(LS(D))))	
+			&kp LG(LA(LC(LS(U))))	
+			&kp LG(LA(LC(LS(A))))	
+			&kp LG(LA(LC(LS(X))))	
+			&kp LG(LA(LC(LS(P))))	
+			&kp LG(LA(LC(LS(H))))	
+			&kp LG(LA(LC(LS(L))))	
+			&kp LG(LA(LC(LS(M))))	
+			&kp LG(LA(LC(LS(W))))				
 			&kp LG(Q) 
 
-			&kp LS(LG(TAB)) 
-			&none	 
-			&none	 
-			&none	
-			&none	
-			&none	
-			&none	
-			&none	
-			&none	
-			&none	
-			&none	
+			&kp LG(LA(LC(LS(TAB))))		
+			&kp LG(LA(LC(NUMBER_1)))	
+			&kp LG(LA(LC(NUMBER_2)))	
+			&kp LG(LA(LC(NUMBER_3)))	
+			&kp LG(LA(LC(NUMBER_4)))	
+			&kp LG(LA(LC(NUMBER_5)))	
+			&kp LG(LA(LC(NUMBER_6)))	
+			&kp LG(LA(LC(NUMBER_7)))	
+			&kp LG(LA(LC(NUMBER_8)))	
+			&kp LG(LA(LC(NUMBER_9)))		
+			&kp LG(LA(LC(NUMBER_0)))		
 			&kp LG(TAB)
 
 			&to 1
@@ -216,7 +216,7 @@
 
                         bindings = <
 
-			&kp ESCAPE 
+			&kp LG(LA(LC(LS(ESCAPE))))
 			&kp LG(LS(B)) 
 			&kp LG(U) 
 			&kp LG(B) 
@@ -229,7 +229,7 @@
 			&kp LG(LS(LA(LC(S))))
 			&kp LA(DELETE)
 	
-			&kp LG(LS(LA(LC(C))))
+			&kp LG(MINUS)
 			&kp LG(LS(G)) 
 			&kp LG(LA(C)) 
 			&kp LG(LA(V)) 
@@ -240,15 +240,15 @@
 			&kp LG(LA(DOWN)) 
 			&kp LG(LA(RIGHT))  
 			&kp LG(LS(LA(LC(G))))
-			&kp LG(LS(LA(LC(T))))
+			&kp LG(PLUS)
 
 			&to 1 
-			&kp LG(LS(LA(LC(O))))
+			&kp LG(LS(LA(LC(C))))
 			&kp LG(LS(LA(LC(COMMA))))
 			&kp LG(LS(LA(LC(DOT))))
+			&kp LG(LS(LA(LC(T))))
+			&kp LG(LS(LA(LC(O))))
 			&kp LG(LS(LA(LC(B))))
-			&kp LG(LS(LA(LC(Q))))
-			&kp LG(LS(LA(LC(Y))))
 			&kp LC(LS(TAB))
 			&kp LG(UP)
 			&kp LG(DOWN)
@@ -275,7 +275,7 @@
 
                         bindings = <
 
-			&kp ESCAPE 
+			&kp LG(LA(LC(LS(F10))))
 			&kp LG(J) 
 			&kp LG(D)
 			&kp LG(U) 
@@ -288,7 +288,7 @@
 			&kp LG(W) 
 			&kp LA(BACKSPACE) 
 	
-			&kp LG(MINUS)
+			&kp LG(LA(LC(LS(F9))))
 			&kp LG(C)
 			&kp LG(T)
 			&kp LG(I)
@@ -299,7 +299,7 @@
 			&kp LG(R) 
 			&kp LG(S) 
 			&kp LG(G) 
-			&kp LG(PLUS)
+			&kp LG(ENTER)
 
 			&to 1
 			&kp LG(F)
@@ -338,7 +338,7 @@
 
                         bindings = <
  
-			&kp ESCAPE 
+			&kp LG(LA(ESCAPE) )
 			&kp LG(LS(J))
 			&kp LG(LS(D))
 			&kp LG(LS(U))
@@ -399,12 +399,12 @@
 
                         bindings = <
 
-			&kp LG(LS(LA(LC(V))))
+			&kp LG(LA(LC(LS(F12))))
 			&kp LGUI
 			&kp LG(LS(LEFT)) 
-			&kp INSERT
+			&kp LCTRL
 			&kp LG(LS(RIGHT)) 
-           	 	&kp LC(SPACE) 
+           	&kp LG(LA(LC(LS(F5))))
 			&kp LG(UP)
 			&kp LG(LEFT) 
 			&kp UP
@@ -415,10 +415,10 @@
 
 			&trans 
 			&kp LSHIFT
-			&kp LCTRL
+			&none
 			&kp LALT
 			&kp LGUI
-			&kp CAPSLOCK
+			&kp &kp LG(LA(LC(LS(F6))))
 			&kp LG(DOWN) 
 			&kp LEFT 
 			&kp DOWN
@@ -428,18 +428,17 @@
 
 
 			&to 1
-			&none
+			&kp CAPSLOCK
 			&kp LS(LA(LEFT))
 			&kp LS(LA(RIGHT))
-			&none
-			&kp LS(SPACE)
-			&none
+			&kp LG(LA(LC(LS(F1))))
+			&kp LG(LA(LC(LS(F7))))
+			&kp LG(LA(LC(LS(F2))))
 			&kp LS(TAB)
 			&kp LA(LEFT)
 			&kp LA(RIGHT)
 			&kp TAB
 			&to 0
-
 
 			&none
 			&kp SPACE 
@@ -534,16 +533,16 @@
 			&kp BACKSPACE 
 	
 			&none
-			&kp BACKSLASH 
+			&kp LS(NUMBER_6) 
 			&kp NUBS
 			&kp LS(NUBS) 
-			&kp LS(NUMBER_6) 
+			&kp BACKSLASH 
 			&none 	
 			&none 
-			&kp LS(NUMBER_3) 
+			&kp QMARK
 			&kp LS(NUMBER_4) 
 			&kp RA(M) 
-			&kp QMARK
+			&kp LS(NUMBER_3) 
 			&kp ENTER 
 
 			&tog 1 
