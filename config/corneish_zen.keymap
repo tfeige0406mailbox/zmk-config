@@ -415,7 +415,7 @@
 
 			&trans 
 			&kp LSHIFT
-			&none
+			&kp LC(LGUI)
 			&kp LALT
 			&kp LGUI
 			&kp LG(LA(LC(LS(F6))))
