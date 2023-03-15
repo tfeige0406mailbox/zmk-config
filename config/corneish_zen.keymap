@@ -520,16 +520,16 @@
                         bindings = <
 
 			&kp ESCAPE 
-			&none 
+			&bt BT_CLR
 			&kp C_VOLUME_DOWN 
 			&none 
 			&kp C_VOLUME_UP 
-			&none 
-			&none 
+			&bt BT_NXT
+			&bt BT_PRV
 			&kp C_NEXT 
 			&kp C_PP 
 			&kp C_PREVIOUS 
-			&none 
+			&bt BT_SEL 0
 			&kp BACKSPACE 
 	
 			&none
