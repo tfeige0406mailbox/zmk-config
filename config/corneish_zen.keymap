@@ -784,18 +784,18 @@
 			&kp LC(G) 
 			&kp LC(ENTER)
 
-			&to 1
-			&kp LG(F)
-			&kp LG(V)
-			&kp LG(MINUS)
-			&kp LG(Y)
-			&kp LG(Q)
-			&kp LG(Z)
-			&kp LG(SEMICOLON)
-			&kp LG(LEFT_BRACKET)
-			&kp LG(SINGLE_QUOTE)
-			&kp LG(K) 
-			&to 0
+			&to 11
+			&kp LC(F)
+			&kp LC(V)
+			&kp LC(MINUS)
+			&kp LC(Y)
+			&kp LC(Q)
+			&kp LC(Z)
+			&kp LC(SEMICOLON)
+			&kp LC(LEFT_BRACKET)
+			&kp LC(SINGLE_QUOTE)
+			&kp LC(K) 
+			&to 10
 	
 			&none 
 			&none
