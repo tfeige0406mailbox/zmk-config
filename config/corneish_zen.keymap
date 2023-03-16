@@ -758,52 +758,51 @@
 
                         bindings = <
 
-				&kp LG(LA(LC(LS(BACKSLASH)))) 
-			&kp LC(J) 
-			&kp LC(D)
-			&kp LC(U) 
-			&kp LC(A) 
-			&kp LC(X)
-			&kp LC(P) 
-			&kp LC(H) 
-			&kp LC(L) 
-			&kp LC(M) 
-			&kp LC(W) 
-			&kp LC(BACKSPACE) 
+			&kp LG(LA(LC(LS(F10))))
+			&kp LG(J) 
+			&kp LG(D)
+			&kp LG(U) 
+			&kp LG(A) 
+			&kp LG(X)
+			&kp LG(P) 
+			&kp LG(H) 
+			&kp LG(L) 
+			&kp LG(M) 
+			&kp LG(W) 
+			&kp LA(BACKSPACE) 
 	
+			&kp LG(LA(LC(LS(F9))))
+			&kp LG(C)
+			&kp LG(T)
 			&kp LG(I)
-			&kp LC(C)
-			&kp LC(T)
-			&kp LC(I)
-			&kp LC(E)
-			&kp LC(O)	
-			&kp LC(B) 
-			&kp LC(N) 
-			&kp LC(R) 
-			&kp LC(S) 
-			&kp LC(G) 
-			&kp LC(ENTER)
+			&kp LG(E)
+			&kp LG(O)	
+			&kp LG(B) 
+			&kp LG(N) 
+			&kp LG(R) 
+			&kp LG(S) 
+			&kp LG(G) 
+			&kp LG(ENTER)
 
-			&to 11
-			&kp LC(F)
-			&kp LC(V)
-			&kp LC(MINUS)
-			&kp LC(Y)
-			&kp LC(Q)
-			&kp LC(Z)
-			&kp LC(SEMICOLON)
-			&kp LC(LEFT_BRACKET)
-			&kp LC(SINGLE_QUOTE)
-			&kp LC(K) 
-			&to 10
+			&to 1
+			&kp LG(F)
+			&kp LG(V)
+			&kp LG(MINUS)
+			&kp LG(Y)
+			&kp LG(Q)
+			&kp LG(Z)
+			&kp LG(SEMICOLON)
+			&kp LG(LEFT_BRACKET)
+			&kp LG(SINGLE_QUOTE)
+			&kp LG(K) 
+			&to 0
 	
 			&none 
 			&none
 			&none 
 			&none
-			&sk LC(LA) 
-			&sl 15
-
+			&sk LS(LA(LGUI)) 
+			&sl 5
 
 
                         >;
