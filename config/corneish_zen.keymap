@@ -18,123 +18,42 @@
 
 / {
 
-        keymap {
-                compatible = "zmk,keymap";
-
-
-                char_layer {
-                        label = "CHAR";
-
-
-                        bindings = <
-
-			&kp ESCAPE 
-			&kp J 
-			&kp D 
-			&kp U 
-			&kp A 
-			&kp X 
-			&kp P 
-			&kp H 
-			&kp L 
-			&kp M 
-			&kp W 
-			&kp BACKSPACE 
 	
-			&sl 6 
-			&kp C
-			&kp T
-			&kp I
-			&kp E 
-			&kp O 	
-			&kp B 
-			&kp N 
-			&kp R 
-			&kp S 
-			&kp G 
-			&kp ENTER 
+	keymap {
+	compatible = "zmk,keymap";
 
-			&to 1
-			&kp F 
-			&kp V 
-			&kp MINUS 
-			&kp Y 
-			&kp Q 
-			&kp Z 
-			&kp SEMICOLON 
-			&kp LEFT_BRACKET 
-			&kp SINGLE_QUOTE 
-			&kp K 
-			&to 0
+	// ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	// 		Layer 0		=		Buchstaben 																																Mac
+	// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	
-			&sl 3 
-			&kp SPACE 
-			&sl 2 
-			&sl 1 
-			&sl 7 
-			&sl 4
+		char_layer {
+		label = "CHAR";
 
+			bindings = <
+
+			&kp ESC		&kp J 			&kp D	 		&kp U 			&kp A	 		&kp X	  		&kp P 			&kp H	 		&kp L	 		&kp M 			&kp W 		&kp BSPC 
+			&sl 6 			&kp C 			&kp T			&kp I			&kp E			&kp O 			&kp B			&kp N 			&kp R 			&kp S 			&kp G 		&kp RET 
+			&to 1			&kp F	 		&kp V 			&kp MINUS 	&kp Y 			&kp Q 			&kp Z 			&kp SEMI	&kp LBKT	&kp SQT		&kp K	 	&to 0
+				
+													&sl 3 		&kp SPACE 		&sl 2				 			&sl 1 			&sl 7				&sl 4
                         >;
                 };
 
 
+	// ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	// 		Layer 1		=		Zahlen 																																Mac
+	// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+		number_layer {
+		label = "NR";
 
+		bindings = <
 
-                number_layer {
-                        label = "NR";
-
-
-                        bindings = <
-
-			&kp ESCAPE 
-			&kp LG(NUMBER_1)
-			&kp LG(NUMBER_2)
-			&kp LG(NUMBER_3)
-			&kp LG(NUMBER_4)
-			&kp LG(NUMBER_5)
-			&kp LG(NUMBER_6)
-			&kp LG(NUMBER_7)
-			&kp LG(NUMBER_8)
-			&kp LG(NUMBER_9)
-			&kp LG(NUMBER_0)
-			&kp BACKSPACE 
+		&kp ESC		&kp LG(N1)		&kp LG(N2)		&kp LG(N3)		&kp LG(N4)			&kp LG(N5)		&kp LG(N6)		&kp LG(N7)		&kp LG(N8)		&kp LG(N9)		&kp LG(N0)		&kp BSPC
+		&sl 6 			&kp N1				&kp N2				&kp N3				&kp N4					&kp N5				&kp N6				&kp N7				&kp N8				&kp N9				&kp N0				&kp ENTER 
+		&to 1			&kp LS(N7)		&kp LS(N8) 		&kp LS(N9)		&kp LS(RBRC)	&kp LS(N0)		&kp X				&kp RBKT		&kp COMMA	&kp DOT			&kp SLASH		&to 0
 	
-			&sl 6 
-			&kp NUMBER_1
-			&kp NUMBER_2
-			&kp NUMBER_3
-			&kp NUMBER_4
-			&kp NUMBER_5
-			&kp NUMBER_6
-			&kp NUMBER_7
-			&kp NUMBER_8
-			&kp NUMBER_9
-			&kp NUMBER_0
-			&kp ENTER 
-
-			&to 1
-			&kp LS(NUMBER_7)
-			&kp LS(NUMBER_8)
-			&kp LS(NUMBER_9)
-			&kp LS(RBRC)
-			&kp LS(NUMBER_0)
-			&kp X
-			&kp RBKT
-			&kp COMMA
-			&kp DOT
-			&kp SLASH
-			&to 0
-	
-			&sl 3 
-			&kp SPACE 
-			&sl 2 
-			&none			
-			&sl 7 
-			&sl 4
-
-
-
+																&sl 3 			&kp SPACE 			&sl 2			 						&none						&sl 7 					&sl 4
                         >;
                 };
 
@@ -573,7 +492,7 @@
 	
 	
 	  char2_layer {
-                        label = "CHAR";
+                        label = "CHAR2";
 
 
                         bindings = <
