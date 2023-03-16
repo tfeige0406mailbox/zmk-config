@@ -697,46 +697,46 @@
                         bindings = <
 
 			&kp LG(LA(LC(LS(ESCAPE))))
-			&kp LG(LS(B)) 
-			&kp LG(U) 
-			&kp LG(B) 
-			&kp LG(I)
-			&kp LG(LS(EQUAL)) 
-			&kp LG(LC(SPACE))
-			&kp LG(Y)
-			&kp LG(LA(UP)) 
-			&kp LG(LS(Y)) 
-			&kp LG(LS(LA(LC(S))))
-			&kp LA(DELETE)
+			&kp LC(LS(B)) 
+			&kp LC(U) 
+			&kp LC(F) 
+			&kp LC(K)
+			&kp LC(LS(SINGLE_QUOTE))
+			&kp LG(DOT)
+			&kp LC(Y)
+			&kp LA(UP) 
+			&kp LC(Z) 
+			&kp LC(LS(LA(LC(O))))
+			&kp LC(DELETE)
 	
-			&kp LG(KP_MINUS)
-			&kp LG(LS(G)) 
-			&kp LG(LA(C)) 
-			&kp LG(LA(V)) 
-			&kp LG(SPACE)  
+			&kp LC(KP_MINUS)
+			&kp LA(E) 
+			&kp LC(LS(C)) 
+			&kp LC(LS(V)) 
+			&kp LG(S)  
 			&kp F11	
 			&kp F12
-			&kp LG(LA(LEFT)) 
-			&kp LG(LA(DOWN)) 
-			&kp LG(LA(RIGHT))  
-			&kp LG(LS(LA(LC(G))))
-			&kp LG(KP_PLUS)
+			&kp LC(LEFT) 
+			&kp LA(DOWN) 
+			&kp LC(RIGHT)  
+			&kp LG(LS(LA(LC(P))))
+			&kp LC(KP_PLUS)
 
-			&to 1 
-			&kp LG(LS(LA(LC(C))))
-			&kp LG(LS(LA(LC(COMMA))))
-			&kp LG(LS(LA(LC(DOT))))
+			&to 11 
+			&kp LG(LS(LA(LC(F))))
+			&kp LA(LEFT) 
+			&kp LA(RIGHT)
 			&kp LG(LS(LA(LC(T))))
-			&kp LG(LS(LA(LC(O))))
-			&kp LG(LS(LA(LC(B))))
+			&kp LG(LS(LA(LC(R))))
+			&kp LG(LS(LA(LC(S))))
 			&kp LC(LS(TAB))
-			&kp LG(UP)
-			&kp LG(DOWN)
+			&kp LA(UP)
+			&kp ENTER
 			&kp LC(TAB)
-			&to 0 
+			&to 10 
 	
 			&trans
-			&sk LC(LS(LGUI))
+			&sk LC(LGUI)
 			&none
 			&none 
 			&none 
