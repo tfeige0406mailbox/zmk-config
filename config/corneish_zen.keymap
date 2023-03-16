@@ -581,7 +581,7 @@
 			bindings = <
 
 			&kp ESC		&kp J 			&kp D	 		&kp U 			&kp A	 		&kp X	  		&kp P 			&kp H	 		&kp L	 		&kp M 			&kp W 		&kp BSPC 
-			&sl 16 			&kp C 			&kp T			&kp I			&kp E			&kp O 			&kp B			&kp N 			&kp R 			&kp S 			&kp G 		&kp RET 
+			&sl 6 			&kp C 			&kp T			&kp I			&kp E			&kp O 			&kp B			&kp N 			&kp R 			&kp S 			&kp G 		&kp RET 
 			&to 11			&kp F	 		&kp V 			&kp MINUS 	&kp Y 			&kp Q 			&kp Z 			&kp SEMI	&kp LBKT	&kp SQT		&kp K	 	&to 10
 				
 													&sl 13 		&kp SPACE 		&sl 12				 			&sl 11 			&sl 7				&sl 14
@@ -606,7 +606,7 @@
 		bindings = <
 
 		&kp ESC		&kp F1				&kp F2				&kp F3				&kp F4					&kp F5				&kp F6				&kp F7				&kp F8				&kp F9				&kp F0				&kp BSPC		
-		&sl 16 			&kp N1				&kp N2				&kp N3				&kp N4					&kp N5				&kp N6				&kp N7				&kp N8				&kp N9				&kp N0				&kp ENTER 
+		&sl 6 			&kp N1				&kp N2				&kp N3				&kp N4					&kp N5				&kp N6				&kp N7				&kp N8				&kp N9				&kp N0				&kp ENTER 
 		&to 11			&kp LS(N7)		&kp LS(N8) 		&kp LS(N9)		&kp LS(RBRC)	&kp LS(N0)		&kp X				&kp RBKT		&kp COMMA	&kp DOT			&kp SLASH		&to 10
 	
 																&sl 13 			&kp SPACE 			&sl 12			 						&none						&sl 7 					&sl 14
