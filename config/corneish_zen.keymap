@@ -629,6 +629,7 @@
                         
                                                 bindings = <
 
+
 			&kp ESC
 			&kp LC(N1)
 			&kp LC(N2)
