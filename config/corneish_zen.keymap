@@ -561,5 +561,558 @@
 
 
 
+
+/*
+*
+* Windows
+*
+*/
+	
+	
+	
+	
+	
+	  char2_layer {
+                        label = "CHAR";
+
+
+                        bindings = <
+
+			&kp ESCAPE 
+			&kp J 
+			&kp D 
+			&kp U 
+			&kp A 
+			&kp X 
+			&kp P 
+			&kp H 
+			&kp L 
+			&kp M 
+			&kp W 
+			&kp BACKSPACE 
+	
+			&sl 6 
+			&kp C
+			&kp T
+			&kp I
+			&kp E 
+			&kp O 	
+			&kp B 
+			&kp N 
+			&kp R 
+			&kp S 
+			&kp G 
+			&kp ENTER 
+
+			&to 1
+			&kp F 
+			&kp V 
+			&kp MINUS 
+			&kp Y 
+			&kp Q 
+			&kp Z 
+			&kp SEMICOLON 
+			&kp LEFT_BRACKET 
+			&kp SINGLE_QUOTE 
+			&kp K 
+			&to 0
+	
+			&sl 3 
+			&kp SPACE 
+			&sl 2 
+			&sl 1 
+			&sl 7 
+			&sl 4
+
+                        >;
+                };
+
+
+
+
+
+                number2_layer {
+                        label = "NR";
+
+
+                        bindings = <
+
+			&kp ESCAPE 
+			&kp LG(NUMBER_1)
+			&kp LG(NUMBER_2)
+			&kp LG(NUMBER_3)
+			&kp LG(NUMBER_4)
+			&kp LG(NUMBER_5)
+			&kp LG(NUMBER_6)
+			&kp LG(NUMBER_7)
+			&kp LG(NUMBER_8)
+			&kp LG(NUMBER_9)
+			&kp LG(NUMBER_0)
+			&kp BACKSPACE 
+	
+			&sl 6 
+			&kp NUMBER_1
+			&kp NUMBER_2
+			&kp NUMBER_3
+			&kp NUMBER_4
+			&kp NUMBER_5
+			&kp NUMBER_6
+			&kp NUMBER_7
+			&kp NUMBER_8
+			&kp NUMBER_9
+			&kp NUMBER_0
+			&kp ENTER 
+
+			&to 1
+			&kp LS(NUMBER_7)
+			&kp LS(NUMBER_8)
+			&kp LS(NUMBER_9)
+			&kp LS(RBRC)
+			&kp LS(NUMBER_0)
+			&kp X
+			&kp RBKT
+			&kp COMMA
+			&kp DOT
+			&kp SLASH
+			&to 0
+	
+			&sl 3 
+			&kp SPACE 
+			&sl 2 
+			&none			
+			&sl 7 
+			&sl 4
+
+
+
+                        >;
+                };
+
+
+
+
+
+                program2_layer {
+                        label = "PRG";
+
+
+                        bindings = <
+
+			&kp LG(H)
+			&kp LG(LA(LC(LS(J))))	
+			&kp LG(LA(LC(LS(D))))	
+			&kp LG(LA(LC(LS(U))))	
+			&kp LG(LA(LC(LS(A))))	
+			&kp LG(LA(LC(LS(X))))	
+			&kp LG(LA(LC(LS(P))))	
+			&kp LG(LA(LC(LS(H))))	
+			&kp LG(LA(LC(LS(L))))	
+			&kp LG(LA(LC(LS(M))))	
+			&kp LG(LA(LC(LS(W))))				
+			&kp LG(Q) 
+
+			&kp LG(LA(LC(LS(TAB))))		
+			&kp LG(LA(LC(NUMBER_1)))	
+			&kp LG(LA(LC(NUMBER_2)))	
+			&kp LG(LA(LC(NUMBER_3)))	
+			&kp LG(LA(LC(NUMBER_4)))	
+			&kp LG(LA(LC(NUMBER_5)))	
+			&kp LG(LA(LC(NUMBER_6)))	
+			&kp LG(LA(LC(NUMBER_7)))	
+			&kp LG(LA(LC(NUMBER_8)))	
+			&kp LG(LA(LC(NUMBER_9)))		
+			&kp LG(LA(LC(NUMBER_0)))		
+			&kp LG(TAB)
+
+			&to 1
+			&kp LS(LA(NUMBER_7))
+			&kp LS(NUMBER_5)
+			&kp LA(L)
+			&kp RA(E)
+			&kp LS(BSLH)
+			&kp LS(NUMBER_2)
+			&kp LS(NUMBER_1)
+			&kp LS(COMMA)
+			&kp LS(DOT)
+			&kp UNDER
+			&to 0
+	
+			&none 
+			&sk LC(LGUI)  
+			&sk LA(LGUI)
+			&none 
+			&none 
+			&none
+
+                        >;
+                };
+
+
+
+
+
+
+		function2_layer {
+                        label = "FUNC";
+
+                        bindings = <
+
+			&kp LG(LA(LC(LS(ESCAPE))))
+			&kp LG(LS(B)) 
+			&kp LG(U) 
+			&kp LG(B) 
+			&kp LG(I)
+			&kp LG(LS(EQUAL)) 
+			&kp LG(LC(SPACE))
+			&kp LG(Y)
+			&kp LG(LA(UP)) 
+			&kp LG(LS(Y)) 
+			&kp LG(LS(LA(LC(S))))
+			&kp LA(DELETE)
+	
+			&kp LG(KP_MINUS)
+			&kp LG(LS(G)) 
+			&kp LG(LA(C)) 
+			&kp LG(LA(V)) 
+			&kp LG(SPACE)  
+			&kp F11	
+			&kp F12
+			&kp LG(LA(LEFT)) 
+			&kp LG(LA(DOWN)) 
+			&kp LG(LA(RIGHT))  
+			&kp LG(LS(LA(LC(G))))
+			&kp LG(KP_PLUS)
+
+			&to 1 
+			&kp LG(LS(LA(LC(C))))
+			&kp LG(LS(LA(LC(COMMA))))
+			&kp LG(LS(LA(LC(DOT))))
+			&kp LG(LS(LA(LC(T))))
+			&kp LG(LS(LA(LC(O))))
+			&kp LG(LS(LA(LC(B))))
+			&kp LC(LS(TAB))
+			&kp LG(UP)
+			&kp LG(DOWN)
+			&kp LC(TAB)
+			&to 0 
+	
+			&trans
+			&sk LC(LS(LGUI))
+			&none
+			&none 
+			&none 
+			&none
+
+                        >;
+                };
+
+
+
+
+
+
+		command2_layer {
+                        label = "GUI";
+
+                        bindings = <
+
+			&kp LG(LA(LC(LS(F10))))
+			&kp LG(J) 
+			&kp LG(D)
+			&kp LG(U) 
+			&kp LG(A) 
+			&kp LG(X)
+			&kp LG(P) 
+			&kp LG(H) 
+			&kp LG(L) 
+			&kp LG(M) 
+			&kp LG(W) 
+			&kp LA(BACKSPACE) 
+	
+			&kp LG(LA(LC(LS(F9))))
+			&kp LG(C)
+			&kp LG(T)
+			&kp LG(I)
+			&kp LG(E)
+			&kp LG(O)	
+			&kp LG(B) 
+			&kp LG(N) 
+			&kp LG(R) 
+			&kp LG(S) 
+			&kp LG(G) 
+			&kp LG(ENTER)
+
+			&to 1
+			&kp LG(F)
+			&kp LG(V)
+			&kp LG(MINUS)
+			&kp LG(Y)
+			&kp LG(Q)
+			&kp LG(Z)
+			&kp LG(SEMICOLON)
+			&kp LG(LEFT_BRACKET)
+			&kp LG(SINGLE_QUOTE)
+			&kp LG(K) 
+			&to 0
+	
+			&none 
+			&none
+			&none 
+			&none
+			&sk LS(LA(LGUI)) 
+			&sl 5
+
+
+                        >;
+                };
+
+
+
+
+
+
+
+
+		scommand2_layer {
+                        label = "SGUI";
+
+
+                        bindings = <
+ 
+			&kp LG(LA(ESCAPE))
+			&kp LG(LS(J))
+			&kp LG(LS(D))
+			&kp LG(LS(U))
+			&kp LG(LS(A))
+			&kp LG(LS(X))
+			&kp LG(LS(P)) 
+			&kp LG(LS(H)) 
+			&kp LG(LS(L)) 
+			&kp LG(LS(M)) 
+			&kp LG(LS(W)) 
+			&kp LG(BACKSPACE)
+	
+			&kp LG(COMMA)
+			&kp LG(LS(C))
+			&kp LG(LS(T))
+			&kp LG(LS(I))
+			&kp LG(LS(E))
+			&kp LG(LS(O))	
+			&kp LG(LS(B)) 
+			&kp LG(LS(N)) 
+			&kp LG(LS(R)) 
+			&kp LG(LS(S)) 
+			&kp LG(LS(G)) 
+			&kp LG(LS(NUMBER_5))
+
+			&to 1
+			&kp LG(LS(F))
+			&kp LG(LS(V))
+			&kp LG(LS(MINUS))
+			&kp LG(LS(Y))
+			&kp LG(LS(Q))
+			&kp LG(LS(Z))
+			&kp LG(LS(SEMICOLON))
+			&kp LG(LS(LEFT_BRACKET))
+			&kp LG(LS(SINGLE_QUOTE))
+			&kp LG(LS(K))
+			&to 0
+	
+			&none 
+			&none
+			&none 
+			&none
+			&none
+			&trans
+
+                        >;
+                };
+
+
+
+
+
+
+
+		navigation2_layer {
+                        label = "NAV";
+
+
+                        bindings = <
+
+			&kp LG(LA(LC(LS(F12))))
+			&kp LGUI
+			&kp LG(LS(LEFT)) 
+			&kp LCTRL
+			&kp LG(LS(RIGHT)) 
+           	&kp LG(LA(LC(LS(F5))))
+			&kp LG(UP)
+			&kp LG(LEFT) 
+			&kp UP
+			&kp LG(RIGHT)
+			&kp PG_UP 
+			&kp DELETE
+
+
+			&trans 
+			&kp LSHIFT
+			&kp LC(LGUI)
+			&kp LALT
+			&kp LGUI
+			&kp LG(LA(LC(LS(F6))))
+			&kp LG(DOWN) 
+			&kp LEFT 
+			&kp DOWN
+			&kp RIGHT 	
+			&kp PG_DN
+			&kp ENTER
+
+
+			&to 1
+			&kp CAPSLOCK
+			&kp LS(LA(LEFT))
+			&kp LS(LA(RIGHT))
+			&kp LG(LA(LC(LS(F1))))
+			&kp LG(LA(LC(LS(F7))))
+			&kp LG(LA(LC(LS(F2))))
+			&kp LS(TAB)
+			&kp LA(LEFT)
+			&kp LA(RIGHT)
+			&kp TAB
+			&to 0
+
+			&none
+			&kp SPACE 
+			&none 
+			&none 
+			&kp LSHIFT 
+			&none
+
+                    
+
+                        >;
+                };
+
+
+
+		shift2_layer {
+                        label = "SHIFT";
+
+                        bindings = <
+
+			&kp ESCAPE 
+			&kp LS(J)
+			&kp LS(D)
+			&kp LS(U) 
+			&kp LS(A)
+			&kp LS(X)
+			&kp LS(P)
+			&kp LS(H)
+			&kp LS(L) 
+			&kp LS(M)
+			&kp LS(W) 
+			&kp BACKSPACE 
+	
+			&none 
+			&kp LS(C)
+			&kp LS(T)
+			&kp LS(I)
+			&kp LS(E)
+			&kp LS(O)	
+			&kp LS(B)
+			&kp LS(N)
+			&kp LS(R)
+			&kp LS(S)
+			&kp LS(G)
+			&kp LS(ENTER)
+
+			&to 1
+			&kp LS(F)
+			&kp LS(V)
+			&kp LS(MINUS)
+			&kp LS(Y)
+			&kp LS(Q)
+			&kp LS(Z)
+			&kp LS(SEMICOLON)
+			&kp LS(LEFT_BRACKET)
+			&kp LS(SINGLE_QUOTE)
+			&kp LS(K) 
+			&to 0 
+	
+			&none 
+			&kp SPACE 
+			&none 
+			&none 
+			&sl 8 
+			&none
+
+                        >;
+                };
+
+
+
+
+
+
+		special2_layer {
+                        label = "SPECIAL";
+
+
+                        bindings = <
+
+			&kp ESCAPE 
+			&bt BT_CLR
+			&kp C_VOLUME_DOWN 
+			&none 
+			&kp C_VOLUME_UP 
+			&bt BT_NXT
+			&bt BT_PRV
+			&kp C_NEXT 
+			&kp C_PP 
+			&kp C_PREVIOUS 
+			&bt BT_SEL 0
+			&kp BACKSPACE 
+	
+			&none
+			&kp LS(NUMBER_6) 
+			&kp NUBS
+			&kp LS(NUBS) 
+			&kp BACKSLASH 
+			&none 	
+			&none 
+			&kp QMARK
+			&kp LS(NUMBER_4) 
+			&kp RA(M) 
+			&kp LS(NUMBER_3) 
+			&kp ENTER 
+
+			&tog 1 
+			&kp LA(NUMBER_5) 
+			&kp GRAVE 
+			&kp LS(GRAVE) 
+			&kp LA(NUMBER_6) 
+			&kp LA(NUMBER_3)
+			&kp LA(NUMBER_2) 
+			&kp LA(NUMBER_7)
+			&kp LA(NUMBER_8)
+			&kp LA(NUMBER_9)
+			&kp LA(NUMBER_0) 
+			&tog 0 
+	
+			&none 
+			&kp SPACE
+			&none
+			&none
+			&trans 
+			&none
+
+                        >;
+                };
+
+	
+	
+
+
+
         };
 };
