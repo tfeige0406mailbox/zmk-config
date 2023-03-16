@@ -891,26 +891,26 @@
                         bindings = <
 
 			&kp LG(LA(LC(LS(F12))))
-			&kp LGUI
-			&kp LG(LS(LEFT)) 
-			&kp LCTRL
-			&kp LG(LS(RIGHT)) 
+			&kp LALT
+			&kp LS(HOME) 
+			&kp INSERT
+			&kp LS(END) 
            	&kp LG(LA(LC(LS(F5))))
-			&kp LG(UP)
-			&kp LG(LEFT) 
+			&kp LC(HOME)
+			&kp HOME 
 			&kp UP
-			&kp LG(RIGHT)
+			&kp END
 			&kp PG_UP 
 			&kp DELETE
 
 
 			&trans 
 			&kp LSHIFT
-			&kp LC(LGUI)
-			&kp LALT
 			&kp LGUI
+			&kp LALT
+			&kp LCTRL
 			&kp LG(LA(LC(LS(F6))))
-			&kp LG(DOWN) 
+			&kp LC(END)
 			&kp LEFT 
 			&kp DOWN
 			&kp RIGHT 	
@@ -918,18 +918,18 @@
 			&kp ENTER
 
 
-			&to 1
+			&to 11
 			&kp CAPSLOCK
-			&kp LS(LA(LEFT))
-			&kp LS(LA(RIGHT))
-			&kp LG(LA(LC(LS(F1))))
+			&kp LC(LS(LEFT))
+			&kp LC(LS(RIGHT))
+			&kp LG(T)
 			&kp LG(LA(LC(LS(F7))))
-			&kp LG(LA(LC(LS(F2))))
+			&kp LC(LS(F10))
 			&kp LS(TAB)
-			&kp LA(LEFT)
-			&kp LA(RIGHT)
+			&kp LC(LEFT)
+			&kp LC(RIGHT)
 			&kp TAB
-			&to 0
+			&to 10
 
 			&none
 			&kp SPACE 
