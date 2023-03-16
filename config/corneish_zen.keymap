@@ -584,7 +584,7 @@
 			&sl 16 			&kp C 			&kp T			&kp I			&kp E			&kp O 			&kp B			&kp N 			&kp R 			&kp S 			&kp G 		&kp RET 
 			&to 11			&kp F	 		&kp V 			&kp MINUS 	&kp Y 			&kp Q 			&kp Z 			&kp SEMI	&kp LBKT	&kp SQT		&kp K	 	&to 10
 				
-													&sl 13 		&kp SPACE 		&sl 12				 			&sl 11 			&sl 17				&sl 14
+													&sl 13 		&kp SPACE 		&sl 12				 			&sl 11 			&sl 7				&sl 14
 
 
                         >;
