@@ -1021,7 +1021,7 @@
                         bindings = <
 
 			&kp ESCAPE 
-			&bt BT_CLR
+			&to 0
 			&kp C_VOLUME_DOWN 
 			&none 
 			&kp C_VOLUME_UP 
@@ -1030,7 +1030,7 @@
 			&kp C_NEXT 
 			&kp C_PP 
 			&kp C_PREVIOUS 
-			&bt BT_SEL 0
+			&to 10
 			&kp BACKSPACE 
 	
 			&none
@@ -1038,8 +1038,8 @@
 			&kp NUBS
 			&kp LS(NUBS) 
 			&kp BACKSLASH 
-			&none 	
-			&none 
+			&bt BT_CLR 	
+			&bt BT_SEL 0
 			&kp QMARK
 			&kp LS(NUMBER_4) 
 			&kp RA(M) 
