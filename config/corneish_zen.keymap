@@ -158,8 +158,8 @@
 
 			&to 1 
 			&kp LG(LS(LA(LC(C))))
-			&kp LG(LS(LA(LC(COMMA))))
-			&kp LG(LS(LA(LC(DOT))))
+			&kp LG(SEMI)
+			&kp LG(SQT)
 			&kp LG(LS(LA(LC(T))))
 			&kp LG(LS(LA(LC(O))))
 			&kp LG(LS(LA(LC(B))))
