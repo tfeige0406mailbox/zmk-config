@@ -479,9 +479,9 @@
 			&kp LA(NUMBER_0) 
 			&tog 0 
 	
-			&none 
+			&kp LG(LA(LC(LS(SEMI)))) 
 			&kp SPACE
-			&none
+			&kp LG(LA(LC(LS(SQT))))
 			&none
 			&trans 
 			&none
@@ -1123,9 +1123,9 @@
 			&kp LA(NUMBER_0) 
 			&tog 0 
 	
-			&none 
+			&kp LG(LA(LC(LS(SEMI)))) 
 			&kp SPACE
-			&none
+			&kp LG(LA(LC(LS(SQT))))
 			&none
 			&trans 
 			&none
