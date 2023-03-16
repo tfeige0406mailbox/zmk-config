@@ -581,7 +581,7 @@
 			bindings = <
 
 			&kp ESC		&kp J 			&kp D	 		&kp U 			&kp A	 		&kp X	  		&kp P 			&kp H	 		&kp L	 		&kp M 			&kp W 		&kp BSPC 
-			&sl 16 			&kp T 			&kp I			&kp M			&kp E			&kp O 			&kp B			&kp N 			&kp R 			&kp S 			&kp G 		&kp RET 
+			&sl 16 			&kp C 			&kp T			&kp I			&kp E			&kp O 			&kp B			&kp N 			&kp R 			&kp S 			&kp G 		&kp RET 
 			&to 11			&kp F	 		&kp V 			&kp MINUS 	&kp Y 			&kp Q 			&kp Z 			&kp SEMI	&kp LBKT	&kp SQT		&kp K	 	&to 10
 				
 													&sl 13 		&kp SPACE 		&sl 12				 			&sl 11 			&sl 17				&sl 14
@@ -606,7 +606,7 @@
 		bindings = <
 
 		&kp ESC		&kp LG(N1)		&kp LG(N2)		&kp LG(N3)		&kp LG(N4)			&kp LG(N5)		&kp LG(N6)		&kp LG(N7)		&kp LG(N8)		&kp LG(N9)		&kp LG(N0)		&kp BSPC
-		&sl 16 			&kp T				&kp I				&kp M				&kp N4					&kp N5				&kp N6				&kp N7				&kp N8				&kp N9				&kp N0				&kp ENTER 
+		&sl 16 			&kp N1				&kp N2				&kp N3				&kp N4					&kp N5				&kp N6				&kp N7				&kp N8				&kp N9				&kp N0				&kp ENTER 
 		&to 11			&kp LS(N7)		&kp LS(N8) 		&kp LS(N9)		&kp LS(RBRC)	&kp LS(N0)		&kp X				&kp RBKT		&kp COMMA	&kp DOT			&kp SLASH		&to 10
 	
 																&sl 13 			&kp SPACE 			&sl 12			 						&none						&sl 17 					&sl 14
@@ -623,40 +623,39 @@
 
 	
 
-
                 program2_layer {
                         label = "PRG2";
 
 
                         bindings = <
 
-			&kp LG(H)
-			&kp LG(LA(LC(LS(J))))	
-			&kp LG(LA(LC(LS(D))))	
-			&kp LG(LA(LC(LS(U))))	
-			&kp LG(LA(LC(LS(A))))	
-			&kp LG(LA(LC(LS(X))))	
-			&kp LG(LA(LC(LS(P))))	
-			&kp LG(LA(LC(LS(H))))	
-			&kp LG(LA(LC(LS(L))))	
-			&kp LG(LA(LC(LS(M))))	
-			&kp LG(LA(LC(LS(W))))				
-			&kp LG(Q) 
+			&kp X
+			&kp F1
+			&kp F1
+			&kp F1
+			&kp F1
+			&kp F1
+			&kp F1
+			&kp F1
+			&kp F1
+			&kp F1
+			&kp F1
+			&kp F1
 
-			&kp LG(LA(LC(LS(TAB))))		
-			&kp LG(LA(LC(NUMBER_1)))	
-			&kp LG(LA(LC(NUMBER_2)))	
-			&kp LG(LA(LC(NUMBER_3)))	
-			&kp LG(LA(LC(NUMBER_4)))	
-			&kp LG(LA(LC(NUMBER_5)))	
-			&kp LG(LA(LC(NUMBER_6)))	
-			&kp LG(LA(LC(NUMBER_7)))	
-			&kp LG(LA(LC(NUMBER_8)))	
-			&kp LG(LA(LC(NUMBER_9)))		
-			&kp LG(LA(LC(NUMBER_0)))		
 			&kp LG(TAB)
+			&kp LG(K1)
+			&kp LG(K2)
+			&kp LG(K3)
+			&kp LG(K4)
+			&kp LG(K5)
+			&kp LG(K6)
+			&kp LG(K7)
+			&kp LG(K8)
+			&kp LG(K9)
+			&kp LG(K0)
+			&kp LA(TAB)
 
-			&to 1
+			&to 11
 			&kp LS(LA(NUMBER_7))
 			&kp LS(NUMBER_5)
 			&kp LA(L)
@@ -667,11 +666,11 @@
 			&kp LS(COMMA)
 			&kp LS(DOT)
 			&kp UNDER
-			&to 0
+			&to 10
 	
 			&none 
-			&sk LC(LGUI)  
-			&sk LA(LGUI)
+			&sk LGUI  
+			&sk LALT
 			&none 
 			&none 
 			&none
