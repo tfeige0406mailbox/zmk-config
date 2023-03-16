@@ -801,8 +801,8 @@
 			&none
 			&none 
 			&none
-			&sk LS(LA(LGUI)) 
-			&sl 5
+			&sk LC(LALT) 
+			&sl 15
 
 
                         >;
