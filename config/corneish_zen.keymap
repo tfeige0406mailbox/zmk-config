@@ -698,9 +698,9 @@
 
 			&kp LG(LA(LC(LS(ESCAPE))))
 			&kp LC(LS(B)) 
-			&kp LC(U) 
-			&kp LC(F) 
-			&kp LC(K)
+			&kp LC(LS(U)) 
+			&kp LC(LS(F)) 
+			&kp LC(LS(K))
 			&kp LC(LS(SINGLE_QUOTE))
 			&kp LG(DOT)
 			&kp LC(Y)
