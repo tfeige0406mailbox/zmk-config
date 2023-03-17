@@ -758,7 +758,7 @@
 
                         bindings = <
 
-			&kp LG(LA(LC(LS(BSLH)))) 
+			&kp LC(NUBS)
 			&kp LC(J) 
 			&kp LC(D)
 			&kp LC(U) 
