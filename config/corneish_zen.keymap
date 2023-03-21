@@ -374,10 +374,10 @@ keymap
 			&kp LG(LA(LC(LS(D))))
 
 			&to 1 
-			&kp LG(LS(LA(LC(GRAVE))))
+			&kp LG(LS(LA(LC(M))))
 			&kp LG(SEMI)
 			&kp LG(SQT)
-			&kp LG(LS(LA(LC(MINUS))))
+			&kp LG(LS(LA(LC(W))))
 			&kp LG(LS(LA(LC(F11))))
 			&kp LG(LS(LA(LC(F12))))
 			&kp LC(LS(TAB))
@@ -1012,10 +1012,10 @@ keymap
 			&kp LG(LA(LC(LS(D))))
 
 			&to 11 
-			&kp LG(LS(LA(LC(GRAVE))))
+			&kp LG(LS(LA(LC(M))))
 			&kp LA(LEFT) 
 			&kp LA(RIGHT)
-			&kp LG(LS(LA(LC(MINUS))))
+			&kp LG(LS(LA(LC(W))))
 			&kp LG(LS(LA(LC(F11))))
 			&kp LG(LS(LA(LC(F12))))
 			&kp LC(LS(TAB))
