@@ -1,9 +1,4 @@
-/*
-*
-* Copyright (c) 2021 Darryl deHaan
-* SPDX-License-Identifier: MIT
-*
-*/
+
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
@@ -19,118 +14,341 @@
 / {
 
 	
-	keymap {
+keymap
+{
 	compatible = "zmk,keymap";
 
-	// ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-	// 		Layer 0		=		Buchstaben 																																Mac
-	// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// ------------------------------------------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------------------------------------
+
+
+	// --------------------------------------
+	// Layer 0 = 	  Buchstaben	
+	// --------------------------------------
 	
-		char_layer {
-		label = "CHAR";
-
-			bindings = <
-
-			&kp ESC		&kp J 			&kp D	 		&kp U 			&kp A	 		&kp X	  		&kp P 			&kp H	 		&kp L	 		&kp M 			&kp W 		&kp BSPC 
-			&sl 6 			&kp C 			&kp T			&kp I			&kp E			&kp O 			&kp B			&kp N 			&kp R 			&kp S 			&kp G 		&kp RET 
-			&to 1			&kp F	 		&kp V 			&kp MINUS 	&kp Y 			&kp Q 			&kp Z 			&kp SEMI	&kp LBKT	&kp SQT		&kp K	 	&to 0
-				
-													&sl 3 		&kp SPACE 		&sl 2				 			&sl 1 			&sl 7				&sl 4
-                        >;
-                };
-
-
-	// ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-	// 		Layer 1		=		Zahlen 																																		Mac
-	// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-		number_layer {
-		label = "NR";
+	mac_buchstaben
+	{
+		label = "MAC";
 
 		bindings = <
 
-		&kp ESC		&kp LG(N1)		&kp LG(N2)		&kp LG(N3)		&kp LG(N4)			&kp LG(N5)		&kp LG(N6)		&kp LG(N7)		&kp LG(N8)		&kp LG(N9)		&kp LG(N0)		&kp BSPC
-		&sl 6 			&kp N1				&kp N2				&kp N3				&kp N4					&kp N5				&kp N6				&kp N7				&kp N8				&kp N9				&kp N0				&kp ENTER 
-		&to 1			&kp LS(N7)		&kp LS(N8) 		&kp LS(N9)		&kp LS(RBRC)	&kp LS(N0)		&kp X				&kp RBKT		&kp COMMA	&kp DOT			&kp SLASH		&to 0
+			&kp ESC
+			&kp J 
+			&kp D	 
+			&kp U
+ 			&kp A
+	 		&kp X
+	  		&kp P
+ 			&kp H
+	 		&kp L
+	 		&kp M
+ 			&kp W
+ 			&kp BSPC
+ 
+			&sl 9
+ 			&kp C
+ 			&kp T
+			&kp I
+			&kp E
+			&kp O
+ 			&kp B
+			&kp N
+ 			&kp R
+ 			&kp S
+ 			&kp G
+ 			&kp RET
+ 
+			&to 1
+			&kp F
+	 		&kp V
+ 			&kp MINUS
+ 			&kp Y
+ 			&kp Q
+ 			&kp Z
+ 			&kp SEMI
+			&kp LBKT
+			&kp SQT
+			&kp K
+	 		&to 0
+
+			&sl 5
+ 			&kp SPACE 
+			&sl 3
+			&sl 1
+ 			&sk LSHIFT
+			&sl 7
+
+		>;
+	};
+
+
+
+
 	
-																&sl 3 			&kp SPACE 			&sl 2			 						&none						&sl 7 					&sl 4
-                        >;
-                };
+	// --------------------------------------
+	// Layer 1 = 	  Zahlen	
+	// --------------------------------------
 
+	mac_zahlen
+	{
+		label = "MAC-NR";
 
+		bindings = <
 
-	// ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-	// 		Layer 2		=			Programme																																	Mac
-	// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+			&kp ESC	
+			&kp LG(N1)
+			&kp LG(N2)
+			&kp LG(N3)
+			&kp LG(N4)
+			&kp LG(N5)
+			&kp LG(N6)
+			&kp LG(N7)
+			&kp LG(N8)
+			&kp LG(N9)
+			&kp LG(N0)
+			&kp BSPC
 
-
-                program_layer {
-                        label = "PRG";
-
-
-                        bindings = <
-
-			&kp LG(H)		&kp LG(LA(LC(LS(J))))	
-			&kp LG(LA(LC(LS(D))))	
-			&kp LG(LA(LC(LS(U))))	
-			&kp LG(LA(LC(LS(A))))	
-			&kp LG(LA(LC(LS(X))))	
-			&kp LG(LA(LC(LS(P))))	
-			&kp LG(LA(LC(LS(H))))	
-			&kp LG(LA(LC(LS(L))))	
-			&kp LG(LA(LC(LS(M))))	
-			&kp LG(LA(LC(LS(W))))				
-			&kp LG(Q) 
-
-			&kp LG(LA(LC(LS(TAB))))		
-			&kp LG(LA(LC(NUMBER_1)))	
-			&kp LG(LA(LC(NUMBER_2)))	
-			&kp LG(LA(LC(NUMBER_3)))	
-			&kp LG(LA(LC(NUMBER_4)))	
-			&kp LG(LA(LC(NUMBER_5)))	
-			&kp LG(LA(LC(NUMBER_6)))	
-			&kp LG(LA(LC(NUMBER_7)))	
-			&kp LG(LA(LC(NUMBER_8)))	
-			&kp LG(LA(LC(NUMBER_9)))		
-			&kp LG(LA(LC(NUMBER_0)))		
-			&kp LG(TAB)
+			&sl 9	
+			&kp N1				
+			&kp N2				
+			&kp N3				
+			&kp N4					
+			&kp N5				
+			&kp N6				
+			&kp N7				
+			&kp N8				
+			&kp N9				
+			&kp N0				
+			&kp ENTER 
 
 			&to 1
-			&kp LS(LA(NUMBER_7))
-			&kp LS(NUMBER_5)
+			&kp LS(N7)
+			&kp LS(N8)
+	 		&kp LS(N9)
+			&kp LS(RBRC)
+			&kp LS(N0)
+			&kp X
+			&kp RBKT
+			&kp COMMA
+			&kp DOT
+			&kp SLASH		
+			&to 0
+	
+			&sl 5
+ 			&kp SPACE 
+			&sl 3
+	 		&sl 2						
+			&sl 20
+			&sl 7
+
+		>;		
+	};
+
+
+
+
+
+	// --------------------------------------
+	// Layer 2 =	Sonderzeichen
+	// --------------------------------------
+
+	mac_sonderzeichen
+	{
+		label = "MAC";
+
+		bindings = <
+
+			&none
+			&none
+			&kp RA(N8)
+			&kp RA(N9)
+			&none
+			&none
+			&none
+			&none
+			&kp RA(N5)
+			&kp RA(N6)
+			&none
+			&kp BSPC
+
+			&none
+			&kp LS(N6) 
+			&kp GRAVE			
+			&kp LS(GRAVE)
+			&kp BACKSLASH 	
+			&kp NUBS
+			&kp LS(NUBS) 
+			&kp LS(SLASH)
+			&kp LS(N4) 
+			&kp RA(M) 
+			&kp LS(N3) 
+			&none
+
+			&to 1
+			&kp RA(MINUS)
+			&kp LS(N5)
 			&kp LA(L)
 			&kp RA(E)
+			&kp LS(N2)
 			&kp LS(BSLH)
-			&kp LS(NUMBER_2)
-			&kp LS(NUMBER_1)
+			&kp LS(N1)
 			&kp LS(COMMA)
 			&kp LS(DOT)
 			&kp UNDER
 			&to 0
 	
 			&none 
-			&sk LC(LGUI)  
-			&sk LA(LGUI)
+			&none 
+			&none 
+			&trans 
+			&none 
+			&none
+
+		>;
+	};
+
+
+
+
+
+	// --------------------------------------
+	// Layer 3 =	Programme
+	// --------------------------------------
+
+	mac_programme
+	{
+		label = "MAC";
+
+		bindings = <
+
+			&kp LG(H)
+			&kp LG(LC(N1))
+			&kp LG(LC(N2))
+			&kp LG(LC(N3))
+			&kp LG(LC(N4))
+			&kp LG(LC(N5))
+			&kp LG(LC(N6))
+			&kp LG(LC(N7))
+			&kp LG(LC(N8))
+			&kp LG(LC(N9))
+			&kp LG(LC(N0))
+			&kp LG(Q)
+
+			&kp LG(LA(LC(LS(TAB))))
+			&kp LG(LA(N1))
+			&kp LG(LA(N2))
+			&kp LG(LA(N3))
+			&kp LG(LA(N4))
+			&kp LG(LA(N5))
+			&kp LG(LA(N6))
+			&kp LG(LA(N7))
+			&kp LG(LA(N8))
+			&kp LG(LA(N9))
+			&kp LG(LA(N0))
+			&kp LG(TAB)
+
+			&to 1
+			&kp LG(LC(LA(F1)))
+			&kp LG(LC(LA(F2)))
+			&kp LG(LC(LA(F3)))
+			&kp LG(LC(LA(F4)))
+			&kp LG(LC(LA(F5)))
+			&kp LG(LC(LA(F6)))
+			&kp LG(LC(LA(F7)))
+			&kp LG(LC(LA(F8)))
+			&kp LG(LC(LA(F9)))
+			&kp LG(LC(LA(N10)))
+			&to 0
+	
+			&none 
+			&none 
+			&sl 4
 			&none 
 			&none 
 			&none
 
-                        >;
-                };
+		>;
+	};
 
 
 
-	// ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-	// 		Layer 3		=				Funktionen 																																		Mac
-	// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+	// --------------------------------------
+	// Layer 4 =	Shortcuts
+	// --------------------------------------
 
 
-		function_layer {
-                        label = "FUNC";
+	mac_shortcuts
+	{
 
-                        bindings = <
+		label = "MAC";
 
-			&kp LG(LA(LC(LS(ESCAPE))))
+		bindings = <
+
+			&kp LG(LA(H))
+			&kp LA(LG(J))
+			&kp LA(LG(D))
+			&kp LA(LG(U))
+			&kp LA(LG(A))
+			&kp LA(LG(X))
+			&kp LA(LG(P))
+			&kp LA(LG(H)) 
+			&kp LA(LG(L)) 
+			&kp LA(LG(M)) 
+			&kp LA(LG(W)) 
+			&kp LA(LG(ESC)) 
+	
+			&kp LG(LA(LC(LS(ESC))))
+			&kp LA(LG(C))
+			&kp LA(LG(T))
+			&kp LA(LG(I))
+			&kp LA(LG(E))
+			&kp LA(LG(O))	
+			&kp LA(LG(B))
+			&kp LA(LG(N))
+			&kp LA(LG(R))
+			&kp LA(LG(S))
+			&kp LA(LG(G)) 
+			&kp LG(LS(TAB))
+
+			&to 1
+			&kp LA(LG(F))
+			&kp LA(LG(V))
+			&kp LA(LG(MINUS))
+			&kp LA(LG(Y))
+			&kp LA(LG(Q))
+			&kp LA(LG(Z))
+			&kp LA(LG(SEMICOLON))
+			&kp LA(LG(LEFT_BRACKET))
+			&kp LA(LG(SINGLE_QUOTE))
+			&kp LA(LG(K)) 
+			&to 0
+	
+			&none 
+			&none
+			&trans 
+			&none
+			&none
+			&none
+
+		>;
+	};
+
+
+
+
+	// --------------------------------------
+	// Layer 5 =	Funktionen
+	// --------------------------------------
+
+	mac_function
+	{
+		label = "MAC";
+
+		bindings = <
+ 
+			&kp LG(LA(LC(LS(NUBS))))
 			&kp LG(LS(B)) 
 			&kp LG(U) 
 			&kp LG(B) 
@@ -140,10 +358,10 @@
 			&kp LG(Y)
 			&kp LG(LA(UP)) 
 			&kp LG(LS(Y)) 
-			&kp LG(LS(LA(LC(S))))
+			&kp LG(RBKT)
 			&kp LA(DELETE)
 	
-			&kp LG(KP_MINUS)
+			&kp LG(LA(LC(LS(SLASH))))
 			&kp LG(LS(G)) 
 			&kp LG(LA(C)) 
 			&kp LG(LA(V)) 
@@ -153,67 +371,129 @@
 			&kp LG(LA(LEFT)) 
 			&kp LG(LA(DOWN)) 
 			&kp LG(LA(RIGHT))  
-			&kp LG(LS(LA(LC(G))))
-			&kp LG(KP_PLUS)
+			&kp LG(SLASH)
+			&kp LG(LA(LC(LS(RBKT))))
 
 			&to 1 
-			&kp LG(LS(LA(LC(C))))
+			&kp LG(LS(LA(LC(GRAVE))))
 			&kp LG(SEMI)
 			&kp LG(SQT)
-			&kp LG(LS(LA(LC(T))))
-			&kp LG(LS(LA(LC(O))))
-			&kp LG(LS(LA(LC(B))))
+			&kp LG(LS(LA(LC(MINUS))))
+			&kp LG(LS(LA(LC(F11))))
+			&kp LG(LS(LA(LC(F12))))
 			&kp LC(LS(TAB))
 			&kp LG(UP)
 			&kp LG(DOWN)
 			&kp LC(TAB)
 			&to 0 
+			
+			&sk 6
+			&none
+			&none
+			&none 
+			&none 
+			&none
+
+		>;
+	};
+
+
+
+	// --------------------------------------
+	// Layer 6 =	Spezial Funktionen
+	// --------------------------------------
+
+	mac_specialfuntion
+	{
+		label = "MAC";
+
+		bindings = <
+
+			&kp LG(LA(LC(LS(NUHS))))
+			&bt BT_PRV
+			&kp C_PREVIOUS 
+			&kp C_PP 
+			&kp C_NEXT 
+			&bt BT_CLR 	
+			&bt BT_SEL 0			
+			&kp C_VOLUME_DOWN 
+			&none 
+			&kp C_VOLUME_UP 
+			&bt BT_NXT
+			&kp LG(DEL)
+
+			&kp LG(LA(LC(LS(COMMA))))
+			&kp LG(LA(LC(LS(J))))
+			&kp LG(LA(LC(LS(D))))
+			&kp LG(LA(LC(LS(U))))
+			&kp LG(LA(LC(LS(A))))
+			&kp LG(LA(LC(LS(X))))
+			&kp LG(LA(LC(LS(B))))
+			&kp LG(LA(LC(LS(N))))
+			&kp LG(LA(LC(LS(R))))
+			&kp LG(LA(LC(LS(S))))
+			&kp LG(LA(LC(LS(G))))
+			&kp LG(LA(LC(LS(DOT))))
+
+			&to 1
+			&kp LG(LA(LC(LS(F))))
+			&kp LG(LA(LC(LS(V))))
+			&kp LG(LA(LC(LS(MINUS)))
+			&kp LG(LA(LC(LS(Y))))
+			&kp LG(LA(LC(LS(Q))))
+			&kp LG(LA(LC(LS(Z))))
+			&kp LG(LA(LC(LS(SEMI))))
+			&kp LG(LA(LC(LS(LBKT))))
+			&kp LG(LA(LC(LS(SQT))))
+			&kp LG(LA(LC(LS(K))))
+			&to 0
 	
 			&trans
-			&sk LC(LS(LGUI))
-			&none
 			&none 
 			&none 
-			&none
+			&none 
+			&none 
+			&none                   
 
-                        >;
-                };
-
-
-	// ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-	// 		Layer 4		=				LGUI 																																		Mac
-	// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		>;
+	};
 
 
-		command_layer {
-                        label = "GUI";
 
-                        bindings = <
+	// --------------------------------------
+	// Layer 7 =	GUI
+	// --------------------------------------
 
-			&kp LG(LA(LC(LS(F10))))
-			&kp LG(J) 
+	mac_gui
+	{
+		label = "MAC";
+
+		bindings = <
+
+			&kp LG(LA(LC(LS(F7))))
+			&kp LG(J)
 			&kp LG(D)
 			&kp LG(U) 
-			&kp LG(A) 
+			&kp LG(A)
 			&kp LG(X)
-			&kp LG(P) 
-			&kp LG(H) 
+			&kp LG(P)
+			&kp LG(H)
 			&kp LG(L) 
-			&kp LG(M) 
+			&kp LG(M)
 			&kp LG(W) 
-			&kp LA(BACKSPACE) 
+			&kp LA(BACKSPACE)
 	
-			&kp LG(LA(LC(LS(F9))))
+			&kp LG(LA(LC(LS(F8))))
 			&kp LG(C)
 			&kp LG(T)
 			&kp LG(I)
 			&kp LG(E)
 			&kp LG(O)	
-			&kp LG(B) 
-			&kp LG(N) 
-			&kp LG(R) 
-			&kp LG(S) 
-			&kp LG(G) 
+			&kp LG(B)
+			&kp LG(N)
+			&kp LG(R)
+			&kp LG(S)
+			&kp LG(G)
 			&kp LG(ENTER)
 
 			&to 1
@@ -227,57 +507,55 @@
 			&kp LG(LEFT_BRACKET)
 			&kp LG(SINGLE_QUOTE)
 			&kp LG(K) 
-			&to 0
+			&to 0 
 	
 			&none 
-			&none
 			&none 
-			&none
-			&sk LS(LA(LGUI)) 
-			&sl 5
+			&none 
+			&none 
+			&none 
+			&sl 8
+
+			>;
+		};
 
 
-                        >;
-                };
 
+	// --------------------------------------
+	// Layer 8 =	sGUI
+	// --------------------------------------
 
+	mac_sgui	
+	{	
+		label = "MAC";
 
-	// ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-	// 		Layer 5		=				SGUI 																																		Mac
-	// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		bindings = <
 
-
-		scommand_layer {
-                        label = "SGUI";
-
-
-                        bindings = <
- 
-			&kp LG(LA(ESCAPE))
+			&kp LG(LA(LC(LS(F9))))
 			&kp LG(LS(J))
 			&kp LG(LS(D))
 			&kp LG(LS(U))
 			&kp LG(LS(A))
 			&kp LG(LS(X))
-			&kp LG(LS(P)) 
-			&kp LG(LS(H)) 
-			&kp LG(LS(L)) 
-			&kp LG(LS(M)) 
+			&kp LG(LS(P))
+			&kp LG(LS(H))
+			&kp LG(LS(L))
+			&kp LG(LS(M))
 			&kp LG(LS(W)) 
 			&kp LG(BACKSPACE)
 	
-			&kp LG(COMMA)
+			&kp LG(LA(LC(LS(F10))))
 			&kp LG(LS(C))
 			&kp LG(LS(T))
 			&kp LG(LS(I))
 			&kp LG(LS(E))
 			&kp LG(LS(O))	
-			&kp LG(LS(B)) 
-			&kp LG(LS(N)) 
-			&kp LG(LS(R)) 
-			&kp LG(LS(S)) 
-			&kp LG(LS(G)) 
-			&kp LG(LS(NUMBER_5))
+			&kp LG(LS(B))
+			&kp LG(LS(N))
+			&kp LG(LS(R))
+			&kp LG(LS(S))
+			&kp LG(LS(G))
+			&kp LG(LS(N4))
 
 			&to 1
 			&kp LG(LS(F))
@@ -291,35 +569,37 @@
 			&kp LG(LS(SINGLE_QUOTE))
 			&kp LG(LS(K))
 			&to 0
-	
+
 			&none 
-			&none
 			&none 
-			&none
-			&none
+			&none 
+			&none 
+			&none 
 			&trans
 
-                        >;
-                };
+			>;
+	};
 
-	// ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-	// 		Layer 6		=				Navigation 																																		Mac
-	// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+                
+              
 
 
-		navigation_layer {
-                        label = "NAV";
+   	// --------------------------------------
+	// Layer  = 9	  Navigation
+	// --------------------------------------
 
+	mac_navigation
+	{		
+		label = "MAC";
 
-                        bindings = <
+		bindings = <
 
-			&kp LG(LA(LC(LS(F12))))
+			&kp DEL
 			&kp LGUI
 			&kp LG(LS(LEFT)) 
 			&kp LCTRL
 			&kp LG(LS(RIGHT)) 
-           	&kp LG(LA(LC(LS(F5))))
+            &kp LG(LA(LC(LS(F1))))
 			&kp LG(UP)
 			&kp LG(LEFT) 
 			&kp UP
@@ -327,28 +607,26 @@
 			&kp PG_UP 
 			&kp DELETE
 
-
 			&trans 
 			&kp LSHIFT
 			&kp LC(LGUI)
 			&kp LALT
 			&kp LGUI
-			&kp LG(LA(LC(LS(F6))))
+			&kp LG(LA(LC(LS(F2))))
 			&kp LG(DOWN) 
 			&kp LEFT 
 			&kp DOWN
 			&kp RIGHT 	
 			&kp PG_DN
 			&kp ENTER
-
-
+			
 			&to 1
 			&kp CAPSLOCK
 			&kp LS(LA(LEFT))
 			&kp LS(LA(RIGHT))
-			&kp LG(LA(LC(LS(F1))))
-			&kp LG(LA(LC(LS(F7))))
-			&kp LG(LA(LC(LS(F2))))
+			&kp LG(LA(LC(LS(F4))))
+			&kp LG(LA(LC(LS(F3))))
+			&kp LG(LA(LC(LS(F5))))
 			&kp LS(TAB)
 			&kp LA(LEFT)
 			&kp LA(RIGHT)
@@ -362,275 +640,219 @@
 			&kp LSHIFT 
 			&none
 
-                    
-
-                        >;
-                };
-
-
-
-	// ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-	// 		Layer 7		=				Shift 																																		Mac
-	// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-		shift_layer {
-                        label = "SHIFT";
-
-                        bindings = <
-
-			&kp ESCAPE 
-			&kp LS(J)
-			&kp LS(D)
-			&kp LS(U) 
-			&kp LS(A)
-			&kp LS(X)
-			&kp LS(P)
-			&kp LS(H)
-			&kp LS(L) 
-			&kp LS(M)
-			&kp LS(W) 
-			&kp BACKSPACE 
-	
-			&none 
-			&kp LS(C)
-			&kp LS(T)
-			&kp LS(I)
-			&kp LS(E)
-			&kp LS(O)	
-			&kp LS(B)
-			&kp LS(N)
-			&kp LS(R)
-			&kp LS(S)
-			&kp LS(G)
-			&kp LS(ENTER)
-
-			&to 1
-			&kp LS(F)
-			&kp LS(V)
-			&kp LS(MINUS)
-			&kp LS(Y)
-			&kp LS(Q)
-			&kp LS(Z)
-			&kp LS(SEMICOLON)
-			&kp LS(LEFT_BRACKET)
-			&kp LS(SINGLE_QUOTE)
-			&kp LS(K) 
-			&to 0 
-	
-			&none 
-			&kp SPACE 
-			&none 
-			&none 
-			&sl 8 
-			&none
-
-                        >;
-                };
-
-
-	// ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-	// 		Layer 8		=				Special 																																		Mac
-	// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-		special_layer {
-                        label = "SPECIAL";
-
-
-                        bindings = <
-
-			&kp ESCAPE 
-			&to 0
-			&kp C_VOLUME_DOWN 
-			&none 
-			&kp C_VOLUME_UP 
-			&bt BT_NXT
-			&bt BT_PRV
-			&kp C_NEXT 
-			&kp C_PP 
-			&kp C_PREVIOUS 
-			&to 10
-			&kp BACKSPACE 
-	
-			&none
-			&kp LS(NUMBER_6) 
-			&kp NUBS
-			&kp LS(NUBS) 
-			&kp BACKSLASH 
-			&bt BT_CLR 	
-			&bt BT_SEL 0
-			&kp QMARK
-			&kp LS(NUMBER_4) 
-			&kp RA(M) 
-			&kp LS(NUMBER_3) 
-			&kp ENTER 
-
-			&tog 1 
-			&kp LA(NUMBER_5) 
-			&kp GRAVE 
-			&kp LS(GRAVE) 
-			&kp LA(NUMBER_6) 
-			&kp LA(NUMBER_3)
-			&kp LA(NUMBER_2) 
-			&kp LA(NUMBER_7)
-			&kp LA(NUMBER_8)
-			&kp LA(NUMBER_9)
-			&kp LA(NUMBER_0) 
-			&tog 0 
-	
-			&kp LG(LA(LC(LS(SEMI)))) 
-			&kp SPACE
-			&kp LG(LA(LC(LS(SQT))))
-			&none
-			&trans 
-			&none
-
-                        >;
-                };
-                
-                
-    // ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-	// 		Layer 9		=				Open 																																		Mac
-	// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-		open_layer {
-                        label = "OPEN";
-
-
-                        bindings = <
-
-			&kp ESCAPE 
-			&to 0
-			&kp C_VOLUME_DOWN 
-			&none 
-			&kp C_VOLUME_UP 
-			&bt BT_NXT
-			&bt BT_PRV
-			&kp C_NEXT 
-			&kp C_PP 
-			&kp C_PREVIOUS 
-			&to 10
-			&kp BACKSPACE 
-	
-			&none
-			&kp LS(NUMBER_6) 
-			&kp NUBS
-			&kp LS(NUBS) 
-			&kp BACKSLASH 
-			&bt BT_CLR 	
-			&bt BT_SEL 0
-			&kp QMARK
-			&kp LS(NUMBER_4) 
-			&kp RA(M) 
-			&kp LS(NUMBER_3) 
-			&kp ENTER 
-
-			&tog 1 
-			&kp LA(NUMBER_5) 
-			&kp GRAVE 
-			&kp LS(GRAVE) 
-			&kp LA(NUMBER_6) 
-			&kp LA(NUMBER_3)
-			&kp LA(NUMBER_2) 
-			&kp LA(NUMBER_7)
-			&kp LA(NUMBER_8)
-			&kp LA(NUMBER_9)
-			&kp LA(NUMBER_0) 
-			&tog 0 
-	
-			&none 
-			&kp SPACE
-			&none
-			&none
-			&trans 
-			&none
-
-                        >;
-                };
-                
-                
-                
-                
-                
+			>;
+		};
 
 
 
 
-/*
-*
-* -------------------------------------------------------------------------------------------------------Windows ----------------------------------------------------------------------------------------------------------------------------------------
-*
-*/
-	
-	
+
+
+
+// ------------------------------------------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------------------------------------
 	
 
-
-
-	// ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-	// 		Layer 10		=				Buchstaben 																																		Win
-	// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+	// --------------------------------------
+	// Layer 10 = 	  Buchstaben	
+	// --------------------------------------
 	
-	  char2_layer {
-                        label = "CHAR2";
-
-
-			bindings = <
-
-			&kp ESC		&kp J 			&kp D	 		&kp U 			&kp A	 		&kp X	  		&kp P 			&kp H	 		&kp L	 		&kp M 			&kp W 		&kp BSPC 
-			&sl 16 			&kp C 			&kp T			&kp I			&kp E			&kp O 			&kp B			&kp N 			&kp R 			&kp S 			&kp G 		&kp RET 
-			&to 11			&kp F	 		&kp V 			&kp MINUS 	&kp Y 			&kp Q 			&kp Z 			&kp SEMI	&kp LBKT	&kp SQT		&kp K	 	&to 10
-				
-													&sl 13 		&kp SPACE 		&sl 12				 			&sl 11 			&sl 17				&sl 14
-
-
-                        >;
-                };
-
-
-
-	// ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-	// 		Layer 11		=				Zahlen 																																		Win
-	// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-	
-
-
-                number2_layer {
-                        label = "NR2";
-
+	win_buchstaben
+	{
+		label = "WIN";
 
 		bindings = <
 
-		&kp ESC		&kp F1				&kp F2				&kp F3				&kp F4					&kp F5				&kp F6				&kp F7				&kp F8				&kp F9				&kp F10				&kp BSPC		
-		&sl 16 			&kp N1				&kp N2				&kp N3				&kp N4					&kp N5				&kp N6				&kp N7				&kp N8				&kp N9				&kp N0				&kp ENTER 
-		&to 11			&kp LS(N7)		&kp LS(N8) 		&kp LS(N9)		&kp LS(RBRC)	&kp LS(N0)		&kp X				&kp RBKT		&kp COMMA	&kp DOT			&kp SLASH		&to 10
-	
-																&sl 13 			&kp SPACE 			&sl 12			 						&none						&sl 17 					&sl 14
-
-
-                        >;
-                };
-
-
-
-	// ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-	// 		Layer 12		=				Programme 																																		Win
-	// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-	
-
-                program2_layer {
-                        label = "PRG2";
-                        
-                        
-                                                bindings = <
-
-
 			&kp ESC
+			&kp J 
+			&kp D	 
+			&kp U
+ 			&kp A
+	 		&kp X
+	  		&kp P
+ 			&kp H
+	 		&kp L
+	 		&kp M
+ 			&kp W
+ 			&kp BSPC
+ 
+			&sl 19
+ 			&kp C
+ 			&kp T
+			&kp I
+			&kp E
+			&kp O
+ 			&kp B
+			&kp N
+ 			&kp R
+ 			&kp S
+ 			&kp G
+ 			&kp RET
+ 
+			&to 11
+			&kp F
+	 		&kp V
+ 			&kp MINUS
+ 			&kp Y
+ 			&kp Q
+ 			&kp Z
+ 			&kp SEMI
+			&kp LBKT
+			&kp SQT
+			&kp K
+	 		&to 10
+
+			&sl 15
+ 			&kp SPACE 
+			&sl 13
+			&sl 11
+ 			&sk LSHIFT
+			&sl 17
+
+		>;
+	};
+
+
+
+
+	
+	// --------------------------------------
+	// Layer 11 = 	  Zahlen	
+	// --------------------------------------
+
+	win_zahlen
+	{
+		label = "WIN-NR";
+
+		bindings = <
+
+			&kp ESC	
+			&kp F1	
+			&kp F2
+			&kp F3
+			&kp F4
+			&kp F5
+			&kp F6
+			&kp F7
+			&kp F8
+			&kp F9
+			&kp F10
+			&kp BSPC
+
+			&sl 19 			
+			&kp N1				
+			&kp N2				
+			&kp N3				
+			&kp N4					
+			&kp N5				
+			&kp N6				
+			&kp N7				
+			&kp N8				
+			&kp N9				
+			&kp N0				
+			&kp ENTER 
+
+			&to 11
+			&kp LS(N7)
+			&kp LS(N8)
+	 		&kp LS(N9)
+			&kp LS(RBRC)
+			&kp LS(N0)
+			&kp X
+			&kp RBKT
+			&kp COMMA
+			&kp DOT
+			&kp SLASH		
+			&to 10
+	
+			&sl 15
+ 			&kp SPACE 
+			&sl 13
+	 		&sl 12						
+			&sl 20
+			&sl 17
+
+		>;		
+	};
+
+
+
+
+
+	// --------------------------------------
+	// Layer 12 =	Sonderzeichen
+	// --------------------------------------
+
+	win_sonderzeichen
+	{
+		label = "WIN";
+
+		bindings = <
+
+			&none
+			&none
+			&kp RA(N8)
+			&kp RA(N9)
+			&none
+			&none
+			&none
+			&none
+			&kp RA(N7)
+			&kp RA(N0)
+			&none
+			&kp BSPC
+
+			&kp RA(N2)
+			&kp LS(N6) 
+			&kp NUBS
+			&kp LS(NUBS) 
+			&kp BACKSLASH 
+			&kp GRAVE
+			&kp LS(GRAVE)
+			&kp LS(SLASH)
+			&kp LS(N4) 
+			&kp RA(M) 
+			&kp LS(N3) 
+			&kp RA(N3)
+
+			&to 11
+			&kp RA(MINUS)
+			&kp LS(N5)
+			&kp RA(Q)
+			&kp RA(E)
+			&kp LS(N2)
+			&kp LS(BSLH)
+			&kp LS(N1)
+			&kp LS(COMMA)
+			&kp LS(DOT)
+			&kp UNDER
+			&to 10
+	
+			&none 
+			&none 
+			&none 
+			&trans 
+			&none 
+			&none
+
+		>;
+	};
+
+
+
+
+
+	// --------------------------------------
+	// Layer 13 =	Programme
+	// --------------------------------------
+
+	win_programme
+	{
+		label = "WIN";
+
+		bindings = <
+
+			&kp LA(ESC)
 			&kp LC(N1)
 			&kp LC(N2)
 			&kp LC(N3)
@@ -657,46 +879,106 @@
 			&kp LA(TAB)
 
 			&to 11
-			&kp LS(LA(NUMBER_7))
-			&kp LS(NUMBER_5)
-			&kp LA(L)
-			&kp RA(E)
-			&kp LS(BSLH)
-			&kp LS(NUMBER_2)
-			&kp LS(NUMBER_1)
-			&kp LS(COMMA)
-			&kp LS(DOT)
-			&kp UNDER
+			&kp LC(LA(N1))
+			&kp LC(LA(N2))
+			&kp LC(LA(N3))
+			&kp LC(LA(N4))
+			&kp LC(LA(N5))
+			&kp LC(LA(N6))
+			&kp LC(LA(N7))
+			&kp LC(LA(N8))
+			&kp LC(LA(N9))
+			&kp LC(LA(N0))
 			&to 10
 	
 			&none 
-			&sk LGUI  
-			&sk LALT
+			&none 
+			&sl 14
 			&none 
 			&none 
 			&none
 
-                        >;
-                        
-                        
-                                        };
+		>;
+	};
 
 
 
-	// ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-	// 		Layer 13		=				Funktionen 																																		Win
-	// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+	// --------------------------------------
+	// Layer 14 =	ALT
+	// --------------------------------------
+
+
+	win_shortcuts
+	{
+
+		label = "WIN";
+
+		bindings = <
+
+			&kp LA(SPACE)
+			&kp LA(J) 
+			&kp LA(D)
+			&kp LA(U) 
+			&kp LA(A) 
+			&kp LA(X)
+			&kp LA(P) 
+			&kp LA(H) 
+			&kp LA(L) 
+			&kp LA(M) 
+			&kp LA(W) 
+			&kp LC(LS(ESC)) 
 	
+			&kp LG(TAB)
+			&kp LA(C)
+			&kp LA(T)
+			&kp LA(I)
+			&kp LA(E)
+			&kp LA(O)	
+			&kp LA(B) 
+			&kp LA(N) 
+			&kp LA(R) 
+			&kp LA(S) 
+			&kp LA(G) 
+			&kp LA(LS(ENTER))
+
+			&to 11
+			&kp LA(F)
+			&kp LA(V)
+			&kp LA(MINUS)
+			&kp LA(Y)
+			&kp LA(Q)
+			&kp LA(Z)
+			&kp LA(SEMICOLON)
+			&kp LA(LEFT_BRACKET)
+			&kp LA(SINGLE_QUOTE)
+			&kp LA(K) 
+			&to 10
+	
+			&none 
+			&none
+			&trans 
+			&none
+			&none
+			&none
+
+		>;
+	};
 
 
 
-		function2_layer {
-                        label = "FUNC2";
 
-                        bindings = <
+	// --------------------------------------
+	// Layer 15 =	Funktionen
+	// --------------------------------------
 
-			&kp LG(LA(LC(LS(ESCAPE))))
+	win_function
+	{
+		label = "WIN";
+
+		bindings = <
+ 
+			&kp LG(LA(LC(LS(ESC))))
 			&kp LC(LS(B)) 
 			&kp LC(LS(U)) 
 			&kp LC(LS(F)) 
@@ -706,10 +988,10 @@
 			&kp LC(Y)
 			&kp LA(UP) 
 			&kp LC(Z) 
-			&kp LC(LS(LA(LC(O))))
+			&kp LC(RBKT)
 			&kp LC(DELETE)
 	
-			&kp LC(KP_MINUS)
+			&kp LG(LA(LC(LS(SLASH))))
 			&kp LA(E) 
 			&kp LC(LS(C)) 
 			&kp LC(LS(V)) 
@@ -719,69 +1001,129 @@
 			&kp LC(LEFT) 
 			&kp LA(DOWN) 
 			&kp LC(RIGHT)  
-			&kp LG(LS(LA(LC(P))))
-			&kp LC(KP_PLUS)
+			&kp LC(SLASH)
+			&kp LG(LA(LC(LS(RBKT))))
 
 			&to 11 
-			&kp LG(LS(LA(LC(F))))
+			&kp LG(LS(LA(LC(GRAVE))))
 			&kp LA(LEFT) 
 			&kp LA(RIGHT)
-			&kp LG(LS(LA(LC(T))))
-			&kp LG(LS(LA(LC(R))))
-			&kp LG(LS(LA(LC(S))))
+			&kp LG(LS(LA(LC(MINUS))))
+			&kp LG(LS(LA(LC(F11))))
+			&kp LG(LS(LA(LC(F12))))
 			&kp LC(LS(TAB))
 			&kp LA(UP)
 			&kp ENTER
 			&kp LC(TAB)
 			&to 10 
 	
+			&sk 16
+			&none
+			&none
+			&none 
+			&none 
+			&none
+
+		>;
+	};
+
+
+
+	// --------------------------------------
+	// Layer 16 =	Spezial Funktionen
+	// --------------------------------------
+
+	win_specialfuntion
+	{
+		label = "WIN";
+
+		bindings = <
+
+			&kp LC(NUHS)
+			&bt BT_PRV
+			&kp C_PREVIOUS 
+			&kp C_PP 
+			&kp C_NEXT 
+			&bt BT_CLR 	
+			&bt BT_SEL 0			
+			&kp C_VOLUME_DOWN 
+			&none 
+			&kp C_VOLUME_UP 
+			&bt BT_NXT
+			&kp LS(END)
+
+			&kp LG(LA(LC(LS(COMMA))))
+			&kp LG(LA(LC(LS(J))))
+			&kp LG(LA(LC(LS(D))))
+			&kp LG(LA(LC(LS(U))))
+			&kp LG(LA(LC(LS(A))))
+			&kp LG(LA(LC(LS(X))))
+			&kp LG(LA(LC(LS(B))))
+			&kp LG(LA(LC(LS(N))))
+			&kp LG(LA(LC(LS(R))))
+			&kp LG(LA(LC(LS(S))))
+			&kp LG(LA(LC(LS(G))))
+			&kp LG(LA(LC(LS(DOT))))
+
+			&to 11
+			&kp LG(LA(LC(LS(F))))
+			&kp LG(LA(LC(LS(V))))
+			&kp LG(LA(LC(LS(MINUS)))
+			&kp LG(LA(LC(LS(Y))))
+			&kp LG(LA(LC(LS(Q))))
+			&kp LG(LA(LC(LS(Z))))
+			&kp LG(LA(LC(LS(SEMI))))
+			&kp LG(LA(LC(LS(LBKT))))
+			&kp LG(LA(LC(LS(SQT))))
+			&kp LG(LA(LC(LS(K))))
+			&to 10
+
 			&trans
-			&sk LC(LGUI)
-			&none
 			&none 
 			&none 
-			&none
+			&none 
+			&none 
+			&none                   
 
-                        >;
-                };
+		>;
+	};
 
 
 
-	// ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-	// 		Layer 14		=				CONTROL 																																		Win
-	// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	// --------------------------------------
+	// Layer 17 =	CTL 
+	// --------------------------------------
 
-	
+	win_ctl
+	{
+		label = "WIN";
 
-		command2_layer {
-                        label = "GUI2";
+		bindings = <
 
-                        bindings = <
-
-			&kp LC(NUBS)
-			&kp LC(J) 
+			&kp LG(LA(LC(LS(F7))))
+			&kp LC(J)
 			&kp LC(D)
 			&kp LC(U) 
-			&kp LC(A) 
+			&kp LC(A)
 			&kp LC(X)
-			&kp LC(P) 
-			&kp LC(H) 
+			&kp LC(P)
+			&kp LC(H)
 			&kp LC(L) 
-			&kp LC(M) 
+			&kp LC(M)
 			&kp LC(W) 
-			&kp LC(BSPC) 
+			&kp LC(BACKSPACE)
 	
-			&kp LG(I)
+			&kp LG(LA(LC(LS(F8))))
 			&kp LC(C)
 			&kp LC(T)
 			&kp LC(I)
 			&kp LC(E)
 			&kp LC(O)	
-			&kp LC(B) 
-			&kp LC(N) 
-			&kp LC(R) 
-			&kp LC(S) 
-			&kp LC(G) 
+			&kp LC(B)
+			&kp LC(N)
+			&kp LC(R)
+			&kp LC(S)
+			&kp LC(G)
 			&kp LC(ENTER)
 
 			&to 11
@@ -795,61 +1137,55 @@
 			&kp LC(LEFT_BRACKET)
 			&kp LC(SINGLE_QUOTE)
 			&kp LC(K) 
-			&to 10
+			&to 10 
 	
 			&none 
-			&none
 			&none 
-			&none
-			&sk LC(LALT) 
-			&sl 15
+			&none 
+			&none 
+			&none 
+			&sl 18
 
-
-                        >;
-                };
-
-
-
-
-	// ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-	// 		Layer 15		=				SCONTROL 																																		Win
-	// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-	
+		>;
+	};
 
 
 
-		scommand2_layer {
-                        label = "SGUI2";
+	// --------------------------------------
+	// Layer 18 =	sCTL
+	// --------------------------------------
 
+	win_sctl	
+	{	
+		label = "WIN";
 
-                        bindings = <
- 
-			&kp LC(LA(ESC))
+		bindings = <
+
+			&kp LG(LA(LC(LS(F9))))
 			&kp LC(LS(J))
 			&kp LC(LS(D))
 			&kp LC(LS(U))
 			&kp LC(LS(A))
 			&kp LC(LS(X))
-			&kp LC(LS(P)) 
-			&kp LC(LS(H)) 
-			&kp LC(LS(L)) 
-			&kp LC(LS(M)) 
+			&kp LC(LS(P))
+			&kp LC(LS(H))
+			&kp LC(LS(L))
+			&kp LC(LS(M))
 			&kp LC(LS(W)) 
-			&kp LS(HOME)
+			&kp LS(Home)
 	
-			&kp LG(A)
+			&kp LG(LA(LC(LS(F10))))
 			&kp LC(LS(C))
 			&kp LC(LS(T))
 			&kp LC(LS(I))
 			&kp LC(LS(E))
 			&kp LC(LS(O))	
-			&kp LC(LS(B)) 
-			&kp LC(LS(N)) 
-			&kp LC(LS(R)) 
-			&kp LC(LS(S)) 
-			&kp LC(LS(G)) 
-			&kp LG(LS(S))
+			&kp LC(LS(B))
+			&kp LC(LS(N))
+			&kp LC(LS(R))
+			&kp LC(LS(S))
+			&kp LC(LS(G))
+			&kp LS(LG((S))
 
 			&to 11
 			&kp LC(LS(F))
@@ -862,40 +1198,36 @@
 			&kp LC(LS(LEFT_BRACKET))
 			&kp LC(LS(SINGLE_QUOTE))
 			&kp LC(LS(K))
-			&to 10
-	
+			&to 10 
+
 			&none 
-			&none
 			&none 
-			&none
-			&none
+			&none 
+			&none 
+			&none 
 			&trans
 
-                        >;
-                };
+			>;
+		};
 
 
+                
+    // --------------------------------------
+	// Layer 19 = 	  Navigation
+	// --------------------------------------
 
-	// ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-	// 		Layer 16		=				Navigation 																																		Win
-	// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	win_navigation
+	{		
+		label = "WIN";
 
-	
+		bindings = <
 
-
-
-		navigation2_layer {
-                        label = "NAV2";
-
-
-                        bindings = <
-
-			&kp LG(LA(LC(LS(F12))))
+			&kp DEL
 			&kp LALT
 			&kp LS(HOME) 
 			&kp INSERT
 			&kp LS(END) 
-           	&kp LG(LA(LC(LS(F5))))
+           	&kp LG(LA(LC(LS(F1))))
 			&kp LC(HOME)
 			&kp HOME 
 			&kp UP
@@ -903,13 +1235,12 @@
 			&kp PG_UP 
 			&kp DELETE
 
-
 			&trans 
 			&kp LSHIFT
 			&kp LGUI
 			&kp LALT
 			&kp LCTRL
-			&kp LG(LA(LC(LS(F6))))
+			&kp LG(LA(LC(LS(F2))))
 			&kp LC(END)
 			&kp LEFT 
 			&kp DOWN
@@ -917,13 +1248,12 @@
 			&kp PG_DN
 			&kp ENTER
 
-
 			&to 11
 			&kp CAPSLOCK
 			&kp LC(LS(LEFT))
 			&kp LC(LS(RIGHT))
 			&kp LG(T)
-			&kp LG(LA(LC(LS(F7))))
+			&kp LG(LA(LC(LS(F3))))
 			&kp LC(LS(F10))
 			&kp LS(TAB)
 			&kp LC(LEFT)
@@ -938,51 +1268,55 @@
 			&kp LSHIFT 
 			&none
 
-                    
-
-                        >;
-                };
+		 >;
+	};
 
 
-	// ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-	// 		Layer 17		=				SHIFT 																																		Win
-	// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-	
 
 
-		shift2_layer {
-                        label = "SHIFT2";
+// ------------------------------------------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------------------------------------
 
-                        bindings = <
 
-			&kp ESCAPE 
-			&kp LS(J)
+	// --------------------------------------
+	// Layer 20 =	BUCHSTABEN
+	// --------------------------------------
+
+
+	macwin_character
+	{
+
+		label = "BOTH";
+
+		bindings = <
+
+			&kp ESC
+			&kp LS(J) 
 			&kp LS(D)
 			&kp LS(U) 
-			&kp LS(A)
+			&kp LS(A) 
 			&kp LS(X)
-			&kp LS(P)
-			&kp LS(H)
+			&kp LS(P) 
+			&kp LS(H) 
 			&kp LS(L) 
-			&kp LS(M)
+			&kp LS(M) 
 			&kp LS(W) 
-			&kp BACKSPACE 
+			&kp BACKSPACE
 	
-			&none 
+			&trans
 			&kp LS(C)
 			&kp LS(T)
 			&kp LS(I)
 			&kp LS(E)
 			&kp LS(O)	
-			&kp LS(B)
-			&kp LS(N)
-			&kp LS(R)
-			&kp LS(S)
-			&kp LS(G)
-			&kp LS(ENTER)
-
-			&to 11
+			&kp LS(B) 
+			&kp LS(N) 
+			&kp LS(R) 
+			&kp LS(S) 
+			&kp LS(G) 
+			&kp ENTER
+			
+			&trans
 			&kp LS(F)
 			&kp LS(V)
 			&kp LS(MINUS)
@@ -993,148 +1327,36 @@
 			&kp LS(LEFT_BRACKET)
 			&kp LS(SINGLE_QUOTE)
 			&kp LS(K) 
-			&to 10 
-	
-			&none 
-			&kp SPACE 
-			&none 
-			&none 
-			&sl 18 
-			&none
-
-                        >;
-                };
-
-
-
-	// ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-	// 		Layer 18		=				SPECIAL 																																		Win
-	// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-	
-
-
-		special2_layer {
-                        label = "SPECIAL2";
-
-
-                        bindings = <
-
-			&kp ESCAPE 
-			&to 0
-			&kp C_VOLUME_DOWN 
-			&none 
-			&kp C_VOLUME_UP 
-			&bt BT_NXT
-			&bt BT_PRV
-			&kp C_NEXT 
-			&kp C_PP 
-			&kp C_PREVIOUS 
-			&to 10
-			&kp BACKSPACE 
-	
-			&none
-			&kp LS(NUMBER_6) 
-			&kp NUBS
-			&kp LS(NUBS) 
-			&kp BACKSLASH 
-			&bt BT_CLR 	
-			&bt BT_SEL 0
-			&kp QMARK
-			&kp LS(NUMBER_4) 
-			&kp RA(M) 
-			&kp LS(NUMBER_3) 
-			&kp ENTER 
-
-			&tog 1 
-			&kp LA(NUMBER_5) 
-			&kp GRAVE 
-			&kp LS(GRAVE) 
-			&kp LA(NUMBER_6) 
-			&kp LA(NUMBER_3)
-			&kp LA(NUMBER_2) 
-			&kp LA(NUMBER_7)
-			&kp LA(NUMBER_8)
-			&kp LA(NUMBER_9)
-			&kp LA(NUMBER_0) 
-			&tog 0 
+			&trans
 	
 			&none 
 			&kp SPACE
-			&none
-			&none
 			&trans 
 			&none
-
-                        >;
-                };
-
-
-
-	// ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-	// 		Layer 19		=				Open 																																		Win
-	// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-	
-
-
-		open2_layer {
-                        label = "OPEN2";
-
-
-                        bindings = <
-
-			&kp ESCAPE 
-			&bt BT_CLR
-			&kp C_VOLUME_DOWN 
-			&none 
-			&kp C_VOLUME_UP 
-			&bt BT_NXT
-			&bt BT_PRV
-			&kp C_NEXT 
-			&kp C_PP 
-			&kp C_PREVIOUS 
-			&bt BT_SEL 0
-			&kp BACKSPACE 
-	
 			&none
-			&kp LS(NUMBER_6) 
-			&kp NUBS
-			&kp LS(NUBS) 
-			&kp BACKSLASH 
-			&none 	
-			&none 
-			&kp QMARK
-			&kp LS(NUMBER_4) 
-			&kp RA(M) 
-			&kp LS(NUMBER_3) 
-			&kp ENTER 
-
-			&tog 1 
-			&kp LA(NUMBER_5) 
-			&kp GRAVE 
-			&kp LS(GRAVE) 
-			&kp LA(NUMBER_6) 
-			&kp LA(NUMBER_3)
-			&kp LA(NUMBER_2) 
-			&kp LA(NUMBER_7)
-			&kp LA(NUMBER_8)
-			&kp LA(NUMBER_9)
-			&kp LA(NUMBER_0) 
-			&tog 0 
-	
-			&kp LG(LA(LC(LS(SEMI)))) 
-			&kp SPACE
-			&kp LG(LA(LC(LS(SQT))))
-			&none
-			&trans 
 			&none
 
-                        >;
-                };
+		>;
+	};
 
-	
-	
 
-        };
+
 };
+};
+
+
+
+
+
+
+
+
+
+
+
+                
+                
+                
+                
+
+
