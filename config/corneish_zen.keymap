@@ -211,6 +211,67 @@ keymap
 
 
 
+	// --------------------------------------
+	// Layer 3 =	Programme
+	// --------------------------------------
+
+	mac_programme
+	{
+		label = "MAC";
+
+		bindings = <
+
+			&kp LG(H)
+			&kp LG(LC(N1))
+			&kp LG(LC(N2))
+			&kp LG(LC(N3))
+			&kp LG(LC(N4))
+			&kp LG(LC(N5))
+			&kp LG(LC(N6))
+			&kp LG(LC(N7))
+			&kp LG(LC(N8))
+			&kp LG(LC(N9))
+			&kp LG(LC(N0))
+			&kp LG(Q)
+
+			&kp LG(LA(LC(LS(TAB))))
+			&kp LG(LA(N1))
+			&kp LG(LA(N2))
+			&kp LG(LA(N3))
+			&kp LG(LA(N4))
+			&kp LG(LA(N5))
+			&kp LG(LA(N6))
+			&kp LG(LA(N7))
+			&kp LG(LA(N8))
+			&kp LG(LA(N9))
+			&kp LG(LA(N0))
+			&kp LG(TAB)
+
+			&to 1
+			&kp LG(LC(LA(F1)))
+			&kp LG(LC(LA(F2)))
+			&kp LG(LC(LA(F3)))
+			&kp LG(LC(LA(F4)))
+			&kp LG(LC(LA(F5)))
+			&kp LG(LC(LA(F6)))
+			&kp LG(LC(LA(F7)))
+			&kp LG(LC(LA(F8)))
+			&kp LG(LC(LA(F9)))
+			&kp LG(LC(LA(N10)))
+			&to 0
+	
+			&none 
+			&none 
+			&sl 4
+			&none 
+			&none 
+			&none
+
+		>;
+	};
+
+
+
 
 
 
