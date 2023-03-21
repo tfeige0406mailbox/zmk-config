@@ -1160,6 +1160,68 @@ keymap
 
 
 
+
+	// --------------------------------------
+	// Layer 18 =	sCTL
+	// --------------------------------------
+
+	win_sctl	
+	{	
+		label = "WIN";
+
+		bindings = <
+
+			&kp LG(LA(LC(LS(F9))))
+			&kp LC(LS(J))
+			&kp LC(LS(D))
+			&kp LC(LS(U))
+			&kp LC(LS(A))
+			&kp LC(LS(X))
+			&kp LC(LS(P))
+			&kp LC(LS(H))
+			&kp LC(LS(L))
+			&kp LC(LS(M))
+			&kp LC(LS(W)) 
+			&kp LS(Home)
+	
+			&kp LG(LA(LC(LS(F10))))
+			&kp LC(LS(C))
+			&kp LC(LS(T))
+			&kp LC(LS(I))
+			&kp LC(LS(E))
+			&kp LC(LS(O))	
+			&kp LC(LS(B))
+			&kp LC(LS(N))
+			&kp LC(LS(R))
+			&kp LC(LS(S))
+			&kp LC(LS(G))
+			&kp LS(LG((S))
+
+			&to 11
+			&kp LC(LS(F))
+			&kp LC(LS(V))
+			&kp LC(LS(MINUS))
+			&kp LC(LS(Y))
+			&kp LC(LS(Q))
+			&kp LC(LS(Z))
+			&kp LC(LS(SEMICOLON))
+			&kp LC(LS(LEFT_BRACKET))
+			&kp LC(LS(SINGLE_QUOTE))
+			&kp LC(LS(K))
+			&to 10 
+
+			&none 
+			&none 
+			&none 
+			&none 
+			&none 
+			&trans
+
+			>;
+		};
+
+
+
 };
 };
 
