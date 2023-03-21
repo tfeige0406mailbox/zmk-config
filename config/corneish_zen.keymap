@@ -386,7 +386,7 @@ keymap
 			&kp LC(TAB)
 			&to 0 
 			
-			&sk 6
+			&sl 6
 			&none
 			&none
 			&none 
@@ -1025,7 +1025,7 @@ keymap
 			&kp LC(TAB)
 			&to 10 
 	
-			&sk 16
+			&sl 16
 			&none
 			&none
 			&none 
