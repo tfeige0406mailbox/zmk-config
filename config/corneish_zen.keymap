@@ -976,6 +976,67 @@ keymap
 
 
 
+	// --------------------------------------
+	// Layer 15 =	Funktionen
+	// --------------------------------------
+
+	win_function
+	{
+		label = "WIN";
+
+		bindings = <
+ 
+			&kp LG(LA(LC(LS(ESC))))
+			&kp LC(LS(B)) 
+			&kp LC(LS(U)) 
+			&kp LC(LS(F)) 
+			&kp LC(LS(K))
+			&kp LC(LS(SINGLE_QUOTE))
+			&kp LG(DOT)
+			&kp LC(Y)
+			&kp LA(UP) 
+			&kp LC(Z) 
+			&kp LC(RBKT)
+			&kp LC(DELETE)
+	
+			&kp LG(LA(LC(LS(SLASH))))
+			&kp LA(E) 
+			&kp LC(LS(C)) 
+			&kp LC(LS(V)) 
+			&kp LG(S)  
+			&kp F11	
+			&kp F12
+			&kp LC(LEFT) 
+			&kp LA(DOWN) 
+			&kp LC(RIGHT)  
+			&kp LC(SLASH)
+			&kp LG(LA(LC(LS(RBKT))))
+
+			&to 11 
+			&kp LG(LS(LA(LC(GRAVE))))
+			&kp LA(LEFT) 
+			&kp LA(RIGHT)
+			&kp LG(LS(LA(LC(MINUS))))
+			&kp LG(LS(LA(LC(F11))))
+			&kp LG(LS(LA(LC(F12))))
+			&kp LC(LS(TAB))
+			&kp LA(UP)
+			&kp ENTER
+			&kp LC(TAB)
+			&to 10 
+	
+			&sk 16
+			&none
+			&none
+			&none 
+			&none 
+			&none
+
+		>;
+	};
+
+
+
 
 };
 };
