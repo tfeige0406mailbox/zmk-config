@@ -84,6 +84,70 @@ keymap
 
 
 
+
+	
+	// --------------------------------------
+	// Layer 1 = 	  Zahlen	
+	// --------------------------------------
+
+	mac_zahlen
+	{
+		label = "MAC-NR";
+
+		bindings = <
+
+			&kp ESC	
+			&kp LG(N1)
+			&kp LG(N2)
+			&kp LG(N3)
+			&kp LG(N4)
+			&kp LG(N5)
+			&kp LG(N6)
+			&kp LG(N7)
+			&kp LG(N8)
+			&kp LG(N9)
+			&kp LG(N0)
+			&kp BSPC
+
+			&sl 9	
+			&kp N1				
+			&kp N2				
+			&kp N3				
+			&kp N4					
+			&kp N5				
+			&kp N6				
+			&kp N7				
+			&kp N8				
+			&kp N9				
+			&kp N0				
+			&kp ENTER 
+
+			&to 1
+			&kp LS(N7)
+			&kp LS(N8)
+	 		&kp LS(N9)
+			&kp LS(RBRC)
+			&kp LS(N0)
+			&kp X
+			&kp RBKT
+			&kp COMMA
+			&kp DOT
+			&kp SLASH		
+			&to 0
+	
+			&sl 5
+ 			&kp SPACE 
+			&sl 3
+	 		&sl 2						
+			&sl 20
+			&sl 7
+
+		>;		
+	};
+
+
+
+
 };
 };
 
