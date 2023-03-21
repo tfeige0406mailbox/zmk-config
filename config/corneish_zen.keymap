@@ -415,16 +415,16 @@ keymap
 		bindings = <
 
 			&kp LG(LA(LC(LS(NUHS))))
-			&bt BT_PRV
+			&to 0
 			&kp C_PREVIOUS 
 			&kp C_PP 
 			&kp C_NEXT 
 			&bt BT_CLR 	
 			&bt BT_SEL 0			
 			&kp C_VOLUME_DOWN 
-			&none 
-			&kp C_VOLUME_UP 
 			&bt BT_NXT
+			&kp C_VOLUME_UP 
+			&to 10
 			&kp LG(DEL)
 
 			&kp LG(LA(LC(LS(COMMA))))
@@ -1050,16 +1050,16 @@ keymap
 		bindings = <
 
 			&kp LC(NUHS)
-			&bt BT_PRV
+			&to 0
 			&kp C_PREVIOUS 
 			&kp C_PP 
 			&kp C_NEXT 
 			&bt BT_CLR 	
 			&bt BT_SEL 0			
 			&kp C_VOLUME_DOWN 
-			&none 
-			&kp C_VOLUME_UP 
 			&bt BT_NXT
+			&kp C_VOLUME_UP 
+			&to 10
 			&kp LS(END)
 
 			&kp LG(LA(LC(LS(COMMA))))
