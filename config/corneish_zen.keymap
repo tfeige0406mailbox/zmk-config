@@ -998,7 +998,7 @@ keymap
 			&kp LC(RBKT)
 			&kp LC(DELETE)
 	
-			&kp LG(LA(LC(LS(J))))
+			&kp LG(LA(LC(LS(X))))
 			&kp LA(E) 
 			&kp LC(LS(C)) 
 			&kp LC(LS(V)) 
