@@ -257,7 +257,7 @@ keymap
 			&kp LG(LC(LA(F7)))
 			&kp LG(LC(LA(F8)))
 			&kp LG(LC(LA(F9)))
-			&kp LG(LC(LA(N10)))
+			&kp LG(LC(LA(F10)))
 			&to 0
 	
 			&none 
