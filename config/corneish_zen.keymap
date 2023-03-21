@@ -337,6 +337,67 @@ keymap
 
 
 
+	// --------------------------------------
+	// Layer 5 =	Funktionen
+	// --------------------------------------
+
+	mac_function
+	{
+		label = "MAC";
+
+		bindings = <
+ 
+			&kp LG(LA(LC(LS(NUBS))))
+			&kp LG(LS(B)) 
+			&kp LG(U) 
+			&kp LG(B) 
+			&kp LG(I)
+			&kp LG(LS(EQUAL)) 
+			&kp LG(LC(SPACE))
+			&kp LG(Y)
+			&kp LG(LA(UP)) 
+			&kp LG(LS(Y)) 
+			&kp LG(RBKT)
+			&kp LA(DELETE)
+	
+			&kp LG(LA(LC(LS(SLASH))))
+			&kp LG(LS(G)) 
+			&kp LG(LA(C)) 
+			&kp LG(LA(V)) 
+			&kp LG(SPACE)  
+			&kp F11	
+			&kp F12
+			&kp LG(LA(LEFT)) 
+			&kp LG(LA(DOWN)) 
+			&kp LG(LA(RIGHT))  
+			&kp LG(SLASH)
+			&kp LG(LA(LC(LS(RBKT))))
+
+			&to 1 
+			&kp LG(LS(LA(LC(GRAVE))))
+			&kp LG(SEMI)
+			&kp LG(SQT)
+			&kp LG(LS(LA(LC(MINUS))))
+			&kp LG(LS(LA(LC(F11))))
+			&kp LG(LS(LA(LC(F12))))
+			&kp LC(LS(TAB))
+			&kp LG(UP)
+			&kp LG(DOWN)
+			&kp LC(TAB)
+			&to 0 
+			
+			&sk 6
+			&none
+			&none
+			&none 
+			&none 
+			&none
+
+		>;
+	};
+
+
+
 
 
 
