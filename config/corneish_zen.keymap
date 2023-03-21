@@ -1221,6 +1221,69 @@ keymap
 		};
 
 
+                
+    // --------------------------------------
+	// Layer 19 = 	  Navigation
+	// --------------------------------------
+
+	win_navigation
+	{		
+		label = "WIN";
+
+		bindings = <
+
+			&kp DEL
+			&kp LALT
+			&kp LS(HOME) 
+			&kp INSERT
+			&kp LS(END) 
+           	&kp LG(LA(LC(LS(F1))))
+			&kp LC(HOME)
+			&kp HOME 
+			&kp UP
+			&kp END
+			&kp PG_UP 
+			&kp DELETE
+
+			&trans 
+			&kp LSHIFT
+			&kp LGUI
+			&kp LALT
+			&kp LCTRL
+			&kp LG(LA(LC(LS(F2))))
+			&kp LC(END)
+			&kp LEFT 
+			&kp DOWN
+			&kp RIGHT 	
+			&kp PG_DN
+			&kp ENTER
+
+			&to 11
+			&kp CAPSLOCK
+			&kp LC(LS(LEFT))
+			&kp LC(LS(RIGHT))
+			&kp LG(T)
+			&kp LG(LA(LC(LS(F3))))
+			&kp LC(LS(F10))
+			&kp LS(TAB)
+			&kp LC(LEFT)
+			&kp LC(RIGHT)
+			&kp TAB
+			&to 10
+
+			&none
+			&kp SPACE 
+			&none 
+			&none 
+			&kp LSHIFT 
+			&none
+
+		 >;
+	};
+
+
+
+
 
 };
 };
