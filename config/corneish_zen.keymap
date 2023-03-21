@@ -1182,7 +1182,7 @@ keymap
 			&kp LC(LS(L))
 			&kp LC(LS(M))
 			&kp LC(LS(W)) 
-			&kp LS(Home)
+			&kp LS(HOME)
 	
 			&kp LG(LA(LC(LS(F10))))
 			&kp LC(LS(C))
@@ -1195,7 +1195,7 @@ keymap
 			&kp LC(LS(R))
 			&kp LC(LS(S))
 			&kp LC(LS(G))
-			&kp LS(LG((S))
+			&kp LS(LG(S))
 
 			&to 11
 			&kp LC(LS(F))
