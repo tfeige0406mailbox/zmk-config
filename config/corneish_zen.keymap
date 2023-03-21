@@ -347,7 +347,7 @@ keymap
 
 		bindings = <
  
-			&kp LG(LA(LC(LS(NUBS))))
+			&kp LG(LA(LC(LS(U))))
 			&kp LG(LS(B)) 
 			&kp LG(U) 
 			&kp LG(B) 
@@ -360,7 +360,7 @@ keymap
 			&kp LG(RBKT)
 			&kp LA(DELETE)
 	
-			&kp LG(LA(LC(LS(SLASH))))
+			&kp LG(LA(LC(LS(J))))
 			&kp LG(LS(G)) 
 			&kp LG(LA(C)) 
 			&kp LG(LA(V)) 
@@ -371,7 +371,7 @@ keymap
 			&kp LG(LA(DOWN)) 
 			&kp LG(LA(RIGHT))  
 			&kp LG(SLASH)
-			&kp LG(LA(LC(LS(RBKT))))
+			&kp LG(LA(LC(LS(D))))
 
 			&to 1 
 			&kp LG(LS(LA(LC(GRAVE))))
@@ -414,7 +414,7 @@ keymap
 
 		bindings = <
 
-			&kp LG(LA(LC(LS(NUHS))))
+			&kp LG(LA(LC(LS(A))))
 			&to 0
 			&kp C_PREVIOUS 
 			&kp C_PP 
@@ -427,7 +427,7 @@ keymap
 			&to 10
 			&kp LG(DEL)
 
-			&kp LG(LA(LC(LS(COMMA))))
+			&kp LG(LA(LC(LS(H))))
 			&kp LG(LA(LC(LS(J))))
 			&kp LG(LA(LC(LS(D))))
 			&kp LG(LA(LC(LS(U))))
@@ -438,7 +438,7 @@ keymap
 			&kp LG(LA(LC(LS(R))))
 			&kp LG(LA(LC(LS(S))))
 			&kp LG(LA(LC(LS(G))))
-			&kp LG(LA(LC(LS(DOT))))
+			&kp LG(LA(LC(LS(L))))
 
 			&to 1
 			&kp LG(LA(LC(LS(F))))
@@ -935,7 +935,7 @@ keymap
 			&kp LA(W) 
 			&kp LC(LS(ESC)) 
 	
-			&kp LG(ESC)
+			&kp LG(TAB)
 			&kp LA(C)
 			&kp LA(T)
 			&kp LA(I)
@@ -985,7 +985,7 @@ keymap
 
 		bindings = <
  
-			&kp LG(LA(LC(LS(ESC))))
+			&kp LG(LA(LC(LS(U))))
 			&kp LC(LS(B)) 
 			&kp LC(LS(U)) 
 			&kp LC(LS(F)) 
@@ -998,7 +998,7 @@ keymap
 			&kp LC(RBKT)
 			&kp LC(DELETE)
 	
-			&kp LG(LA(LC(LS(SLASH))))
+			&kp LG(LA(LC(LS(J))))
 			&kp LA(E) 
 			&kp LC(LS(C)) 
 			&kp LC(LS(V)) 
@@ -1009,7 +1009,7 @@ keymap
 			&kp LA(DOWN) 
 			&kp LC(RIGHT)  
 			&kp LC(SLASH)
-			&kp LG(LA(LC(LS(RBKT))))
+			&kp LG(LA(LC(LS(D))))
 
 			&to 11 
 			&kp LG(LS(LA(LC(GRAVE))))
@@ -1061,7 +1061,7 @@ keymap
 			&to 10
 			&kp LS(END)
 
-			&kp LG(LA(LC(LS(COMMA))))
+			&kp LG(LA(LC(LS(H))))
 			&kp LG(LA(LC(LS(J))))
 			&kp LG(LA(LC(LS(D))))
 			&kp LG(LA(LC(LS(U))))
@@ -1072,7 +1072,7 @@ keymap
 			&kp LG(LA(LC(LS(R))))
 			&kp LG(LA(LC(LS(S))))
 			&kp LG(LA(LC(LS(G))))
-			&kp LG(LA(LC(LS(DOT))))
+			&kp LG(LA(LC(LS(L))))
 
 			&to 11
 			&kp LG(LA(LC(LS(F))))
