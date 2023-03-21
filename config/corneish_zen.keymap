@@ -415,19 +415,19 @@ keymap
 		bindings = <
 
 			&kp LG(LA(LC(LS(A))))
-			&to 0
+			&bt BT_PRV
 			&kp C_PREVIOUS 
 			&kp C_PP 
 			&kp C_NEXT 
 			&bt BT_CLR 	
-			&bt BT_SEL 0			
+			&bt BT_CLR 	
 			&kp C_VOLUME_DOWN 
-			&bt BT_NXT
+			&bt BT_SEL 0
 			&kp C_VOLUME_UP 
-			&to 10
+			&bt BT_NXT
 			&kp LG(DEL)
 
-			&kp LG(LA(LC(LS(H))))
+			&to 0
 			&kp LG(LA(LC(LS(J))))
 			&kp LG(LA(LC(LS(D))))
 			&kp LG(LA(LC(LS(U))))
@@ -438,7 +438,7 @@ keymap
 			&kp LG(LA(LC(LS(R))))
 			&kp LG(LA(LC(LS(S))))
 			&kp LG(LA(LC(LS(G))))
-			&kp LG(LA(LC(LS(L))))
+			&to 10
 
 			&to 1
 			&kp LG(LA(LC(LS(F))))
@@ -1049,19 +1049,19 @@ keymap
 		bindings = <
 
 			&kp LC(NUHS)
-			&to 0
+			&bt BT_PRV
 			&kp C_PREVIOUS 
 			&kp C_PP 
 			&kp C_NEXT 
 			&bt BT_CLR 	
-			&bt BT_SEL 0			
+			&bt BT_CLR 	
 			&kp C_VOLUME_DOWN 
-			&bt BT_NXT
+			&bt BT_SEL 0
 			&kp C_VOLUME_UP 
-			&to 10
+			&bt BT_NXT			
 			&kp LS(END)
 
-			&kp LG(LA(LC(LS(H))))
+			&to 0
 			&kp LG(LA(LC(LS(J))))
 			&kp LG(LA(LC(LS(D))))
 			&kp LG(LA(LC(LS(U))))
@@ -1072,7 +1072,7 @@ keymap
 			&kp LG(LA(LC(LS(R))))
 			&kp LG(LA(LC(LS(S))))
 			&kp LG(LA(LC(LS(G))))
-			&kp LG(LA(LC(LS(L))))
+			&to 10
 
 			&to 11
 			&kp LG(LA(LC(LS(F))))
