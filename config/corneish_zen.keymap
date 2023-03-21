@@ -162,24 +162,24 @@ keymap
 
 			&none
 			&none
-			&kp RA(N8)
-			&kp RA(N9)
-			&none
-			&none
-			&none
-			&none
 			&kp RA(N5)
 			&kp RA(N6)
+			&none
+			&none
+			&none
+			&none
+			&kp RA(N8)
+			&kp RA(N9)
 			&none
 			&kp BSPC
 
 			&none
 			&kp LS(N6) 
-			&kp GRAVE			
-			&kp LS(GRAVE)
-			&kp BACKSLASH 	
 			&kp NUBS
 			&kp LS(NUBS) 
+			&kp BACKSLASH 	
+			&kp GRAVE			
+			&kp LS(GRAVE)
 			&kp LS(SLASH)
 			&kp LS(N4) 
 			&kp RA(M) 
@@ -785,7 +785,6 @@ keymap
 
 
 
-
 	// --------------------------------------
 	// Layer 12 =	Sonderzeichen
 	// --------------------------------------
@@ -936,7 +935,7 @@ keymap
 			&kp LA(W) 
 			&kp LC(LS(ESC)) 
 	
-			&kp LG(TAB)
+			&kp LG(ESC)
 			&kp LA(C)
 			&kp LA(T)
 			&kp LA(I)
@@ -947,7 +946,7 @@ keymap
 			&kp LA(R) 
 			&kp LA(S) 
 			&kp LA(G) 
-			&kp LA(LS(ENTER))
+			&kp LA(LS(TAB))
 
 			&to 11
 			&kp LA(F)
@@ -1358,18 +1357,6 @@ keymap
 };
 };
 
-
-
-
-
-
-
-
-
-
-
-                
-                
                 
                 
 
