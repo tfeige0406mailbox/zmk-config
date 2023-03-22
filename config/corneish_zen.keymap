@@ -150,67 +150,6 @@ keymap
 
 
 
-	// --------------------------------------
-	// Layer 2 =	Sonderzeichen
-	// --------------------------------------
-
-	mac_sonderzeichen
-	{
-		label = "MAC";
-
-		bindings = <
-
-			&kp ESC
-			&kp EQUAL
-			&kp RA(N5)
-			&kp RA(N6)
-			&kp LA(N7)
-			&none
-			&none
-			&kp LA(N)
-			&kp RA(N8)
-			&kp RA(N9)
-			&LS(EQUAL)
-			&kp BSPC
-
-			&none
-			&kp LS(N6) 
-			&kp NUBS
-			&kp LS(NUBS) 
-			&kp BACKSLASH 	
-			&kp GRAVE			
-			&kp LS(GRAVE)
-			&kp LS(SLASH)
-			&kp LS(N4) 
-			&kp RA(M) 
-			&kp LS(N3) 
-			&none
-
-			&to 1
-			&kp RA(MINUS)
-			&kp LS(N5)
-			&kp LA(L)
-			&kp RA(E)
-			&kp LS(N2)
-			&kp LS(BSLH)
-			&kp LS(N1)
-			&kp LS(COMMA)
-			&kp LS(DOT)
-			&kp UNDER
-			&to 0
-	
-			&none 
-			&none 
-			&none 
-			&trans 
-			&none 
-			&none
-
-		>;
-	};
-
-
-
 
 
 
