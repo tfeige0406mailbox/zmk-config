@@ -653,6 +653,388 @@ keymap
 
 
 
+// ------------------------------------------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------------------------------------
+	
+
+	// --------------------------------------
+	// Layer 10 = 	  Buchstaben	
+	// --------------------------------------
+	
+	win_buchstaben
+	{
+		label = "WIN";
+
+		bindings = <
+
+			&kp ESC
+			&kp J 
+			&kp D	 
+			&kp U
+ 			&kp A
+	 		&kp X
+	  		&kp P
+ 			&kp H
+	 		&kp L
+	 		&kp M
+ 			&kp W
+ 			&kp BSPC
+ 
+			&sl 19
+ 			&kp C
+ 			&kp T
+			&kp I
+			&kp E
+			&kp O
+ 			&kp B
+			&kp N
+ 			&kp R
+ 			&kp S
+ 			&kp G
+ 			&kp RET
+ 
+			&to 11
+			&kp F
+	 		&kp V
+ 			&kp MINUS
+ 			&kp Y
+ 			&kp Q
+ 			&kp Z
+ 			&kp SEMI
+			&kp LBKT
+			&kp SQT
+			&kp K
+	 		&to 10
+
+			&sl 15
+ 			&kp SPACE 
+			&sl 13
+			&sl 11
+ 			&sk LSHIFT
+			&sl 17
+
+		>;
+	};
+
+
+
+
+	
+	// --------------------------------------
+	// Layer 11 = 	  Zahlen	
+	// --------------------------------------
+
+	win_zahlen
+	{
+		label = "WIN-NR";
+
+		bindings = <
+
+			&kp ESC	
+			&kp F1	
+			&kp F2
+			&kp F3
+			&kp F4
+			&kp F5
+			&kp F6
+			&kp F7
+			&kp F8
+			&kp F9
+			&kp F10
+			&kp BSPC
+
+			&sl 19 			
+			&kp N1				
+			&kp N2				
+			&kp N3				
+			&kp N4					
+			&kp N5				
+			&kp N6				
+			&kp N7				
+			&kp N8				
+			&kp N9				
+			&kp N0				
+			&kp ENTER 
+
+			&to 11
+			&kp LS(N7)
+			&kp LS(N8)
+	 		&kp LS(N9)
+			&kp LS(RBRC)
+			&kp LS(N0)
+			&kp X
+			&kp RBKT
+			&kp COMMA
+			&kp DOT
+			&kp SLASH		
+			&to 10
+	
+			&sl 15
+ 			&kp SPACE 
+			&sl 13
+	 		&sl 12						
+			&sl 20
+			&sl 17
+
+		>;		
+	};
+
+
+
+
+	// --------------------------------------
+	// Layer 12 =	Sonderzeichen
+	// --------------------------------------
+
+	win_sonderzeichen
+	{
+		label = "WIN";
+
+		bindings = <
+
+			&kp ESC
+			&kp EQUAL
+			&kp RA(N8)
+			&kp RA(N9)
+			&kp RA(NUBS)
+			&kp F11
+			&kp F12
+			&kp RA(RBKT)
+			&kp RA(N7)
+			&kp RA(N0)
+			&kp LS(EQUAL)
+			&kp BSPC
+
+			&kp RA(N2)
+			&kp LS(N6) 
+			&kp NUBS
+			&kp LS(NUBS) 
+			&kp BACKSLASH 
+			&kp GRAVE
+			&kp LS(GRAVE)
+			&kp LS(SLASH)
+			&kp LS(N4) 
+			&kp RA(M) 
+			&kp LS(N3) 
+			&kp RA(N3)
+
+			&to 11
+			&kp RA(MINUS)
+			&kp LS(N5)
+			&kp RA(Q)
+			&kp RA(E)
+			&kp LS(N2)
+			&kp LS(BSLH)
+			&kp LS(N1)
+			&kp LS(COMMA)
+			&kp LS(DOT)
+			&kp UNDER
+			&to 10
+	
+			&none 
+			&none 
+			&none 
+			&trans 
+			&none 
+			&none
+
+		>;
+	};
+
+
+
+
+
+	// --------------------------------------
+	// Layer 13 =	Programme
+	// --------------------------------------
+
+	win_programme
+	{
+		label = "WIN";
+
+		bindings = <
+
+			&kp LA(ESC)
+			&kp LC(N1)
+			&kp LC(N2)
+			&kp LC(N3)
+			&kp LC(N4)
+			&kp LC(N5)
+			&kp LC(N6)
+			&kp LC(N7)
+			&kp LC(N8)
+			&kp LC(N9)
+			&kp LC(N0)
+			&kp LA(F4)
+
+			&kp LG(TAB)
+			&kp LG(N1)
+			&kp LG(N2)
+			&kp LG(N3)
+			&kp LG(N4)
+			&kp LG(N5)
+			&kp LG(N6)
+			&kp LG(N7)
+			&kp LG(N8)
+			&kp LG(N9)
+			&kp LG(N0)
+			&kp LA(TAB)
+
+			&to 11
+			&kp LC(LA(LS(N1)))
+			&kp LC(LA(LS(N2)))
+			&kp LC(LA(LS(N3)))
+			&kp LC(LA(LS(N4)))
+			&kp LC(LA(LS(N5)))
+			&kp LC(LA(LS(N6)))
+			&kp LG(LC(LA(LS(DOWN))))
+			&to 0
+			&to 10
+			&kp LG(LC(LA(LS(RIGHT))))
+			&to 10
+	
+			&none 
+			&none 
+			&sl 14
+			&none 
+			&none 
+			&none
+
+		>;
+	};
+
+
+
+
+	// --------------------------------------
+	// Layer 14 =	ALT
+	// --------------------------------------
+
+
+	win_shortcuts
+	{
+
+		label = "WIN";
+
+		bindings = <
+
+			&kp LA(SPACE)
+			&kp LA(J) 
+			&kp LA(D)
+			&kp LA(U) 
+			&kp LA(A) 
+			&kp LA(X)
+			&kp LA(P) 
+			&kp LA(H) 
+			&kp LA(L) 
+			&kp LA(M) 
+			&kp LA(W) 
+			&kp LC(LS(ESC)) 
+	
+			&kp LG(LC(LA(LS(ESC))))
+			&kp LA(C)
+			&kp LA(T)
+			&kp LA(I)
+			&kp LA(E)
+			&kp LA(O)	
+			&kp LA(B) 
+			&kp LA(N) 
+			&kp LA(R) 
+			&kp LA(S) 
+			&kp LA(G) 
+			&kp LA(LS(TAB))
+
+			&to 11
+			&kp LA(F)
+			&kp LA(V)
+			&kp LA(MINUS)
+			&kp LA(Y)
+			&kp LA(Q)
+			&kp LA(Z)
+			&kp LA(SEMICOLON)
+			&kp LA(LEFT_BRACKET)
+			&kp LA(SINGLE_QUOTE)
+			&kp LA(K) 
+			&to 10
+	
+			&none 
+			&none
+			&trans 
+			&none
+			&none
+			&none
+
+		>;
+	};
+
+
+
+
+
+	// --------------------------------------
+	// Layer 15 =	Funktionen
+	// --------------------------------------
+
+	win_function
+	{
+		label = "WIN";
+
+		bindings = <
+ 
+			&kp LG(LA(LC(LS(F1))))
+			&kp LC(LS(B)) 
+			&kp LC(LS(U)) 
+			&kp LC(LS(F)) 
+			&kp LC(LS(K))
+			&kp LC(LS(SINGLE_QUOTE))
+			&kp LG(DOT)
+			&kp LC(Y)
+			&kp LA(UP) 
+			&kp LC(Z) 
+			&kp LC(RBKT)
+			&kp LC(DELETE)
+	
+			&kp LG(LA(LC(LS(F2))))
+			&kp LA(E) 
+			&kp LC(LS(C)) 
+			&kp LC(LS(V)) 
+			&kp LG(S)  
+			&kp LG(LA(LC(LS(F3))))	
+			&kp LG(LA(LC(LS(F4))))
+			&kp LC(LEFT) 
+			&kp LA(DOWN) 
+			&kp LC(RIGHT)  
+			&kp LC(SLASH)
+			&kp LG(LA(LC(LS(F5))))
+
+			&to 11 
+			&kp LG(LA(LC(LS(F6))))
+			&kp LA(LEFT) 
+			&kp LA(RIGHT)
+			&kp LG(LA(LC(LS(F7))))
+			&kp LG(LS(LA(LC(F8))))
+			&kp LG(LS(LA(LC(F9))))
+			&kp LC(LS(TAB))
+			&kp LA(UP)
+			&kp ENTER
+			&kp LC(TAB)
+			&to 10 
+	
+			&sl 16
+			&none
+			&none
+			&none 
+			&none 
+			&none
+
+		>;
+	};
+
+
+
+
+
 
 
 
