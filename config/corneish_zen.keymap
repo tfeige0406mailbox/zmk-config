@@ -253,10 +253,10 @@ keymap
 			&kp LG(LC(LA(F4)))
 			&kp LG(LC(LA(F5)))
 			&kp LG(LC(LA(F6)))
-			&kp LG(LA(LC(LS(LEFT))))
-			&to 0
-			&to 10
-			&kp LG(LA(LC(LS(RIGHT))))
+			&kp LG(LC(LA(F7)))
+			&kp LG(LC(LA(F8)))
+			&kp LG(LC(LA(F9)))
+			&kp LG(LC(LA(F10)))
 			&to 0
 	
 			&none 
@@ -282,7 +282,7 @@ keymap
 
 		bindings = <
 
-			&kp LG(LA(H))
+			&to 0
 			&kp LA(LG(J))
 			&kp LA(LG(D))
 			&kp LA(LG(U))
@@ -293,9 +293,9 @@ keymap
 			&kp LA(LG(L)) 
 			&kp LA(LG(M)) 
 			&kp LA(LG(W)) 
-			&kp LA(LG(ESC)) 
+			&to 10
 	
-			&kp LG(LA(LC(LS(ESC))))
+			&kp LG(LA(LC(LS(LEFT))))
 			&kp LA(LG(C))
 			&kp LA(LG(T))
 			&kp LA(LG(I))
@@ -306,7 +306,7 @@ keymap
 			&kp LA(LG(R))
 			&kp LA(LG(S))
 			&kp LA(LG(G)) 
-			&kp LG(LS(TAB))
+			&kp LG(LA(LC(LS(RIGHT))))
 
 			&to 1
 			&kp LA(LG(F))
@@ -343,7 +343,7 @@ keymap
 
 		bindings = <
  
-			&kp LG(LA(LC(LS(F1))))
+			&kp LG(LA(LC(LS(ESC))))
 			&kp LG(LS(B)) 
 			&kp LG(U) 
 			&kp LG(B) 
@@ -356,26 +356,26 @@ keymap
 			&kp LG(RBKT)
 			&kp LA(DELETE)
 	
-			&kp LG(LA(LC(LS(F2))))
+			&kp LG(LA(LC(LS(F1))))
 			&kp LG(LS(G)) 
 			&kp LG(LA(C)) 
 			&kp LG(LA(V)) 
 			&kp LG(SPACE)  
-			&kp LG(LA(LC(LS(F3))))	
-			&kp LG(LA(LC(LS(F4))))
+			&kp LG(LA(LC(LS(F2))))	
+			&kp LG(LA(LC(LS(F3))))
 			&kp LG(LA(LEFT)) 
 			&kp LG(LA(DOWN)) 
 			&kp LG(LA(RIGHT))  
 			&kp LG(SLASH)
-			&kp LG(LA(LC(LS(F5))))
+			&kp LG(LA(LC(LS(F4))))
 
 			&to 1 
-			&kp LG(LA(LC(LS(F6))))
+			&kp LG(LA(LC(LS(F5))))
 			&kp LG(SEMI)
 			&kp LG(SQT)
-			&kp LG(LA(LC(LS(F7))))
-			&kp LG(LA(LC(LS(F8))))
-			&kp LG(LA(LC(LS(F9))))
+			&kp LG(LA(LC(LS(F6))))
+			&kp LG(LS(N4))
+			&kp LG(LA(ESC))
 			&kp LC(LS(TAB))
 			&kp LG(UP)
 			&kp LG(DOWN)
@@ -408,7 +408,7 @@ keymap
 
 		bindings = <
 
-			&kp LG(LA(LC(LS(F10))))
+			&kp LG(LA(LC(LS(BACKSPACE))))
 			&bt BT_PRV
 			&kp C_PREVIOUS 
 			&kp C_PP 
@@ -421,18 +421,18 @@ keymap
 			&bt BT_NXT
 			&kp LG(DEL)
 
-			&kp LG(LA(LC(LS(F11))))
-			&kp LG(LA(LC(LS(J))))
-			&kp LG(LA(LC(LS(D))))
-			&kp LG(LA(LC(LS(U))))
-			&kp LG(LA(LC(LS(A))))
-			&kp LG(LA(LC(LS(X))))
+			&kp LG(LA(LC(LS(F7))))
+			&kp LG(LA(LC(LS(C))))
+			&kp LG(LA(LC(LS(T))))
+			&kp LG(LA(LC(LS(I))))
+			&kp LG(LA(LC(LS(E))))
+			&kp LG(LA(LC(LS(O))))
 			&kp LG(LA(LC(LS(B))))
 			&kp LG(LA(LC(LS(N))))
 			&kp LG(LA(LC(LS(R))))
 			&kp LG(LA(LC(LS(S))))
 			&kp LG(LA(LC(LS(G))))
-			&kp LG(LA(LC(LS(F12))))
+			&kp LG(LA(LC(LS(F8))))
 
 			&to 1
 			&kp LG(LA(LC(LS(F))))
@@ -554,7 +554,7 @@ keymap
 			&kp LG(LS(R))
 			&kp LG(LS(S))
 			&kp LG(LS(G))
-			&kp LG(LS(N4))
+			&kp LA(ENTER)
 
 			&to 1
 			&kp LG(LS(F))
@@ -598,7 +598,7 @@ keymap
 			&kp LG(LS(LEFT)) 
 			&kp LCTRL
 			&kp LG(LS(RIGHT)) 
-            &kp LG(LA(LC(LS(J))))
+            &kp LG(LA(LC(LS(10))))
 			&kp LG(UP)
 			&kp LG(LEFT) 
 			&kp UP
@@ -611,7 +611,7 @@ keymap
 			&kp LC(LGUI)
 			&kp LALT
 			&kp LGUI
-			&kp LG(LA(LC(LS(D))))
+			&kp LG(LA(LC(LS(11))))
 			&kp LG(DOWN) 
 			&kp LEFT 
 			&kp DOWN
@@ -623,9 +623,9 @@ keymap
 			&kp CAPSLOCK
 			&kp LS(LA(LEFT))
 			&kp LS(LA(RIGHT))
-			&kp LG(LA(LC(LS(A))))
-			&kp LG(LA(LC(LS(U))))
-			&kp LG(LA(LC(LS(X))))
+			&kp LG(LA(LC(LS(GRAVE))))
+			&kp LG(LA(LC(LS(F12))))
+			&kp LG(LA(LC(LS(EQUAL))))
 			&kp LS(TAB)
 			&kp LA(LEFT)
 			&kp LA(RIGHT)
@@ -855,7 +855,7 @@ keymap
 
 		bindings = <
 
-			&kp LA(ESC)
+			&kp LA(SPACE)
 			&kp LC(N1)
 			&kp LC(N2)
 			&kp LC(N3)
@@ -888,10 +888,10 @@ keymap
 			&kp LC(LA(LS(N4)))
 			&kp LC(LA(LS(N5)))
 			&kp LC(LA(LS(N6)))
-			&kp LG(LC(LA(LS(DOWN))))
-			&to 0
-			&to 10
-			&kp LG(LC(LA(LS(RIGHT))))
+			&kp LC(LA(LS(N7)))
+			&kp LC(LA(LS(N8)))
+			&kp LC(LA(LS(N9)))
+			&kp LC(LA(LS(N0)))
 			&to 10
 	
 			&none 
@@ -919,7 +919,7 @@ keymap
 
 		bindings = <
 
-			&kp LA(SPACE)
+			&to 0
 			&kp LA(J) 
 			&kp LA(D)
 			&kp LA(U) 
@@ -930,9 +930,9 @@ keymap
 			&kp LA(L) 
 			&kp LA(M) 
 			&kp LA(W) 
-			&kp LC(LS(ESC)) 
+			&to 10
 	
-			&kp LG(LC(LA(LS(ESC))))
+			&kp LG(LC(LA(LS(LEFT))))
 			&kp LA(C)
 			&kp LA(T)
 			&kp LA(I)
@@ -943,7 +943,7 @@ keymap
 			&kp LA(R) 
 			&kp LA(S) 
 			&kp LA(G) 
-			&kp LA(LS(TAB))
+			&kp LG(LC(LA(LS(RIGHT))))
 
 			&to 11
 			&kp LA(F)
@@ -982,7 +982,7 @@ keymap
 
 		bindings = <
  
-			&kp LG(LA(LC(LS(F1))))
+			&kp LC(NUBS)
 			&kp LC(LS(B)) 
 			&kp LC(LS(U)) 
 			&kp LC(LS(F)) 
@@ -995,26 +995,26 @@ keymap
 			&kp LC(RBKT)
 			&kp LC(DELETE)
 	
-			&kp LG(LA(LC(LS(F2))))
+			&kp F12
 			&kp LA(E) 
 			&kp LC(LS(C)) 
 			&kp LC(LS(V)) 
 			&kp LG(S)  
-			&kp LG(LA(LC(LS(F3))))	
-			&kp LG(LA(LC(LS(F4))))
+			&kp LG(LA(LC(LS(F2))))	
+			&kp LG(LA(LC(LS(F3))))
 			&kp LC(LEFT) 
 			&kp LA(DOWN) 
 			&kp LC(RIGHT)  
 			&kp LC(SLASH)
-			&kp LG(LA(LC(LS(F5))))
+			&kp LG(A)
 
 			&to 11 
-			&kp LG(LA(LC(LS(F6))))
+			&kp LC(LS(Y))
 			&kp LA(LEFT) 
 			&kp LA(RIGHT)
-			&kp LG(LA(LC(LS(F7))))
-			&kp LG(LS(LA(LC(F8))))
-			&kp LG(LS(LA(LC(F9))))
+			&kp LC(LS(Z))
+			&kp LS(LG(S))
+			&kp LC(LS(ESC))
 			&kp LC(LS(TAB))
 			&kp LA(UP)
 			&kp ENTER
@@ -1045,7 +1045,7 @@ keymap
 
 		bindings = <
 
-			&kp LG(LS(LA(LC(F10))))
+			&none
 			&bt BT_PRV
 			&kp C_PREVIOUS 
 			&kp C_PP 
@@ -1058,7 +1058,7 @@ keymap
 			&bt BT_NXT			
 			&kp LS(END)
 
-			&kp LG(LS(LA(LC(F11))))
+			&none
 			&kp LG(LA(LC(LS(J))))
 			&kp LG(LA(LC(LS(D))))
 			&kp LG(LA(LC(LS(U))))
@@ -1069,7 +1069,7 @@ keymap
 			&kp LG(LA(LC(LS(R))))
 			&kp LG(LA(LC(LS(S))))
 			&kp LG(LA(LC(LS(G))))
-			&kp LG(LS(LA(LC(F12))))
+			&none
 
 			&to 11
 			&kp LG(LA(LC(LS(F))))
@@ -1105,7 +1105,7 @@ keymap
 
 		bindings = <
 
-			&kp LG(LA(LC(LS(PG_UP))))
+			&none
 			&kp LC(J)
 			&kp LC(D)
 			&kp LC(U) 
@@ -1118,7 +1118,7 @@ keymap
 			&kp LC(W) 
 			&kp LC(BACKSPACE)
 	
-			&kp LG(LA(LC(LS(PG_DN))))
+			&none
 			&kp LC(C)
 			&kp LC(T)
 			&kp LC(I)
@@ -1167,7 +1167,7 @@ keymap
 
 		bindings = <
 
-			&kp LG(LS(LA(LC(HOME))))
+			&none
 			&kp LC(LS(J))
 			&kp LC(LS(D))
 			&kp LC(LS(U))
@@ -1180,7 +1180,7 @@ keymap
 			&kp LC(LS(W)) 
 			&kp LS(HOME)
 	
-			&kp LG(LS(LA(LC(END))))
+			&none
 			&kp LC(LS(C))
 			&kp LC(LS(T))
 			&kp LC(LS(I))
@@ -1233,7 +1233,7 @@ keymap
 			&kp LS(HOME) 
 			&kp INSERT
 			&kp LS(END) 
-           	&kp LG(LA(LC(LS(J))))
+           	&none
 			&kp LC(HOME)
 			&kp HOME 
 			&kp UP
@@ -1246,7 +1246,7 @@ keymap
 			&kp LGUI
 			&kp LALT
 			&kp LCTRL
-			&kp LG(LA(LC(LS(D))))
+			&none
 			&kp LC(END)
 			&kp LEFT 
 			&kp DOWN
@@ -1259,7 +1259,7 @@ keymap
 			&kp LC(LS(LEFT))
 			&kp LC(LS(RIGHT))
 			&kp LG(T)
-			&kp LG(LA(LC(LS(U))))
+			&none
 			&kp LC(LS(F10))
 			&kp LS(TAB)
 			&kp LC(LEFT)
