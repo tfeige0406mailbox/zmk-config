@@ -1059,11 +1059,11 @@ keymap
 			&kp LS(END)
 
 			&none
-			&kp LG(LA(LC(LS(J))))
-			&kp LG(LA(LC(LS(D))))
-			&kp LG(LA(LC(LS(U))))
-			&kp LG(LA(LC(LS(A))))
-			&kp LG(LA(LC(LS(X))))
+			&kp LG(LA(LC(LS(C))))
+			&kp LG(LA(LC(LS(T))))
+			&kp LG(LA(LC(LS(I))))
+			&kp LG(LA(LC(LS(E))))
+			&kp LG(LA(LC(LS(O))))
 			&kp LG(LA(LC(LS(B))))
 			&kp LG(LA(LC(LS(N))))
 			&kp LG(LA(LC(LS(R))))
