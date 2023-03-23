@@ -343,7 +343,7 @@ keymap
 
 		bindings = <
  
-			&kp LG(LA(LC(LS(ESC))))
+			&kp LG(LA(LC(LS(RBRC))))
 			&kp LG(LS(B)) 
 			&kp LG(U) 
 			&kp LG(B) 
@@ -408,7 +408,7 @@ keymap
 
 		bindings = <
 
-			&kp LG(LA(LC(LS(BACKSPACE))))
+			&kp LG(LA(LC(LS(SLASH))))
 			&bt BT_PRV
 			&kp C_PREVIOUS 
 			&kp C_PP 
