@@ -10,6 +10,24 @@
 };
 / {
 
+
+
+/ {
+    macros {
+        zed_em_kay: zed_em_kay {
+            label = "ZM_zed_em_kay";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LSHFT>
+                , <&macro_tap &kp Z &kp M &kp K>
+                , <&macro_release &kp LSHFT>
+                ;
+        };
+    };
+};
+
+
 #define mCHAR 0
 #define mNR 1
 #define mSYM 2
@@ -36,22 +54,6 @@
 
 
 
-
-
-/ {
-    macros {
-        zed_em_kay: zed_em_kay {
-            label = "ZM_zed_em_kay";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&macro_press &kp LSHFT>
-                , <&macro_tap &kp Z &kp M &kp K>
-                , <&macro_release &kp LSHFT>
-                ;
-        };
-    };
-};
 
 
 
