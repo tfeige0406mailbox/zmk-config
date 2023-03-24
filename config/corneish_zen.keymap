@@ -10,16 +10,16 @@
 };
 / {
 
-define mCHAR 0
-define mNR 1
-define mSYM 2
-define mPRG 3
-define mSGUI 4
-define mFUNC 5
-define mSFUNC 6
-define mGUI 7
-define mAGUI 8
-define mNAV 9
+define CHAR 0
+define NR 1
+define SYM 2
+define PRG 3
+define SGUI 4
+define FUNC 5
+define SFUNC 6
+define GUI 7
+define AGUI 8
+define NAV 9
 
 
 keymap
