@@ -10,6 +10,30 @@
 };
 / {
 
+define mac_buchstaben 0
+define mac_zahlen 1
+define mac_sonderzeichen 2
+define mac_programme 3
+define mac_sgui 4
+define mac_function 5
+define mac_specialfunction 6
+define mac_gui 7
+define mac_guialt 8
+define mac_navigation 9
+
+define win_buchstaben 10
+define win_zahlen 11
+define win_sonderzeichen 12
+define win_programme 13
+define win_alt 14
+define win_function 15
+define win_specialfuntion 16
+define win_ctl 17
+define win_sctl	 18
+define win_navigation 19
+
+define win_buchstaben 20
+
 
 keymap
 {
@@ -268,11 +292,11 @@ keymap
 
 
 	// --------------------------------------
-	// Layer 4 =	GUI ALT
+	// Layer 4 =	SGUI
 	// --------------------------------------
 
 
-	mac_shortcuts
+	mac_sgui
 	{
 
 		label = "MAC";
@@ -518,10 +542,10 @@ keymap
 
 
 	// --------------------------------------
-	// Layer 8 =	sGUI
+	// Layer 8 =	GUI ALT
 	// --------------------------------------
 
-	mac_sgui	
+	mac_guialt
 	{	
 		label = "MAC";
 
@@ -909,7 +933,7 @@ keymap
 	// --------------------------------------
 
 
-	win_shortcuts
+	win_alt
 	{
 
 		label = "WIN";
