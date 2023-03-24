@@ -10,18 +10,6 @@
 };
 / {
 
-define CHAR 0
-define NR 1
-define SYM 2
-define PRG 3
-define SGUI 4
-define FUNC 5
-define SFUNC 6
-define GUI 7
-define AGUI 8
-define NAV 9
-
-
 
 keymap
 {
