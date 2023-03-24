@@ -10,6 +10,29 @@
 };
 / {
 
+#define mCHAR 0
+#define mNR 1
+#define mSYM 2
+#define mPRG 3
+#define mSGUI 4
+#define mFUNC 5
+#define mSFUNC 6
+#define mGUI 7
+#define mAGUI 8
+#define mNAV 9
+
+#define wCHAR 10
+#define wNR 11
+#define wSYM 12
+#define wPRG 13
+#define wALT 14
+#define wFUNC 15
+#define wSFUNC 16
+#define wCTL 17
+#define wSCTL	 18
+#define wNAV 19
+
+#define mwBCHAR 20
 
 keymap
 {
