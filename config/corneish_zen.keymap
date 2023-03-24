@@ -8,12 +8,10 @@
     //zmk,matrix_transform = &five_column_transform;
   };
 };
-/ {
 
 
 
-/ {
-    macros {
+macros {
         zed_em_kay: zed_em_kay {
             label = "ZM_zed_em_kay";
             compatible = "zmk,behavior-macro";
@@ -25,7 +23,12 @@
                 ;
         };
     };
-};
+
+
+
+/ {
+
+
 
 
 #define mCHAR 0
@@ -51,13 +54,6 @@
 #define wNAV 19
 
 #define mwBCHAR 20
-
-
-
-
-
-
-
 
 
 
