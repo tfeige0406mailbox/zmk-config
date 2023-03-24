@@ -10,29 +10,6 @@
 };
 / {
 
-define mac_buchstaben 0
-define mac_zahlen 1
-define mac_sonderzeichen 2
-define mac_programme 3
-define mac_sgui 4
-define mac_function 5
-define mac_specialfunction 6
-define mac_gui 7
-define mac_guialt 8
-define mac_navigation 9
-
-define win_buchstaben 10
-define win_zahlen 11
-define win_sonderzeichen 12
-define win_programme 13
-define win_alt 14
-define win_function 15
-define win_specialfuntion 16
-define win_ctl 17
-define win_sctl	 18
-define win_navigation 19
-
-define win_buchstaben 20
 
 
 keymap
@@ -304,42 +281,42 @@ keymap
 		bindings = <
 
 			&to 0
-			&kp LA(LG(J))
-			&kp LA(LG(D))
-			&kp LA(LG(U))
-			&kp LA(LG(A))
-			&kp LA(LG(X))
-			&kp LA(LG(P))
-			&kp LA(LG(H)) 
-			&kp LA(LG(L)) 
-			&kp LA(LG(M)) 
-			&kp LA(LG(W)) 
+			&kp LS(LG(J))
+			&kp LS(LG(D))
+			&kp LS(LG(U))
+			&kp LS(LG(A))
+			&kp LS(LG(X))
+			&kp LS(LG(P))
+			&kp LS(LG(H)) 
+			&kp LS(LG(L)) 
+			&kp LS(LG(M)) 
+			&kp LS(LG(W)) 
 			&to 10
 	
 			&kp LG(LA(LC(LS(LEFT))))
-			&kp LA(LG(C))
-			&kp LA(LG(T))
-			&kp LA(LG(I))
-			&kp LA(LG(E))
-			&kp LA(LG(O))	
-			&kp LA(LG(B))
-			&kp LA(LG(N))
-			&kp LA(LG(R))
-			&kp LA(LG(S))
-			&kp LA(LG(G)) 
+			&kp LS(LG(C))
+			&kp LS(LG(T))
+			&kp LS(LG(I))
+			&kp LS(LG(E))
+			&kp LS(LG(O))	
+			&kp LS(LG(B))
+			&kp LS(LG(N))
+			&kp LS(LG(R))
+			&kp LS(LG(S))
+			&kp LS(LG(G)) 
 			&kp LG(LA(LC(LS(RIGHT))))
 
 			&to 1
-			&kp LA(LG(F))
-			&kp LA(LG(V))
-			&kp LA(LG(MINUS))
-			&kp LA(LG(Y))
-			&kp LA(LG(Q))
-			&kp LA(LG(Z))
-			&kp LA(LG(SEMICOLON))
-			&kp LA(LG(LEFT_BRACKET))
-			&kp LA(LG(SINGLE_QUOTE))
-			&kp LA(LG(K)) 
+			&kp LS(LG(F))
+			&kp LS(LG(V))
+			&kp LS(LG(MINUS))
+			&kp LS(LG(Y))
+			&kp LS(LG(Q))
+			&kp LS(LG(Z))
+			&kp LS(LG(SEMICOLON))
+			&kp LS(LG(LEFT_BRACKET))
+			&kp LS(LG(SINGLE_QUOTE))
+			&kp LS(LG(K)) 
 			&to 0
 	
 			&none 
@@ -550,44 +527,44 @@ keymap
 		label = "MAC";
 
 		bindings = <
-
+		
 			&kp LG(LA(LC(LS(HOME))))
-			&kp LG(LS(J))
-			&kp LG(LS(D))
-			&kp LG(LS(U))
-			&kp LG(LS(A))
-			&kp LG(LS(X))
-			&kp LG(LS(P))
-			&kp LG(LS(H))
-			&kp LG(LS(L))
-			&kp LG(LS(M))
-			&kp LG(LS(W)) 
+			&kp LA(LG(J))
+			&kp LA(LG(D))
+			&kp LA(LG(U))
+			&kp LA(LG(A))
+			&kp LA(LG(X))
+			&kp LA(LG(P))
+			&kp LA(LG(H)) 
+			&kp LA(LG(L)) 
+			&kp LA(LG(M)) 
+			&kp LA(LG(W)) 
 			&kp LG(BACKSPACE)
 	
 			&kp LG(LA(LC(LS(END))))
-			&kp LG(LS(C))
-			&kp LG(LS(T))
-			&kp LG(LS(I))
-			&kp LG(LS(E))
-			&kp LG(LS(O))	
-			&kp LG(LS(B))
-			&kp LG(LS(N))
-			&kp LG(LS(R))
-			&kp LG(LS(S))
-			&kp LG(LS(G))
+			&kp LA(LG(C))
+			&kp LA(LG(T))
+			&kp LA(LG(I))
+			&kp LA(LG(E))
+			&kp LA(LG(O))	
+			&kp LA(LG(B))
+			&kp LA(LG(N))
+			&kp LA(LG(R))
+			&kp LA(LG(S))
+			&kp LA(LG(G)) 
 			&kp LA(ENTER)
 
 			&to 1
-			&kp LG(LS(F))
-			&kp LG(LS(V))
-			&kp LG(LS(MINUS))
-			&kp LG(LS(Y))
-			&kp LG(LS(Q))
-			&kp LG(LS(Z))
-			&kp LG(LS(SEMICOLON))
-			&kp LG(LS(LEFT_BRACKET))
-			&kp LG(LS(SINGLE_QUOTE))
-			&kp LG(LS(K))
+			&kp LA(LG(F))
+			&kp LA(LG(V))
+			&kp LA(LG(MINUS))
+			&kp LA(LG(Y))
+			&kp LA(LG(Q))
+			&kp LA(LG(Z))
+			&kp LA(LG(SEMICOLON))
+			&kp LA(LG(LEFT_BRACKET))
+			&kp LA(LG(SINGLE_QUOTE))
+			&kp LA(LG(K)) 
 			&to 0
 
 			&none 
