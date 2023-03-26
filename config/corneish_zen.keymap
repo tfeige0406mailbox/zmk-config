@@ -415,7 +415,7 @@ keymap
 			&kp LG(SLASH)
 			&kp LG(LA(LC(LS(F4))))
 
-			&to 1 
+			&to mNR
 			&kp LG(LA(LC(LS(F5))))
 			&kp LG(SEMI)
 			&kp LG(SQT)
@@ -426,9 +426,9 @@ keymap
 			&kp LG(UP)
 			&kp LG(DOWN)
 			&kp LC(TAB)
-			&to 0 
+			&to mCHAR
 			
-			&sl 6
+			&sl mSFUNC
 			&none
 			&none
 			&none 
@@ -480,7 +480,7 @@ keymap
 			&kp LG(LA(LC(LS(G))))
 			&kp LG(LA(LC(LS(F8))))
 
-			&to 1
+			&to mNR
 			&kp LG(LA(LC(LS(F))))
 			&kp LG(LA(LC(LS(V))))
 			&kp LG(LA(LC(LS(MINUS))))
@@ -491,7 +491,7 @@ keymap
 			&kp LG(LA(LC(LS(LBKT))))
 			&kp LG(LA(LC(LS(SQT))))
 			&kp LG(LA(LC(LS(K))))
-			&to 0
+			&to mCHAR
 	
 			&trans
 			&none 
@@ -541,7 +541,7 @@ keymap
 			&kp LG(G)
 			&kp LG(ENTER)
 
-			&to 1
+			&to mNR
 			&kp LG(F)
 			&kp LG(V)
 			&kp LG(MINUS)
@@ -552,14 +552,14 @@ keymap
 			&kp LG(LEFT_BRACKET)
 			&kp LG(SINGLE_QUOTE)
 			&kp LG(K) 
-			&to 0 
+			&to mCHAR
 	
 			&none 
 			&none 
 			&none 
 			&none 
 			&none 
-			&sl 8
+			&sl mAGUI
 
 			>;
 		};
@@ -602,7 +602,7 @@ keymap
 			&kp LA(LG(G)) 
 			&kp LA(ENTER)
 
-			&to 1
+			&to mNR
 			&kp LA(LG(F))
 			&kp LA(LG(V))
 			&kp LA(LG(MINUS))
@@ -613,7 +613,7 @@ keymap
 			&kp LA(LG(LEFT_BRACKET))
 			&kp LA(LG(SINGLE_QUOTE))
 			&kp LA(LG(K)) 
-			&to 0
+			&to mCHAR
 
 			&none 
 			&none 
@@ -665,7 +665,7 @@ keymap
 			&kp PG_DN
 			&kp ENTER
 			
-			&to 1
+			&to mNR
 			&kp CAPSLOCK
 			&kp LS(LA(LEFT))
 			&kp LS(LA(RIGHT))
@@ -676,7 +676,7 @@ keymap
 			&kp LA(LEFT)
 			&kp LA(RIGHT)
 			&kp TAB
-			&to 0
+			&to mCHAR
 
 			&none
 			&kp SPACE 
