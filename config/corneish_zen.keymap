@@ -70,7 +70,7 @@ keymap
 	compatible = "zmk,keymap";
 
 	// --------------------------------------
-	// Layer 0 = 	  Buchstaben	
+	// Layer 0 - mChar = 	  Buchstaben	
 	// --------------------------------------
 	
 	mac_buchstaben
@@ -92,7 +92,7 @@ keymap
  			&kp W
  			&kp BSPC
  
-			&sl 9
+			&sl mNAV
  			&kp C
  			&kp T
 			&kp I
@@ -105,7 +105,7 @@ keymap
  			&kp G
  			&kp RET
  
-			&to 1
+			&to mNR
 			&kp F
 	 		&kp V
  			&kp MINUS
@@ -116,14 +116,14 @@ keymap
 			&kp LBKT
 			&kp SQT
 			&kp K
-	 		&to 0
+	 		&to mCHAR
 
-			&sl 5
+			&sl mFUNC
  			&kp SPACE 
-			&sl 3
-			&sl 1
+			&sl mPRG
+			&sl mNR
  			&sk LSHIFT
-			&sl 7
+			&sl mGUI
 
 		>;
 	};
@@ -133,7 +133,7 @@ keymap
 
 	
 	// --------------------------------------
-	// Layer 1 = 	  Zahlen	
+	// Layer 1 - mNR = 	  Zahlen	
 	// --------------------------------------
 
 	mac_zahlen
@@ -155,7 +155,7 @@ keymap
 			&kp LG(N0)
 			&kp BSPC
 
-			&sl 9	
+			&sl mNAV	
 			&kp N1				
 			&kp N2				
 			&kp N3				
@@ -168,7 +168,7 @@ keymap
 			&kp N0				
 			&kp ENTER 
 
-			&to 1
+			&to mNR
 			&kp LS(N7)
 			&kp LS(N8)
 	 		&kp LS(N9)
@@ -179,14 +179,14 @@ keymap
 			&kp COMMA
 			&kp DOT
 			&kp SLASH		
-			&to 0
+			&to mCHAR
 	
-			&sl 5
+			&sl mFUNC
  			&kp SPACE 
-			&sl 3
-	 		&sl 2						
-			&sl 20
-			&sl 7
+			&sl mPRG
+	 		&sl mSYM						
+			&sl mwBCHAR
+			&sl mGUI
 
 		>;		
 	};
@@ -195,7 +195,7 @@ keymap
 
 
 	// --------------------------------------
-	// Layer 2 =	Sonderzeichen
+	// Layer 2 - mSYM =	Sonderzeichen
 	// --------------------------------------
 
 	mac_sonderzeichen
@@ -257,7 +257,7 @@ keymap
 
 
 	// --------------------------------------
-	// Layer 3 =	Programme
+	// Layer 3 - mPRG =	Programme
 	// --------------------------------------
 
 	mac_programme
@@ -317,7 +317,7 @@ keymap
 
 
 	// --------------------------------------
-	// Layer 4 =	Spezial Prgramm
+	// Layer 4 -mSPRG =	Spezial Prgramm
 	// --------------------------------------
 
 
@@ -380,7 +380,7 @@ keymap
 
 
 	// --------------------------------------
-	// Layer 5 =	Funktionen
+	// Layer 5 - mFUNC =	Funktionen
 	// --------------------------------------
 
 	mac_function
@@ -445,7 +445,7 @@ keymap
 
 
 	// --------------------------------------
-	// Layer 6 =	Spezial Funktionen
+	// Layer 6 - mSFUNC =	Spezial Funktionen
 	// --------------------------------------
 
 	mac_specialfunction
@@ -506,7 +506,7 @@ keymap
 
 
 	// --------------------------------------
-	// Layer 7 =	GUI
+	// Layer 7 - mGUI =	GUI
 	// --------------------------------------
 
 	mac_gui
@@ -567,7 +567,7 @@ keymap
 
 
 	// --------------------------------------
-	// Layer 8 =	GUI ALT
+	// Layer 8 - mAGUI =	GUI ALT
 	// --------------------------------------
 
 	mac_guialt
@@ -630,7 +630,7 @@ keymap
 
 
    	// --------------------------------------
-	// Layer  = 9	  Navigation
+	// Layer = 9 - mNAV	  Navigation
 	// --------------------------------------
 
 	mac_navigation
@@ -704,7 +704,7 @@ keymap
 	
 
 	// --------------------------------------
-	// Layer 10 = 	  Buchstaben	
+	// Layer 10 - wCHAR = 	  Buchstaben	
 	// --------------------------------------
 	
 	win_buchstaben
@@ -767,7 +767,7 @@ keymap
 
 	
 	// --------------------------------------
-	// Layer 11 = 	  Zahlen	
+	// Layer 11 - wNR = 	  Zahlen	
 	// --------------------------------------
 
 	win_zahlen
@@ -829,7 +829,7 @@ keymap
 
 
 	// --------------------------------------
-	// Layer 12 =	Sonderzeichen
+	// Layer 12 - wSYM =	Sonderzeichen
 	// --------------------------------------
 
 	win_sonderzeichen
@@ -892,7 +892,7 @@ keymap
 
 
 	// --------------------------------------
-	// Layer 13 =	Programme
+	// Layer 13 - wPRG =	Programme
 	// --------------------------------------
 
 	win_programme
@@ -954,7 +954,7 @@ keymap
 
 
 	// --------------------------------------
-	// Layer 14 =	Spezial Prgramme
+	// Layer 14 - wSPRG =	Spezial Prgramme
 	// --------------------------------------
 
 	win_sprogramme
@@ -1018,7 +1018,7 @@ keymap
 
 
 	// --------------------------------------
-	// Layer 15 =	Funktionen
+	// Layer 15 - wFUNC =	Funktionen
 	// --------------------------------------
 
 	win_function
@@ -1081,7 +1081,7 @@ keymap
 
 
 	// --------------------------------------
-	// Layer 16 =	Spezial Funktionen
+	// Layer 16 - wSFUNC =	Spezial Funktionen
 	// --------------------------------------
 
 	win_specialfuntion
@@ -1141,7 +1141,7 @@ keymap
 
 
 	// --------------------------------------
-	// Layer 17 =	CTL 
+	// Layer 17 - wCTL =	CTL 
 	// --------------------------------------
 
 	win_ctl
@@ -1203,7 +1203,7 @@ keymap
 
 
 	// --------------------------------------
-	// Layer 18 =	sCTL
+	// Layer 18 - wSCTL =	sCTL
 	// --------------------------------------
 
 	win_sctl	
@@ -1264,7 +1264,7 @@ keymap
 
                 
     // --------------------------------------
-	// Layer 19 = 	  Navigation
+	// Layer 19 - wNAV = 	  Navigation
 	// --------------------------------------
 
 	win_navigation
@@ -1334,7 +1334,7 @@ keymap
 
 
 	// --------------------------------------
-	// Layer 20 =	BUCHSTABEN
+	// Layer 20 - mwBCHAR =	GROß-BUCHSTABEN
 	// --------------------------------------
 
 
