@@ -135,7 +135,7 @@ keymap
 			&sl mFUNC
  			&kp SPACE 
 			&sl mPRG
-			&sl mNR
+			&sl mSYM
  			&skq LSHIFT
 			&sl mGUI
 		>;
@@ -864,7 +864,7 @@ keymap
 			&sl wFUNC
  			&kp SPACE 
 			&sl wPRG
-			&sl wNR
+			&sl wSYM
  			&skq LSHIFT
 			&sl wCTL
 		>;
