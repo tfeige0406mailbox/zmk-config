@@ -695,10 +695,6 @@ keymap
 
 
 
-
-
-
-
 // ------------------------------------------------------------------------------------------------------------------
 // ------------------------------------------------------------------------------------------------------------------
 	
@@ -726,7 +722,7 @@ keymap
  			&kp W
  			&kp BSPC
  
-			&sl 19
+			&sl wNAV
  			&kp C
  			&kp T
 			&kp I
@@ -739,7 +735,7 @@ keymap
  			&kp G
  			&kp RET
  
-			&to 11
+			&to wNR
 			&kp F
 	 		&kp V
  			&kp MINUS
@@ -750,14 +746,14 @@ keymap
 			&kp LBKT
 			&kp SQT
 			&kp K
-	 		&to 10
+	 		&to wCHAR
 
-			&sl 15
+			&sl wFUNC
  			&kp SPACE 
-			&sl 13
-			&sl 11
+			&sl wPRG
+			&sl wNR
  			&sk LSHIFT
-			&sl 17
+			&sl wCTL
 
 		>;
 	};
@@ -789,7 +785,7 @@ keymap
 			&kp F10
 			&kp BSPC
 
-			&sl 19 			
+			&sl wNAV		
 			&kp N1				
 			&kp N2				
 			&kp N3				
@@ -802,7 +798,7 @@ keymap
 			&kp N0				
 			&kp ENTER 
 
-			&to 11
+			&to wNR
 			&kp LS(N7)
 			&kp LS(N8)
 	 		&kp LS(N9)
@@ -813,14 +809,14 @@ keymap
 			&kp COMMA
 			&kp DOT
 			&kp SLASH		
-			&to 10
+			&to wCHAR
 	
-			&sl 15
+			&sl wFUNC
  			&kp SPACE 
-			&sl 13
-	 		&sl 12						
-			&sl 20
-			&sl 17
+			&sl wPRG
+	 		&sl wSYM						
+			&sl mwBCHAR
+			&sl wCTL
 
 		>;		
 	};
@@ -864,7 +860,7 @@ keymap
 			&kp LS(N3) 
 			&kp RA(N3)
 
-			&to 11
+			&to wNR
 			&kp RA(MINUS)
 			&kp LS(N5)
 			&kp RA(Q)
@@ -875,7 +871,7 @@ keymap
 			&kp LS(COMMA)
 			&kp LS(DOT)
 			&kp UNDER
-			&to 10
+			&to wCHAR
 	
 			&none 
 			&none 
@@ -927,7 +923,7 @@ keymap
 			&kp LG(N0)
 			&kp LA(TAB)
 
-			&to 11
+			&to wNR
 			&kp LC(LA(LS(N1)))
 			&kp LC(LA(LS(N2)))
 			&kp LC(LA(LS(N3)))
@@ -938,11 +934,11 @@ keymap
 			&kp LC(LA(LS(N8)))
 			&kp LC(LA(LS(N9)))
 			&kp LC(LA(LS(N0)))
-			&to 10
+			&to wCHAR
 	
 			&none 
 			&none 
-			&sl 14
+			&sl wSPRG
 			&none 
 			&none 
 			&none
@@ -964,7 +960,7 @@ keymap
 
 		bindings = <
 
-			&to 0
+			&kp LA(SPACE) 
 			&kp LA(J) 
 			&kp LA(D)
 			&kp LA(U) 
@@ -975,7 +971,7 @@ keymap
 			&kp LA(L) 
 			&kp LA(M) 
 			&kp LA(W) 
-			&to 10
+			&to LG(X)
 	
 			&kp LG(LC(LA(LS(LEFT))))
 			&kp LA(C)
@@ -990,7 +986,7 @@ keymap
 			&kp LA(G) 
 			&kp LG(LC(LA(LS(RIGHT))))
 
-			&to 11
+			&to wNR
 			&kp LA(F)
 			&kp LA(V)
 			&kp LA(MINUS)
@@ -1001,7 +997,7 @@ keymap
 			&kp LA(LEFT_BRACKET)
 			&kp LA(SINGLE_QUOTE)
 			&kp LA(K) 
-			&to 10
+			&to wCHAR
 	
 			&none 
 			&none
@@ -1053,7 +1049,7 @@ keymap
 			&kp LC(SLASH)
 			&kp LG(A)
 
-			&to 11 
+			&to wNR
 			&kp LC(LS(Y))
 			&kp LA(LEFT) 
 			&kp LA(RIGHT)
@@ -1064,9 +1060,9 @@ keymap
 			&kp LA(UP)
 			&kp ENTER
 			&kp LC(TAB)
-			&to 10 
+			&to wCHAR
 	
-			&sl 16
+			&sl wSFUNC
 			&none
 			&none
 			&none 
@@ -1116,7 +1112,7 @@ keymap
 			&kp LG(LA(LC(LS(G))))
 			&none
 
-			&to 11
+			&to wNR
 			&kp LG(LA(LC(LS(F))))
 			&kp LG(LA(LC(LS(V))))
 			&kp LG(LA(LC(LS(MINUS))))
@@ -1127,7 +1123,7 @@ keymap
 			&kp LG(LA(LC(LS(LBKT))))
 			&kp LG(LA(LC(LS(SQT))))
 			&kp LG(LA(LC(LS(K))))
-			&to 10
+			&to wCHAR
 
 			&trans
 			&none 
@@ -1176,7 +1172,7 @@ keymap
 			&kp LC(G)
 			&kp LC(ENTER)
 
-			&to 11
+			&to wNR
 			&kp LC(F)
 			&kp LC(V)
 			&kp LC(MINUS)
@@ -1187,14 +1183,14 @@ keymap
 			&kp LC(LEFT_BRACKET)
 			&kp LC(SINGLE_QUOTE)
 			&kp LC(K) 
-			&to 10 
+			&to wCHAR
 	
 			&none 
 			&none 
 			&none 
 			&none 
 			&none 
-			&sl 18
+			&sl wSCTL
 
 		>;
 	};
@@ -1238,7 +1234,7 @@ keymap
 			&kp LC(LS(G))
 			&kp LS(LG(S))
 
-			&to 11
+			&to wNR
 			&kp LC(LS(F))
 			&kp LC(LS(V))
 			&kp LC(LS(MINUS))
@@ -1249,7 +1245,7 @@ keymap
 			&kp LC(LS(LEFT_BRACKET))
 			&kp LC(LS(SINGLE_QUOTE))
 			&kp LC(LS(K))
-			&to 10 
+			&to wCHAR
 
 			&none 
 			&none 
@@ -1299,7 +1295,7 @@ keymap
 			&kp PG_DN
 			&kp ENTER
 
-			&to 11
+			&to wNR
 			&kp CAPSLOCK
 			&kp LC(LS(LEFT))
 			&kp LC(LS(RIGHT))
@@ -1310,7 +1306,7 @@ keymap
 			&kp LC(LEFT)
 			&kp LC(RIGHT)
 			&kp TAB
-			&to 10
+			&to wCHAR
 
 			&none
 			&kp SPACE 
