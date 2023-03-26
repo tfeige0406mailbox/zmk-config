@@ -264,6 +264,33 @@ keymap
 
 
 
+	// --------------------------------------
+	// Layer 3 - mSSYM =	Special Symbole
+	// --------------------------------------
+
+	mac_specialsonderzeichen
+	{
+		label = "MAC";
+
+		bindings = <
+
+			&none
+			&kp EQUAL
+			&kp LA(N)
+			&kp LA(N7)
+			&kp LS(GRAVE)
+			&kp F11
+			&kp F12
+			&kp LS(N1)
+			&kp GRAVE
+			&kp GRAVE
+			&kp LS(MINS)
+			&none
+
+		
+
+		>;
+	};
 
 };
 };
