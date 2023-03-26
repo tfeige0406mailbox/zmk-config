@@ -341,7 +341,7 @@ keymap
 			&kp LS(LG(W)) 
 			&to LG(LA(LC(LS(BSLH))))
 	
-			&kp LG(LA(LC(LS(LEFT))))
+			&swleft
 			&kp LS(LG(C))
 			&kp LS(LG(T))
 			&kp LS(LG(I))
@@ -352,7 +352,7 @@ keymap
 			&kp LS(LG(R))
 			&kp LS(LG(S))
 			&kp LS(LG(G)) 
-			&kp LG(LA(LC(LS(RIGHT))))
+			&swright
 
 			&to mNR
 			&kp LS(LG(F))
@@ -973,7 +973,7 @@ keymap
 			&kp LA(W) 
 			&to LG(X)
 	
-			&kp LG(LC(LA(LS(LEFT))))
+			&swleft
 			&kp LA(C)
 			&kp LA(T)
 			&kp LA(I)
@@ -984,7 +984,7 @@ keymap
 			&kp LA(R) 
 			&kp LA(S) 
 			&kp LA(G) 
-			&kp LG(LC(LA(LS(RIGHT))))
+			&swright
 
 			&to wNR
 			&kp LA(F)
