@@ -6,7 +6,7 @@
 #define mNR 1
 #define mSYM 2
 #define mPRG 3
-#define mSGUI 4
+#define mSPRG 4
 #define mFUNC 5
 #define mSFUNC 6
 #define mGUI 7
@@ -17,7 +17,7 @@
 #define wNR 11
 #define wSYM 12
 #define wPRG 13
-#define wALT 14
+#define wSPRG 14
 #define wFUNC 15
 #define wSFUNC 16
 #define wCTL 17
@@ -42,7 +42,7 @@
             #binding-cells = <0>;
             bindings
                 = <&kp LG(LA(LC(LS(LEFT))))>
-                , <&to 0>
+                , <&to mCHAR>
                 ;
         };
     };
@@ -54,7 +54,7 @@
             #binding-cells = <0>;
             bindings
                 = <&kp LG(LA(LC(LS(RIGHT))))>
-                , <&to 10>
+                , <&to wCHAR>
                 ;
         };
     };
@@ -317,11 +317,11 @@ keymap
 
 
 	// --------------------------------------
-	// Layer 4 =	SGUI
+	// Layer 4 =	Spezial Prgramm
 	// --------------------------------------
 
 
-	mac_sgui
+	mac_sprogramme
 	{
 
 		label = "MAC";
@@ -954,11 +954,10 @@ keymap
 
 
 	// --------------------------------------
-	// Layer 14 =	ALT
+	// Layer 14 =	Spezial Prgramme
 	// --------------------------------------
 
-
-	win_alt
+	win_sprogramme
 	{
 
 		label = "WIN";
