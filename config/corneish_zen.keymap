@@ -1083,7 +1083,7 @@ keymap
 			&kp NUHS 	
 			&kp LS(N3)
 			&kp RA(M)
-			&kp RA(E)
+			&kp RA(Q)
 			&kp RA(E)
 			&kp LS(N5)
 			&kp LS(N4)
