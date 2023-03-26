@@ -300,8 +300,19 @@ keymap
 			&kp LS(N4)
 			&none
 
-		
-
+				&to mNR
+			&kp LS(N7)
+			&kp LS(N8)
+	 		&kp LS(N9)
+			&kp LS(RBRC)
+			&kp LS(N0)
+			&kp LS(N2)
+			&kp RBKT
+			&kp COMMA
+			&kp DOT
+			&kp SLASH		
+			&to mCHAR
+	
 		>;
 	};
 
