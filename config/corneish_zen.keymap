@@ -230,7 +230,7 @@ keymap
 			&kp LS(N3) 
 			&none
 
-			&to 1
+			&to mNR
 			&kp RA(MINUS)
 			&kp LS(N5)
 			&kp LA(L)
@@ -241,7 +241,7 @@ keymap
 			&kp LS(COMMA)
 			&kp LS(DOT)
 			&kp UNDER
-			&to 0
+			&to mCHAR
 	
 			&none 
 			&none 
@@ -292,7 +292,7 @@ keymap
 			&kp LG(LA(N0))
 			&kp LG(TAB)
 
-			&to 1
+			&to mNR
 			&kp LG(LC(LA(F1)))
 			&kp LG(LC(LA(F2)))
 			&kp LG(LC(LA(F3)))
@@ -303,11 +303,11 @@ keymap
 			&kp LG(LC(LA(F8)))
 			&kp LG(LC(LA(F9)))
 			&kp LG(LC(LA(F10)))
-			&to 0
+			&to mCHAR
 	
 			&none 
 			&none 
-			&sl 4
+			&sl mSPRG
 			&none 
 			&none 
 			&none
@@ -328,7 +328,7 @@ keymap
 
 		bindings = <
 
-			&to 0
+			&kp LA(LG(H))
 			&kp LS(LG(J))
 			&kp LS(LG(D))
 			&kp LS(LG(U))
@@ -339,7 +339,7 @@ keymap
 			&kp LS(LG(L)) 
 			&kp LS(LG(M)) 
 			&kp LS(LG(W)) 
-			&to 10
+			&to LG(LA(LC(LS(BSLH))))
 	
 			&kp LG(LA(LC(LS(LEFT))))
 			&kp LS(LG(C))
@@ -354,7 +354,7 @@ keymap
 			&kp LS(LG(G)) 
 			&kp LG(LA(LC(LS(RIGHT))))
 
-			&to 1
+			&to mNR
 			&kp LS(LG(F))
 			&kp LS(LG(V))
 			&kp LS(LG(MINUS))
@@ -365,7 +365,7 @@ keymap
 			&kp LS(LG(LEFT_BRACKET))
 			&kp LS(LG(SINGLE_QUOTE))
 			&kp LS(LG(K)) 
-			&to 0
+			&to mCHAR
 	
 			&none 
 			&none
