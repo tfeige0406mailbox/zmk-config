@@ -5,26 +5,30 @@
 #define mCHAR 0
 #define mNR 1
 #define mSYM 2
-#define mPRG 3
-#define mSPRG 4
-#define mFUNC 5
-#define mSFUNC 6
-#define mGUI 7
-#define mAGUI 8
-#define mNAV 9
+#define mSSYM 3
+#define mSSSYM 4
+#define mPRG 5
+#define mSPRG 6
+#define mFUNC 7
+#define mSFUNC 8
+#define mGUI 9
+#define mAGUI 10
+#define mNAV 11
 
-#define wCHAR 10
-#define wNR 11
-#define wSYM 12
-#define wPRG 13
-#define wSPRG 14
-#define wFUNC 15
-#define wSFUNC 16
-#define wCTL 17
-#define wSCTL	 18
-#define wNAV 19
+#define wCHAR 12
+#define wNR 13
+#define wSYM 14
+#define wSSYM 15
+#define wSSSYM 16
+#define wPRG 17
+#define wSPRG 18
+#define wFUNC 19
+#define wSFUNC 20
+#define wCTL 21
+#define wSCTL 22
+#define wNAV 23
 
-#define mwBCHAR 20
+#define mwBCHAR 24
 
 
 
@@ -153,16 +157,16 @@ keymap
 		bindings = <
 
 			&kp ESC	
-			&kp LG(N1)
-			&kp LG(N2)
-			&kp LG(N3)
-			&kp LG(N4)
-			&kp LG(N5)
-			&kp LG(N6)
-			&kp LG(N7)
-			&kp LG(N8)
-			&kp LG(N9)
-			&kp LG(N0)
+			&none
+			&none
+			&none
+			&none
+			&kp X
+			&none
+			&none
+			&none
+			&kp M
+			&none
 			&kp BSPC
 
 			&sl mNAV	
@@ -205,56 +209,175 @@ keymap
 
 
 	// --------------------------------------
-	// Layer 2 - mSYM =	Sonderzeichen
+	// Layer 2 - mSYM =	Symoble
 	// --------------------------------------
 
-	mac_sonderzeichen
+	mac_symbole
+	{
+		label = "MAC";
+
+		bindings = <
+			
+			&none
+			&kp LG(N1)
+			&kp LG(N2)
+			&kp LG(N3)
+			&kp LG(N4)
+			&kp LG(N5)
+			&kp LG(N6)
+			&kp LG(N7)
+			&kp LG(N8)
+			&kp LG(N9)
+			&kp LG(N0)
+			&none
+
+			&none
+			&kp N1				
+			&kp N2				
+			&kp N3				
+			&kp N4					
+			&kp N5				
+			&kp N6				
+			&kp N7				
+			&kp N8				
+			&kp N9				
+			&kp N0				
+			&none
+
+			&to mNR
+			&kp LS(N7)
+			&kp LS(N8)
+	 		&kp LS(N9)
+			&kp LS(RBRC)
+			&kp LS(N0)
+			&kp LS(N2)
+			&kp RBKT
+			&kp COMMA
+			&kp DOT
+			&kp SLASH		
+			&to mCHAR
+	
+			&none 
+			&kp SPACE 
+			&none 
+			&sl mSSYM 
+			&none 
+			&none
+
+		>;
+	};
+
+// --------------------------------------
+// Layer 3 - mSSYM =	Special Symbole
+// --------------------------------------
+
+	mac_specialsonderzeichen
 	{
 		label = "MAC";
 
 		bindings = <
 
-			&kp ESC
+			&none
 			&kp EQUAL
-			&kp RA(N5)
-			&kp RA(N6)
-			&kp LA(N7)
-			&none
-			&none
 			&kp LA(N)
-			&kp RA(N8)
-			&kp RA(N9)
-			&kp LS(EQUAL)
-			&kp BSPC
+			&kp LA(N7)
+			&kp LS(GRAVE)
+			&kp F11
+			&kp F12
+			&kp LS(N1)
+			&kp GRAVE
+			&kp GRAVE
+			&kp LS(MINS)
+			&none
 
 			&none
-			&kp LS(N6) 
+			&kp LS(N6)
 			&kp NUBS
 			&kp LS(NUBS) 
 			&kp BACKSLASH 	
-			&kp GRAVE			
-			&kp LS(GRAVE)
-			&kp LS(SLASH)
-			&kp LS(N4) 
-			&kp RA(M) 
-			&kp LS(N3) 
+			&kp LS(N3)
+			&kp RA(M)
+			&kp LA(L)
+			&kp RA(E)
+			&kp LS(N5)
+			&kp LS(N4)
 			&none
 
 			&to mNR
-			&kp RA(MINUS)
-			&kp LS(N5)
-			&kp LA(L)
-			&kp RA(E)
+			&kp LS(N7)
+			&kp LS(N8)
+	 		&kp LS(N9)
+			&kp LS(RBRC)
+			&kp LS(N0)
 			&kp LS(N2)
-			&kp LS(BSLH)
-			&kp LS(N1)
-			&kp LS(COMMA)
-			&kp LS(DOT)
-			&kp UNDER
+			&kp RBKT
+			&kp COMMA
+			&kp DOT
+			&kp SLASH		
 			&to mCHAR
 	
 			&none 
+			&kp SPACE 
 			&none 
+			&sl mSSSYM 
+			&none 
+			&none
+
+		>;
+	};
+
+
+// --------------------------------------------
+// Layer 4 - mSSSYM =	Super Special Symbole
+// --------------------------------------------
+
+	mac_superspecialsonderzeichen
+	{
+		label = "MAC";
+
+		bindings = <
+
+			&none
+			&kp LS(EQUAL)
+			&kp LA(N)
+			&kp LA(N7)
+			&kp LS(GRAVE)
+			&kp F11
+			&kp F12
+			&kp LS(N1)
+			&kp GRAVE
+			&kp GRAVE
+			&kp LS(MINS)
+			&none
+
+			&none
+			&kp LS(N6)
+			&kp RA(N8)
+			&kp RA(N9)
+			&kp NUHS 	
+			&kp LS(N3)
+			&kp RA(M)
+			&kp LA(L)
+			&kp RA(E)
+			&kp LS(N5)
+			&kp LS(N4)
+			&none
+
+			&to mNR
+			&kp LS(LA(N7))
+			&kp LA(N7)
+	 		&kp LA(N0)
+			&kp LS(RBRC)
+			&kp LS(N0)
+			&kp LS(NUHS)
+			&kp RBKT
+			&kp LS(COMMA)
+			&kp LS(DOT)
+			&kp LS(SLASH)
+			&to mCHAR
+	
+			&none 
+			&kp SPACE 
 			&none 
 			&trans 
 			&none 
@@ -265,9 +388,8 @@ keymap
 
 
 
-
 	// --------------------------------------
-	// Layer 3 - mPRG =	Programme
+	// Layer 5 - mPRG =	Programme
 	// --------------------------------------
 
 	mac_programme
@@ -327,7 +449,7 @@ keymap
 
 
 	// --------------------------------------
-	// Layer 4 -mSPRG =	Spezial Prgramm
+	// Layer 6 -mSPRG =	Spezial Prgramm
 	// --------------------------------------
 
 
@@ -390,7 +512,7 @@ keymap
 
 
 	// --------------------------------------
-	// Layer 5 - mFUNC =	Funktionen
+	// Layer 7 - mFUNC =	Funktionen
 	// --------------------------------------
 
 	mac_function
@@ -455,7 +577,7 @@ keymap
 
 
 	// --------------------------------------
-	// Layer 6 - mSFUNC =	Spezial Funktionen
+	// Layer 8 - mSFUNC =	Spezial Funktionen
 	// --------------------------------------
 
 	mac_specialfunction
@@ -516,7 +638,7 @@ keymap
 
 
 	// --------------------------------------
-	// Layer 7 - mGUI =	GUI
+	// Layer 9 - mGUI =	GUI
 	// --------------------------------------
 
 	mac_gui
@@ -577,7 +699,7 @@ keymap
 
 
 	// --------------------------------------
-	// Layer 8 - mAGUI =	GUI ALT
+	// Layer 10 - mAGUI =	GUI ALT
 	// --------------------------------------
 
 	mac_guialt
@@ -640,7 +762,7 @@ keymap
 
 
    	// --------------------------------------
-	// Layer = 9 - mNAV	  Navigation
+	// Layer = 11 - mNAV	  Navigation
 	// --------------------------------------
 
 	mac_navigation
@@ -710,7 +832,7 @@ keymap
 	
 
 	// --------------------------------------
-	// Layer 10 - wCHAR = 	  Buchstaben	
+	// Layer 12 - wCHAR = 	  Buchstaben	
 	// --------------------------------------
 	
 	win_buchstaben
@@ -762,7 +884,7 @@ keymap
  			&kp SPACE 
 			&sl wPRG
 			&sl wNR
- 			&sk LSHIFT
+ 			&skq LSHIFT
 			&sl wCTL
 
 		>;
@@ -773,7 +895,7 @@ keymap
 
 	
 	// --------------------------------------
-	// Layer 11 - wNR = 	  Zahlen	
+	// Layer 13 - wNR = 	  Zahlen	
 	// --------------------------------------
 
 	win_zahlen
@@ -835,7 +957,7 @@ keymap
 
 
 	// --------------------------------------
-	// Layer 12 - wSYM =	Sonderzeichen
+	// Layer 14 - wSYM =	Sonderzeichen
 	// --------------------------------------
 
 	win_sonderzeichen
@@ -894,11 +1016,129 @@ keymap
 	};
 
 
+	// --------------------------------------
+	// Layer 15 - wSSYM =	Special Symbole
+	// --------------------------------------
+
+	win_specialsonderzeichen
+	{
+		label = "WIN";
+
+		bindings = <
+
+			&kp ESC
+			&kp EQUAL
+			&kp RA(N8)
+			&kp RA(N9)
+			&kp RA(NUBS)
+			&kp F11
+			&kp F12
+			&kp RA(RBKT)
+			&kp RA(N7)
+			&kp RA(N0)
+			&kp LS(EQUAL)
+			&kp BSPC
+
+			&kp RA(N2)
+			&kp LS(N6) 
+			&kp NUBS
+			&kp LS(NUBS) 
+			&kp BACKSLASH 
+			&kp GRAVE
+			&kp LS(GRAVE)
+			&kp LS(SLASH)
+			&kp LS(N4) 
+			&kp RA(M) 
+			&kp LS(N3) 
+			&kp RA(N3)
+
+			&to wNR
+			&kp RA(MINUS)
+			&kp LS(N5)
+			&kp RA(Q)
+			&kp RA(E)
+			&kp LS(N2)
+			&kp LS(BSLH)
+			&kp LS(N1)
+			&kp LS(COMMA)
+			&kp LS(DOT)
+			&kp UNDER
+			&to wCHAR
+	
+			&none 
+			&none 
+			&none 
+			&trans 
+			&none 
+			&none
+
+		>;
+	};
+
+
+	// --------------------------------------
+	// Layer 16 - wSSSYM =	Super Special Symbole
+	// --------------------------------------
+
+	win_superpecialsonderzeichen
+	{
+		label = "WIN";
+
+		bindings = <
+
+			&kp ESC
+			&kp EQUAL
+			&kp RA(N8)
+			&kp RA(N9)
+			&kp RA(NUBS)
+			&kp F11
+			&kp F12
+			&kp RA(RBKT)
+			&kp RA(N7)
+			&kp RA(N0)
+			&kp LS(EQUAL)
+			&kp BSPC
+
+			&kp RA(N2)
+			&kp LS(N6) 
+			&kp NUBS
+			&kp LS(NUBS) 
+			&kp BACKSLASH 
+			&kp GRAVE
+			&kp LS(GRAVE)
+			&kp LS(SLASH)
+			&kp LS(N4) 
+			&kp RA(M) 
+			&kp LS(N3) 
+			&kp RA(N3)
+
+			&to wNR
+			&kp RA(MINUS)
+			&kp LS(N5)
+			&kp RA(Q)
+			&kp RA(E)
+			&kp LS(N2)
+			&kp LS(BSLH)
+			&kp LS(N1)
+			&kp LS(COMMA)
+			&kp LS(DOT)
+			&kp UNDER
+			&to wCHAR
+	
+			&none 
+			&none 
+			&none 
+			&trans 
+			&none 
+			&none
+
+		>;
+	};
 
 
 
 	// --------------------------------------
-	// Layer 13 - wPRG =	Programme
+	// Layer 17 - wPRG =	Programme
 	// --------------------------------------
 
 	win_programme
@@ -960,7 +1200,7 @@ keymap
 
 
 	// --------------------------------------
-	// Layer 14 - wSPRG =	Spezial Prgramme
+	// Layer 18 - wSPRG =	Spezial Prgramme
 	// --------------------------------------
 
 	win_sprogramme
@@ -1024,7 +1264,7 @@ keymap
 
 
 	// --------------------------------------
-	// Layer 15 - wFUNC =	Funktionen
+	// Layer 19 - wFUNC =	Funktionen
 	// --------------------------------------
 
 	win_function
@@ -1087,7 +1327,7 @@ keymap
 
 
 	// --------------------------------------
-	// Layer 16 - wSFUNC =	Spezial Funktionen
+	// Layer 20 - wSFUNC =	Spezial Funktionen
 	// --------------------------------------
 
 	win_specialfuntion
@@ -1147,7 +1387,7 @@ keymap
 
 
 	// --------------------------------------
-	// Layer 17 - wCTL =	CTL 
+	// Layer 21 - wCTL =	CTL 
 	// --------------------------------------
 
 	win_ctl
@@ -1209,7 +1449,7 @@ keymap
 
 
 	// --------------------------------------
-	// Layer 18 - wSCTL =	sCTL
+	// Layer 22 - wSCTL =	sCTL
 	// --------------------------------------
 
 	win_sctl	
@@ -1270,7 +1510,7 @@ keymap
 
                 
     // --------------------------------------
-	// Layer 19 - wNAV = 	  Navigation
+	// Layer 23 - wNAV = 	  Navigation
 	// --------------------------------------
 
 	win_navigation
@@ -1340,7 +1580,7 @@ keymap
 
 
 	// --------------------------------------
-	// Layer 20 - mwBCHAR =	GROß-BUCHSTABEN
+	// Layer 24 - mwBCHAR =	GROß-BUCHSTABEN
 	// --------------------------------------
 
 
