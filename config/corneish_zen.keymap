@@ -36,13 +36,13 @@
   
   
   macros {
-        zed_em_kay: zed_em_kay {
-            label = "ZM_zed_em_kay";
+        swleft: SwitchLeft {
+            label = "SwitchLeft";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&kp E>
-                , <&to 10>
+                = <&kp LG(LA(LC(LS(LEFT))))>
+                , <&to 0>
                 ;
         };
     };
