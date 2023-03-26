@@ -287,6 +287,19 @@ keymap
 			&kp LS(MINS)
 			&none
 
+			&none
+			&kp LS(N6)
+			&kp NUBS
+			&kp LS(NUBS) 
+			&kp BACKSLASH 	
+			&kp LS(N3)
+			&kp RA(M)
+			&kp LA(L)
+			&kp RA(E)
+			&kp LS(N5)
+			&kp LS(N4)
+			&none
+
 		
 
 		>;
