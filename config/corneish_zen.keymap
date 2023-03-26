@@ -274,18 +274,6 @@ keymap
 
 		bindings = <
 
-			&none
-			&kp EQUAL
-			&kp LA(N)
-			&kp LA(N7)
-			&kp LS(GRAVE)
-			&kp F11
-			&kp F12
-			&kp LS(N1)
-			&kp GRAVE
-			&kp GRAVE
-			&kp LS(MINS)
-			&none
 
 			&none
 			&kp LS(N6)
@@ -300,18 +288,6 @@ keymap
 			&kp LS(N4)
 			&none
 
-				&to mNR
-			&kp LS(N7)
-			&kp LS(N8)
-	 		&kp LS(N9)
-			&kp LS(RBRC)
-			&kp LS(N0)
-			&kp LS(N2)
-			&kp RBKT
-			&kp COMMA
-			&kp DOT
-			&kp SLASH		
-			&to mCHAR
 	
 		>;
 	};
