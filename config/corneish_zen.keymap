@@ -73,6 +73,134 @@
         };
     };
 
+
+
+	// MAC Programme 0-9
+
+		macros {
+        sw1: Switch1 {
+            label = "Switch1";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&kp LG(LA(LC(LS(C))))>
+                , <&to mCHAR>
+                ;
+        };
+    };
+
+		macros {
+        sw2: Switch2 {
+            label = "Switch2";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&kp LG(LA(LC(LS(T))))>
+                , <&to mCHAR>
+                ;
+        };
+    };
+
+		macros {
+        sw3: Switch3 {
+            label = "Switch3";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&kp LG(LA(LC(LS(I))))>
+                , <&to mCHAR>
+                ;
+        };
+    };
+
+		macros {
+        sw4: Switch4 {
+            label = "Switch4";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&kp LG(LA(LC(LS(E))))>
+                , <&to mCHAR>
+                ;
+        };
+    };
+
+		macros {
+        sw5: Switch5 {
+            label = "Switch5";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&kp LG(LA(LC(LS(O))))>
+                , <&to mCHAR>
+                ;
+        };
+    };
+
+		macros {
+        sw6: Switch6 {
+            label = "Switch6";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&kp LG(LA(LC(LS(B))))>
+                , <&to mCHAR>
+                ;
+        };
+    };
+
+		macros {
+        sw7: Switch7 {
+            label = "Switch7";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&kp LG(LA(LC(LS(N))))>
+                , <&to mCHAR>
+                ;
+        };
+    };
+
+	macros {
+        sw8: Switch8 {
+            label = "Switch8";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&kp LG(LA(LC(LS(R))))>
+                , <&to mCHAR>
+                ;
+        };
+    };
+
+	macros {
+        sw9: Switch9 {
+            label = "Switch9";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&kp LG(LA(LC(LS(S))))>
+                , <&to mCHAR>
+                ;
+        };
+    };
+
+	macros {
+        sw10: Switch10 {
+            label = "Switch10";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&kp LG(LA(LC(LS(G))))>
+                , <&to mCHAR>
+                ;
+        };
+    };
+
+
+
+
+
 };
 / {
 
@@ -1320,16 +1448,16 @@ keymap
 			&kp LS(END)
 
 			&none
-			&kp LG(LA(LC(LS(C))))
-			&kp LG(LA(LC(LS(T))))
-			&kp LG(LA(LC(LS(I))))
-			&kp LG(LA(LC(LS(E))))
-			&kp LG(LA(LC(LS(O))))
-			&kp LG(LA(LC(LS(B))))
-			&kp LG(LA(LC(LS(N))))
-			&kp LG(LA(LC(LS(R))))
-			&kp LG(LA(LC(LS(S))))
-			&kp LG(LA(LC(LS(G))))
+			&sw1
+			&sw2
+			&sw3
+			&sw4
+			&sw5
+			&sw6
+			&sw7
+			&sw8
+			&sw9
+			&sw10
 			&none
 
 			&to wNR
