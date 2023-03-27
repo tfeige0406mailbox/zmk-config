@@ -79,7 +79,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&kp LG(LA(N0))>
+                = <&kp LG(N0)>
                 , <&to mCHAR>
                 ;
         };
@@ -247,7 +247,7 @@ keymap
 			&kp N6				
 			&kp N7				
 			&kp N8				
-			&kp N9				
+			&kp N9			
 			&kp N0				
 			&kp ENTER
 
@@ -949,16 +949,16 @@ keymap
 
 
 	// --------------------------------------
-	// Layer 14 - wSYM =	Sonderzeichen
+	// Layer 14 - wSYM =	Symbole
 	// --------------------------------------
 
-	win_sonderzeichen
+	win_symbole
 	{
 		label = "WIN";
 
 		bindings = <
 
-			&none
+			&kp ESC
 			&kp F1
 			&kp F2
 			&kp F3
@@ -969,7 +969,7 @@ keymap
 			&kp F8
 			&kp F9
 			&kp F10
-			&none
+			&kp BACKSPACE
 
 			&none
 			&kp N1				
@@ -982,7 +982,7 @@ keymap
 			&kp N8				
 			&kp N9				
 			&kp N0				
-			&none
+			&kp ENTER
 
 			&to wNR
 			&kp LS(N7)
@@ -1159,7 +1159,7 @@ keymap
 			&kp LG(N7)
 			&kp LG(N8)
 			&kp LG(N9)
-			&swcraft 			//&kp LG(N0)
+			&swcraft 			
 			&kp LA(TAB)
 
 			&to wNR
