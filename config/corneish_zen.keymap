@@ -1375,7 +1375,7 @@ keymap
 
 		bindings = <
  
-			&kp LC(NUBS)
+			&kp LC(NUHS)
 			&kp LC(LS(B)) 
 			&kp LC(LS(U)) 
 			&kp LC(LS(F)) 
