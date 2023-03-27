@@ -73,256 +73,17 @@
         };
     };
 
-
-
-	// Von Win nach MAC Programme 0-9
-
-		macros {
-        sw1: Switch1 {
-            label = "Switch1";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&kp LC(LA(LS(N1)))>
-                , <&to mCHAR>
-                ;
-        };
-    };
-
-		macros {
-        sw2: Switch2 {
-            label = "Switch2";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&kp LC(LA(LS(N2)))>
-                , <&to mCHAR>
-                ;
-        };
-    };
-
-		macros {
-        sw3: Switch3 {
-            label = "Switch3";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&kp LC(LA(LS(N3)))>
-                , <&to mCHAR>
-                ;
-        };
-    };
-
-		macros {
-        sw4: Switch4 {
-            label = "Switch4";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&kp LC(LA(LS(N4)))>
-                , <&to mCHAR>
-                ;
-        };
-    };
-
-		macros {
-        sw5: Switch5 {
-            label = "Switch5";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&kp LC(LA(LS(N5)))>
-                , <&to mCHAR>
-                ;
-        };
-    };
-
-		macros {
-        sw6: Switch6 {
-            label = "Switch6";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&kp LC(LA(LS(N6)))>
-                , <&to mCHAR>
-                ;
-        };
-    };
-
-		macros {
-        sw7: Switch7 {
-            label = "Switch7";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&kp LC(LA(LS(N7)))>
-                , <&to mCHAR>
-                ;
-        };
-    };
-
 	macros {
-        sw8: Switch8 {
-            label = "Switch8";
+        swcraft: SwitchCraft {
+            label = "SwitchCraft";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&kp LC(LA(LS(N8)))>
+                = <&kp LG(LA(N0))>
                 , <&to mCHAR>
                 ;
         };
     };
-
-	macros {
-        sw9: Switch9 {
-            label = "Switch9";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&kp LC(LA(LS(N9)))>
-                , <&to mCHAR>
-                ;
-        };
-    };
-
-	macros {
-        sw10: Switch10 {
-            label = "Switch10";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&kp LC(LA(LS(N0)))>
-                , <&to mCHAR>
-                ;
-        };
-    };
-
-
-
-
-	// von MAC nach WIN Programme 0-9
-
-		macros {
-        bsw1: bSwitch1 {
-            label = "bSwitch1";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&kp LG(LC(LA(F1)))>
-                , <&to wCHAR>
-                ;
-        };
-    };
-
-		macros {
-        bsw2: bSwitch2 {
-            label = "bSwitch2";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&kp LG(LC(LA(F2)))>
-                , <&to wCHAR>
-                ;
-        };
-    };
-
-		macros {
-        bsw3: bSwitch3 {
-            label = "bSwitch3";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&kp LG(LC(LA(F3)))>
-                , <&to wCHAR>
-                ;
-        };
-    };
-
-		macros {
-        bsw4: bSwitch4 {
-            label = "bSwitch4";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&kp LG(LC(LA(F4)))>
-                , <&to wCHAR>
-                ;
-        };
-    };
-
-		macros {
-        bsw5: bSwitch5 {
-            label = "bSwitch5";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&kp LG(LC(LA(F5)))>
-                , <&to wCHAR>
-                ;
-        };
-    };
-
-		macros {
-        bsw6: bSwitch6 {
-            label = "bSwitch6";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&kp LG(LC(LA(F6)))>
-                , <&to wCHAR>
-                ;
-        };
-    };
-
-		macros {
-        bsw7: bSwitch7 {
-            label = "bSwitch7";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&kp LG(LC(LA(F7)))>
-                , <&to wCHAR>
-                ;
-        };
-    };
-
-	macros {
-        bsw8: bSwitch8 {
-            label = "bSwitch8";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&kp LG(LC(LA(F8)))>
-                , <&to wCHAR>
-                ;
-        };
-    };
-
-	macros {
-        bsw9: bSwitch9 {
-            label = "bSwitch9";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&kp LG(LC(LA(F9)))>
-                , <&to wCHAR>
-                ;
-        };
-    };
-
-	macros {
-        bsw10: bSwitch10 {
-            label = "bSwitch10";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&kp LG(LC(LA(F10)))>
-                , <&to wCHAR>
-                ;
-        };
-    };
-
-
 
 
 };
@@ -670,16 +431,16 @@ keymap
 			&kp LG(TAB)
 
 			&to mNR
-			&bsw1
-			&bsw2
-			&bsw3
-			&bsw4
-			&bsw5
-			&bsw6
-			&bsw7
-			&bsw8
-			&bsw9
-			&bsw10
+			&kp LG(LC(LA(F1)))
+			&kp LG(LC(LA(F2)))
+			&kp LG(LC(LA(F3)))
+			&kp LG(LC(LA(F4)))
+			&kp LG(LC(LA(F5)))
+			&kp LG(LC(LA(F6)))
+			&kp LG(LC(LA(F7)))
+			&kp LG(LC(LA(F8)))
+			&kp LG(LC(LA(F9)))
+			&kp LG(LC(LA(F10)))
 			&to mCHAR
 	
 			&none 
@@ -1398,20 +1159,20 @@ keymap
 			&kp LG(N7)
 			&kp LG(N8)
 			&kp LG(N9)
-			&kp LG(N0)
+			&swcraft 			//&kp LG(N0)
 			&kp LA(TAB)
 
 			&to wNR
-			&sw1
-			&sw2
-			&sw3
-			&sw4
-			&sw5
-			&sw6
-			&sw7
-			&sw8
-			&sw9
-			&sw10
+			&none
+			&none
+			&none
+			&none
+			&none
+			&none
+			&none
+			&none
+			&none
+			&none
 			&to wCHAR
 	
 			&none 
