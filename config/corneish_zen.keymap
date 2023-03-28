@@ -327,8 +327,8 @@ keymap
 			&none 
 			&kp SPACE 
 			&none 
-			&none 
 			&sl mSSSYM
+			&none
 			&none
 		>;
 	};
@@ -387,8 +387,8 @@ keymap
 			&none 
 			&kp SPACE 
 			&none 
-			&none 
 			&trans
+			&none
 			&none			
 		>;
 	};	
@@ -1059,8 +1059,8 @@ keymap
 			&none 
 			&kp SPACE 
 			&none 
-			&none 
 			&sl wSSSYM 
+			&none
 			&none
 		>;
 	};
@@ -1118,8 +1118,8 @@ keymap
 			&none 
 			&kp SPACE 
 			&none 
-			&none 
 			&trans
+			&none
 			&none
 		>;
 	};
