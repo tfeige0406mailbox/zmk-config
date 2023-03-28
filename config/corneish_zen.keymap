@@ -238,7 +238,7 @@ keymap
 			&kp LG(N0)
 			&kp BACKSPACE
 
-			&none
+			&trans
 			&kp N1				
 			&kp N2				
 			&kp N3				
@@ -285,31 +285,31 @@ keymap
 
 		bindings = <
 
-			&none
-			&kp EQUAL
+			&kp ESC
+			&kp LA(L)
+			&kp LS(N4)
 			&kp LA(N)
-			&kp LA(N7)
 			&kp LS(GRAVE)
-			&kp F11
-			&kp F12
+			&kp EQUAL
+			&kp LA(N7)
 			&kp LS(N1)
 			&kp GRAVE
 			&kp GRAVE
 			&kp LS(MINUS)
-			&none
+			&kp F11
 
-			&none
+			&trans
 			&kp LS(N6)
 			&kp NUBS
 			&kp LS(NUBS) 
 			&kp BACKSLASH 	
 			&kp LS(N3)
 			&kp RA(M)
-			&kp LA(L)
 			&kp RA(E)
+			&kp LS(COMMA)
+			&kp LS(DOT)
 			&kp LS(N5)
-			&kp LS(N4)
-			&none
+			&kp LA(ENTER)
 
 			&to mNR
 			&kp LS(N7)
@@ -327,8 +327,8 @@ keymap
 			&none 
 			&kp SPACE 
 			&none 
-			&sl mSSSYM 
 			&none 
+			&sl mSSSYM
 			&none
 		>;
 	};
@@ -345,31 +345,31 @@ keymap
 
 		bindings = <
 
-			&none
-			&kp LS(EQUAL)
+			&kp ESC
+			&kp LA(L)
+			&kp LS(N4)
 			&kp LA(N)
-			&kp LA(N7)
 			&kp LS(GRAVE)
-			&kp F11
-			&kp F12
+			&kp LS(EQUAL)
+			&kp LA(N7)
 			&kp LS(N1)
 			&kp GRAVE
 			&kp GRAVE
 			&kp LS(MINUS)
-			&none
+			&kp F12
 
-			&none
+			&trans
 			&kp LS(N6)
 			&kp RA(N5)
 			&kp RA(N6)
 			&kp NUHS 	
 			&kp LS(N3)
 			&kp RA(M)
-			&kp LA(L)
 			&kp RA(E)
+			&kp LS(COMMA)
+			&kp LS(DOT)			
 			&kp LS(N5)
-			&kp LS(N4)
-			&none
+			&kp LC(ENTER)
 
 			&to mNR
 			&kp LS(LA(N7))
@@ -379,16 +379,16 @@ keymap
 			&kp LS(N0)
 			&kp LS(NUHS)
 			&kp RBKT
-			&kp LS(COMMA)
-			&kp LS(DOT)
+			&kp COMMA
+			&kp DOT
 			&kp LS(SLASH)
 			&to mCHAR
 	
 			&none 
 			&kp SPACE 
 			&none 
-			&trans 
 			&none 
+			&trans
 			&none			
 		>;
 	};	
@@ -649,7 +649,7 @@ keymap
 
 		bindings = <
 
-			&kp LG(LA(LC(LS(PG_UP))))
+			&kp ESC
 			&kp LG(J)
 			&kp LG(D)
 			&kp LG(U) 
@@ -662,7 +662,7 @@ keymap
 			&kp LG(W) 
 			&kp LA(BACKSPACE)
 	
-			&kp LG(LA(LC(LS(PG_DN))))
+			&trans
 			&kp LG(C)
 			&kp LG(T)
 			&kp LG(I)
@@ -709,7 +709,7 @@ keymap
 
 		bindings = <
 		
-			&kp LG(LA(LC(LS(HOME))))
+			&kp ESC
 			&kp LA(LG(J))
 			&kp LA(LG(D))
 			&kp LA(LG(U))
@@ -722,7 +722,7 @@ keymap
 			&kp LA(LG(W)) 
 			&kp LG(BACKSPACE)
 	
-			&kp LG(LA(LC(LS(END))))
+			&trans
 			&kp LA(LG(C))
 			&kp LA(LG(T))
 			&kp LA(LG(I))
@@ -810,7 +810,7 @@ keymap
 			&kp TAB
 			&to mCHAR
 
-			&none
+			&trans
 			&kp SPACE 
 			&none 
 			&none 
@@ -971,7 +971,7 @@ keymap
 			&kp F10
 			&kp BACKSPACE
 
-			&none
+			&trans
 			&kp N1				
 			&kp N2				
 			&kp N3				
@@ -1017,31 +1017,31 @@ keymap
 
 		bindings = <
 
-			&none
-			&kp EQUAL
+			&kp ESC
+			&kp RA(Q)
+			&kp LS(N4)
 			&kp RA(RBKT)
-			&kp RA(NUBS)
 			&kp LS(GRAVE)
-			&kp F11
-			&kp F12
+			&kp EQUAL
+			&kp RA(NUBS)
 			&kp LS(N1)
 			&kp RS(N2)
 			&kp GRAVE
 			&kp LS(MINUS)
-			&none
+			&kp F11
 
-			&none
+			&trans
 			&kp LS(N6)
 			&kp NUBS
 			&kp LS(NUBS) 
 			&kp BACKSLASH 	
 			&kp LS(N3)
 			&kp RA(M)
-			&kp RA(Q)
 			&kp RA(E)
+			&kp LS(COMMA)
+			&kp LS(DOT)
 			&kp LS(N5)
-			&kp LS(N4)
-			&none
+			&kp LA(ENTER)
 
 			&to wNR
 			&kp LS(N7)
@@ -1059,8 +1059,8 @@ keymap
 			&none 
 			&kp SPACE 
 			&none 
-			&sl wSSSYM 
 			&none 
+			&sl wSSSYM 
 			&none
 		>;
 	};
@@ -1076,50 +1076,50 @@ keymap
 
 		bindings = <
 
-			&none
-			&kp LS(EQUAL)
-			&kp LA(N)
-			&kp LA(N7)
+			&kp ESC
+			&kp RA(Q)
+			&kp LS(N4)
+			&kp RA(RBKT)
 			&kp LS(GRAVE)
-			&kp F11
-			&kp F12
+			&kp LS(EQUAL)
+			&kp RA(NUBS)
 			&kp LS(N1)
 			&kp RA(N3)
 			&kp GRAVE
 			&kp LS(MINUS)
-			&none
+			&kp F12
 
-			&none
+			&trans
 			&kp LS(N6)
 			&kp RA(N8)
 			&kp RA(N9)
 			&kp NUHS 	
 			&kp LS(N3)
 			&kp RA(M)
-			&kp RA(Q)
 			&kp RA(E)
+			&kp LS(COMMA)
+			&kp LS(DOT)
 			&kp LS(N5)
-			&kp LS(N4)
-			&none
+			&kp LG(ENTER)
 
 			&to wNR
 			&kp RA(MINUS)
-			&kp LA(N7)
-	 		&kp LA(N0)
+			&kp RA(N7)
+	 		&kp RA(N0)
 			&kp LS(RBRC)
 			&kp LS(N0)
 			&kp LS(NUHS)
 			&kp RBKT
-			&kp LS(COMMA)
-			&kp LS(DOT)
+			&kp COMMA
+			&kp DOT
 			&kp LS(SLASH)
 			&to wCHAR
 	
 			&none 
 			&kp SPACE 
 			&none 
-			&trans 
 			&none 
+			&trans
 			&none
 		>;
 	};
@@ -1278,8 +1278,8 @@ keymap
 			&kp LC(LS(C)) 
 			&kp LC(LS(V)) 
 			&kp LG(S)  
-			&kp LG(LA(LC(LS(F2))))	
-			&kp LG(LA(LC(LS(F3))))
+			&kp LC(LS(Y))
+			&kp LC(LS(Z))
 			&kp LC(LEFT) 
 			&kp LA(DOWN) 
 			&kp LC(RIGHT)  
@@ -1287,10 +1287,10 @@ keymap
 			&kp LG(A)
 
 			&to wNR
-			&kp LC(LS(Y))
+			&kp LALT	
 			&kp LA(LEFT) 
 			&kp LA(RIGHT)
-			&kp LC(LS(Z))
+			&kp LG(I)	
 			&kp LS(LG(S))
 			&kp LC(LS(ESC))
 			&kp LC(LS(TAB))
@@ -1333,29 +1333,29 @@ keymap
 			&kp LS(END)
 
 			&none
-			&kp LG(LA(LC(LS(C))))
-			&kp LG(LA(LC(LS(T))))			
-			&kp LG(LA(LC(LS(I))))
-			&kp LG(LA(LC(LS(E))))
-			&kp LG(LA(LC(LS(O))))
-			&kp LG(LA(LC(LS(B))))
-			&kp LG(LA(LC(LS(N))))
-			&kp LG(LA(LC(LS(R))))
-			&kp LG(LA(LC(LS(S))))
-			&kp LG(LA(LC(LS(G))))				
+			&none
+			&none
+			&none
+			&none
+			&none
+			&none
+			&none
+			&none
+			&none
+			&none
 			&none
 
 			&to wNR
-			&kp LG(LA(LC(LS(F))))
-			&kp LG(LA(LC(LS(V))))
-			&kp LG(LA(LC(LS(MINUS))))
-			&kp LG(LA(LC(LS(Y))))
-			&kp LG(LA(LC(LS(Q))))
-			&kp LG(LA(LC(LS(Z))))
-			&kp LG(LA(LC(LS(SEMI))))
-			&kp LG(LA(LC(LS(LBKT))))
-			&kp LG(LA(LC(LS(SQT))))
-			&kp LG(LA(LC(LS(K))))
+			&none
+			&none
+			&none
+			&none
+			&none
+			&none
+			&none
+			&none
+			&none
+			&none
 			&to wCHAR
 
 			&trans
@@ -1379,7 +1379,7 @@ keymap
 
 		bindings = <
 
-			&none
+			&kp ESC
 			&kp LC(J)
 			&kp LC(D)
 			&kp LC(U) 
@@ -1392,7 +1392,7 @@ keymap
 			&kp LC(W) 
 			&kp LC(BACKSPACE)
 	
-			&none
+			&trans
 			&kp LC(C)
 			&kp LC(T)
 			&kp LC(I)
@@ -1441,7 +1441,7 @@ keymap
 
 		bindings = <
 
-			&none
+			&kp ESC
 			&kp LC(LS(J))
 			&kp LC(LS(D))
 			&kp LC(LS(U))
@@ -1454,7 +1454,7 @@ keymap
 			&kp LC(LS(W)) 
 			&kp LS(HOME)
 	
-			&none
+			&trans
 			&kp LC(LS(C))
 			&kp LC(LS(T))
 			&kp LC(LS(I))
@@ -1465,7 +1465,7 @@ keymap
 			&kp LC(LS(R))
 			&kp LC(LS(S))
 			&kp LC(LS(G))
-			&kp LS(LG(S))
+			&kp LC(LS(ENTER))
 
 			&to wNR
 			&kp LC(LS(F))
@@ -1541,7 +1541,7 @@ keymap
 			&kp TAB
 			&to wCHAR
 
-			&none
+			&trans
 			&kp SPACE 
 			&none 
 			&none 
@@ -1607,12 +1607,12 @@ keymap
 			&kp LS(K) 
 			&trans
 	
-			&none 
+			&trans 
 			&kp SPACE
 			&trans 
-			&none
-			&none
-			&none
+			&trans 
+			&trans 
+			&trans 
 		>;
 	};
 };
