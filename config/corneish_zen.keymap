@@ -1294,7 +1294,7 @@ keymap
 			&kp LC(Y)
 			&kp LA(UP) 
 			&kp LC(Z) 
-			&kp LC(RBKT)
+			&kp LC(KP_PLUS)
 			&kp LC(DELETE)
 	
 			&kp F12
@@ -1307,7 +1307,7 @@ keymap
 			&kp LC(LEFT) 
 			&kp LA(DOWN) 
 			&kp LC(RIGHT)  
-			&kp LC(SLASH)
+			&kp LC(KP_MINUS)
 			&kp LG(A)
 
 			&to wNR
