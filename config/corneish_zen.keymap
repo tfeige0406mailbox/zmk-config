@@ -85,6 +85,30 @@
         };
     };
 
+	macros {
+        swrocket: SwitchRocket {
+            label = "SwitchRocket";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&kp LG(N7)>
+                , <&to mCHAR>
+                ;
+        };
+    };
+
+	macros {
+        swswyx: SwitchSwyx {
+            label = "SwitchSwyx";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&kp LG(N9)>
+                , <&to mCHAR>
+                ;
+        };
+    };
+
 
 };
 / {
@@ -1156,9 +1180,9 @@ keymap
 			&kp LG(N4)
 			&kp LG(N5)
 			&kp LG(N6)
-			&kp LG(N7)
+			&swrocket
 			&kp LG(N8)
-			&kp LG(N9)
+			&swswyx
 			&swcraft 			
 			&kp LA(TAB)
 
