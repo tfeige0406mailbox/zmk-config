@@ -489,7 +489,7 @@ keymap
 
 		bindings = <
 
-			&kp LA(LG(H))
+			&kp LA(LG(H)) //Alles minimieren
 			&kp LS(LG(J))
 			&kp LS(LG(D))
 			&kp LS(LG(U))
@@ -500,7 +500,7 @@ keymap
 			&kp LS(LG(L)) 
 			&kp LS(LG(M)) 
 			&kp LS(LG(W)) 
-			&to LG(LA(LC(LS(BSLH))))
+			&kp LG(LA(ESC)) // Sofort beenden
 	
 			&swleft
 			&kp LS(LG(C))
@@ -576,12 +576,12 @@ keymap
 			&kp LG(LA(LC(LS(F4))))
 
 			&to mNR
-			&kp LG(LA(LC(LS(F5))))
+			&kp LG(LA(LC(LS(F5))))  //Shortcat
 			&kp LG(SEMI)
 			&kp LG(SQT)
-			&kp LG(LA(LC(LS(F6))))
-			&kp LG(LS(N4))
-			&kp LG(LA(ESC))
+			&kp LG(LA(LC(LS(F6))))  // Prg Setting
+			&kp LG(LS(N4))       // Screenshot
+			&kp LG(LC(Q))        // Sperren
 			&kp LC(LS(TAB))
 			&kp LG(UP)
 			&kp LG(DOWN)
@@ -836,10 +836,10 @@ keymap
 
 			&trans
 			&kp SPACE 
-			&none 
-			&none 
+			&trans
+			&trans
 			&kp LSHIFT 
-			&none
+			&trans
 		>;
 	};
 
@@ -1311,12 +1311,12 @@ keymap
 			&kp LG(A)
 
 			&to wNR
-			&kp LALT	
+			&kp LALT	   //Shortcat alternative
 			&kp LA(LEFT) 
 			&kp LA(RIGHT)
-			&kp LG(I)	
+			&kp LG(I)	   //Settings
 			&kp LS(LG(S))
-			&kp LC(LS(ESC))
+			&kp LG(X)       //Sperren, shutdown
 			&kp LC(LS(TAB))
 			&kp LA(UP)
 			&kp ENTER
@@ -1567,10 +1567,10 @@ keymap
 
 			&trans
 			&kp SPACE 
-			&none 
-			&none 
+			&trans
+			&trans
 			&kp LSHIFT 
-			&none
+			&trans
 
 		 >;
 	};
