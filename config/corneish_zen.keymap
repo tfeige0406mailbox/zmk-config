@@ -480,10 +480,10 @@ keymap
 			&to mCHAR
 	
 			&none 
-			&none 
+			&kp LG(LA(LC(LS(DOWN))))
 			&sl mSPRG
 			&swleft
-			&none 
+			&kp LG(LA(LC(LS(TAB))))
 			&swright
 		>;
 	};
@@ -525,7 +525,7 @@ keymap
 			&kp LS(LG(R))
 			&kp LS(LG(S))
 			&kp LS(LG(G)) 
-			&kp LG(LA(LC(LS(TAB))))
+			&none
 
 			&to mNR
 			&kp LS(LG(F))
@@ -541,11 +541,11 @@ keymap
 			&to mCHAR
 	
 			&none 
-			&none
-			&trans 
-			&none
-			&none
-			&none
+			&kp LG(LA(LC(LS(DOWN))))
+			&trans
+			&swleft
+			&kp LG(LA(LC(LS(TAB))))
+			&swright
 		>;
 	};
 
@@ -1212,10 +1212,10 @@ keymap
 			&to wCHAR
 	
 			&none 
-			&none 
+			&kp LG(LA(LC(LS(DOWN))))
 			&sl wSPRG
 			&swleft
-			&none 
+			&kp LG(TAB)
 			&swright
 		>;
 	};
@@ -1258,7 +1258,7 @@ keymap
 			&kp LA(R) 
 			&kp LA(S) 
 			&kp LA(G) 
-			&kp LG(TAB)
+			&none
 
 			&to wNR
 			&kp LA(F)
@@ -1274,11 +1274,11 @@ keymap
 			&to wCHAR
 	
 			&none 
-			&none
+			&kp LG(LA(LC(LS(DOWN))))
 			&trans 
-			&none
-			&none
-			&none
+			&swleft
+			&kp LG(TAB)
+			&swright
 		>;
 	};
 
@@ -1349,7 +1349,7 @@ keymap
 	// Layer 20 - wSFUNC =	Spezial Funktionen
 	// --------------------------------------
 
-	win_specialfuntion
+	win_specialfunction
 	{
 		label = "WIN";
 
@@ -1375,10 +1375,10 @@ keymap
 			&none
 			&none
 			&none
-			&kp LG(LEFT)
-			&kp LG(DOWN)
-			&kp LG(RIGHT)
-			&none
+			&kp T
+			&kp E
+			&kp S
+			&kp T
 			&none
 
 			&to wNR
