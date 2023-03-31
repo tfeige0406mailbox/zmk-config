@@ -111,6 +111,18 @@
         };
     };
 
+		macros {
+        swbrowser: SwitchBrowser {
+            label = "SwitchBrowser";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&kp LG(N8)>
+                , <&to mCHAR>
+                ;
+        };
+    };
+
 
 };
 / {
@@ -320,7 +332,7 @@ keymap
 			&kp GRAVE
 			&kp GRAVE
 			&kp LS(MINUS)
-			&kp F11
+			&kp LG(H)
 
 			&trans
 			&kp LS(N6)
@@ -333,7 +345,7 @@ keymap
 			&kp LS(COMMA)
 			&kp LS(DOT)
 			&kp LS(N5)
-			&kp LA(ENTER)
+			&kp LG(LA(LC(LS(F11))))	
 
 			&to mNR
 			&kp LS(N7)
@@ -380,7 +392,7 @@ keymap
 			&kp GRAVE
 			&kp GRAVE
 			&kp LS(MINUS)
-			&kp F12
+			&kp LG(LA(H))
 
 			&trans
 			&kp LS(N6)
@@ -393,7 +405,7 @@ keymap
 			&kp LS(COMMA)
 			&kp LS(DOT)			
 			&kp LS(N5)
-			&kp LC(ENTER)
+			&kp LG(LA(LC(LS(F12))))	
 
 			&to mNR
 			&kp LS(LA(N7))
@@ -428,7 +440,7 @@ keymap
 
 		bindings = <
 
-			&kp LG(H)
+			&kp ESC
 			&kp LG(LC(N1))
 			&kp LG(LC(N2))
 			&kp LG(LC(N3))
@@ -441,7 +453,7 @@ keymap
 			&kp LG(LC(N0))
 			&kp LG(Q)
 
-			&kp LG(LA(LC(LS(TAB))))
+			&trans
 			&kp LG(LA(N1))
 			&kp LG(LA(N2))
 			&kp LG(LA(N3))
@@ -470,9 +482,9 @@ keymap
 			&none 
 			&none 
 			&sl mSPRG
+			&swleft
 			&none 
-			&none 
-			&none
+			&swright
 		>;
 	};
 
@@ -489,7 +501,7 @@ keymap
 
 		bindings = <
 
-			&kp LA(LG(H)) //Alles minimieren
+			&kp ESC
 			&kp LS(LG(J))
 			&kp LS(LG(D))
 			&kp LS(LG(U))
@@ -502,7 +514,7 @@ keymap
 			&kp LS(LG(W)) 
 			&kp LG(LA(ESC)) // Sofort beenden
 	
-			&swleft
+			&trans
 			&kp LS(LG(C))
 			&kp LS(LG(T))
 			&kp LS(LG(I))
@@ -513,7 +525,7 @@ keymap
 			&kp LS(LG(R))
 			&kp LS(LG(S))
 			&kp LS(LG(G)) 
-			&swright
+			&kp LG(LA(LC(LS(TAB))))
 
 			&to mNR
 			&kp LS(LG(F))
@@ -549,7 +561,7 @@ keymap
 
 		bindings = <
  
-			&kp LG(LA(LC(LS(RBRC))))
+			&kp ESC
 			&kp LG(LS(B)) 
 			&kp LG(U) 
 			&kp LG(B) 
@@ -562,7 +574,7 @@ keymap
 			&kp LG(RBKT)
 			&kp LA(DELETE)
 	
-			&kp LG(LA(LC(LS(F1))))
+			&trans
 			&kp LG(LS(G)) 
 			&kp LG(LA(C)) 
 			&kp LG(LA(V)) 
@@ -573,13 +585,13 @@ keymap
 			&kp LG(LA(DOWN)) 
 			&kp LG(LA(RIGHT))  
 			&kp LG(SLASH)
-			&kp LG(LA(LC(LS(F4))))
+			&kp LG(LA(LC(LS(RBRC))))  // Fokus
 
 			&to mNR
-			&kp LG(LA(LC(LS(F5))))  //Shortcat
+			&kp LG(LA(LC(LS(F1)))) //Seitenleiste links
 			&kp LG(SEMI)
 			&kp LG(SQT)
-			&kp LG(LA(LC(LS(F6))))  // Prg Setting
+			&kp LG(LA(LC(LS(F4))))  // Shortcat
 			&kp LG(LS(N4))       // Screenshot
 			&kp LG(LC(Q))        // Sperren
 			&kp LC(LS(TAB))
@@ -593,7 +605,7 @@ keymap
 			&none
 			&none 
 			&none 
-			&none
+			&kp LG(LA(LC(LS(F5))))  //Shortcat
 		>;
 	};
 
@@ -613,7 +625,7 @@ keymap
 
 		bindings = <
 
-			&kp LG(LA(LC(LS(SLASH))))
+			&kp ESC
 			&bt BT_PRV
 			&kp C_PREVIOUS 
 			&kp C_PP 
@@ -626,7 +638,7 @@ keymap
 			&bt BT_NXT
 			&kp LG(DEL)
 
-			&kp LG(LA(LC(LS(F7))))
+			&trans
 			&kp LG(LA(LC(LS(C))))
 			&kp LG(LA(LC(LS(T))))
 			&kp LG(LA(LC(LS(I))))
@@ -637,7 +649,7 @@ keymap
 			&kp LG(LA(LC(LS(R))))
 			&kp LG(LA(LC(LS(S))))
 			&kp LG(LA(LC(LS(G))))
-			&kp LG(LA(LC(LS(F8))))
+			&kp LG(LA(LC(LS(SLASH))))
 
 			&to mNR
 			&kp LG(LA(LC(LS(F))))
@@ -757,7 +769,7 @@ keymap
 			&kp LA(LG(R))
 			&kp LA(LG(S))
 			&kp LA(LG(G)) 
-			&kp LA(ENTER)
+			&kp LA(LG(ENTER))
 
 			&to mNR
 			&kp LA(LG(F))
@@ -795,12 +807,12 @@ keymap
 
 		bindings = <
 
-			&kp DEL
+			&kp ESC
 			&kp LGUI
 			&kp LG(LS(LEFT)) 
-			&kp LCTRL
+			&kp DEL
 			&kp LG(LS(RIGHT)) 
-            &kp LG(LA(LC(LS(10))))
+            &kp LG(LA(LC(LS(F8))))
 			&kp LG(UP)
 			&kp LG(LEFT) 
 			&kp UP
@@ -813,7 +825,7 @@ keymap
 			&kp LC(LGUI)
 			&kp LALT
 			&kp LGUI
-			&kp LG(LA(LC(LS(11))))
+			&kp LG(LA(LC(LS(F9))))
 			&kp LG(DOWN) 
 			&kp LEFT 
 			&kp DOWN
@@ -825,8 +837,8 @@ keymap
 			&kp CAPSLOCK
 			&kp LS(LA(LEFT))
 			&kp LS(LA(RIGHT))
-			&kp LG(LA(LC(LS(GRAVE))))
-			&kp LG(LA(LC(LS(F12))))
+			&kp LCTRL
+			&kp LG(LA(LC(LS(F10))))
 			&kp LG(LA(LC(LS(EQUAL))))
 			&kp LS(TAB)
 			&kp LA(LEFT)
@@ -1052,7 +1064,7 @@ keymap
 			&kp RS(N2)
 			&kp GRAVE
 			&kp LS(MINUS)
-			&kp F11
+			&kp LA(SPACE)
 
 			&trans
 			&kp LS(N6)
@@ -1065,7 +1077,7 @@ keymap
 			&kp LS(COMMA)
 			&kp LS(DOT)
 			&kp LS(N5)
-			&kp LA(ENTER)
+			&kp F11
 
 			&to wNR
 			&kp LS(N7)
@@ -1111,7 +1123,7 @@ keymap
 			&kp RA(N3)
 			&kp GRAVE
 			&kp LS(MINUS)
-			&kp F12
+			&kp LG(D)
 
 			&trans
 			&kp LS(N6)
@@ -1124,7 +1136,7 @@ keymap
 			&kp LS(COMMA)
 			&kp LS(DOT)
 			&kp LS(N5)
-			&kp LG(ENTER)
+			&kp F12
 
 			&to wNR
 			&kp RA(MINUS)
@@ -1160,7 +1172,7 @@ keymap
 
 		bindings = <
 
-			&kp LA(SPACE)
+			&kp ESC
 			&kp LC(N1)
 			&kp LC(N2)
 			&kp LC(N3)
@@ -1173,7 +1185,7 @@ keymap
 			&kp LC(N0)
 			&kp LA(F4)
 
-			&kp LG(TAB)
+			&trans
 			&kp LG(N1)
 			&kp LG(N2)
 			&kp LG(N3)
@@ -1181,7 +1193,7 @@ keymap
 			&kp LG(N5)
 			&kp LG(N6)
 			&swrocket
-			&kp LG(N8)
+			&swbrowser
 			&swswyx
 			&swcraft 			
 			&kp LA(TAB)
@@ -1202,9 +1214,9 @@ keymap
 			&none 
 			&none 
 			&sl wSPRG
+			&swleft
 			&none 
-			&none 
-			&none
+			&swright
 		>;
 	};
 
@@ -1222,7 +1234,7 @@ keymap
 
 		bindings = <
 
-			&kp LA(SPACE) 
+			&kp ESC
 			&kp LA(J) 
 			&kp LA(D)
 			&kp LA(U) 
@@ -1233,9 +1245,9 @@ keymap
 			&kp LA(L) 
 			&kp LA(M) 
 			&kp LA(W) 
-			&to LG(X)
+			&to LC(LS(ESC))
 	
-			&swleft
+			&trans
 			&kp LA(C)
 			&kp LA(T)
 			&kp LA(I)
@@ -1246,7 +1258,7 @@ keymap
 			&kp LA(R) 
 			&kp LA(S) 
 			&kp LA(G) 
-			&swright
+			&kp LG(TAB)
 
 			&to wNR
 			&kp LA(F)
@@ -1284,7 +1296,7 @@ keymap
 
 		bindings = <
  
-			&kp LC(NUHS)
+			&kp ESC
 			&kp LC(LS(B)) 
 			&kp LC(LS(U)) 
 			&kp LC(LS(F)) 
@@ -1297,7 +1309,7 @@ keymap
 			&kp LC(KP_PLUS)
 			&kp LC(DELETE)
 	
-			&kp F12
+			&trans
 			&kp LA(E) 
 			&kp LC(LS(C)) 
 			&kp LC(LS(V)) 
@@ -1308,13 +1320,13 @@ keymap
 			&kp LA(DOWN) 
 			&kp LC(RIGHT)  
 			&kp LC(KP_MINUS)
-			&kp LG(A)
+			&kp LC(NUHS)     //Fokus
 
 			&to wNR
-			&kp LALT	   //Shortcat alternative
+			&kp F12			//Seitenleiste links
 			&kp LA(LEFT) 
 			&kp LA(RIGHT)
-			&kp LG(I)	   //Settings
+			&kp LG(A)		// Seitenleiste rechts
 			&kp LS(LG(S))
 			&kp LG(X)       //Sperren, shutdown
 			&kp LC(LS(TAB))
@@ -1328,7 +1340,7 @@ keymap
 			&none
 			&none 
 			&none 
-			&none
+			&kp LALT	   //Shortcat alternative
 		>;
 	};
 
@@ -1343,7 +1355,7 @@ keymap
 
 		bindings = <
 
-			&none
+			&kp ESC
 			&bt BT_PRV
 			&kp C_PREVIOUS 
 			&kp C_PP 
@@ -1356,7 +1368,7 @@ keymap
 			&bt BT_NXT			
 			&kp LS(END)
 
-			&none
+			&trans
 			&none
 			&none
 			&none
@@ -1526,12 +1538,12 @@ keymap
 
 		bindings = <
 
-			&kp DEL
+			&kp ESC
 			&kp LALT
 			&kp LS(HOME) 
-			&kp INSERT
+			&kp DEL
 			&kp LS(END) 
-           	&none
+           	&kp LG(T)
 			&kp LC(HOME)
 			&kp HOME 
 			&kp UP
@@ -1556,7 +1568,7 @@ keymap
 			&kp CAPSLOCK
 			&kp LC(LS(LEFT))
 			&kp LC(LS(RIGHT))
-			&kp LG(T)
+			&kp INSERT
 			&none
 			&kp LC(LS(F10))
 			&kp LS(TAB)
