@@ -55,8 +55,8 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&kp LG(LA(LC(LS(LEFT))))>
-                , <&to mCHAR>
+                = <&to mCHAR>
+                , <&kp LG(LA(LC(LS(LEFT))))>
                 ;
         };
     };
@@ -67,8 +67,8 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&kp LG(LA(LC(LS(RIGHT))))>
-                , <&to wCHAR>
+                = <&to wCHAR>
+                , <&kp LG(LA(LC(LS(RIGHT))))>
                 ;
         };
     };
@@ -79,8 +79,8 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&kp LG(N0)>
-                , <&to mCHAR>
+                = <&to mCHAR>
+                , <&kp LG(N0)>
                 ;
         };
     };
@@ -92,8 +92,8 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&kp LG(N7)>
-                , <&to mCHAR>
+                = <&to mCHAR>
+                , <&kp LG(N7)>
                 ;
         };
     };
@@ -105,8 +105,8 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&kp LG(N9)>
-                , <&to mCHAR>
+                = <&to mCHAR>
+                , <&kp LG(N9)>
                 ;
         };
     };
@@ -117,8 +117,8 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&kp LG(N8)>
-                , <&to mCHAR>
+                = <&to mCHAR>
+                , <&kp LG(N8)>
                 ;
         };
     };
@@ -1375,9 +1375,9 @@ keymap
 			&none
 			&none
 			&none
-			&none
-			&none
-			&none
+			&kp LG(LEFT)
+			&kp LG(DOWN)
+			&kp LG(RIGHT)
 			&none
 			&none
 
