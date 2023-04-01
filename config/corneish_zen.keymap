@@ -140,10 +140,6 @@
                 ;
         };
     };
-
-
-	
-
 };
 
 
@@ -1398,9 +1394,9 @@ keymap
 			&none
 			&none
 			&none
-			&kp T
-			&kp E
-			&kp S
+			&windowleft
+			&none
+			&windowright
 			&kp T
 			&none
 
