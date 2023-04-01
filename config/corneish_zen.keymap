@@ -1102,7 +1102,7 @@
 				&kp ESC
 				&kp LGUI
 				&kp LG(LS(LEFT)) 
-				&kp LG(LC(UP))
+				&kp LC(UP)
 				&kp LG(LS(RIGHT)) 
 				&kp DELETE
 				&kp LG(UP)
@@ -1114,9 +1114,9 @@
 
 				&trans 
 				&kp LSHIFT
-				&kp LG(LC(LEFT))
-				&kp LG(LC(DOWN))
-				&kp LG(LC(RIGHT))
+				&kp LC(LEFT)
+				&kp LC(DOWN)
+				&kp LC(RIGHT)
 				&kp CAPSLOCK
 				&kp LG(DOWN) 
 				&kp LEFT 
