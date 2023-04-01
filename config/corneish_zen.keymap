@@ -198,8 +198,8 @@
     };
 
 	macros {
-        pthree: pthree {
-            label = "pthree";
+        p3: p3 {
+            label = "p3";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
