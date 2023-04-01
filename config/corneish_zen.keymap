@@ -66,6 +66,9 @@
     	//zmk,matrix_transform = &five_column_transform;
   	};
   
+	&sl {
+    	release-after-ms = <2000>;
+	};
 
 
 	// LAYOUT WECHSEL
