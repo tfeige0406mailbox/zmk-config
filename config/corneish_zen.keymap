@@ -38,18 +38,8 @@
     //zmk,matrix_transform = &five_column_transform;
   };
   
-  behaviors {
-    skq: sticky_key_quick_release {
-      		compatible = "zmk,behavior-sticky-key";
-      		label = "STICKY_KEY_QUICK_RELEASE";
-      		#binding-cells = <1>;
-      		bindings = <&kp>;
-      		release-after-ms = <1000>;
-    	    quick-release;
-	    };
-	};
-  
-  macros {
+
+    macros {
         swleft: SwitchLeft {
             label = "SwitchLeft";
             compatible = "zmk,behavior-macro";
@@ -111,7 +101,7 @@
         };
     };
 
-		macros {
+	macros {
         swbrowser: SwitchBrowser {
             label = "SwitchBrowser";
             compatible = "zmk,behavior-macro";
@@ -121,26 +111,11 @@
                 , <&kp LG(N8)>
                 ;
         };
-
-		macros {
-        zed_em_kay: zed_em_kay {
-            label = "ZM_zed_em_kay";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&macro_press &kp LSHFT>
-                , <&macro_tap &kp Z &kp M &kp K>
-                , <&macro_release &kp LSHFT>
-                ;
-        };
     };
 
 };
 
-&skq {
-	release-after-ms = <4000>;
-	quick-release;    
-};
+
 
 
 / {
@@ -914,7 +889,7 @@ keymap
  			&kp G
  			&kp RET
  
-			&skq LSHIFT
+			&kp LSHIFT
 			&kp F
 	 		&kp V
  			&kp MINUS
@@ -925,7 +900,7 @@ keymap
 			&kp LBKT
 			&kp SQT
 			&kp K
-	 		&skq LSHIFT
+	 		&kp LSHIFT
 
 			&sl wFUNC
  			&kp SPACE 
