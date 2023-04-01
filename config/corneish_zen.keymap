@@ -2,31 +2,53 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
+// MAC
+
 #define mCHAR 0
 #define mNR 1
+
 #define mSYM 2
 #define mSSYM 3
-#define mSSSYM 4
-#define mPRG 5
-#define mSPRG 6
-#define mFUNC 7
-#define mSFUNC 8
-#define mGUI 9
-#define mAGUI 10
-#define mNAV 11
 
-#define wCHAR 12
-#define wNR 13
-#define wSYM 14
-#define wSSYM 15
-#define wSSSYM 16
-#define wPRG 17
-#define wSPRG 18
-#define wFUNC 19
-#define wSFUNC 20
-#define wCTL 21
-#define wSCTL 22
-#define wNAV 23
+#define mPFUNC 4
+#define mSPFUNC 5
+
+#define mPRG 6
+#define mSPRG 7
+
+#define mFUNC 8
+#define mSFUNC 9
+
+#define mMOD 10
+#define mSMOD 11
+#define mSSMOD 12
+
+#define mNAV 13
+
+// WINDOWS
+
+#define wCHAR 14
+#define wNR 15
+
+#define wSYM 16
+#define wSSYM 17
+
+#define wPFUNC 18
+#define wSPFUNC 19
+
+#define wPRG 20
+#define wSPRG 21
+
+#define wFUNC 22
+#define wSFUNC 23
+
+#define wMOD 24
+#define wSMOD 25
+#define wSSMOD 26
+
+#define wNAV 27
+
+// BOTH
 
 #define mwBCHAR 24
 
@@ -38,6 +60,7 @@
     //zmk,matrix_transform = &five_column_transform;
   };
   
+	// LAYOUT WECHSEL
 
     macros {
         swleft: SwitchLeft {
@@ -112,6 +135,9 @@
                 ;
         };
     };
+
+
+	// WINDOW MOVEMENT
 
     macros {
         windowleft: windowleft {
@@ -197,6 +223,40 @@
         };
     };
 
+	// PROGRAMM SELECT
+
+	macros {
+        p1: p1 {
+            label = "p1";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LGUI>
+                , <&macro_press &kp N1>
+				, <&macro_wait_time 250>
+				, <&macro_release &kp N1>
+				, <&macro_wait_time 750>
+                , <&macro_release &kp LGUI>
+                ;
+        };
+    };
+
+	macros {
+        p2: p2 {
+            label = "p2";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LGUI>
+                , <&macro_press &kp N2>
+				, <&macro_wait_time 350>
+				, <&macro_release &kp N2>
+				, <&macro_wait_time 750>
+                , <&macro_release &kp LGUI>
+                ;
+        };
+    };
+
 	macros {
         p3: p3 {
             label = "p3";
@@ -205,7 +265,7 @@
             bindings
                 = <&macro_press &kp LGUI>
                 , <&macro_press &kp N3>
-				, <&macro_wait_time 250>
+				, <&macro_wait_time 450>
 				, <&macro_release &kp N3>
 				, <&macro_wait_time 750>
                 , <&macro_release &kp LGUI>
