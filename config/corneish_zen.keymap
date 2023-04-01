@@ -31,7 +31,6 @@
 #define mwBCHAR 24
 
 
-
 / {
   
   chosen {
