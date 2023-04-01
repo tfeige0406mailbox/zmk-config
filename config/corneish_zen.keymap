@@ -27,6 +27,9 @@
 
 #define mNAV 13
 
+#define mBCHAR 14
+
+
 
 
 // WINDOWS
@@ -52,6 +55,7 @@
 
 #define wNAV 27
 
+#define wBCHAR 29
 
 
 
@@ -1143,7 +1147,65 @@
 			>;
 		};
 
+		// --------------------------------------
+		// Layer 14 - mBCHAR =	GROSS-BUCHSTABEN
+		// --------------------------------------
 
+
+		mac_bchar
+		{
+
+			label = "MAC";
+
+			bindings = <
+
+				&kp ESC
+				&kp LS(J) 
+				&kp LS(D)
+				&kp LS(U) 
+				&kp LS(A) 
+				&kp LS(X)
+				&kp LS(P) 
+				&kp LS(H) 
+				&kp LS(L) 
+				&kp LS(M) 
+				&kp LS(W) 
+				&kp BACKSPACE
+		
+				&trans
+				&kp LS(C)
+				&kp LS(T)
+				&kp LS(I)
+				&kp LS(E)
+				&kp LS(O)	
+				&kp LS(B) 
+				&kp LS(N) 
+				&kp LS(R) 
+				&kp LS(S) 
+				&kp LS(G) 
+				&kp ENTER
+				
+				&trans
+				&kp LS(F)
+				&kp LS(V)
+				&kp LS(MINUS)
+				&kp LS(Y)
+				&kp LS(Q)
+				&kp LS(Z)
+				&kp LS(SEMICOLON)
+				&kp LS(LEFT_BRACKET)
+				&kp LS(SINGLE_QUOTE)
+				&kp LS(K) 
+				&to mCHAR
+		
+				&trans 
+				&kp SPACE
+				&trans 
+				&trans 
+				&none 
+				&trans 
+			>;
+		};
 
 
 
@@ -1153,7 +1215,7 @@
 
 
 		// --------------------------------------
-		// Layer 14 - wChar = 	  Buchstaben	
+		// Layer 15 - wChar = 	  Buchstaben	
 		// --------------------------------------
 	
 		win_buchstaben
@@ -1212,7 +1274,7 @@
 
 
 		// --------------------------------------
-		// Layer 15 - wNR = 	  Zahlen	
+		// Layer 16 - wNR = 	  Zahlen	
 		// --------------------------------------
 
 		win_zahlen
@@ -1272,7 +1334,7 @@
 
 
 		// --------------------------------------
-		// Layer 16 - wSYM =	Symoble
+		// Layer 17 - wSYM =	Symoble
 		// --------------------------------------
 
 		win_symbole
@@ -1334,7 +1396,7 @@
 
 
 		// --------------------------------------
-		// Layer 17 - wSSYM =	Special Symbole
+		// Layer 18 - wSSYM =	Special Symbole
 		// --------------------------------------
 
 		win_specialsonderzeichen
@@ -1394,7 +1456,7 @@
 
 
 		// --------------------------------------------
-		// Layer 18 - wPFUNC =	Programm-Funkionen
+		// Layer 19 - wPFUNC =	Programm-Funkionen
 		// --------------------------------------------
 
 		win_pfunc
@@ -1454,7 +1516,7 @@
 
 
 		// --------------------------------------------
-		// Layer 19 - wSPFUNC =	Special Programm-Funkionen
+		// Layer 20 - wSPFUNC =	Special Programm-Funkionen
 		// --------------------------------------------
 
 		win_spfunc
@@ -1511,7 +1573,7 @@
 
 
 		// --------------------------------------
-		// Layer 20 - wPRG =	Programme
+		// Layer 21 - wPRG =	Programme
 		// --------------------------------------
 
 		win_programme
@@ -1570,7 +1632,7 @@
 
 
 		// --------------------------------------
-		// Layer 21 - wSPRG =	Spezial Prgramme
+		// Layer 22 - wSPRG =	Spezial Prgramme
 		// --------------------------------------
 
 
@@ -1632,7 +1694,7 @@
 
 
 		// --------------------------------------
-		// Layer 22 - wFUNC =	Funktionen
+		// Layer 23 - wFUNC =	Funktionen
 		// --------------------------------------
 
 		win_function
@@ -1696,7 +1758,7 @@
 
 
 		// --------------------------------------
-		// Layer 23 - wSFUNC =	Spezial Funktionen
+		// Layer 24 - wSFUNC =	Spezial Funktionen
 		// --------------------------------------
 
 		win_specialfunction
@@ -1756,7 +1818,7 @@
 
 
 		// --------------------------------------
-		// Layer 24 - wMOD =	GUI
+		// Layer 25 - wMOD =	GUI
 		// --------------------------------------
 
 		win_mod
@@ -1816,7 +1878,7 @@
 
 
 		// --------------------------------------
-		// Layer 25 - wSMOD =	Spezial Mod
+		// Layer 26 - wSMOD =	Spezial Mod
 		// --------------------------------------
 
 		win_smod
@@ -1874,7 +1936,7 @@
 		};
 
 		// --------------------------------------
-		// Layer 26 - wSSMOD =	Super Spezial Mod
+		// Layer 27 - wSSMOD =	Super Spezial Mod
 		// --------------------------------------
 
 		win_ssmod
@@ -1934,7 +1996,7 @@
 
 
 		// --------------------------------------
-		// Layer = 27 - wNAV	  Navigation
+		// Layer = 28 - wNAV	  Navigation
 		// --------------------------------------
 
 		win_navigation
@@ -1992,7 +2054,65 @@
 		};
 
 
+		// --------------------------------------
+		// Layer = 29 - wBCHAR	  
+		// --------------------------------------
 
+
+		win_bchar
+		{
+
+			label = "MAC";
+
+			bindings = <
+
+				&kp ESC
+				&kp LS(J) 
+				&kp LS(D)
+				&kp LS(U) 
+				&kp LS(A) 
+				&kp LS(X)
+				&kp LS(P) 
+				&kp LS(H) 
+				&kp LS(L) 
+				&kp LS(M) 
+				&kp LS(W) 
+				&kp BACKSPACE
+		
+				&trans
+				&kp LS(C)
+				&kp LS(T)
+				&kp LS(I)
+				&kp LS(E)
+				&kp LS(O)	
+				&kp LS(B) 
+				&kp LS(N) 
+				&kp LS(R) 
+				&kp LS(S) 
+				&kp LS(G) 
+				&kp ENTER
+				
+				&none
+				&kp LS(F)
+				&kp LS(V)
+				&kp LS(MINUS)
+				&kp LS(Y)
+				&kp LS(Q)
+				&kp LS(Z)
+				&kp LS(SEMICOLON)
+				&kp LS(LEFT_BRACKET)
+				&kp LS(SINGLE_QUOTE)
+				&kp LS(K) 
+				&to wChar
+		
+				&trans 
+				&kp SPACE
+				&trans 
+				&trans 
+				&none 
+				&trans 
+			>;
+		};
 
 
 
