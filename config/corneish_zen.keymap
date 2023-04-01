@@ -847,10 +847,6 @@
 
 
 
-
-
-
-
 		// --------------------------------------
 		// Layer 9 - mSFUNC =	Spezial Funktionen
 		// --------------------------------------
@@ -868,9 +864,9 @@
 				&none
 				&none
 				&none
-				&kp LG(Y)
+				&none
 				&kp LG(LA(UP)) 
-				&kp LG(LS(Y)) 
+				&none
 				&kp LG(PG_UP)
 				&none
 
@@ -1104,7 +1100,7 @@
 				&kp LG(LS(LEFT)) 
 				&kp LC(UP)
 				&kp LG(LS(RIGHT)) 
-				&kp DELETE
+				&none
 				&kp LG(UP)
 				&kp LG(LEFT) 
 				&kp UP
@@ -1117,7 +1113,7 @@
 				&kp LC(LEFT)
 				&kp LC(DOWN)
 				&kp LC(RIGHT)
-				&kp CAPSLOCK
+				&none
 				&kp LG(DOWN) 
 				&kp LEFT 
 				&kp DOWN
@@ -1125,8 +1121,8 @@
 				&kp PG_DN
 				&kp ENTER
 				
-				&none
-				&none
+				&kp INSERT
+				&kp DELETE
 				&kp LS(LA(LEFT))
 				&kp LS(LA(RIGHT))
 				&none
