@@ -418,7 +418,7 @@
 			>;		
 		};
 
-		
+
 
 		// --------------------------------------
 		// Layer 2 - mSYM =	Symoble
@@ -480,6 +480,65 @@
 
 
 
+
+
+		// --------------------------------------
+		// Layer 3 - mSSYM =	Special Symbole
+		// --------------------------------------
+
+		mac_specialsonderzeichen
+		{
+			label = "MAC";
+
+			bindings = <
+
+				&kp ESC	
+				&kp LS(N3)
+				&kp NUBS
+				&kp LA(N8)			
+				&kp LA(N9)			
+				&kp X
+				&kp LS(N4)
+				&kp LA(E)
+				&kp LA(M)
+				&kp M
+				&kp LS(N5)			
+				&kp BSPC
+
+				&trans
+				&kp LA(N7)				
+				&kp LA(N)				
+				&kp LS(GRAVE)
+				&kp LA(N)					
+				&kp LS(EQUAL)				
+				&kp LS(N6)				
+				&kp LS(N1)				
+				&kp LS(DOT)				
+				&kp LS(COMMA)	
+				&kp LS(MINUS)				
+				&none
+
+				&to mNR
+				&kp LS(LA(N7))
+				&kp LA(N8)
+				&kp LA(N9)
+				&kp LS(RBRC)
+				&kp LS(N0)
+				&kp LS(NUHS)
+				&kp RBKT
+				&kp COMMA
+				&kp DOT
+				&kp LS(SLASH)	
+				&to mCHAR
+
+				&none 
+				&kp SPACE 
+				&none			
+				&none
+				&trans
+				&none
+			>;
+		};
 
 
 
