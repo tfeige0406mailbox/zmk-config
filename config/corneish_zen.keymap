@@ -295,8 +295,6 @@
 };
 
 
-
-
 // ------------------------------------------------------------------------------------------------------------------
 //					 MAC
 // ------------------------------------------------------------------------------------------------------------------
@@ -809,26 +807,26 @@
 				&kp LG(LC(UP)) 
 				&kp LG(LS(Y)) 
 				&kp LG(RBKT)
-				&kp LG(LA(LC(LS(RBRC))))  // open
+				&none
 		
 				&trans
 				&kp LG(LS(G)) 
 				&kp LG(LA(C)) 
 				&kp LG(LA(V)) 
 				&kp LG(SPACE)  
-				&kp LG(LA(LC(LS(PG_UP))))	
-				&kp LG(LA(LC(LS(PG_DN))))
+				&kp LG(LA(LC(LS(F2))))	
+				&kp LG(LA(LC(LS(F3))))
 				&kp LG(LC(LEFT))
 				&kp LG(LC(DOWN))
 				&kp LG(LC(RIGHT))
 				&kp LG(SLASH)
-				&kp LG(LA(LC(LS(SLASH))))  // Fokus
+				&kp LG(LA(LC(LS(RBRC))))  // Fokus
 
 				&to mBCHAR
-				&kp LG(LA(LC(LS(DOT)))) //Seitenleiste links
+				&kp LG(LA(LC(LS(F1)))) //Seitenleiste links
 				&kp LG(SEMI)
 				&kp LG(SQT)
-				&kp LG(LA(LC(LS(COMMA))))  //Seitenleiste links
+				&kp LG(LA(LC(LS(F4))))  // Shortcat
 				&kp LG(LS(N4))       // Screenshot
 				&kp LG(LC(Q))        // Sperren
 				&kp LC(LS(TAB))
@@ -1101,7 +1099,7 @@
 				&kp LG(LS(LEFT)) 
 				&kp LC(UP)
 				&kp LG(LS(RIGHT)) 
-				&kp CAPSLOCK
+				&none
 				&kp LG(UP)
 				&kp LG(LEFT) 
 				&kp UP
@@ -1169,7 +1167,7 @@
 				&kp LS(W) 
 				&kp BACKSPACE
 		
-				&mNAV
+				&trans
 				&kp LS(C)
 				&kp LS(T)
 				&kp LS(I)
@@ -1199,7 +1197,7 @@
 				&kp SPACE
 				&trans 
 				&trans 
-				&trans 
+				&none 
 				&trans 
 			>;
 		};
