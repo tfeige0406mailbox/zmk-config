@@ -113,6 +113,37 @@
         };
     };
 
+    macros {
+        windowleft: windowleft {
+            label = "windowleft";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LGUI>
+                , <&macro_tap &kp LEFT>
+				, <&macro_wait_time 500>
+                , <&macro_release &kp LGUI>
+                ;
+        };
+    };
+
+	macros {
+        windowright: windowright {
+            label = "windowright";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LGUI>
+                , <&macro_tap &kp RIGHT>
+				, <&macro_wait_time 500>
+                , <&macro_release &kp LGUI>
+                ;
+        };
+    };
+
+
+	
+
 };
 
 
