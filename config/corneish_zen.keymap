@@ -174,7 +174,7 @@ keymap
  			&kp G
  			&kp RET
  
-			&to mNR
+			&kp LSHIFT
 			&kp F
 	 		&kp V
  			&kp MINUS
@@ -185,13 +185,13 @@ keymap
 			&kp LBKT
 			&kp SQT
 			&kp K
-	 		&to mCHAR
+	 		&kp LSHIFT
 
 			&sl mFUNC
  			&kp SPACE 
 			&sl mPRG
 			&sl mSYM
- 			&sl mwBCHAR
+ 			&none
 			&sl mGUI
 		>;
 	};
