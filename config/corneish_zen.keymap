@@ -205,7 +205,7 @@
             bindings
                 = <&macro_press &kp LGUI>
                 , <&macro_press &kp N3>
-				, <&macro_wait_time 50>
+				, <&macro_wait_time 250>
 				, <&macro_release &kp N3>
 				, <&macro_wait_time 750>
                 , <&macro_release &kp LGUI>
