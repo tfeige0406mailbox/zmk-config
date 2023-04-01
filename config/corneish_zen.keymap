@@ -38,6 +38,16 @@
     //zmk,matrix_transform = &five_column_transform;
   };
   
+  behaviors {
+    skq: sticky_key_quick_release {
+      		compatible = "zmk,behavior-sticky-key";
+      		label = "STICKY_KEY_QUICK_RELEASE";
+      		#binding-cells = <1>;
+      		bindings = <&kp>;
+      		release-after-ms = <5000>;
+    	    quick-release;
+	    };
+	};
   
   macros {
         swleft: SwitchLeft {
@@ -117,23 +127,7 @@
 
 
 / {
-
-behaviors {
-    skq: sticky_key_quick_release {
-      compatible = "zmk,behavior-sticky-key";
-      label = "STICKY_KEY_QUICK_RELEASE";
-      #binding-cells = <1>;
-      bindings = <&kp>;
-      release-after-ms = <5000>;
-      quick-release;
-    };
-};
-
-&skq {
-  release-after-ms = 60000;
-  quick-release;
-};
-
+	
 keymap
 {
 	compatible = "zmk,keymap";
