@@ -197,6 +197,20 @@
         };
     };
 
+	macros {
+        pthree: pthree {
+            label = "pthree";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LGUI>
+                , <&macro_tap &kp N3>
+				, <&macro_wait_time 500>
+                , <&macro_release &kp LGUI>
+                ;
+        };
+    };
+
 };
 
 
