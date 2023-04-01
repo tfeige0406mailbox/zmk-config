@@ -127,7 +127,8 @@
 
 &skq {
         release-after-ms = <4000>;
-        quick-release;        
+        quick-release;    
+		/delete-property/ ignore-modifiers;    
 };
 
 
