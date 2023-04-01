@@ -123,12 +123,13 @@
         };
     };
 
-	
-    &sk {
+
+};
+
+
+&sk {
         release-after-ms = <4000>;
         quick-release;        
-    };
-
 };
 
 
