@@ -204,8 +204,10 @@
             #binding-cells = <0>;
             bindings
                 = <&macro_press &kp LGUI>
-                , <&macro_tap &kp N3>
-				, <&macro_wait_time 1500>
+                , <&macro_press &kp N3>
+				, <&macro_wait_time 1000>
+				, <&macro_release &kp N3>
+				, <&macro_wait_time 1000>
                 , <&macro_release &kp LGUI>
                 ;
         };
