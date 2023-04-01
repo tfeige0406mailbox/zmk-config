@@ -805,7 +805,7 @@
 				&kp LG(LS(EQUAL)) 
 				&kp LG(LC(SPACE))
 				&kp LG(Y)
-				&kp LG(LA(UP)) 
+				&kp LG(LC(UP)) 
 				&kp LG(LS(Y)) 
 				&kp LG(RBKT)
 				&none
@@ -817,9 +817,9 @@
 				&kp LG(SPACE)  
 				&kp LG(LA(LC(LS(F2))))	
 				&kp LG(LA(LC(LS(F3))))
-				&kp LG(LA(LEFT)) 
-				&kp LG(LA(DOWN)) 
-				&kp LG(LA(RIGHT))  
+				&kp LG(LC(LEFT))
+				&kp LG(LC(DOWN))
+				&kp LG(LC(RIGHT))
 				&kp LG(SLASH)
 				&kp LG(LA(LC(LS(RBRC))))  // Fokus
 
@@ -883,7 +883,7 @@
 				&none
 				&kp LG(LA(LEFT)) 
 				&kp LG(LA(DOWN)) 
-				&kp LG(LA(RIGHT))  				
+				&kp LG(LA(RIGHT))  
 				&kp LG(PG_DN)
 				&none
 
