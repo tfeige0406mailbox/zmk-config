@@ -360,7 +360,7 @@
 				&sl mFUNC
 				&kp SPACE 
 				&sl mPRG
-				&sl mSYM
+				&sl mPFUNC
 				&sl mNR
 				&sl mMOD
 			>;
@@ -1266,7 +1266,7 @@
 				&sl mFUNC
 				&kp SPACE 
 				&sl mPRG
-				&sl mSYM
+				&sl wPFUNC
 				&sl mNR
 				&sl mMOD
 			>;
