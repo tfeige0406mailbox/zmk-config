@@ -129,7 +129,7 @@ behaviors {
     };
 };
 
-&sk {
+&skq {
   release-after-ms = 60000;
   quick-release;
 };
