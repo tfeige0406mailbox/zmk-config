@@ -1106,7 +1106,7 @@
 				&kp UP
 				&kp LG(RIGHT)
 				&kp PG_UP 
-				&kp DELETE
+				&kp BACKSPACE
 
 				&trans 
 				&kp LSHIFT
