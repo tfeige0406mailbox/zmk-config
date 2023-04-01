@@ -34,26 +34,26 @@
 
 // WINDOWS
 
-#define wCHAR 14
-#define wNR 15
+#define wCHAR 15
+#define wNR 16
 
-#define wSYM 16
-#define wSSYM 17
+#define wSYM 17
+#define wSSYM 18
 
-#define wPFUNC 18
-#define wSPFUNC 19
+#define wPFUNC 19
+#define wSPFUNC 20
 
-#define wPRG 20
-#define wSPRG 21
+#define wPRG 21
+#define wSPRG 22
 
-#define wFUNC 22
-#define wSFUNC 23
+#define wFUNC 23
+#define wSFUNC 24
 
-#define wMOD 24
-#define wSMOD 25
-#define wSSMOD 26
+#define wMOD 25
+#define wSMOD 26
+#define wSSMOD 27
 
-#define wNAV 27
+#define wNAV 28
 
 #define wBCHAR 29
 
