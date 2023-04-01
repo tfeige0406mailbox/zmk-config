@@ -191,7 +191,7 @@ keymap
  			&kp SPACE 
 			&sl mPRG
 			&sl mSYM
- 			&none
+ 			&kp LSHIFT
 			&sl mGUI
 		>;
 	};
