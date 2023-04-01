@@ -947,7 +947,7 @@
 				&kp LG(G)
 				&kp LG(ENTER)
 
-				&none
+				&kp none
 				&kp LG(F)
 				&kp LG(V)
 				&kp LG(MINUS)
@@ -1007,7 +1007,7 @@
 				&kp LA(LG(G)) 
 				&kp LA(LG(ENTER))
 
-				&none
+				&to mBCHAR
 				&kp LA(LG(F))
 				&kp LA(LG(V))
 				&kp LA(LG(MINUS))
@@ -1818,7 +1818,7 @@
 
 
 		// --------------------------------------
-		// Layer 25 - wMOD =	GUI
+		// Layer 25 - wMOD =	CTL
 		// --------------------------------------
 
 		win_mod
@@ -1913,7 +1913,7 @@
 				&kp LA(LG(G)) 
 				&kp LA(LG(ENTER))
 
-				&none
+				&to wBCHAR
 				&kp LA(LG(F))
 				&kp LA(LG(V))
 				&kp LA(LG(MINUS))
