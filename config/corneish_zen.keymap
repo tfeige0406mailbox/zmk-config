@@ -50,7 +50,7 @@
 
 // BOTH
 
-#define mwBCHAR 24
+#define mwBCHAR 28
 
 
 / {
