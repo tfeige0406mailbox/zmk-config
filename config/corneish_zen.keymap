@@ -48,9 +48,7 @@
 
 #define wNAV 27
 
-// BOTH
 
-#define mwBCHAR 28
 
 
 / {
@@ -349,7 +347,7 @@ keymap
  			&kp SPACE 
 			&sl mPRG
 			&sl mSYM
- 			&none
+ 			&sl mNR
 			&sl mMOD
 		>;
 	};
@@ -407,8 +405,8 @@ keymap
 			&sl mFUNC
  			&kp SPACE 
 			&sl mPRG
-	 		&sl mSYM						
-			&sl mwBCHAR
+	 		&sl mPFUNC						
+			&sl mSYM
 			&sl mMOD
 		>;		
 	};
@@ -467,8 +465,8 @@ keymap
 			&none 
 			&kp SPACE 
 			&none 
-			&sl mSSYM 
 			&none 
+			&sl mSSYM
 			&none
 		>;
 	};
@@ -526,9 +524,9 @@ keymap
 
 			&none 
 			&kp SPACE 
-			&none 
-			&trans
+			&none			
 			&none
+			&trans
 			&none
 		>;
 	};
@@ -1150,69 +1148,15 @@ keymap
 
 
 
+
+
+
+
+
 // ------------------------------------------------------------------------------------------------------------------
 // ------------------------------------------------------------------------------------------------------------------
 
 
-	// --------------------------------------
-	// Layer 24 - mwBCHAR =	GROß-BUCHSTABEN
-	// --------------------------------------
-
-
-	macwin_character
-	{
-
-		label = "BOTH";
-
-		bindings = <
-
-			&kp ESC
-			&kp LS(J) 
-			&kp LS(D)
-			&kp LS(U) 
-			&kp LS(A) 
-			&kp LS(X)
-			&kp LS(P) 
-			&kp LS(H) 
-			&kp LS(L) 
-			&kp LS(M) 
-			&kp LS(W) 
-			&kp BACKSPACE
-	
-			&trans
-			&kp LS(C)
-			&kp LS(T)
-			&kp LS(I)
-			&kp LS(E)
-			&kp LS(O)	
-			&kp LS(B) 
-			&kp LS(N) 
-			&kp LS(R) 
-			&kp LS(S) 
-			&kp LS(G) 
-			&kp ENTER
-			
-			&trans
-			&kp LS(F)
-			&kp LS(V)
-			&kp LS(MINUS)
-			&kp LS(Y)
-			&kp LS(Q)
-			&kp LS(Z)
-			&kp LS(SEMICOLON)
-			&kp LS(LEFT_BRACKET)
-			&kp LS(SINGLE_QUOTE)
-			&kp LS(K) 
-			&trans
-	
-			&trans 
-			&kp SPACE
-			&trans 
-			&trans 
-			&trans 
-			&trans 
-		>;
-	};
 };
 };
 
