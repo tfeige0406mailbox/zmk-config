@@ -1101,7 +1101,7 @@
 				&kp LG(LS(LEFT)) 
 				&kp LC(UP)
 				&kp LG(LS(RIGHT)) 
-				&none
+				&kp CAPSLOCK
 				&kp LG(UP)
 				&kp LG(LEFT) 
 				&kp UP
