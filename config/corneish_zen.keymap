@@ -123,11 +123,17 @@
         };
     };
 
+	
+    &sk {
+        release-after-ms = <4000>;
+        quick-release;        
+    };
+
 };
 
 
 / {
-	
+
 keymap
 {
 	compatible = "zmk,keymap";
