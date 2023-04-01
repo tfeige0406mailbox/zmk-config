@@ -1278,7 +1278,7 @@ keymap
 			&trans
 			&kp LG(N1)
 			&kp LG(N2)
-			&kp LG(N3)
+			&p3
 			&kp LG(N4)
 			&kp LG(N5)
 			&kp LG(N6)
