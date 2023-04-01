@@ -1147,6 +1147,65 @@
 			>;
 		};
 
+		// --------------------------------------
+		// Layer 14 - mBCHAR =	GROSS-BUCHSTABEN
+		// --------------------------------------
+
+
+		mac_bchar
+		{
+
+			label = "MAC";
+
+			bindings = <
+
+				&kp ESC
+				&kp LS(J) 
+				&kp LS(D)
+				&kp LS(U) 
+				&kp LS(A) 
+				&kp LS(X)
+				&kp LS(P) 
+				&kp LS(H) 
+				&kp LS(L) 
+				&kp LS(M) 
+				&kp LS(W) 
+				&kp BACKSPACE
+		
+				&trans
+				&kp LS(C)
+				&kp LS(T)
+				&kp LS(I)
+				&kp LS(E)
+				&kp LS(O)	
+				&kp LS(B) 
+				&kp LS(N) 
+				&kp LS(R) 
+				&kp LS(S) 
+				&kp LS(G) 
+				&kp ENTER
+				
+				&trans
+				&kp LS(F)
+				&kp LS(V)
+				&kp LS(MINUS)
+				&kp LS(Y)
+				&kp LS(Q)
+				&kp LS(Z)
+				&kp LS(SEMICOLON)
+				&kp LS(LEFT_BRACKET)
+				&kp LS(SINGLE_QUOTE)
+				&kp LS(K) 
+				&to mCHAR
+		
+				&trans 
+				&kp SPACE
+				&trans 
+				&trans 
+				&none 
+				&trans 
+			>;
+		};
 
 
 
@@ -1994,6 +2053,66 @@
 			>;
 		};
 
+
+		// --------------------------------------
+		// Layer = 29 - wBCHAR	  
+		// --------------------------------------
+
+
+		win_bchar
+		{
+
+			label = "WIN";
+
+			bindings = <
+
+				&kp ESC
+				&kp LS(J) 
+				&kp LS(D)
+				&kp LS(U) 
+				&kp LS(A) 
+				&kp LS(X)
+				&kp LS(P) 
+				&kp LS(H) 
+				&kp LS(L) 
+				&kp LS(M) 
+				&kp LS(W) 
+				&kp BACKSPACE
+		
+				&trans
+				&kp LS(C)
+				&kp LS(T)
+				&kp LS(I)
+				&kp LS(E)
+				&kp LS(O)	
+				&kp LS(B) 
+				&kp LS(N) 
+				&kp LS(R) 
+				&kp LS(S) 
+				&kp LS(G) 
+				&kp ENTER
+				
+				&none
+				&kp LS(F)
+				&kp LS(V)
+				&kp LS(MINUS)
+				&kp LS(Y)
+				&kp LS(Q)
+				&kp LS(Z)
+				&kp LS(SEMICOLON)
+				&kp LS(LEFT_BRACKET)
+				&kp LS(SINGLE_QUOTE)
+				&kp LS(K) 
+				&to wCHAR
+		
+				&trans 
+				&kp SPACE
+				&trans 
+				&trans 
+				&none 
+				&trans 
+			>;
+		};
 
 
 
