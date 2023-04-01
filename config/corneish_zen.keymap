@@ -126,9 +126,9 @@
 };
 
 &skq {
-        release-after-ms = <4000>;
-        quick-release;    
-		/delete-property/ ignore-modifiers;    
+	release-after-ms = <4000>;
+	quick-release;    
+	/delete-property/ ignore-modifiers;    
 };
 
 
@@ -191,7 +191,7 @@ keymap
  			&kp SPACE 
 			&sl mPRG
 			&sl mSYM
- 			&skq LSHIFT
+ 			&sl mwBCHAR
 			&sl mGUI
 		>;
 	};
