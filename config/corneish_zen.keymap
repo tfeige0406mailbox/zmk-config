@@ -947,7 +947,7 @@
 				&kp LG(G)
 				&kp LG(ENTER)
 
-				&kp none
+				&none
 				&kp LG(F)
 				&kp LG(V)
 				&kp LG(MINUS)
@@ -1007,7 +1007,7 @@
 				&kp LA(LG(G)) 
 				&kp LA(LG(ENTER))
 
-				&to mBCHAR
+				&none
 				&kp LA(LG(F))
 				&kp LA(LG(V))
 				&kp LA(LG(MINUS))
