@@ -128,7 +128,6 @@
 &skq {
 	release-after-ms = <4000>;
 	quick-release;    
-	/delete-property/ ignore-modifiers;    
 };
 
 
@@ -191,7 +190,7 @@ keymap
  			&kp SPACE 
 			&sl mPRG
 			&sl mSYM
- 			&kp LSHIFT
+ 			&none
 			&sl mGUI
 		>;
 	};
@@ -903,7 +902,7 @@ keymap
  			&kp G
  			&kp RET
  
-			&to wNR
+			&skq LSHIFT
 			&kp F
 	 		&kp V
  			&kp MINUS
@@ -914,13 +913,13 @@ keymap
 			&kp LBKT
 			&kp SQT
 			&kp K
-	 		&to wCHAR
+	 		&skq LSHIFT
 
 			&sl wFUNC
  			&kp SPACE 
 			&sl wPRG
 			&sl wSYM
- 			&skq LSHIFT
+ 			&none
 			&sl wCTL
 		>;
 	};
