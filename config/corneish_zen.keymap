@@ -403,7 +403,7 @@
 				&kp N0				
 				&kp ENTER 
 
-				&sl LSHIFT
+				&sl mBCHAR
 				&kp LS(N7)
 				&kp LS(N8)
 				&kp LS(N9)
@@ -414,7 +414,7 @@
 				&kp COMMA
 				&kp DOT
 				&kp SLASH		
-				&sl LSHIFT
+				&sl mBCHAR
 		
 				&sl mFUNC
 				&kp SPACE 
@@ -502,8 +502,8 @@
 				&kp ESC	
 				&kp LS(N3)
 				&kp NUBS
-				&kp LA(N8)			
-				&kp LA(N9)			
+				&kp LA(N5)			
+				&kp LA(N6)			
 				&kp X
 				&kp LS(N4)
 				&kp LA(E)
@@ -1309,7 +1309,7 @@
 				&kp N0				
 				&kp ENTER 
 
-				&sl LSHIFT
+				&sl wBCHAR
 				&kp LS(N7)
 				&kp LS(N8)
 				&kp LS(N9)
@@ -1320,7 +1320,7 @@
 				&kp COMMA
 				&kp DOT
 				&kp SLASH		
-				&sl LSHIFT
+				&sl wBCHAR
 		
 				&sl mFUNC
 				&kp SPACE 
