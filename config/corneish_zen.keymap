@@ -807,26 +807,26 @@
 				&kp LG(LC(UP)) 
 				&kp LG(LS(Y)) 
 				&kp LG(RBKT)
-				&none
+				&kp LG(LA(LC(LS(RBRC))))  // open
 		
 				&trans
 				&kp LG(LS(G)) 
 				&kp LG(LA(C)) 
 				&kp LG(LA(V)) 
 				&kp LG(SPACE)  
-				&kp LG(LA(LC(LS(F2))))	
-				&kp LG(LA(LC(LS(F3))))
+				&kp LG(LA(LC(LS(PG_UP))))	
+				&kp LG(LA(LC(LS(PG_DN))))
 				&kp LG(LC(LEFT))
 				&kp LG(LC(DOWN))
 				&kp LG(LC(RIGHT))
 				&kp LG(SLASH)
-				&kp LG(LA(LC(LS(RBRC))))  // Fokus
+				&kp LG(LA(LC(LS(SLASH))))  // Fokus
 
 				&to mBCHAR
-				&kp LG(LA(LC(LS(F1)))) //Seitenleiste links
+				&kp LG(LA(LC(LS(DOT)))) //Seitenleiste links
 				&kp LG(SEMI)
 				&kp LG(SQT)
-				&kp LG(LA(LC(LS(F4))))  // Shortcat
+				&kp LG(LA(LC(LS(COMMA))))  //Seitenleiste rechts
 				&kp LG(LS(N4))       // Screenshot
 				&kp LG(LC(Q))        // Sperren
 				&kp LC(LS(TAB))
@@ -1099,7 +1099,7 @@
 				&kp LG(LS(LEFT)) 
 				&kp LC(UP)
 				&kp LG(LS(RIGHT)) 
-				&none
+				&kp CAPSLOCK
 				&kp LG(UP)
 				&kp LG(LEFT) 
 				&kp UP
