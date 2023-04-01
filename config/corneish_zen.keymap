@@ -223,56 +223,6 @@
         };
     };
 
-	// PROGRAMM SELECT
-
-	macros {
-        p1: p1 {
-            label = "p1";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&macro_press &kp LGUI>
-                , <&macro_press &kp N1>
-				, <&macro_wait_time 250>
-				, <&macro_release &kp N1>
-				, <&macro_wait_time 750>
-                , <&macro_release &kp LGUI>
-                ;
-        };
-    };
-
-	macros {
-        p2: p2 {
-            label = "p2";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&macro_press &kp LGUI>
-                , <&macro_press &kp N2>
-				, <&macro_wait_time 350>
-				, <&macro_release &kp N2>
-				, <&macro_wait_time 750>
-                , <&macro_release &kp LGUI>
-                ;
-        };
-    };
-
-	macros {
-        p3: p3 {
-            label = "p3";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&macro_press &kp LGUI>
-                , <&macro_press &kp N3>
-				, <&macro_wait_time 450>
-				, <&macro_release &kp N3>
-				, <&macro_wait_time 750>
-                , <&macro_release &kp LGUI>
-                ;
-        };
-    };
-
 };
 
 
@@ -524,7 +474,7 @@ keymap
 
 
 	// --------------------------------------------
-	// Layer 4 - mSSSYM =	Super Special Symbole
+	// Layer 4 - mPFUNC =	
 	// --------------------------------------------
 
 	mac_superspecialsonderzeichen
