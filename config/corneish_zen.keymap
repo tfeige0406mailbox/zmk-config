@@ -816,8 +816,8 @@
 				&kp LG(LA(C)) 
 				&kp LG(LA(V)) 
 				&kp LG(SPACE)  
-				&kp LG(LA(LC(LS(DOT))))	
-				&kp LG(LA(LC(LS(COMMA))))
+				&kp LG(LA(LC(LS(PG_UP))))	
+				&kp LG(LA(LC(LS(PG_DN))))
 				&kp LG(LC(LEFT))
 				&kp LG(LC(DOWN))
 				&kp LG(LC(RIGHT))
@@ -825,10 +825,10 @@
 				&kp LG(LA(LC(LS(SLASH))))  // Fokus
 
 				&to mBCHAR
-				&kp LG(LA(LC(LS(F1)))) //Seitenleiste links
+				&kp LG(LA(LC(LS(DOT)))) //Seitenleiste links
 				&kp LG(SEMI)
 				&kp LG(SQT)
-				&kp LG(LA(LC(LS(F4))))  // Shortcat
+				&kp LG(LA(LC(LS(COMMA))))  //Seitenleiste links
 				&kp LG(LS(N4))       // Screenshot
 				&kp LG(LC(Q))        // Sperren
 				&kp LC(LS(TAB))
@@ -1169,7 +1169,7 @@
 				&kp LS(W) 
 				&kp BACKSPACE
 		
-				&trans
+				&mNAV
 				&kp LS(C)
 				&kp LS(T)
 				&kp LS(I)
@@ -1199,7 +1199,7 @@
 				&kp SPACE
 				&trans 
 				&trans 
-				&none 
+				&trans 
 				&trans 
 			>;
 		};
