@@ -716,7 +716,7 @@ keymap
 			&kp LG(G)
 			&kp LG(ENTER)
 
-			&to mNR
+			&kp LSHIFT
 			&kp LG(F)
 			&kp LG(V)
 			&kp LG(MINUS)
@@ -727,7 +727,7 @@ keymap
 			&kp LG(LEFT_BRACKET)
 			&kp LG(SINGLE_QUOTE)
 			&kp LG(K) 
-			&to mCHAR
+			&kp LSHIFT
 	
 			&none 
 			&none 
