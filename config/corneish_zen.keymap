@@ -290,17 +290,16 @@
 };
 
 
+&sl {
+   	release-after-ms = <60000>;
+};
+
 
 
 
 // ------------------------------------------------------------------------------------------------------------------
 //					 MAC
 // ------------------------------------------------------------------------------------------------------------------
-
-
-&sl {
-   	release-after-ms = <60000>;
-};
 
 
 / {
@@ -810,20 +809,20 @@
 				&kp LG(LC(UP)) 
 				&kp LG(LS(Y)) 
 				&kp LG(RBKT)
-				&none
+				&kp LG(LA(LC(LS(RBRC))))  // open
 		
 				&trans
 				&kp LG(LS(G)) 
 				&kp LG(LA(C)) 
 				&kp LG(LA(V)) 
 				&kp LG(SPACE)  
-				&kp LG(LA(LC(LS(F2))))	
-				&kp LG(LA(LC(LS(F3))))
+				&kp LG(LA(LC(LS(DOT))))	
+				&kp LG(LA(LC(LS(COMMA))))
 				&kp LG(LC(LEFT))
 				&kp LG(LC(DOWN))
 				&kp LG(LC(RIGHT))
 				&kp LG(SLASH)
-				&kp LG(LA(LC(LS(RBRC))))  // Fokus
+				&kp LG(LA(LC(LS(SLASH))))  // Fokus
 
 				&to mBCHAR
 				&kp LG(LA(LC(LS(F1)))) //Seitenleiste links
