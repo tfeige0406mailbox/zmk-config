@@ -2062,7 +2062,7 @@
 		win_bchar
 		{
 
-			label = "MAC";
+			label = "WIN";
 
 			bindings = <
 
@@ -2103,7 +2103,7 @@
 				&kp LS(LEFT_BRACKET)
 				&kp LS(SINGLE_QUOTE)
 				&kp LS(K) 
-				&to wChar
+				&to wCHAR
 		
 				&trans 
 				&kp SPACE
