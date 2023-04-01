@@ -1007,7 +1007,7 @@
 				&kp LA(LG(G)) 
 				&kp LA(LG(ENTER))
 
-				&none
+				&to mBCHAR
 				&kp LA(LG(F))
 				&kp LA(LG(V))
 				&kp LA(LG(MINUS))
@@ -1116,7 +1116,7 @@
 				&kp LSHIFT
 				&kp LG(LC(LEFT))
 				&kp LG(LC(DOWN))
-				&kp LG(LC(LEFT))
+				&kp LG(LC(RIGHT))
 				&kp CAPSLOCK
 				&kp LG(DOWN) 
 				&kp LEFT 
