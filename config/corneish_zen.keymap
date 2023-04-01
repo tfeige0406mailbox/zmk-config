@@ -141,61 +141,7 @@
         };
     };
 
-	macros {
-        windowup: windowup {
-            label = "windowup;
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&macro_press &kp LGUI>
-                , <&macro_tap &kp up>
-				, <&macro_wait_time 500>
-                , <&macro_release &kp LGUI>
-                ;
-        };
-    };
 
-	macros {
-        windowdown: windowdown {
-            label = "windowdown";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&macro_press &kp LGUI>
-                , <&macro_tap &kp DOWN>
-				, <&macro_wait_time 500>
-                , <&macro_release &kp LGUI>
-                ;
-        };
-    };
-
-	macros {
-        controlpgup: controlpgup {
-            label = "controlpgup";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&macro_press &kp LCTL>
-                , <&macro_tap &kp PG_UP>
-				, <&macro_wait_time 500>
-                , <&macro_release &kp LCTL>
-                ;
-        };
-    };
-
-	macros {
-        controlpgdn: controlpgdn {
-            label = "controlpgdn";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&macro_press &kp LCTL>
-                , <&macro_tap &kp PG_DN>
-				, <&macro_wait_time 500>
-                , <&macro_release &kp LCTL>
-                ;
-        };
-    };
 
 };
 
