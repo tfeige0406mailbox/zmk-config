@@ -35,8 +35,8 @@
 // WINDOWS
 
 #define wCHAR 15
-#define wBCHAR 16
-#define wNR 17
+#define wNR 16
+#define wBCHAR 17
 
 #define wSYM 18
 #define wSSYM 19
