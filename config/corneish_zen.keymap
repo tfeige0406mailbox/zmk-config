@@ -8,26 +8,26 @@
 
 #define mCHAR 0
 #define mNR 1
+#define mBCHAR 2
 
-#define mSYM 2
-#define mSSYM 3
+#define mSYM 3
+#define mSSYM 4
 
-#define mPFUNC 4
-#define mSPFUNC 5
+#define mPFUNC 5
+#define mSPFUNC 6
 
-#define mPRG 6
-#define mSPRG 7
+#define mPRG 7
+#define mSPRG 8
 
-#define mFUNC 8
-#define mSFUNC 9
+#define mFUNC 9
+#define mSFUNC 10
 
-#define mMOD 10
-#define mSMOD 11
-#define mSSMOD 12
+#define mMOD 11
+#define mSMOD 12
+#define mSSMOD 13
 
-#define mNAV 13
+#define mNAV 14
 
-#define mBCHAR 14
 
 
 
@@ -35,27 +35,27 @@
 // WINDOWS
 
 #define wCHAR 15
-#define wNR 16
+#define wBCHAR 16
+#define wNR 17
 
-#define wSYM 17
-#define wSSYM 18
+#define wSYM 18
+#define wSSYM 19
 
-#define wPFUNC 19
-#define wSPFUNC 20
+#define wPFUNC 20
+#define wSPFUNC 21
 
-#define wPRG 21
-#define wSPRG 22
+#define wPRG 22
+#define wSPRG 23
 
-#define wFUNC 23
-#define wSFUNC 24
+#define wFUNC 24
+#define wSFUNC 25
 
-#define wMOD 25
-#define wSMOD 26
-#define wSSMOD 27
+#define wMOD 26
+#define wSMOD 27
+#define wSSMOD 28
 
-#define wNAV 28
+#define wNAV 29
 
-#define wBCHAR 29
 
 
 
@@ -425,9 +425,68 @@
 		};
 
 
+		// --------------------------------------
+		// Layer 2 - mBCHAR =	GROSS-BUCHSTABEN
+		// --------------------------------------
+
+
+		mac_bchar
+		{
+
+			label = "MAC";
+
+			bindings = <
+
+				&kp ESC
+				&kp LS(J) 
+				&kp LS(D)
+				&kp LS(U) 
+				&kp LS(A) 
+				&kp LS(X)
+				&kp LS(P) 
+				&kp LS(H) 
+				&kp LS(L) 
+				&kp LS(M) 
+				&kp LS(W) 
+				&kp BACKSPACE
+		
+				&trans
+				&kp LS(C)
+				&kp LS(T)
+				&kp LS(I)
+				&kp LS(E)
+				&kp LS(O)	
+				&kp LS(B) 
+				&kp LS(N) 
+				&kp LS(R) 
+				&kp LS(S) 
+				&kp LS(G) 
+				&kp ENTER
+				
+				&trans
+				&kp LS(F)
+				&kp LS(V)
+				&kp LS(MINUS)
+				&kp LS(Y)
+				&kp LS(Q)
+				&kp LS(Z)
+				&kp LS(SEMICOLON)
+				&kp LS(LEFT_BRACKET)
+				&kp LS(SINGLE_QUOTE)
+				&kp LS(K) 
+				&to mCHAR
+		
+				&trans 
+				&kp SPACE
+				&trans 
+				&trans 
+				&none 
+				&trans 
+			>;
+		};
 
 		// --------------------------------------
-		// Layer 2 - mSYM =	Symoble
+		// Layer 3 - mSYM =	Symoble
 		// --------------------------------------
 
 		mac_symbole
@@ -1147,66 +1206,6 @@
 			>;
 		};
 
-		// --------------------------------------
-		// Layer 14 - mBCHAR =	GROSS-BUCHSTABEN
-		// --------------------------------------
-
-
-		mac_bchar
-		{
-
-			label = "MAC";
-
-			bindings = <
-
-				&kp ESC
-				&kp LS(J) 
-				&kp LS(D)
-				&kp LS(U) 
-				&kp LS(A) 
-				&kp LS(X)
-				&kp LS(P) 
-				&kp LS(H) 
-				&kp LS(L) 
-				&kp LS(M) 
-				&kp LS(W) 
-				&kp BACKSPACE
-		
-				&trans
-				&kp LS(C)
-				&kp LS(T)
-				&kp LS(I)
-				&kp LS(E)
-				&kp LS(O)	
-				&kp LS(B) 
-				&kp LS(N) 
-				&kp LS(R) 
-				&kp LS(S) 
-				&kp LS(G) 
-				&kp ENTER
-				
-				&trans
-				&kp LS(F)
-				&kp LS(V)
-				&kp LS(MINUS)
-				&kp LS(Y)
-				&kp LS(Q)
-				&kp LS(Z)
-				&kp LS(SEMICOLON)
-				&kp LS(LEFT_BRACKET)
-				&kp LS(SINGLE_QUOTE)
-				&kp LS(K) 
-				&to mCHAR
-		
-				&trans 
-				&kp SPACE
-				&trans 
-				&trans 
-				&none 
-				&trans 
-			>;
-		};
-
 
 
 		// ------------------------------------------------------------------------------------------------------------------
@@ -1274,6 +1273,8 @@
 			>;
 		};
 
+	
+
 
 		// --------------------------------------
 		// Layer 1 - mNR = 	  Zahlen	
@@ -1333,10 +1334,69 @@
 			>;		
 		};
 
+		// --------------------------------------
+		// Layer 2 - mBCHAR =	GROSS-BUCHSTABEN
+		// --------------------------------------
+
+
+		WIN_bchar
+		{
+
+			label = "WIN";
+
+			bindings = <
+
+				&kp ESC
+				&kp LS(J) 
+				&kp LS(D)
+				&kp LS(U) 
+				&kp LS(A) 
+				&kp LS(X)
+				&kp LS(P) 
+				&kp LS(H) 
+				&kp LS(L) 
+				&kp LS(M) 
+				&kp LS(W) 
+				&kp BACKSPACE
+		
+				&trans
+				&kp LS(C)
+				&kp LS(T)
+				&kp LS(I)
+				&kp LS(E)
+				&kp LS(O)	
+				&kp LS(B) 
+				&kp LS(N) 
+				&kp LS(R) 
+				&kp LS(S) 
+				&kp LS(G) 
+				&kp ENTER
+				
+				&trans
+				&kp LS(F)
+				&kp LS(V)
+				&kp LS(MINUS)
+				&kp LS(Y)
+				&kp LS(Q)
+				&kp LS(Z)
+				&kp LS(SEMICOLON)
+				&kp LS(LEFT_BRACKET)
+				&kp LS(SINGLE_QUOTE)
+				&kp LS(K) 
+				&to wCHAR
+		
+				&trans 
+				&kp SPACE
+				&trans 
+				&trans 
+				&none 
+				&trans 
+			>;
+		};
 
 
 		// --------------------------------------
-		// Layer 2 - mSYM =	Symoble
+		// Layer 3 - mSYM =	Symoble
 		// --------------------------------------
 
 		win_symbole
@@ -2052,66 +2112,6 @@
 				&trans
 				&kp LSHIFT 
 				&trans
-			>;
-		};
-
-		// --------------------------------------
-		// Layer 14 - mBCHAR =	GROSS-BUCHSTABEN
-		// --------------------------------------
-
-
-		WIN_bchar
-		{
-
-			label = "WIN";
-
-			bindings = <
-
-				&kp ESC
-				&kp LS(J) 
-				&kp LS(D)
-				&kp LS(U) 
-				&kp LS(A) 
-				&kp LS(X)
-				&kp LS(P) 
-				&kp LS(H) 
-				&kp LS(L) 
-				&kp LS(M) 
-				&kp LS(W) 
-				&kp BACKSPACE
-		
-				&trans
-				&kp LS(C)
-				&kp LS(T)
-				&kp LS(I)
-				&kp LS(E)
-				&kp LS(O)	
-				&kp LS(B) 
-				&kp LS(N) 
-				&kp LS(R) 
-				&kp LS(S) 
-				&kp LS(G) 
-				&kp ENTER
-				
-				&trans
-				&kp LS(F)
-				&kp LS(V)
-				&kp LS(MINUS)
-				&kp LS(Y)
-				&kp LS(Q)
-				&kp LS(Z)
-				&kp LS(SEMICOLON)
-				&kp LS(LEFT_BRACKET)
-				&kp LS(SINGLE_QUOTE)
-				&kp LS(K) 
-				&to wCHAR
-		
-				&trans 
-				&kp SPACE
-				&trans 
-				&trans 
-				&none 
-				&trans 
 			>;
 		};
 
