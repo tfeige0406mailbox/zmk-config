@@ -1717,7 +1717,7 @@
 				&kp LC(LS(SINGLE_QUOTE))
 				&kp LG(DOT)
 				&kp LC(Y)
-				& 
+				&windowup
 				&kp LC(Z) 
 				&kp LC(KP_PLUS)
 				&kp LG(LA(LC(LS(PG_UP))))	
@@ -1729,9 +1729,9 @@
 				&kp LG(S)
 				&kp LC(LS(Y))
 				&kp LC(LS(Z))
-				&
-				&
-				&
+				&windowleft
+				&windowup
+				&windowright
 				&kp LC(KP_MINUS)
 				&kp LC(NUHS)    		 //Fokus
 
@@ -1779,7 +1779,7 @@
 				&none
 				&kp LA(UP)
 				&none
-				&
+				&controlpgup
 				&none
 
 				&trans
@@ -1792,7 +1792,7 @@
 				&kp LC(LEFT)
 				&kp LA(DOWN)
 				&kp LC(RIGHT)
-				&
+				&controlpgdn
 				&none
 
 				&none
