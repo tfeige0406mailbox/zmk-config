@@ -1312,7 +1312,7 @@
 				&kp N0				
 				&kp ENTER 
 
-				&sl mBCHAR
+				&sl wBCHAR
 				&kp LS(N7)
 				&kp LS(N8)
 				&kp LS(N9)
@@ -1323,7 +1323,7 @@
 				&kp COMMA
 				&kp DOT
 				&kp SLASH		
-				&sl mBCHAR
+				&sl wBCHAR
 		
 				&sl wFUNC
 				&kp SPACE 
