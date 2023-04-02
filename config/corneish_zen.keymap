@@ -450,7 +450,7 @@
 				&kp LS(W) 
 				&kp BACKSPACE
 		
-				&kp mNAV
+				&sl mNAV
 				&kp LS(C)
 				&kp LS(T)
 				&kp LS(I)
@@ -1176,7 +1176,7 @@
 				&kp LC(LEFT)
 				&kp LC(DOWN)
 				&kp LC(RIGHT)
-				&kp CAPSLOCK
+				&kp LG(LA(LC(LS(F11))))
 				&kp LG(DOWN) 
 				&kp LEFT 
 				&kp DOWN
@@ -1190,7 +1190,7 @@
 				&kp LS(LA(RIGHT))
 				&none
 				&none
-				&kp LG(LA(LC(LS(EQUAL))))
+				&kp LG(LA(LC(LS(F12))))
 				&kp LS(TAB)
 				&kp LA(LEFT)
 				&kp LA(RIGHT)
@@ -1216,7 +1216,7 @@
 		
 
 		// --------------------------------------
-		// Layer 0 - mChar = 	  Buchstaben	
+		// Layer 15 - mChar = 	  Buchstaben	
 		// --------------------------------------
 	
 		win_buchstaben
@@ -1277,7 +1277,7 @@
 
 
 		// --------------------------------------
-		// Layer 1 - mNR = 	  Zahlen	
+		// Layer 16 - mNR = 	  Zahlen	
 		// --------------------------------------
 
 		win_zahlen
@@ -1335,7 +1335,7 @@
 		};
 
 		// --------------------------------------
-		// Layer 2 - mBCHAR =	GROSS-BUCHSTABEN
+		// Layer 17 - mBCHAR =	GROSS-BUCHSTABEN
 		// --------------------------------------
 
 
@@ -1359,7 +1359,7 @@
 				&kp LS(W) 
 				&kp BACKSPACE
 		
-				&kp wNAV
+				&sl wNAV
 				&kp LS(C)
 				&kp LS(T)
 				&kp LS(I)
@@ -1396,7 +1396,7 @@
 
 
 		// --------------------------------------
-		// Layer 3 - mSYM =	Symoble
+		// Layer 18 - mSYM =	Symoble
 		// --------------------------------------
 
 		win_symbole
@@ -1458,7 +1458,7 @@
 
 
 		// --------------------------------------
-		// Layer 3 - mSSYM =	Special Symbole
+		// Layer 19 - mSSYM =	Special Symbole
 		// --------------------------------------
 
 		win_specialsonderzeichen
@@ -1518,7 +1518,7 @@
 
 
 		// --------------------------------------------
-		// Layer 4 - mPFUNC =	Programm-Funkionen
+		// Layer 20 - mPFUNC =	Programm-Funkionen
 		// --------------------------------------------
 
 		win_pfunc
@@ -1578,7 +1578,7 @@
 
 
 		// --------------------------------------------
-		// Layer 5 - mSPFUNC =	Special Programm-Funkionen
+		// Layer 21 - mSPFUNC =	Special Programm-Funkionen
 		// --------------------------------------------
 
 		win_spfunc
@@ -1639,7 +1639,7 @@
 
 
 		// --------------------------------------
-		// Layer 6 - mPRG =	Programme
+		// Layer 22 - mPRG =	Programme
 		// --------------------------------------
 
 		win_programme
@@ -1698,7 +1698,7 @@
 
 
 		// --------------------------------------
-		// Layer 7 -mSPRG =	Spezial Prgramme
+		// Layer 23 -mSPRG =	Spezial Prgramme
 		// --------------------------------------
 
 
@@ -1760,7 +1760,7 @@
 
 
 		// --------------------------------------
-		// Layer 8 - mFUNC =	Funktionen
+		// Layer 24 - mFUNC =	Funktionen
 		// --------------------------------------
 
 		win_function
@@ -1820,7 +1820,7 @@
 
 
 		// --------------------------------------
-		// Layer 9 - mSFUNC =	Spezial Funktionen
+		// Layer 25 - mSFUNC =	Spezial Funktionen
 		// --------------------------------------
 
 		win_specialfunction
@@ -1880,7 +1880,7 @@
 
 
 		// --------------------------------------
-		// Layer 10 - mMOD =	GUI
+		// Layer	26 - mMOD =	GUI
 		// --------------------------------------
 
 		win_mod
@@ -1940,7 +1940,7 @@
 
 
 		// --------------------------------------
-		// Layer 11 - mSMOD =	Spezial Mod
+		// Layer 27 - mSMOD =	Spezial Mod
 		// --------------------------------------
 
 		win_smod
@@ -1998,7 +1998,7 @@
 		};
 
 		// --------------------------------------
-		// Layer 12 - mSSMOD =	Super Spezial Mod
+		// Layer 28 - mSSMOD =	Super Spezial Mod
 		// --------------------------------------
 
 		win_ssmod
@@ -2058,7 +2058,7 @@
 
 
 		// --------------------------------------
-		// Layer = 13 - mNAV	  Navigation
+		// Layer = 29 - mNAV	  Navigation
 		// --------------------------------------
 
 		win_navigation
@@ -2085,7 +2085,7 @@
 				&kp LC(LEFT)
 				&kp LC(DOWN)
 				&kp LC(RIGHT)
-				&kp CAPSLOCK
+				&none
 				&kp LC(END)
 				&kp LEFT 
 				&kp DOWN
