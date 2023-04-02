@@ -752,7 +752,7 @@
 				&none
 				&none
 				&none
-				&kp LG(LA(ESC)) // Sofort beenden
+				&kp LG(LA(ESC)) 	// Sofort beenden
 		
 				&trans
 				&kp LG(LA(N1))
@@ -812,7 +812,7 @@
 				&kp LG(LC(UP)) 
 				&kp LG(LS(Y)) 
 				&kp LG(RBKT)
-				&kp LG(LA(LC(LS(PG_UP))))  // open
+				&kp LG(LA(LC(LS(PG_UP))))  	// open
 		
 				&trans
 				&kp LG(LS(G)) 
@@ -825,15 +825,15 @@
 				&kp LG(LC(DOWN))
 				&kp LG(LC(RIGHT))
 				&kp LG(SLASH)
-				&kp LG(LA(LC(LS(PG_DN))))  // Fokus
+				&kp LG(LA(LC(LS(PG_DN))))  	// Fokus
 
 				&to mBCHAR
-				&kp LG(LA(LC(LS(GRAVE)))) //Seitenleiste links
+				&kp LG(LA(LC(LS(GRAVE))))	//Seitenleiste links
 				&kp LG(SEMI)
 				&kp LG(SQT)
-				&kp LG(LA(LC(LS(EQUAL))))  //Seitenleiste rechts
-				&kp LG(LS(N4))       // Screenshot
-				&kp LG(LC(Q))        // Sperren
+				&kp LG(LA(LC(LS(EQUAL))))  	//Seitenleiste rechts
+				&kp LG(LS(N4))    		   	// Screenshot
+				&kp LG(LC(Q))		        // Sperren
 				&kp LC(LS(TAB))
 				&kp LG(UP)
 				&kp LG(DOWN)
@@ -1239,7 +1239,7 @@
 				&kp W
 				&kp BSPC
 	
-				&sl mNAV
+				&sl wNAV
 				&kp C
 				&kp T
 				&kp I
@@ -1660,7 +1660,7 @@
 				&none
 				&none
 				&none
-				&kp LC(LS(ESC)) // Sofort beenden
+				&kp LC(LS(ESC))    // Sofort beenden
 		
 				&trans
 				&kp LG(N1)
@@ -2008,7 +2008,7 @@
 			bindings = <
 
 				&kp ESC
-				&kp LGUI
+				&kp LALT
 				&kp LS(HOME)
 				&kp LC(UP)
 				&kp LS(END)
