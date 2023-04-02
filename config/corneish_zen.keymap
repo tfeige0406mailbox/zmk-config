@@ -450,7 +450,7 @@
 				&kp LS(W) 
 				&kp BACKSPACE
 		
-				&trans
+				&kp mNAV
 				&kp LS(C)
 				&kp LS(T)
 				&kp LS(I)
@@ -463,7 +463,7 @@
 				&kp LS(G) 
 				&kp ENTER
 				
-				&trans
+				&to mBCHAR
 				&kp LS(F)
 				&kp LS(V)
 				&kp LS(MINUS)
@@ -476,12 +476,12 @@
 				&kp LS(K) 
 				&to mCHAR
 		
-				&trans 
-				&kp SPACE
-				&trans 
-				&trans 
-				&none 
-				&trans 
+				&sl mFUNC
+				&kp SPACE 
+				&sl mPRG
+				&sl mPFUNC						
+				&sl mSYM
+				&sl mMOD
 			>;
 		};
 
@@ -548,7 +548,7 @@
 
 
 		// --------------------------------------
-		// Layer 3 - mSSYM =	Special Symbole
+		// Layer 4 - mSSYM =	Special Symbole
 		// --------------------------------------
 
 		mac_specialsonderzeichen
@@ -608,7 +608,7 @@
 
 
 		// --------------------------------------------
-		// Layer 4 - mPFUNC =	Programm-Funkionen
+		// Layer 5 - mPFUNC =	Programm-Funkionen
 		// --------------------------------------------
 
 		mac_pfunc
@@ -668,7 +668,7 @@
 
 
 		// --------------------------------------------
-		// Layer 5 - mSPFUNC =	Special Programm-Funkionen
+		// Layer 6 - mSPFUNC =	Special Programm-Funkionen
 		// --------------------------------------------
 
 		mac_spfunc
@@ -730,7 +730,7 @@
 
 
 		// --------------------------------------
-		// Layer 6 - mPRG =	Programme
+		// Layer 7 - mPRG =	Programme
 		// --------------------------------------
 
 		mac_programme
@@ -789,7 +789,7 @@
 
 
 		// --------------------------------------
-		// Layer 7 -mSPRG =	Spezial Prgramme
+		// Layer 8 -mSPRG =	Spezial Prgramme
 		// --------------------------------------
 
 
@@ -851,7 +851,7 @@
 
 
 		// --------------------------------------
-		// Layer 8 - mFUNC =	Funktionen
+		// Layer 9 - mFUNC =	Funktionen
 		// --------------------------------------
 
 		mac_function
@@ -911,7 +911,7 @@
 
 
 		// --------------------------------------
-		// Layer 9 - mSFUNC =	Spezial Funktionen
+		// Layer 10 - mSFUNC =	Spezial Funktionen
 		// --------------------------------------
 
 		mac_specialfunction
@@ -971,7 +971,7 @@
 
 
 		// --------------------------------------
-		// Layer 10 - mMOD =	GUI
+		// Layer 11 - mMOD =	GUI
 		// --------------------------------------
 
 		mac_mod
@@ -1031,7 +1031,7 @@
 
 
 		// --------------------------------------
-		// Layer 11 - mSMOD =	Spezial Mod
+		// Layer 12 - mSMOD =	Spezial Mod
 		// --------------------------------------
 
 		mac_smod
@@ -1089,7 +1089,7 @@
 		};
 
 		// --------------------------------------
-		// Layer 12 - mSSMOD =	Super Spezial Mod
+		// Layer 13 - mSSMOD =	Super Spezial Mod
 		// --------------------------------------
 
 		mac_ssmod
@@ -1149,7 +1149,7 @@
 
 
 		// --------------------------------------
-		// Layer = 13 - mNAV	  Navigation
+		// Layer = 14 - mNAV	  Navigation
 		// --------------------------------------
 
 		mac_navigation
@@ -1339,7 +1339,7 @@
 		// --------------------------------------
 
 
-		WIN_bchar
+		win_bchar
 		{
 
 			label = "WIN";
@@ -1359,7 +1359,7 @@
 				&kp LS(W) 
 				&kp BACKSPACE
 		
-				&trans
+				&kp wNAV
 				&kp LS(C)
 				&kp LS(T)
 				&kp LS(I)
@@ -1372,7 +1372,7 @@
 				&kp LS(G) 
 				&kp ENTER
 				
-				&trans
+				&to wBCHAR
 				&kp LS(F)
 				&kp LS(V)
 				&kp LS(MINUS)
@@ -1385,12 +1385,12 @@
 				&kp LS(K) 
 				&to wCHAR
 		
-				&trans 
-				&kp SPACE
-				&trans 
-				&trans 
-				&none 
-				&trans 
+				&sl wFUNC
+				&kp SPACE 
+				&sl wPRG
+				&sl wPFUNC						
+				&sl wSYM
+				&sl wMOD
 			>;
 		};
 
