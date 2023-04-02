@@ -1360,7 +1360,7 @@
 
 				&trans
 				&kp RA(NUBS)				
-				&kp RA(RBRC)				
+				&kp RA(RBKT)				
 				&kp GRAVE				
 				&kp RA(Q)					
 				&kp EQUAL				
@@ -1422,7 +1422,7 @@
 
 				&trans
 				&kp RA(NUBS)				
-				&kp RA(RBRC)				
+				&kp RA(RBKT)				
 				&kp LS(GRAVE)
 				&kp RA(Q)					
 				&kp LS(EQUAL)				
