@@ -867,10 +867,10 @@
 				&kp LG(LS(EQUAL)) 
 				&kp LG(LC(SPACE))
 				&kp LG(Y)
-				&kp LG(LA(UP)) 
+				&kp LG(LC(UP))
 				&kp LG(LS(Y)) 
 				&kp LG(RBKT)
-				&kp LG(LA(LC(LS(PG_UP))))  	// open
+				&kp LG(LA(LC(LS(PG_DN))))  	// Fokus
 		
 				&trans
 				&kp LG(LS(G)) 
@@ -878,24 +878,24 @@
 				&kp LG(LA(V)) 
 				&kp LG(SPACE)  
 				&kp LG(LA(LC(LS(HOME))))	
-				&kp LG(LA(LC(LS(END))))
-				&kp LG(LA(LEFT)) 
-				&kp LG(LA(DOWN)) 
-				&kp LG(LA(RIGHT))  
+				&kp LG(LA(LC(LS(END))))				
+				&kp LG(LC(LEFT))
+				&kp LG(LC(DOWN))
+				&kp LG(LC(RIGHT))
 				&kp LG(SLASH)
-				&kp LG(LA(LC(LS(PG_DN))))  	// Fokus
+				&kp LG(LA(LC(LS(TAB))))  	//apps
 
 				&to mBCHAR
-				&kp LG(LA(LC(LS(NUBS))))	// links
+				&kp LG(LA(LC(LS(GRAVE))))	//Seitenleiste links
 				&kp LG(SEMI)
 				&kp LG(SQT)
-				&kp LG(LA(LC(LS(NUHS))))  	// rechts
+				&kp LG(LA(LC(LS(EQUAL))))  	//Seitenleiste rechts
 				&kp LG(LS(N4))    		   	// Screenshot
-				&kp LG(LC(Q))		        // Sperren
-				&kp LG(LA(LC(LS(GRAVE))))	//Seitenleiste links
+				&kp LG(LA(LC(LS(DOWN))))  	
+				&swleft
 				&kp LG(UP)
 				&kp LG(DOWN)
-				&kp LG(LA(LC(LS(EQUAL))))  	//Seitenleiste rechts
+				&swright
 				&to mCHAR
 				
 				&sl mSFUNC
@@ -926,11 +926,11 @@
 				&none
 				&none
 				&none
-				&kp LA(M)
-				&kp LG(LC(UP))
-				&kp LA(H)			
+				&none
+				&kp LG(LA(UP)) 
 				&none
 				&none
+				&kp LG(LC(Q))		        // Sperren
 
 				&trans				
 				&none
@@ -938,24 +938,23 @@
 				&none
 				&none
 				&none
-				&kp LG(LA(LC(LS(DOWN))))
-				&kp LG(LC(LEFT))
-				&kp LG(LC(DOWN))
-				&kp LG(LC(RIGHT))
-				&kp LG(LA(LC(LS(TAB))))
+				&none
+				&kp LG(LA(LEFT)) 
+				&kp LG(LA(DOWN)) 
+				&kp LG(LA(RIGHT))  			
 				&none
 
 				&none
 				&none
-				&none
-				&none
+				&kp LG(LA(LEFT)) 
+				&kp LG(LA(RIGHT)) 
 				&none
 				&none				
-				&kp LG(LA(H))
-				&swleft
 				&none
 				&none
-				&swright
+				&kp LG(LA(LEFT)) 
+				&kp LG(LA(RIGHT)) 
+				&none
 				&none
 		
 				&trans
@@ -1777,10 +1776,10 @@
 				&kp LC(LS(SINGLE_QUOTE))
 				&kp LG(DOT)
 				&kp LC(Y)
-				&kp LA(UP)
+				&windowup
 				&kp LC(Z) 
 				&kp LC(KP_PLUS)
-				&kp LG(LA(LC(LS(PG_UP))))	
+				&kp LC(NUHS)    		 //Fokus
 		
 				&trans
 				&kp LA(E)
@@ -1789,23 +1788,23 @@
 				&kp LG(S)
 				&kp LC(LS(Y))
 				&kp LC(LS(Z))
-				&kp LC(LEFT)
-				&kp LA(DOWN)
-				&kp LC(RIGHT)
+				&windowleft
+				&windowdown
+				&windowright
 				&kp LC(KP_MINUS)
-				&kp LC(NUHS)    		 //Fokus
+				&kp LG(TAB)
 
 				&to wBCHAR
-				&none					//Seitenleiste links
+				&kp F12						//Seitenleiste links
 				&kp LA(LEFT) 
 				&kp LA(RIGHT)
-				&none					// Seitenleiste rechts
+				&kp LG(A)					// Seitenleiste rechts
 				&kp LS(LG(S))
-				&kp LG(X)   		    //Sperren, shutdown
-				&kp F12	
+				&kp LG(T)   		    
+				&swleft	
 				&kp LA(UP)
 				&kp ENTER
-				&kp LG(A)	
+				&swright
 				&to wCHAR
 				
 				&sl wSFUNC
@@ -1836,11 +1835,11 @@
 				&none
 				&none
 				&none
-				&kp LA(SPACE)
-				&windowup
-				&kp LA(SPACE)
+				&none
+				&kp LA(UP)
 				&none
 				&none
+				&kp LG(X)   		    //Sperren, shutdown
 		
 				&trans
 				&none
@@ -1848,24 +1847,24 @@
 				&none
 				&none
 				&none
-				&kp LG(T)
-				&windowleft
-				&windowdown
-				&windowright
-				&kp LG(TAB)
+				&none
+				&kp LC(LEFT)
+				&kp LA(DOWN)
+				&kp LC(RIGHT)
+				&none
 				&none
 
 				&none
 				&none
+				&kp LC(LEFT)
+				&kp LC(RIGHT)
 				&none
 				&none
 				&none
 				&none
-				&kp LG(D)
-				&swleft
+				&kp LC(LEFT)
+				&kp LC(RIGHT)
 				&none
-				&none
-				&swright
 				&none
 		
 				&trans
