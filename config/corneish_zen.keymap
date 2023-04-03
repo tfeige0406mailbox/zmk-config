@@ -514,9 +514,9 @@
 				&kp LA(N)					
 				&kp EQUAL				
 				&kp LS(N6)				
-				&kp LS(N1)				
-				&kp LS(DOT)				
+				&kp LS(N1)		
 				&kp LS(COMMA)	
+				&kp LS(DOT)				
 				&kp LS(MINUS)				
 				&none
 
@@ -577,8 +577,8 @@
 				&kp LS(EQUAL)				
 				&kp LS(N6)				
 				&kp LS(N1)				
-				&kp LS(DOT)				
 				&kp LS(COMMA)	
+				&kp LS(DOT)				
 				&kp LS(MINUS)				
 				&none
 
@@ -1160,7 +1160,7 @@
 				&kp ESC
 				&kp LGUI
 				&kp LG(LS(LEFT)) 
-				&kp LC(UP)
+				&kp LC(PG_UP)
 				&kp LG(LS(RIGHT)) 
 				&none
 				&kp LG(UP)
@@ -1172,9 +1172,9 @@
 
 				&trans 
 				&kp LSHIFT
-				&kp LC(LEFT)
-				&kp LC(DOWN)
-				&kp LC(RIGHT)
+				&kp LC(LS(TAB))
+				&kp LC(PG_DN)
+				&kp LC(TAB)
 				&kp LG(LA(LC(LS(F11))))
 				&kp LG(DOWN) 
 				&kp LEFT 
@@ -1187,7 +1187,7 @@
 				&kp DELETE
 				&kp LS(LA(LEFT))
 				&kp LS(LA(RIGHT))
-				&none
+				&kp LCTL
 				&none
 				&kp LG(LA(LC(LS(F12))))
 				&kp LS(TAB)
@@ -1425,8 +1425,8 @@
 				&kp EQUAL				
 				&kp LS(N6)				
 				&kp LS(N1)				
-				&kp LS(DOT)				
-				&kp LS(COMMA)	
+				&kp LS(COMMA)				
+				&kp LS(DOT)	
 				&kp LS(MINUS)				
 				&kp RA(N2)
 
@@ -1487,8 +1487,8 @@
 				&kp LS(EQUAL)				
 				&kp LS(N6)				
 				&kp LS(N1)				
-				&kp LS(DOT)				
 				&kp LS(COMMA)	
+				&kp LS(DOT)				
 				&kp LS(MINUS)				
 				&kp RA(N3)
 
@@ -1715,23 +1715,23 @@
 				&none
 				&none
 				&none
-				&none
-				&none
-				&none
+				&kp LA(SPACE)
+				&windowup
+				&kp LA(SPACE)
 				&none
 				&kp LC(LS(ESC))    // Sofort beenden
 		
-				&trans
-				&kp LG(N1)
-				&kp LG(N2)
-				&kp LG(N3)
-				&kp LG(N4)
-				&kp LG(N5)
-				&kp LG(N6)
-				&kp LG(N7)
-				&kp LG(N8)
-				&kp LG(N9)
-				&kp LG(N0)
+				&none
+				&none
+				&none
+				&none
+				&none
+				&none
+				&kp LG(T)
+				&windowleft
+				&windowdown
+				&windowright
+				&kp LG(TAB)
 				&none
 
 				&none
@@ -1740,11 +1740,11 @@
 				&none
 				&none
 				&none
+				&kp LG(D)
+				&swleft
 				&none
 				&none
-				&none
-				&none
-				&none
+				&swright
 				&none
 		
 				&none 
@@ -1776,7 +1776,7 @@
 				&kp LC(LS(SINGLE_QUOTE))
 				&kp LG(DOT)
 				&kp LC(Y)
-				&windowup
+				&kp LA(UP)
 				&kp LC(Z) 
 				&kp LC(KP_PLUS)
 				&kp LG(LA(LC(LS(PG_UP))))	
@@ -1788,23 +1788,23 @@
 				&kp LG(S)
 				&kp LC(LS(Y))
 				&kp LC(LS(Z))
-				&windowleft
-				&windowup
-				&windowright
+				&kp LC(LEFT)
+				&kp LA(DOWN)
+				&kp LC(RIGHT)
 				&kp LC(KP_MINUS)
 				&kp LC(NUHS)    		 //Fokus
 
 				&to wBCHAR
-				&kp F12					//Seitenleiste links
+				&none					//Seitenleiste links
 				&kp LA(LEFT) 
 				&kp LA(RIGHT)
-				&kp LG(A)				// Seitenleiste rechts
+				&none					// Seitenleiste rechts
 				&kp LS(LG(S))
 				&kp LG(X)   		    //Sperren, shutdown
-				&kp LC(LS(TAB))
+				&kp F12	
 				&kp LA(UP)
 				&kp ENTER
-				&kp LC(TAB)				
+				&kp LG(A)	
 				&to wCHAR
 				
 				&sl wSFUNC
@@ -1836,9 +1836,9 @@
 				&none
 				&none
 				&none
-				&kp LA(UP)
 				&none
-				&controlpgup
+				&none
+				&none
 				&none
 
 				&trans
@@ -1848,10 +1848,10 @@
 				&none
 				&none
 				&none
-				&kp LC(LEFT)
-				&kp LA(DOWN)
-				&kp LC(RIGHT)
-				&controlpgdn
+				&none
+				&none
+				&none
+				&none
 				&none
 
 				&none
@@ -2069,7 +2069,7 @@
 				&kp ESC
 				&kp LALT
 				&kp LS(HOME)
-				&kp LC(UP)
+				&controlpgup
 				&kp LS(END)
 				&none
 				&kp LC(HOME)
@@ -2081,9 +2081,9 @@
 
 				&trans 
 				&kp LSHIFT
-				&kp LC(LEFT)
-				&kp LC(DOWN)
-				&kp LC(RIGHT)
+				&kp LC(LS(TAB))
+				&controlpgdn
+				&kp LC(TAB)
 				&none
 				&kp LC(END)
 				&kp LEFT 
@@ -2096,9 +2096,9 @@
 				&kp DELETE
 				&kp LS(LC(LEFT))
 				&kp LS(LC(RIGHT))
+				&kp LCTL
 				&none
-				&none
-				&kp LG(LA(LC(LS(F10))))
+				&kp LC(LS(F10))
 				&kp LS(TAB)
 				&kp LC(LEFT)
 				&kp LC(RIGHT)
