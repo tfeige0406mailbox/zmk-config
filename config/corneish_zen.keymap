@@ -806,7 +806,7 @@
 				&none
 				&none
 				&none
-				&kp LA(H)
+				&kp LA(M)
 				&kp LG(LC(UP))
 				&kp LA(H)
 				&none
@@ -926,36 +926,36 @@
 				&none
 				&none
 				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-
-				&trans
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
+				&kp LA(M)
+				&kp LG(LC(UP))
+				&kp LA(H)			
 				&none
 				&none
 
+				&trans				
 				&none
 				&none
 				&none
 				&none
 				&none
+				&kp LG(LA(LC(LS(DOWN))))
+				&kp LG(LC(LEFT))
+				&kp LG(LC(DOWN))
+				&kp LG(LC(RIGHT))
+				&kp LG(LA(LC(LS(TAB))))
+				&none
+
 				&none
 				&none
 				&none
 				&none
 				&none
+				&none				
+				&kp LG(LA(H))
+				&swleft
 				&none
+				&none
+				&swright
 				&none
 		
 				&trans
@@ -1688,11 +1688,11 @@
 				&none
 		
 				&none 
-				&kp LG(T)
+				&none
 				&sl wSPRG
-				&swleft
-				&kp LG(TAB)
-				&swright
+				&none
+				&none
+				&none
 			>;
 		};
 
@@ -1722,7 +1722,7 @@
 				&none
 				&kp LC(LS(ESC))    // Sofort beenden
 		
-				&none
+				&trans
 				&none
 				&none
 				&none
@@ -1749,11 +1749,11 @@
 				&none
 		
 				&none 
-				&kp LG(T)
+				&none 
 				&trans
-				&swleft
-				&kp LG(TAB)
-				&swright
+				&none 
+				&none 
+				&none 
 			>;
 		};
 
@@ -1836,44 +1836,44 @@
 				&none
 				&none
 				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-
-				&trans
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
+				&kp LA(SPACE)
+				&windowup
+				&kp LA(SPACE)
 				&none
 				&none
 		
 				&trans
+				&none
+				&none
+				&none
+				&none
+				&none
+				&kp LG(T)
+				&windowleft
+				&windowdown
+				&windowright
+				&kp LG(TAB)
+				&none
+
+				&none
+				&none
+				&none
+				&none
+				&none
+				&none
+				&kp LG(D)
+				&swleft
+				&none
+				&none
+				&swright
+				&none
+		
+				&trans
+				&none 
+				&none
 				&none 
 				&none 
-				&none 
-				&none 
-				&none               
+				&none            
 			>;
 		};
 
