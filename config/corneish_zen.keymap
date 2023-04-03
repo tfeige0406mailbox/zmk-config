@@ -214,7 +214,7 @@
             bindings
                 = <&macro_press &kp LCTL>
                 , <&macro_tap &kp PG_UP>
-				, <&macro_wait_time 1250>
+				, <&macro_wait_time 1500>
                 , <&macro_release &kp LCTL>
                 ;
         };
@@ -228,7 +228,7 @@
             bindings
                 = <&macro_press &kp LCTL>
                 , <&macro_tap &kp PG_DN>
-				, <&macro_wait_time 1250>
+				, <&macro_wait_time 1500>
                 , <&macro_release &kp LCTL>
                 ;
         };
