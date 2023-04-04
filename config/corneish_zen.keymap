@@ -943,6 +943,7 @@
 				&kp LG(LA(DOWN)) 
 				&kp LG(LA(RIGHT))  			
 				&none
+				&none
 
 				&none
 				&none
@@ -1801,10 +1802,10 @@
 				&kp LG(A)					// Seitenleiste rechts
 				&kp LS(LG(S))
 				&kp LG(T)   		    
-				&swleft	
+				&none
 				&kp LA(UP)
 				&kp ENTER
-				&swright
+				&none
 				&to wCHAR
 				
 				&sl wSFUNC
@@ -2084,7 +2085,7 @@
 				&kp LC(LS(TAB))
 				&controlpgdn
 				&kp LC(TAB)
-				&none
+				&sl LSHIFT
 				&kp LC(END)
 				&kp LEFT 
 				&kp DOWN
