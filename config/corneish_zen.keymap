@@ -512,8 +512,8 @@
 				&kp LA(N)				
 				&kp GRAVE				
 				&kp LA(N)					
-				&kp EQUAL				
-				&kp LS(N6)				
+				&kp LS(N6)	
+				&kp EQUAL		
 				&kp LS(N1)		
 				&kp LS(COMMA)	
 				&kp LS(DOT)				
@@ -574,8 +574,8 @@
 				&kp LA(N)				
 				&kp LS(GRAVE)
 				&kp LA(N)					
-				&kp LS(EQUAL)				
 				&kp LS(N6)				
+				&kp LS(EQUAL)	
 				&kp LS(N1)				
 				&kp LS(COMMA)	
 				&kp LS(DOT)				
@@ -883,7 +883,7 @@
 				&kp LG(LC(DOWN))			// window 
 				&kp LG(LC(RIGHT))			// window 
 				&kp LG(SLASH)
-				&kp LG(LA(LC(LS(TAB))))  	//apps
+				&kp LG(LA(LC(LS(F5))))  	//Shortcat
 
 				&none
 				&kp LG(LA(LC(LS(GRAVE))))	//Seitenleiste links
@@ -903,7 +903,7 @@
 				&none
 				&none 
 				&to mNR
-				&kp LG(LA(LC(LS(F5))))  //Shortcat
+				&none
 			>;
 		};
 
@@ -1019,7 +1019,7 @@
 				&kp LA(DELETE)
 		
 				&none 
-				&to mBCHAR 
+				&to mCHAR 
 				&none 
 				&none 
 				&none 
@@ -1160,9 +1160,9 @@
 				&none
 				&kp LGUI
 				&kp LG(LS(LEFT)) 
-				&kp INSERT
+				&kp DELETE
 				&kp LG(LS(RIGHT)) 
-				&kp LG(LA(LC(LS(F12))))
+				&kp LG(LA(LC(LS(F9))))
 				&kp LG(UP)
 				&kp LG(LEFT) 
 				&kp UP
@@ -1175,7 +1175,7 @@
 				&kp LC(LS(TAB))
 				&kp LC(TAB)
 				&kp LCTL
-				&to mCHAR
+				&kp LG(LA(LC(LS(F10))))
 				&kp LG(DOWN) 
 				&kp LEFT 
 				&kp DOWN
@@ -1183,13 +1183,13 @@
 				&kp PG_DN
 				&kp ENTER
 				
-				&kp DELETE
+				&to mBCHAR
 				&none
 				&kp LS(LA(LEFT))
 				&kp LS(LA(RIGHT))
-				&kp LG(LA(LC(LS(F9))))
-				&kp LG(LA(LC(LS(F10))))
+				&kp INSERT
 				&kp LG(LA(LC(LS(F11))))
+				&kp LG(LA(LC(LS(F12))))
 				&kp LS(TAB)
 				&kp LA(LEFT)
 				&kp LA(RIGHT)
@@ -1216,7 +1216,7 @@
 		
 
 		// --------------------------------------
-		// Layer 15 - mChar = 	  Buchstaben	
+		// Layer 15 - mCHAR = 	  Buchstaben	
 		// --------------------------------------
 	
 		win_buchstaben
@@ -1423,8 +1423,8 @@
 				&kp RA(RBKT)				
 				&kp GRAVE				
 				&kp RA(Q)					
-				&kp EQUAL				
 				&kp LS(N6)				
+				&kp EQUAL	
 				&kp LS(N1)				
 				&kp LS(COMMA)				
 				&kp LS(DOT)	
@@ -1484,9 +1484,9 @@
 				&kp RA(NUBS)				
 				&kp RA(RBKT)				
 				&kp LS(GRAVE)
-				&kp RA(Q)					
-				&kp LS(EQUAL)				
+				&kp RA(Q)						
 				&kp LS(N6)				
+				&kp LS(EQUAL)
 				&kp LS(N1)				
 				&kp LS(COMMA)	
 				&kp LS(DOT)				
@@ -1793,7 +1793,7 @@
 				&windowdown
 				&windowright
 				&kp LC(KP_MINUS)
-				&kp LG(LC(LA(F3)))
+				&kp LALT	
 				
 				&none
 				&kp F12						//Seitenleiste links
@@ -1813,7 +1813,7 @@
 				&none
 				&none
 				&to wNR
-				&kp LALT	  //Shortcat alternative
+				&none
 			>;
 		};
 
@@ -1929,7 +1929,7 @@
 				&kp LC(DELETE)
 		
 				&none 
-				&to wBCHAR
+				&to wCHAR
 				&none 
 				&none 
 				&none 
@@ -2067,10 +2067,10 @@
 
 			bindings = <
 
-				&kp ESC
+				&none
 				&kp LALT
 				&kp LS(HOME)
-				&kp INSERT
+				&kp DELETE
 				&kp LS(END)
 				&none
 				&kp LC(HOME)
@@ -2085,7 +2085,7 @@
 				&kp LC(LS(TAB))
 				&kp LC(TAB)
 				&kp LCTL
-				&to wCHAR
+				&none
 				&kp LC(END)
 				&kp LEFT 
 				&kp DOWN
@@ -2093,11 +2093,11 @@
 				&kp PG_DN
 				&kp ENTER
 				
-				&kp DELETE
+				&to wBCHAR
 				&none
 				&kp LS(LC(LEFT))
 				&kp LS(LC(RIGHT))
-				&none
+				&kp INSERT
 				&none
 				&kp LC(LS(F10))
 				&kp LS(TAB)
