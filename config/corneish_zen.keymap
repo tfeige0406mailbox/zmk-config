@@ -696,9 +696,9 @@
 				&none
 				&none
 				&none
+				&kp LG(LC(LA(F1)))
 				&none
-				&none
-				&none
+				&kp LG(LC(LA(F2)))
 				&none
 				&none
 
@@ -772,8 +772,8 @@
 				&kp LG(LA(LC(LS(DOWN))))
 				&kp LG(LA(LC(LS(TAB))))
 				&swleft
-				&kp LG(LC(LEFT))
-				&kp LG(LC(RIGHT))
+				&kp LG(LC(LA(LEFT)))
+				&kp LG(LC(LA(RIGHT)))
 				&swright
 				&kp LG(H)	
 		
@@ -833,8 +833,8 @@
 				&none
 				&kp LG(LA(H))
 				&swleft
-				&none
-				&none
+				&kp LG(LC(LA(LEFT)))
+				&kp LG(LC(LA(RIGHT)))
 				&swright
 				&kp LG(LA(H))
 		
@@ -1607,9 +1607,9 @@
 				&none
 				&none
 				&none
+				&kp LG(LC(LA(F1)))
 				&none
-				&none
-				&none
+				&kp LG(LC(LA(F2)))
 				&none
 				&none
 
@@ -1682,8 +1682,8 @@
 				&none
 				&kp LG(TAB)
 				&swleft
-				&kp LG(LC(LEFT))
-				&kp LG(LC(RIGHT))
+				&kp LG(LC(LA(LEFT)))
+				&kp LG(LC(LA(RIGHT)))
 				&swright
 				&kp LA(SPACE)
 		
@@ -1743,8 +1743,8 @@
 				&none
 				&kp LG(T)
 				&swleft
-				&kp LG(LC(LEFT))
-				&kp LG(LC(RIGHT))
+				&kp LG(LC(LA(LEFT)))
+				&kp LG(LC(LA(RIGHT)))
 				&swright
 				&kp LG(D)
 		
@@ -1793,8 +1793,8 @@
 				&windowdown
 				&windowright
 				&kp LC(KP_MINUS)
-				&none
-
+				&kp LG(LC(LA(F3)))
+				
 				&none
 				&kp F12						//Seitenleiste links
 				&kp LA(LEFT) 
