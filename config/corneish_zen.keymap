@@ -765,11 +765,11 @@
 				&kp LG(TAB)
 
 				&kp LG(M)
-				&kp LG(LA(LC(1)))
-				&kp LG(LA(LC(2)))
-				&kp LG(LA(LC(3)))
-				&kp LG(LA(LC(4)))
-				&kp LG(LA(LC(LS(DOWN))))
+				&kp LG(LA(LC(F1)))
+				&kp LG(LA(LC(F2)))
+				&kp LG(LA(LC(F3)))
+				&kp LG(LA(LC(F4)))
+				&kp LG(LA(LC(F5)))				
 				&kp LG(LA(LC(LS(TAB))))
 				&swleft
 				&kp LG(LC(LA(LEFT)))
@@ -812,26 +812,26 @@
 				&none
 				&kp LG(LA(ESC)) 	// Sofort beenden
 		
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
 				&kp LS(LG(TAB))
 
 				&kp LG(LA(LC(LS(NUHS))))
-				&none
-				&none
-				&none
-				&none
-				&none
-				&kp LG(LA(H))
+				&kp LG(LA(LC(F1)))
+				&kp LG(LA(LC(F2)))
+				&kp LG(LA(LC(F3)))
+				&kp LG(LA(LC(F4)))
+				&kp LG(LA(LC(F5)))
+				&kp LG(LA(LC(LS(DOWN))))
 				&swleft
 				&kp LG(LC(LA(LEFT)))
 				&kp LG(LC(LA(RIGHT)))
