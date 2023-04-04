@@ -556,7 +556,7 @@
 
 			bindings = <
 
-				&kp ESC	
+				&kp ESC
 				&kp LS(N3)
 				&kp LA(N5)
 				&kp LA(N6)			
@@ -627,7 +627,7 @@
 				&kp F8
 				&kp F9
 				&kp F10
-				&kp LG(H)
+				&none
 
 				&trans
 				&kp LG(N1)
@@ -687,7 +687,7 @@
 				&bt BT_SEL 0
 				&kp C_VOLUME_UP 
 				&bt BT_NXT
-				&kp LG(LA(H))
+				&none
 
 				&trans		
 				&none	
@@ -764,18 +764,18 @@
 				&kp LG(LA(N0))
 				&kp LG(TAB)
 
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none	
+				&kp LG(M)
+				&kp LG(LA(LC(1)))
+				&kp LG(LA(LC(2)))
+				&kp LG(LA(LC(3)))
+				&kp LG(LA(LC(4)))
+				&kp LG(LA(LC(LS(DOWN))))
+				&kp LG(LA(LC(LS(TAB))))
+				&swleft
+				&kp LG(LC(LEFT))
+				&kp LG(LC(RIGHT))
+				&swright
+				&kp LG(H)	
 		
 				&none 
 				&none 
@@ -806,9 +806,9 @@
 				&none
 				&none
 				&none
-				&kp LA(M)
-				&kp LG(LC(UP))
-				&kp LA(H)
+				&none
+				&none
+				&none
 				&none
 				&kp LG(LA(ESC)) 	// Sofort beenden
 		
@@ -818,14 +818,14 @@
 				&none
 				&none
 				&none
-				&kp LG(LA(LC(LS(DOWN))))
-				&kp LG(LC(LEFT))
-				&kp LG(LC(DOWN))
-				&kp LG(LC(RIGHT))
-				&kp LG(LA(LC(LS(TAB))))
 				&none
+				&none
+				&none
+				&none
+				&none
+				&kp LS(LG(TAB))
 
-				&none
+				&kp LG(LA(LC(LS(NUHS))))
 				&none
 				&none
 				&none
@@ -836,7 +836,7 @@
 				&none
 				&none
 				&swright
-				&none
+				&kp LG(LA(H))
 		
 				&none 
 				&none 
@@ -860,14 +860,14 @@
 			bindings = <
 	
 				&kp ESC
-				&kp LG(LS(B)) 
+				&kp LG(LA(LC(LS(PG_DN))))  	// Fokus
 				&kp LG(U) 
 				&kp LG(B) 
 				&kp LG(I)
-				&kp LG(LS(EQUAL)) 
-				&kp LG(LC(SPACE))
+				&kp LG(LS(B)) 
+				&kp LG(LC(SPACE))   		// Smily
 				&kp LG(Y)
-				&kp LG(LC(UP))
+				&kp LG(LC(UP))			    // Window up
 				&kp LG(LS(Y)) 
 				&kp LG(RBKT)
 				&kp LG(LA(LC(LS(PG_DN))))  	// Fokus
@@ -877,26 +877,26 @@
 				&kp LG(LA(C)) 
 				&kp LG(LA(V)) 
 				&kp LG(SPACE)  
-				&kp LG(LA(LC(LS(HOME))))	
-				&kp LG(LA(LC(LS(END))))				
-				&kp LG(LC(LEFT))
-				&kp LG(LC(DOWN))
-				&kp LG(LC(RIGHT))
+				&kp LG(LA(LC(LS(HOME))))	// drehen
+				&kp LG(LA(LC(LS(END))))		// drehen
+				&kp LG(LC(LEFT))			// window 
+				&kp LG(LC(DOWN))			// window 
+				&kp LG(LC(RIGHT))			// window 
 				&kp LG(SLASH)
 				&kp LG(LA(LC(LS(TAB))))  	//apps
 
-				&to mBCHAR
+				&none
 				&kp LG(LA(LC(LS(GRAVE))))	//Seitenleiste links
 				&kp LG(SEMI)
 				&kp LG(SQT)
 				&kp LG(LA(LC(LS(EQUAL))))  	//Seitenleiste rechts
 				&kp LG(LS(N4))    		   	// Screenshot
-				&kp LG(LA(LC(LS(DOWN))))  	
-				&swleft
+				&kp LG(LC(Q))		        // Sperren
+				&kp LC(LS(TAB))
 				&kp LG(UP)
 				&kp LG(DOWN)
-				&swright
-				&to mCHAR
+				&kp LC(TAB)
+				&none
 				
 				&sl mSFUNC
 				&none
@@ -924,13 +924,13 @@
 				&none
 				&none
 				&none
+				&kp LG(LS(EQUAL)) // block
 				&none
 				&none
+				&kp LG(LA(UP))    // craft
 				&none
-				&kp LG(LA(UP)) 
+				&kp LC(PG_UP)
 				&none
-				&none
-				&kp LG(LC(Q))		        // Sperren
 
 				&trans				
 				&none
@@ -939,10 +939,10 @@
 				&none
 				&none
 				&none
-				&kp LG(LA(LEFT)) 
-				&kp LG(LA(DOWN)) 
-				&kp LG(LA(RIGHT))  			
 				&none
+				&kp LG(LA(DOWN)) 	// craft
+				&none
+				&kp LC(PG_DN)
 				&none
 
 				&none
@@ -1019,7 +1019,7 @@
 				&kp LA(DELETE)
 		
 				&none 
-				&none 
+				&to mBCHAR 
 				&none 
 				&none 
 				&none 
@@ -1157,12 +1157,12 @@
 
 			bindings = <
 
-				&kp ESC
+				&none
 				&kp LGUI
 				&kp LG(LS(LEFT)) 
-				&kp LC(PG_UP)
+				&kp INSERT
 				&kp LG(LS(RIGHT)) 
-				&kp LG(LA(LC(LS(F10))))
+				&kp LG(LA(LC(LS(F12))))
 				&kp LG(UP)
 				&kp LG(LEFT) 
 				&kp UP
@@ -1173,9 +1173,9 @@
 				&trans 
 				&kp LSHIFT
 				&kp LC(LS(TAB))
-				&kp LC(PG_DN)
 				&kp LC(TAB)
-				&kp LG(LA(LC(LS(F11))))
+				&kp LCTL
+				&to mCHAR
 				&kp LG(DOWN) 
 				&kp LEFT 
 				&kp DOWN
@@ -1183,13 +1183,13 @@
 				&kp PG_DN
 				&kp ENTER
 				
-				&kp INSERT
 				&kp DELETE
+				&none
 				&kp LS(LA(LEFT))
 				&kp LS(LA(RIGHT))
-				&kp LCTL
 				&kp LG(LA(LC(LS(F9))))
-				&kp LG(LA(LC(LS(F12))))
+				&kp LG(LA(LC(LS(F10))))
+				&kp LG(LA(LC(LS(F11))))
 				&kp LS(TAB)
 				&kp LA(LEFT)
 				&kp LA(RIGHT)
@@ -1538,7 +1538,7 @@
 				&kp F8
 				&kp F9
 				&kp F10
-				&kp LA(SPACE)
+				&none
 
 				&trans
 				&kp LC(N1)
@@ -1598,7 +1598,7 @@
 				&bt BT_SEL 0
 				&kp C_VOLUME_UP 
 				&bt BT_NXT
-				&kp LG(LA(H))
+				&none
 
 				&trans		
 				&none	
@@ -1674,18 +1674,18 @@
 				&kp LG(N0)
 				&kp LA(TAB)
 
+				&kp LA(SPACE)
+				&kp LG(I)
 				&none
-				&kp LG(LC(LA(F1)))
-				&kp LG(LC(LA(F2)))
-				&kp LG(LC(LA(F3)))
-				&kp LG(LC(LA(F4)))
-				&kp LG(LC(LA(F5)))
-				&kp LG(LC(LA(F6)))
-				&kp LG(LC(LA(F7)))
-				&kp LG(LC(LA(F8)))
-				&kp LG(LC(LA(F9)))
-				&kp LG(LC(LA(F10)))
 				&none
+				&none
+				&none
+				&kp LG(TAB)
+				&swleft
+				&kp LG(LC(LEFT))
+				&kp LG(LC(RIGHT))
+				&swright
+				&kp LA(SPACE)
 		
 				&none 
 				&none
@@ -1716,37 +1716,37 @@
 				&none
 				&none
 				&none
-				&kp LA(SPACE)
-				&windowup
-				&kp LA(SPACE)
+				&none
+				&none
+				&none
 				&none
 				&kp LC(LS(ESC))    // Sofort beenden
 		
 				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&kp LS(LA(TAB))
+
+				&kp LG(LA(LC(LS(NUBS))))
 				&none
 				&none
 				&none
 				&none
 				&none
 				&kp LG(T)
-				&windowleft
-				&windowdown
-				&windowright
-				&kp LG(TAB)
-				&none
-
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&kp LG(D)
 				&swleft
-				&none
-				&none
+				&kp LG(LC(LEFT))
+				&kp LG(LC(RIGHT))
 				&swright
-				&none
+				&kp LG(D)
 		
 				&none 
 				&none 
@@ -1770,17 +1770,17 @@
 			bindings = <
 	
 				&kp ESC
-				&kp LC(LS(B)) 
+				&kp LC(NUHS)    		 //Fokus
 				&kp LC(LS(U)) 
 				&kp LC(LS(F)) 
 				&kp LC(LS(K))
-				&kp LC(LS(SINGLE_QUOTE))
+				&kp LC(LS(B)) 
 				&kp LG(DOT)
 				&kp LC(Y)
 				&windowup
 				&kp LC(Z) 
 				&kp LC(KP_PLUS)
-				&kp LC(NUHS)    		 //Fokus
+				&none
 		
 				&trans
 				&kp LA(E)
@@ -1793,25 +1793,25 @@
 				&windowdown
 				&windowright
 				&kp LC(KP_MINUS)
-				&kp LG(TAB)
+				&none
 
-				&to wBCHAR
+				&none
 				&kp F12						//Seitenleiste links
 				&kp LA(LEFT) 
 				&kp LA(RIGHT)
 				&kp LG(A)					// Seitenleiste rechts
 				&kp LS(LG(S))
-				&kp LG(T)   		    
-				&none
+				&kp LG(X)
+				&kp LC(LS(TAB))
 				&kp LA(UP)
 				&kp ENTER
+				&kp LC(TAB)
 				&none
-				&to wCHAR
 				
 				&sl wSFUNC
 				&none
 				&none
-				&none 
+				&none
 				&to wNR
 				&kp LALT	  //Shortcat alternative
 			>;
@@ -1832,15 +1832,15 @@
 				&kp ESC
 				&none
 				&none
-				&none
+				&kp LC(LS(SINGLE_QUOTE))
 				&none
 				&none
 				&none
 				&none
 				&kp LA(UP)
 				&none
+				&controlpgup
 				&none
-				&kp LG(X)   		    //Sperren, shutdown
 		
 				&trans
 				&none
@@ -1849,10 +1849,10 @@
 				&none
 				&none
 				&none
-				&kp LC(LEFT)
-				&kp LA(DOWN)
-				&kp LC(RIGHT)
 				&none
+				&kp LA(DOWN)
+				&none
+				&controlpgup
 				&none
 
 				&none
@@ -1880,7 +1880,7 @@
 
 
 		// --------------------------------------
-		// Layer	26 - mMOD =	GUI
+		// Layer	26 - mMOD =	CTL
 		// --------------------------------------
 
 		win_mod
@@ -1929,7 +1929,7 @@
 				&kp LC(DELETE)
 		
 				&none 
-				&none 
+				&to wBCHAR
 				&none 
 				&none 
 				&none 
@@ -2070,7 +2070,7 @@
 				&kp ESC
 				&kp LALT
 				&kp LS(HOME)
-				&controlpgup
+				&kp INSERT
 				&kp LS(END)
 				&none
 				&kp LC(HOME)
@@ -2083,9 +2083,9 @@
 				&trans 
 				&kp LSHIFT
 				&kp LC(LS(TAB))
-				&controlpgdn
 				&kp LC(TAB)
-				&sl LSHIFT
+				&kp LCTL
+				&to wCHAR
 				&kp LC(END)
 				&kp LEFT 
 				&kp DOWN
@@ -2093,11 +2093,11 @@
 				&kp PG_DN
 				&kp ENTER
 				
-				&kp INSERT
 				&kp DELETE
+				&none
 				&kp LS(LC(LEFT))
 				&kp LS(LC(RIGHT))
-				&kp LCTL
+				&none
 				&none
 				&kp LC(LS(F10))
 				&kp LS(TAB)
