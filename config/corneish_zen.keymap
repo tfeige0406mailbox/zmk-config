@@ -145,31 +145,7 @@
 
 
 
-		// --- pg up and down ---
-
-		 controlpgup: controlpgup {
-            label = "controlpgup";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&macro_press &kp LCTL>
-                , <&macro_tap &kp PG_UP>
-				, <&macro_wait_time 1500>
-                , <&macro_release &kp LCTL>
-                ;
-        };
-
-		controlpgdn: controlpgdn {
-            label = "controlpgdn";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&macro_press &kp LCTL>
-                , <&macro_tap &kp PG_DN>
-				, <&macro_wait_time 1500>
-                , <&macro_release &kp LCTL>
-                ;
-        };
+	
     };
 };
 
@@ -1728,7 +1704,7 @@
 				&none
 				&kp LA(UP)
 				&none
-				&controlpgup
+				&none
 				&none
 		
 				&trans
@@ -1741,7 +1717,7 @@
 				&none
 				&kp LA(DOWN)
 				&none
-				&controlpgdown
+				&none
 				&none
 
 				&none
