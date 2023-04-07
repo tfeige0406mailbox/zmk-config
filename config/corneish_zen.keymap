@@ -80,6 +80,18 @@
                 ;
         };
     };
+
+	macros {
+    swright: SwitchRight {
+        label = "SwitchRight";
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings
+            = <&to wCHAR>
+            , <&kp LG(LA(LC(LS(RIGHT))))>
+            ;
+    	};
+	};
 };
 
 
