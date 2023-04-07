@@ -67,8 +67,6 @@
   	};
 
 
-	// LAYOUT WECHSEL
-
     macros {
 
 		// --- Left and Right ---
@@ -142,6 +140,125 @@
                 ;
         };
 
+		// --- pg up and down ---
+
+		 controlpgup: controlpgup {
+            label = "controlpgup";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LCTL>
+                , <&macro_tap &kp PG_UP>
+				, <&macro_wait_time 1500>
+                , <&macro_release &kp LCTL>
+                ;
+        };
+
+		controlpgdn: controlpgdn {
+            label = "controlpgdn";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LCTL>
+                , <&macro_tap &kp PG_DN>
+				, <&macro_wait_time 1500>
+                , <&macro_release &kp LCTL>
+                ;
+        };
+
+
+		// --- Mac Programm ----
+
+		 mone: mone {
+            label = "mone";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                 = <&to mCHAR>
+				 , <&kp LG(LA(LC(LS(LEFT))))>
+                , <&kp LG(LA(N1))>
+                ;
+        };
+
+		mtwo: mtwo {
+            label = "mtwo";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&to mCHAR>
+				, <&kp LG(LA(LC(LS(LEFT))))>
+                , <&kp LG(LA(N2))>
+                ;
+        };
+
+		mthree: mthree {
+            label = "mthree";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&to mCHAR>
+				, <&kp LG(LA(LC(LS(LEFT))))>
+                , <&kp LG(LA(N3))>
+                ;
+        };
+
+		mfour: mfour {
+            label = "mfour";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&to mCHAR>
+				, <&kp LG(LA(LC(LS(LEFT))))>
+                , <&kp LG(LA(N4))>
+                ;
+        };
+
+
+		// --- WIN Programm ----
+
+		 wone: wone {
+            label = "wone";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                 = <&to wCHAR>
+                , <&kp LG(LA(LC(LS(RIGHT))))>
+				, <&kp LG(N1)>
+                ;
+        };
+
+		wtwo: wtwo {
+            label = "wtwo";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&to wCHAR>
+                , <&kp LG(LA(LC(LS(RIGHT))))>
+				, <&kp LG(N2)>
+                ;
+        };
+
+		wthree: wthree {
+            label = "wthree";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&to wCHAR>
+                , <&kp LG(LA(LC(LS(RIGHT))))>
+				, <&kp LG(N3)>
+                ;
+        };
+
+		wfour: wfour {
+            label = "wfour";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                 = <&to wCHAR>
+                , <&kp LG(LA(LC(LS(RIGHT))))>
+				, <&kp LG(N4)>
+                ;
+        };	
     };
 };
 
@@ -1650,7 +1767,7 @@
 				&kp LG(S)
 				&kp LC(LS(Y))
 				&kp LC(LS(Z))
-				&windowleft			// window
+				&windowleft					// window
 				&windowdown 				// window
 				&windowright 				// window
 				&kp LC(KP_MINUS)
