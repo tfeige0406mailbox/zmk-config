@@ -1542,7 +1542,7 @@
 				&swleft
 				&kp LG(LC(LA(LEFT)))
 				&kp LG(LC(LA(RIGHT)))
-				&swright
+				&none
 				&kp LG(D)
 		
 				&none 
@@ -1553,6 +1553,68 @@
 				&none 
 			>;
 		};
+
+
+
+
+		// --------------------------------------
+		// Layer 24 - mFUNC =	Funktionen
+		// --------------------------------------
+
+		win_function
+		{
+			label = "WIN";
+
+			bindings = <
+	
+				&kp LC(NUHS)    		 //Fokus
+				&kp F5
+				&kp LC(LS(U)) 
+				&kp LC(LS(F)) 
+				&kp LC(LS(K))
+				&kp LC(LS(B)) 
+				&kp LG(DOT)
+				&kp LC(Y)
+				&none				// window up
+				&kp LC(Z) 
+				&kp LC(KP_PLUS)
+				&kp LC(NUHS)    		 //Fokus
+		
+				&trans
+				&kp LA(E)
+				&kp LC(LS(C))
+				&kp LC(LS(V)) 
+				&kp LG(S)
+				&kp LC(LS(Y))
+				&kp LC(LS(Z))
+				&none 				// window
+				&none 				// window
+				&none 				// window
+				&kp LC(KP_MINUS)
+				&kp F2
+				
+				&kp LA(LG(D))
+				&kp F12						//Seitenleiste links
+				&kp LA(LEFT) 
+				&kp LA(RIGHT)
+				&kp LG(A)					// Seitenleiste rechts
+				&kp LS(LG(S))
+				&kp LG(X)
+				&kp LC(LS(TAB))
+				&kp LA(UP)
+				&kp ENTER
+				&kp LC(TAB)
+				&kp LALT
+				
+				&sl wSFUNC
+				&none
+				&none
+				&none
+				&to wBCHAR
+				&none
+			>;
+		};
+
 		
 		// ------------------------------------------------------------------------------------------------------------------
 		// ------------------------------------------------------------------------------------------------------------------
