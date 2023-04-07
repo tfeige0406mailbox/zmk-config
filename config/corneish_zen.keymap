@@ -70,6 +70,9 @@
 	// LAYOUT WECHSEL
 
     macros {
+
+		// --- Left and Right ---
+
         swleft: SwitchLeft {
             label = "SwitchLeft";
             compatible = "zmk,behavior-macro";
@@ -88,6 +91,57 @@
                 , <&kp LG(LA(LC(LS(RIGHT))))>
                 ;
         };
+
+		// --- Window Move ---
+		 
+		windowleft: windowleft {
+            label = "windowleft";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LGUI>
+                , <&macro_tap &kp LEFT>
+				, <&macro_wait_time 500>
+                , <&macro_release &kp LGUI>
+                ;
+        };
+
+		windowright: windowright {
+            label = "windowright";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LGUI>
+                , <&macro_tap &kp RIGHT>
+				, <&macro_wait_time 500>
+                , <&macro_release &kp LGUI>
+                ;
+        };
+
+		 windowup: windowup {
+            label = "windowup";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LGUI>
+                , <&macro_tap &kp UP>
+				, <&macro_wait_time 500>
+                , <&macro_release &kp LGUI>
+                ;
+        };
+
+		windowdown: windowdown {
+            label = "windowdown";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LGUI>
+                , <&macro_tap &kp DOWN>
+				, <&macro_wait_time 500>
+                , <&macro_release &kp LGUI>
+                ;
+        };
+
     };
 };
 
