@@ -219,6 +219,17 @@
                 ;
         };
 
+		mfive: mfive {
+            label = "mfive";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&to mCHAR>
+				, <&kp LG(LA(LC(LS(LEFT))))>
+                , <&kp LG(LA(N5))>
+                ;
+        };
+
 
 		// --- WIN Programm ----
 
@@ -229,7 +240,7 @@
             bindings
                  = <&to wCHAR>
                 , <&kp LG(LA(LC(LS(RIGHT))))>
-				, <&kp LC(LA(N1))>
+				, <&kp LG(LA(N1))>
                 ;
         };
 
@@ -240,7 +251,7 @@
             bindings
                 = <&to wCHAR>
                 , <&kp LG(LA(LC(LS(RIGHT))))>
-				, <&kp LC(LA(N2))>
+				, <&kp LG(LA(N2))>
                 ;
         };
 
@@ -251,7 +262,7 @@
             bindings
                 = <&to wCHAR>
                 , <&kp LG(LA(LC(LS(RIGHT))))>
-				, <&kp LC(LA(N3))>
+				, <&kp LG(LA(N3))>
                 ;
         };
 
@@ -262,7 +273,18 @@
             bindings
                  = <&to wCHAR>
                 , <&kp LG(LA(LC(LS(RIGHT))))>
-				, <&kp LC(LA(N4))>
+				, <&kp LG(LA(N4))>
+                ;
+        };	
+
+		wfive: wfive {
+            label = "wfive";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                 = <&to wCHAR>
+                , <&kp LG(LA(LC(LS(RIGHT))))>
+				, <&kp LG(LA(N5))>
                 ;
         };	
     };
@@ -797,7 +819,7 @@
 				&wtwo
 				&wthree
 				&wfour
-				&none
+				&wfive
 				&none
 				&none
 				&none
@@ -1524,16 +1546,16 @@
 				&none
 
 				&none
-				&kp LC(LA(N1))
-				&kp LC(LA(N2))
-				&kp LC(LA(N3))
-				&kp LC(LA(N4))
-				&kp LC(LA(N5))
-				&kp LC(LA(N6))
-				&kp LC(LA(N7))
-				&kp LC(LA(N8))
-				&kp LC(LA(N9))
-				&kp LC(LA(N0))
+				&kp LC(N1)
+				&kp LC(N2)
+				&kp LC(N3)
+				&kp LC(N4)
+				&kp LC(N5)
+				&kp LC(N6)
+				&kp LC(N7)
+				&kp LC(N8)
+				&kp LC(N9)
+				&kp LC(N0)
 				&none
 
 				&none
@@ -1645,16 +1667,16 @@
 				&kp LA(F4)
 
 				&none
-				&kp LG(N1)
-				&kp LG(N2)
-				&kp LG(N3)
-				&kp LG(N4)
-				&kp LG(N5)
-				&kp LG(N6)
-				&kp LG(N7)
-				&kp LG(N8)
-				&kp LG(N9)
-				&kp LG(N0)
+				&kp LG(LA(N1))
+				&kp LG(LA(N2))
+				&kp LG(LA(N3))
+				&kp LG(LA(N4))
+				&kp LG(LA(N5))
+				&kp LG(LA(N6))
+				&kp LG(LA(N7))
+				&kp LG(LA(N8))
+				&kp LG(LA(N9))
+				&kp LG(LA(N0))
 				&kp LA(TAB)
 
 				&kp LA(SPACE)
@@ -1710,7 +1732,7 @@
 				&mtwo
 				&mthree
 				&mfour
-				&none
+				&mfive
 				&none
 				&none
 				&none
