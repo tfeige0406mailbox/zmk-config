@@ -1492,6 +1492,67 @@
 				&none
 			>;
 		};
+
+
+		// --------------------------------------
+		// Layer 23 -mSPRG =	Spezial Prgramme
+		// --------------------------------------
+
+
+		win_sprogramme
+		{
+
+			label = "WIN";
+
+			bindings = <
+
+				&none
+				&none
+				&none
+				&none
+				&none
+				&none
+				&none
+				&none
+				&none
+				&none
+				&none
+				&kp LC(LS(ESC))    // Sofort beenden
+		
+				&none
+				&none
+				&none
+				&none
+				&none
+				&none
+				&none
+				&none
+				&none
+				&none
+				&none
+				&kp LS(LA(TAB))
+
+				&kp LG(LA(LC(LS(NUBS))))
+				&none
+				&none
+				&none
+				&none
+				&none
+				&kp LG(T)
+				&swleft
+				&kp LG(LC(LA(LEFT)))
+				&kp LG(LC(LA(RIGHT)))
+				&swright
+				&kp LG(D)
+		
+				&none 
+				&none 
+				&none
+				&none 
+				&none 
+				&none 
+			>;
+		};
 		
 		// ------------------------------------------------------------------------------------------------------------------
 		// ------------------------------------------------------------------------------------------------------------------
