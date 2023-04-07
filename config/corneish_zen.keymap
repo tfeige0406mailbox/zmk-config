@@ -69,6 +69,7 @@
 
     macros {
 
+
 		// --- Left and Right ---
 
         swleft: SwitchLeft {
@@ -89,6 +90,8 @@
                 , <&kp LG(LA(LC(LS(RIGHT))))>
                 ;
         };
+
+
 
 		// --- Window Move ---
 		 
@@ -140,6 +143,8 @@
                 ;
         };
 
+
+
 		// --- pg up and down ---
 
 		 controlpgup: controlpgup {
@@ -165,6 +170,7 @@
                 , <&macro_release &kp LCTL>
                 ;
         };
+
 
 
 		// --- Mac Programm ----
@@ -223,7 +229,7 @@
             bindings
                  = <&to wCHAR>
                 , <&kp LG(LA(LC(LS(RIGHT))))>
-				, <&kp LG(N1)>
+				, <&kp LC(LA(N1))>
                 ;
         };
 
@@ -234,7 +240,7 @@
             bindings
                 = <&to wCHAR>
                 , <&kp LG(LA(LC(LS(RIGHT))))>
-				, <&kp LG(N2)>
+				, <&kp LC(LA(N2))>
                 ;
         };
 
@@ -245,7 +251,7 @@
             bindings
                 = <&to wCHAR>
                 , <&kp LG(LA(LC(LS(RIGHT))))>
-				, <&kp LG(N3)>
+				, <&kp LC(LA(N3))>
                 ;
         };
 
@@ -256,7 +262,7 @@
             bindings
                  = <&to wCHAR>
                 , <&kp LG(LA(LC(LS(RIGHT))))>
-				, <&kp LG(N4)>
+				, <&kp LC(LA(N4))>
                 ;
         };	
     };
@@ -1518,16 +1524,16 @@
 				&none
 
 				&none
-				&kp LC(N1)
-				&kp LC(N2)
-				&kp LC(N3)
-				&kp LC(N4)
-				&kp LC(N5)
-				&kp LC(N6)
-				&kp LC(N7)
-				&kp LC(N8)
-				&kp LC(N9)
-				&kp LC(N0)
+				&kp LC(LA(N1))
+				&kp LC(LA(N2))
+				&kp LC(LA(N3))
+				&kp LC(LA(N4))
+				&kp LC(LA(N5))
+				&kp LC(LA(N6))
+				&kp LC(LA(N7))
+				&kp LC(LA(N8))
+				&kp LC(LA(N9))
+				&kp LC(LA(N0))
 				&none
 
 				&none
