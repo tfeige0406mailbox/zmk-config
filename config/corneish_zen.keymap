@@ -65,6 +65,41 @@
     	zmk,matrix_transform = &default_transform;
     	//zmk,matrix_transform = &five_column_transform;
   	};
+
+
+	// LAYOUT WECHSEL
+
+    macros {
+        swleft: SwitchLeft {
+            label = "SwitchLeft";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&to mCHAR>
+                , <&kp LG(LA(LC(LS(LEFT))))>
+                ;
+        };
+    };
+
+  	macros {
+        swright: SwitchRight {
+            label = "SwitchRight";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&to wCHAR>
+                , <&kp LG(LA(LC(LS(RIGHT))))>
+                ;
+        };
+    };
+
+
+
+
+
+
+	
+
 };
 
 
