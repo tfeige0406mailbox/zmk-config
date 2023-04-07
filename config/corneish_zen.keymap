@@ -213,7 +213,7 @@
 				&kp SPACE 
 				&sl mPRG
 				&sl mPFUNC						
-				&sl mSYM
+				&sl mNR
 				&sl mMOD
 			>;
 		};
@@ -350,7 +350,7 @@
 
 			bindings = <
 
-				&kp ESC
+				&none
 				&kp LS(N3)
 				&kp LA(N5)
 				&kp LA(N6)			
@@ -361,9 +361,9 @@
 				&kp LA(M)
 				&kp M
 				&kp LS(N5)			
-				&kp BSPC
+				&none
 
-				&trans
+				&none
 				&kp LA(N7)				
 				&kp LA(N)				
 				&kp LS(GRAVE)
@@ -393,7 +393,7 @@
 				&kp SPACE 
 				&none			
 				&none
-				&trans
+				&none
 				&none
 			>;
 		};
@@ -410,7 +410,7 @@
 
 			bindings = <
 
-				&kp ESC
+				&none
 				&kp F1
 				&kp F2
 				&kp F3
@@ -423,7 +423,7 @@
 				&kp F10
 				&none
 
-				&trans
+				&none
 				&kp LG(N1)
 				&kp LG(N2)
 				&kp LG(N3)
@@ -470,7 +470,7 @@
 
 			bindings = <
 
-				&kp ESC
+				&none
 				&bt BT_PRV
 				&kp C_PREVIOUS 
 				&kp C_PP 
@@ -483,16 +483,16 @@
 				&bt BT_NXT
 				&none
 
-				&trans		
+				&none	
 				&none	
 				&none
 				&none
 				&none
 				&none
 				&none
-				&kp LG(LC(LA(F1)))
 				&none
-				&kp LG(LC(LA(F2)))
+				&none
+				&none
 				&none
 				&none
 
@@ -512,7 +512,7 @@
 				&none 
 				&none 
 				&none 
-				&trans
+				&none
 				&none
 				&none	
 
@@ -532,7 +532,7 @@
 
 			bindings = <
 
-				&kp ESC
+				&none
 				&kp LG(LC(N1))
 				&kp LG(LC(N2))
 				&kp LG(LC(N3))
@@ -545,7 +545,7 @@
 				&kp LG(LC(N0))
 				&kp LG(Q)
 
-				&trans
+				&none
 				&kp LG(LA(N1))
 				&kp LG(LA(N2))
 				&kp LG(LA(N3))
@@ -593,7 +593,7 @@
 
 			bindings = <
 
-				&kp ESC
+				&none
 				&none
 				&none
 				&none
@@ -606,17 +606,17 @@
 				&none
 				&kp LG(LA(ESC)) 	// Sofort beenden
 		
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
+				&none
+				&none
+				&none
+				&none
+				&none
+				&none
+				&none
+				&none
+				&none
+				&none
+				&none
 				&kp LS(LG(TAB))
 
 				&kp LG(LA(LC(LS(NUHS))))
@@ -634,7 +634,7 @@
 		
 				&none 
 				&none 
-				&trans
+				&none
 				&none 
 				&none 
 				&none 
@@ -653,8 +653,8 @@
 
 			bindings = <
 	
-				&kp ESC
 				&kp LG(LA(LC(LS(PG_DN))))  	// Fokus
+				&none
 				&kp LG(U) 
 				&kp LG(B) 
 				&kp LG(I)
@@ -677,7 +677,7 @@
 				&kp LG(LC(DOWN))			// window 
 				&kp LG(LC(RIGHT))			// window 
 				&kp LG(SLASH)
-				&kp LG(LA(LC(LS(F5))))  	//Shortcat
+				&kp ENTER
 
 				&none
 				&kp LG(LA(LC(LS(GRAVE))))	//Seitenleiste links
@@ -690,13 +690,13 @@
 				&kp LG(UP)
 				&kp LG(DOWN)
 				&kp LC(TAB)
-				&none
+				&kp LG(LA(LC(LS(F5))))  	//Shortcat
 				
 				&sl mSFUNC
 				&none
 				&none
-				&none 
-				&to mNR
+				&none
+				&to mBCHAR
 				&none
 			>;
 		};
@@ -713,17 +713,17 @@
 
 			bindings = <
 
-				&kp ESC
-				&none
-				&none
 				&none
 				&none
 				&kp LG(LS(EQUAL)) // block
 				&none
 				&none
+				&none
+				&none
+				&none
 				&kp LG(LA(UP))    // craft
 				&none
-				&kp LC(PG_UP)
+				&none
 				&none
 
 				&trans				
@@ -736,7 +736,7 @@
 				&none
 				&kp LG(LA(DOWN)) 	// craft
 				&none
-				&kp LC(PG_DN)
+				&none
 				&none
 
 				&none
@@ -752,11 +752,11 @@
 				&none
 				&none
 		
-				&trans
+				&none
 				&none 
 				&none 
 				&none 
-				&none 
+				&to mNR 
 				&none               
 			>;
 		};
@@ -773,7 +773,7 @@
 
 			bindings = <
 
-				&kp ESC
+				&none
 				&kp LG(J)
 				&kp LG(D)
 				&kp LG(U) 
@@ -786,7 +786,7 @@
 				&kp LG(W) 
 				&kp LA(BACKSPACE)
 		
-				&trans
+				&none
 				&kp LG(C)
 				&kp LG(T)
 				&kp LG(I)
@@ -813,7 +813,7 @@
 				&kp LA(DELETE)
 		
 				&none 
-				&to mCHAR 
+				&to mCHAR
 				&none 
 				&none 
 				&none 
@@ -833,7 +833,7 @@
 
 			bindings = <
 			
-				&kp ESC
+				&none
 				&kp LA(LG(J))
 				&kp LA(LG(D))
 				&kp LA(LG(U))
@@ -846,7 +846,7 @@
 				&kp LA(LG(W)) 
 				&kp LG(BACKSPACE)
 		
-				&trans
+				&none
 				&kp LA(LG(C))
 				&kp LA(LG(T))
 				&kp LA(LG(I))
@@ -877,7 +877,7 @@
 				&none 
 				&none 
 				&sl mSSMOD
-				&trans
+				&none
 			>;
 		};
 
@@ -891,7 +891,7 @@
 
 			bindings = <
 			
-				&kp ESC
+				&none
 				&kp LS(LG(J))
 				&kp LS(LG(D))
 				&kp LS(LG(U))
@@ -904,7 +904,7 @@
 				&kp LS(LG(W)) 
 				&none
 		
-				&trans
+				&none
 				&kp LS(LG(C))
 				&kp LS(LG(T))
 				&kp LS(LG(I))
@@ -915,7 +915,7 @@
 				&kp LS(LG(R))
 				&kp LS(LG(S))
 				&kp LS(LG(G)) 
-				&kp LS(LG(ENTER)) 
+				&none
 
 				&none
 				&kp LS(LG(F))
@@ -935,7 +935,7 @@
 				&none 
 				&none 
 				&none 
-				&trans
+				&none
 			>;
 		};    
 				
@@ -977,7 +977,7 @@
 				&kp PG_DN
 				&kp ENTER
 				
-				&to mBCHAR
+				&none
 				&none
 				&kp LS(LA(LEFT))
 				&kp LS(LA(RIGHT))
@@ -992,10 +992,10 @@
 
 				&trans
 				&kp SPACE 
-				&trans
-				&trans
+				&none
+				&none
 				&kp LSHIFT 
-				&trans
+				&none
 			>;
 		};
 
