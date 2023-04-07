@@ -1068,6 +1068,65 @@
 	
 
 
+		// --------------------------------------
+		// Layer 16 - mBCHAR =	GROSS-BUCHSTABEN
+		// --------------------------------------
+
+
+		win_bchar
+		{
+
+			label = "WIN";
+
+			bindings = <
+
+				&kp ESC
+				&kp LS(J) 
+				&kp LS(D)
+				&kp LS(U) 
+				&kp LS(A) 
+				&kp LS(X)
+				&kp LS(P) 
+				&kp LS(H) 
+				&kp LS(L) 
+				&kp LS(M) 
+				&kp LS(W) 
+				&kp BACKSPACE
+		
+				&sl wNAV
+				&kp LS(C)
+				&kp LS(T)
+				&kp LS(I)
+				&kp LS(E)
+				&kp LS(O)	
+				&kp LS(B) 
+				&kp LS(N) 
+				&kp LS(R) 
+				&kp LS(S) 
+				&kp LS(G) 
+				&kp ENTER
+				
+				&kp LSHIFT
+				&kp LS(F)
+				&kp LS(V)
+				&kp LS(MINUS)
+				&kp LS(Y)
+				&kp LS(Q)
+				&kp LS(Z)
+				&kp LS(SEMICOLON)
+				&kp LS(LEFT_BRACKET)
+				&kp LS(SINGLE_QUOTE)
+				&kp LS(K) 
+				&kp LSHIFT
+		
+				&sl wFUNC
+				&kp SPACE 
+				&sl wPRG
+				&sl wPFUNC						
+				&sl wNR
+				&sl wMOD
+			>;
+		};
 
 
 		
