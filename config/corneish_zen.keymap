@@ -793,10 +793,10 @@
 				&kp LG(LA(ESC)) 	// Sofort beenden
 		
 				&none
-				&none
-				&none
-				&none
-				&none
+				&wone
+				&wtwo
+				&wthree
+				&wfour
 				&none
 				&none
 				&none
@@ -1706,10 +1706,10 @@
 				&kp LC(LS(ESC))    // Sofort beenden
 		
 				&none
-				&none
-				&none
-				&none
-				&none
+				&mone
+				&mtwo
+				&mthree
+				&mfour
 				&none
 				&none
 				&none
@@ -1823,7 +1823,7 @@
 				&none
 				&kp LA(UP)
 				&none
-				&none
+				&controlpgup
 				&none
 		
 				&trans
@@ -1836,7 +1836,7 @@
 				&none
 				&kp LA(DOWN)
 				&none
-				&none
+				&controlpgdown
 				&none
 
 				&none
