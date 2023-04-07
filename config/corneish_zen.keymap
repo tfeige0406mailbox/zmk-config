@@ -568,7 +568,7 @@
 				&swleft
 				&kp LG(LC(LA(LEFT)))
 				&kp LG(LC(LA(RIGHT)))
-				&swright
+				&none 						//swright
 				&kp LG(H)	
 		
 				&none 
@@ -629,7 +629,7 @@
 				&swleft
 				&kp LG(LC(LA(LEFT)))
 				&kp LG(LC(LA(RIGHT)))
-				&swright
+				&none									//swright
 				&kp LG(LA(H))
 		
 				&none 
