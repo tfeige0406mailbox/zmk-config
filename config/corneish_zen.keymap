@@ -93,7 +93,7 @@
 
 
 
-		// --- Window Move ---
+		// --- Windows Window Move ---
 		 
 		windowleft: windowleft {
             label = "windowleft";
@@ -635,7 +635,7 @@
 				&swleft
 				&kp LG(LC(LA(LEFT)))
 				&kp LG(LC(LA(RIGHT)))
-				&swright 						//swright
+				&swright 						
 				&kp LG(H)	
 		
 				&none 
