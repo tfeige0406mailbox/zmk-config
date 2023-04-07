@@ -1615,6 +1615,303 @@
 			>;
 		};
 
+
+
+		// --------------------------------------
+		// Layer 25 - mSFUNC =	Spezial Funktionen
+		// --------------------------------------
+
+		win_specialfunction
+		{
+			label = "WIN";
+
+			bindings = <
+
+				&none
+				&none
+				&kp LC(LS(SINGLE_QUOTE))
+				&none				
+				&none
+				&none
+				&none
+				&none
+				&kp LA(UP)
+				&none
+				&none
+				&none
+		
+				&trans
+				&none
+				&none
+				&none
+				&none
+				&none
+				&none
+				&none
+				&kp LA(DOWN)
+				&none
+				&none
+				&none
+
+				&none
+				&none
+				&kp LC(LEFT)
+				&kp LC(RIGHT)
+				&none
+				&none
+				&none
+				&none
+				&kp LC(LEFT)
+				&kp LC(RIGHT)
+				&none
+				&none
+		
+				&none
+				&none 
+				&none
+				&none 
+				&to wNR 
+				&none            
+			>;
+		};
+
+
+
+		// --------------------------------------
+		// Layer	26 - mMOD =	CTL
+		// --------------------------------------
+
+		win_mod
+		{
+			label = "win";
+
+			bindings = <
+
+				&none
+				&kp LC(J)
+				&kp LC(D)
+				&kp LC(U) 
+				&kp LC(A)
+				&kp LC(X)
+				&kp LC(P)
+				&kp LC(H)
+				&kp LC(L) 
+				&kp LC(M)
+				&kp LC(W) 
+				&kp LC(BACKSPACE)
+		
+				&none
+				&kp LC(C)
+				&kp LC(T)
+				&kp LC(I)
+				&kp LC(E)
+				&kp LC(O)	
+				&kp LC(B)
+				&kp LC(N)
+				&kp LC(R)
+				&kp LC(S)
+				&kp LC(G)
+				&kp LC(ENTER)
+
+				&none
+				&kp LC(F)
+				&kp LC(V)
+				&kp LC(MINUS)
+				&kp LC(Y)
+				&kp LC(Q)
+				&kp LC(Z)
+				&kp LC(SEMICOLON)
+				&kp LC(LEFT_BRACKET)
+				&kp LC(SINGLE_QUOTE)
+				&kp LC(K) 
+				&kp LC(DELETE)
+		
+				&none 
+				&to wCHAR
+				&none 
+				&none 
+				&none 
+				&sl wSMOD
+			>;
+		};
+
+
+
+		// --------------------------------------
+		// Layer 27 - mSMOD =	Spezial Mod
+		// --------------------------------------
+
+		win_smod
+		{	
+			label = "WIN";
+
+			bindings = <
+			
+				&none
+				&kp LS(LC(J))
+				&kp LS(LC(D))
+				&kp LS(LC(U))
+				&kp LS(LC(A))
+				&kp LS(LC(X))
+				&kp LS(LC(P))
+				&kp LS(LC(H)) 
+				&kp LS(LC(L)) 
+				&kp LS(LC(M)) 
+				&kp LS(LC(W)) 
+				&kp LS(BACKSPACE)
+		
+				&none
+				&kp LS(LC(C))
+				&kp LS(LC(T))
+				&kp LS(LC(I))
+				&kp LS(LC(E))
+				&kp LS(LC(O))	
+				&kp LS(LC(B))
+				&kp LS(LC(N))
+				&kp LS(LC(R))
+				&kp LS(LC(S))
+				&kp LS(LC(G)) 
+				&kp LS(LC(ENTER))
+
+				&none
+				&kp LS(LC(F))
+				&kp LS(LC(V))
+				&kp LS(LC(MINUS))
+				&kp LS(LC(Y))
+				&kp LS(LC(Q))
+				&kp LS(LC(Z))
+				&kp LS(LC(SEMICOLON))
+				&kp LS(LC(LEFT_BRACKET))
+				&kp LS(LC(SINGLE_QUOTE))
+				&kp LS(LC(K)) 
+				&kp LS(DELETE)
+
+				&none 
+				&none 
+				&none 
+				&none 
+				&sl wSSMOD
+				&none
+			>;
+		};
+
+		// --------------------------------------
+		// Layer 28 - mSSMOD =	Super Spezial Mod
+		// --------------------------------------
+
+		win_ssmod
+		{	
+			label = "WIN";
+
+			bindings = <
+			
+				&none
+				&kp LA(J)
+				&kp LA(D)
+				&kp LA(U) 
+				&kp LA(A)
+				&kp LA(X)
+				&kp LA(P)
+				&kp LA(H)
+				&kp LA(L) 
+				&kp LA(M)
+				&kp LA(W) 
+				&none
+	
+				&none
+				&kp LA(C)
+				&kp LA(T)
+				&kp LA(I)
+				&kp LA(E)
+				&kp LA(O)	
+				&kp LA(B)
+				&kp LA(N)
+				&kp LA(R)
+				&kp LA(S)
+				&kp LA(G)
+				&kp LA(ENTER)
+
+				&none
+				&kp LA(F)
+				&kp LA(V)
+				&kp LA(MINUS)
+				&kp LA(Y)
+				&kp LA(Q)
+				&kp LA(Z)
+				&kp LA(SEMICOLON)
+				&kp LA(LEFT_BRACKET)
+				&kp LA(SINGLE_QUOTE)
+				&kp LA(K) 
+				&none
+
+				&none 
+				&none 
+				&none 
+				&none 
+				&none 
+				&none
+			>;
+		};    
+				
+
+
+		// --------------------------------------
+		// Layer = 29 - mNAV	  Navigation
+		// --------------------------------------
+
+		win_navigation
+		{		
+			label = "WIN";
+
+			bindings = <
+
+				&none
+				&kp LALT
+				&kp LS(HOME)
+				&kp DELETE
+				&kp LS(END)
+				&none
+				&kp LC(HOME)
+				&kp HOME 
+				&kp UP
+				&kp END
+				&kp PG_UP 
+				&kp BACKSPACE
+
+				&trans 
+				&kp LSHIFT
+				&kp LC(LS(TAB))
+				&kp LC(TAB)
+				&kp LCTL
+				&none
+				&kp LC(END)
+				&kp LEFT 
+				&kp DOWN
+				&kp RIGHT 	
+				&kp PG_DN
+				&kp ENTER
+				
+				&none
+				&none
+				&kp LS(LC(LEFT))
+				&kp LS(LC(RIGHT))
+				&kp INSERT
+				&none
+				&kp LC(LS(F10))
+				&kp LS(TAB)
+				&kp LC(LEFT)
+				&kp LC(RIGHT)
+				&kp TAB
+				&kp DELETE
+
+				&trans
+				&kp SPACE 
+				&none
+				&none
+				&kp LSHIFT 
+				&none
+			>;
+		};
 		
 		// ------------------------------------------------------------------------------------------------------------------
 		// ------------------------------------------------------------------------------------------------------------------
