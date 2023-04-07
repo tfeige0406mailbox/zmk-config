@@ -170,123 +170,6 @@
                 , <&macro_release &kp LCTL>
                 ;
         };
-
-
-
-		// --- Mac Programm ----
-
-		 mone: mone {
-            label = "mone";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                 = <&to mCHAR>
-				 , <&kp LG(LA(LC(LS(LEFT))))>
-                , <&kp LG(LA(N1))>
-                ;
-        };
-
-		mtwo: mtwo {
-            label = "mtwo";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&to mCHAR>
-				, <&kp LG(LA(LC(LS(LEFT))))>
-                , <&kp LG(LA(N2))>
-                ;
-        };
-
-		mthree: mthree {
-            label = "mthree";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&to mCHAR>
-				, <&kp LG(LA(LC(LS(LEFT))))>
-                , <&kp LG(LA(N3))>
-                ;
-        };
-
-		mfour: mfour {
-            label = "mfour";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&to mCHAR>
-				, <&kp LG(LA(LC(LS(LEFT))))>
-                , <&kp LG(LA(N4))>
-                ;
-        };
-
-		mfive: mfive {
-            label = "mfive";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&to mCHAR>
-				, <&kp LG(LA(LC(LS(LEFT))))>
-                , <&kp LG(LA(N5))>
-                ;
-        };
-
-
-		// --- WIN Programm ----
-
-		 wone: wone {
-            label = "wone";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                 = <&to wCHAR>
-                , <&kp LG(LA(LC(LS(RIGHT))))>
-				, <&kp LG(LC(N1))>
-                ;
-        };
-
-		wtwo: wtwo {
-            label = "wtwo";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&to wCHAR>
-                , <&kp LG(LA(LC(LS(RIGHT))))>
-				, <&kp LG(LC(N2))>
-                ;
-        };
-
-		wthree: wthree {
-            label = "wthree";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&to wCHAR>
-                , <&kp LG(LA(LC(LS(RIGHT))))>
-				, <&kp LG(LC(N3))>
-                ;
-        };
-
-		wfour: wfour {
-            label = "wfour";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                 = <&to wCHAR>
-                , <&kp LG(LA(LC(LS(RIGHT))))>
-				, <&kp LG(LC(N4))>
-                ;
-        };	
-
-		wfive: wfive {
-            label = "wfive";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                 = <&to wCHAR>
-                , <&kp LG(LA(LC(LS(RIGHT))))>
-				, <&kp LG(LC(N5))>
-                ;
-        };	
     };
 };
 
@@ -815,11 +698,11 @@
 				&kp LG(LA(ESC)) 	// Sofort beenden
 		
 				&none
-				&wone
-				&wtwo
-				&wthree
-				&wfour
-				&wfive
+				&none
+				&none
+				&none
+				&none
+				&none
 				&none
 				&none
 				&none
@@ -1728,11 +1611,11 @@
 				&kp LC(LS(ESC))    // Sofort beenden
 		
 				&none
-				&mone
-				&mtwo
-				&mthree
-				&mfour
-				&mfive
+				&none
+				&none
+				&none
+				&none
+				&none
 				&none
 				&none
 				&none
