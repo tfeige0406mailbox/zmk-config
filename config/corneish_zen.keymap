@@ -1638,7 +1638,7 @@
 				&kp LC(LS(B)) 
 				&kp LG(DOT)
 				&kp LC(Y)
-				&none				// window up
+				&windowup				// window up
 				&kp LC(Z) 
 				&kp LC(KP_PLUS)
 				&kp LC(NUHS)    		 //Fokus
@@ -1650,9 +1650,9 @@
 				&kp LG(S)
 				&kp LC(LS(Y))
 				&kp LC(LS(Z))
-				&none 				// window
-				&none 				// window
-				&none 				// window
+				&windowleft			// window
+				&windowdown 				// window
+				&windowright 				// window
 				&kp LC(KP_MINUS)
 				&kp F2
 				
