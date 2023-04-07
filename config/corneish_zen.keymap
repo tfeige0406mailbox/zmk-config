@@ -240,7 +240,7 @@
             bindings
                  = <&to wCHAR>
                 , <&kp LG(LA(LC(LS(RIGHT))))>
-				, <&kp LG(LA(N1))>
+				, <&kp LG(LC(N1))>
                 ;
         };
 
@@ -251,7 +251,7 @@
             bindings
                 = <&to wCHAR>
                 , <&kp LG(LA(LC(LS(RIGHT))))>
-				, <&kp LG(LA(N2))>
+				, <&kp LG(LC(N2))>
                 ;
         };
 
@@ -262,7 +262,7 @@
             bindings
                 = <&to wCHAR>
                 , <&kp LG(LA(LC(LS(RIGHT))))>
-				, <&kp LG(LA(N3))>
+				, <&kp LG(LC(N3))>
                 ;
         };
 
@@ -273,7 +273,7 @@
             bindings
                  = <&to wCHAR>
                 , <&kp LG(LA(LC(LS(RIGHT))))>
-				, <&kp LG(LA(N4))>
+				, <&kp LG(LC(N4))>
                 ;
         };	
 
@@ -284,7 +284,7 @@
             bindings
                  = <&to wCHAR>
                 , <&kp LG(LA(LC(LS(RIGHT))))>
-				, <&kp LG(LA(N5))>
+				, <&kp LG(LC(N5))>
                 ;
         };	
     };
@@ -1654,19 +1654,6 @@
 			bindings = <
 
 				&none
-				&kp LG(LC(N1))
-				&kp LG(LC(N2))
-				&kp LG(LC(N3))
-				&kp LG(LC(N4))
-				&kp LG(LC(N5))
-				&kp LG(LC(N6))
-				&kp LG(LC(N7))
-				&kp LG(LC(N8))
-				&kp LG(LC(N9))
-				&kp LG(LC(N0))
-				&kp LA(F4)
-
-				&none
 				&kp LG(LA(N1))
 				&kp LG(LA(N2))
 				&kp LG(LA(N3))
@@ -1677,6 +1664,19 @@
 				&kp LG(LA(N8))
 				&kp LG(LA(N9))
 				&kp LG(LA(N0))
+				&kp LA(F4)
+
+				&none				
+				&kp LG(LC(N1))
+				&kp LG(LC(N2))
+				&kp LG(LC(N3))
+				&kp LG(LC(N4))
+				&kp LG(LC(N5))
+				&kp LG(LC(N6))
+				&kp LG(LC(N7))
+				&kp LG(LC(N8))
+				&kp LG(LC(N9))
+				&kp LG(LC(N0))
 				&kp LA(TAB)
 
 				&kp LA(SPACE)
