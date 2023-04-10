@@ -539,14 +539,14 @@
 
 				&none
 				&bt BT_PRV
-				&kp C_PREVIOUS 
-				&kp C_PP 
-				&kp C_NEXT 
-				&bt BT_CLR 	
-				&bt BT_CLR 	
 				&kp C_VOLUME_DOWN 
 				&bt BT_SEL 0
 				&kp C_VOLUME_UP 
+				&bt BT_CLR 	
+				&bt BT_CLR 	
+				&kp C_PREVIOUS 
+				&kp C_PP 
+				&kp C_NEXT 
 				&bt BT_NXT
 				&none
 
@@ -720,8 +720,8 @@
 
 			bindings = <
 	
-				&kp LG(LA(LC(LS(PG_DN))))  	// Fokus
 				&none
+				&kp LG(LA(LC(LS(F1))))  	// Open
 				&kp LG(U) 
 				&kp LG(B) 
 				&kp LG(I)
@@ -731,33 +731,33 @@
 				&kp LG(LC(UP))			    // Window up
 				&kp LG(LS(Y)) 
 				&kp LG(RBKT)
-				&kp LG(LA(LC(LS(PG_DN))))  	// Fokus
+				&none
 		
 				&trans
 				&kp LG(LS(G)) 
 				&kp LG(LA(C)) 
 				&kp LG(LA(V)) 
 				&kp LG(SPACE)  
-				&kp LG(LA(LC(LS(HOME))))	// drehen
-				&kp LG(LA(LC(LS(END))))		// drehen
+				&kp LG(LA(LC(LS(F2))))  	// Open
+				&kp LG(LA(LC(LS(F3))))  	// Shortcat
 				&kp LG(LC(LEFT))			// window 
 				&kp LG(LC(DOWN))			// window 
 				&kp LG(LC(RIGHT))			// window 
 				&kp LG(SLASH)
 				&kp ENTER
 
-				&none
+				&kp LG(LA(LC(LS(F4))))  	// Open
 				&kp LG(LA(LC(LS(GRAVE))))	//Seitenleiste links
 				&kp LG(SEMI)
 				&kp LG(SQT)
 				&kp LG(LA(LC(LS(EQUAL))))  	//Seitenleiste rechts
 				&kp LG(LS(N4))    		   	// Screenshot
-				&kp LG(LC(Q))		        // Sperren
+				&kp LG(LA(LC(LS(PG_DN))))  	// Fokus
 				&kp LC(LS(TAB))
 				&kp LG(UP)
 				&kp LG(DOWN)
 				&kp LC(TAB)
-				&kp LG(LA(LC(LS(F5))))  	//Shortcat
+				&kp LG(LA(LC(LS(F5))))  	// Open
 				
 				&sl mSFUNC
 				&none
@@ -788,20 +788,20 @@
 				&none
 				&none
 				&none
-				&kp LG(LA(UP))    // craft
 				&none
 				&none
 				&none
+				&kp LG(LC(Q))		        // Sperren
 
 				&trans				
 				&none
 				&none
 				&none
 				&none
+				&kp LG(LA(LC(LS(HOME))))	// drehen
+				&kp LG(LA(LC(LS(END))))		// drehen
 				&none
 				&none
-				&none
-				&kp LG(LA(DOWN)) 	// craft
 				&none
 				&none
 				&none
@@ -1032,7 +1032,7 @@
 				&kp BACKSPACE
 
 				&trans 
-				&kp LSHIFT
+				&kp LG(LALT)
 				&kp LC(LS(TAB))
 				&kp LC(TAB)
 				&kp LCTL
@@ -1453,14 +1453,14 @@
 
 				&none
 				&bt BT_PRV
-				&kp C_PREVIOUS 
-				&kp C_PP 
-				&kp C_NEXT 
-				&bt BT_CLR 	
-				&bt BT_CLR 	
 				&kp C_VOLUME_DOWN 
 				&bt BT_SEL 0
 				&kp C_VOLUME_UP 
+				&bt BT_CLR 	
+				&bt BT_CLR 	
+				&kp C_PREVIOUS 
+				&kp C_PP 
+				&kp C_NEXT 
 				&bt BT_NXT
 				&none
 
@@ -1602,8 +1602,8 @@
 				&kp LG(LA(LC(LS(NUBS))))
 				&none
 				&none
-				&kp LG(LC(LA(1)))
-				&kp LG(LC(LA(2)))
+				&kp LG(LC(LA(N1)))
+				&kp LG(LC(LA(N2)))
 				&none
 				&kp LG(T)
 				&swleft
@@ -1634,7 +1634,7 @@
 
 			bindings = <
 	
-				&kp LC(NUHS)    		 //Fokus
+				&none
 				&kp F5
 				&kp LC(LS(U)) 
 				&kp LC(LS(F)) 
@@ -1645,33 +1645,33 @@
 				&windowup				// window up
 				&kp LC(Z) 
 				&kp LC(KP_PLUS)
-				&kp LC(NUHS)    		 //Fokus
+				&none
 		
 				&trans
 				&kp LA(E)
 				&kp LC(LS(C))
 				&kp LC(LS(V)) 
 				&kp LG(S)
-				&kp LC(LS(Y))
-				&kp LC(LS(Z))
+				&none
+				&kp LALT
 				&windowleft					// window
 				&windowdown 				// window
 				&windowright 				// window
 				&kp LC(KP_MINUS)
 				&kp F2
 				
-				&kp LA(LG(D))
+				&kp LG(N)
 				&kp F12						//Seitenleiste links
 				&kp LA(LEFT) 
 				&kp LA(RIGHT)
 				&kp LG(A)					// Seitenleiste rechts
 				&kp LS(LG(S))
-				&kp LG(X)
+				&kp LC(NUHS)    		 	//Fokus
 				&kp LC(LS(TAB))
 				&kp LA(UP)
 				&kp ENTER
 				&kp LC(TAB)
-				&kp LALT
+				&none
 				
 				&sl wSFUNC
 				&none
@@ -1702,25 +1702,25 @@
 				&none
 				&none
 				&none
-				&kp LA(UP)
 				&none
 				&none
 				&none
+				&kp LG(X)
 		
 				&trans
 				&none
 				&kp LG(LA(LC(V)))
 				&kp LG(V)
 				&kp LA(SPACE)
+				&kp LC(LS(Y))
+				&kp LC(LS(Z))
 				&none
 				&none
-				&none
-				&kp LA(DOWN)
 				&none
 				&none
 				&none
 
-				&none
+				&kp LA(LG(D))
 				&none
 				&kp LC(LEFT)
 				&kp LC(RIGHT)
@@ -1946,7 +1946,7 @@
 				&kp BACKSPACE
 
 				&trans 
-				&kp LSHIFT
+				&kp LALT
 				&kp LC(LS(TAB))
 				&kp LC(TAB)
 				&kp LCTL
