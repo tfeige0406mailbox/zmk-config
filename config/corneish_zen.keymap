@@ -552,14 +552,14 @@
 
 				&none	
 				&none	
+				&kp LG(LA(LC(KP_PLUS)))
+				&none
+				&kp LG(LA(LC(KP_MINUS)))
 				&none
 				&none
+				&kp LG(LA(LC(KP_PLUS)))
 				&none
-				&none
-				&none
-				&none
-				&none
-				&none
+				&kp LG(LA(LC(KP_MINUS)))
 				&none
 				&none
 
@@ -1464,16 +1464,16 @@
 				&bt BT_NXT
 				&none
 
-				&none
 				&none	
+				&none	
+				&kp LG(LA(LC(KP_PLUS)))
+				&none
+				&kp LG(LA(LC(KP_MINUS)))
 				&none
 				&none
+				&kp LG(LA(LC(KP_PLUS)))
 				&none
-				&none
-				&none
-				&none
-				&none
-				&none
+				&kp LG(LA(LC(KP_MINUS)))
 				&none
 				&none
 
@@ -1603,7 +1603,7 @@
 				&none
 				&none
 				&kp LG(LC(LA(N1)))
-				&kp LG(LC(LA(N2)))
+				&kp LG(LC(LA(N0)))
 				&none
 				&kp LG(T)
 				&swleft
