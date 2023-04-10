@@ -355,7 +355,7 @@
 
 			bindings = <
 				
-				&none	
+				&kp F13	
 				&kp LS(N3)
 				&kp NUBS
 				&kp LS(NUBS)			
@@ -417,7 +417,7 @@
 
 			bindings = <
 
-				&none
+				&kp F13
 				&kp LS(N3)
 				&kp LA(N5)
 				&kp LA(N6)			
@@ -477,7 +477,7 @@
 
 			bindings = <
 
-				&none
+				&kp F13
 				&kp F1
 				&kp F2
 				&kp F3
@@ -537,7 +537,7 @@
 
 			bindings = <
 
-				&none
+				&kp F13
 				&bt BT_PRV
 				&kp C_VOLUME_DOWN 
 				&bt BT_SEL 0
@@ -599,7 +599,7 @@
 
 			bindings = <
 
-				&none
+				&kp F13
 				&kp LG(LA(LS(N1)))
 				&kp LG(LA(LS(N2)))
 				&kp LG(LA(LS(N3)))
@@ -660,7 +660,7 @@
 
 			bindings = <
 
-				&none
+				&kp F13
 				&none
 				&none
 				&none
@@ -720,7 +720,7 @@
 
 			bindings = <
 	
-				&none
+				&kp F13
 				&kp LG(LA(LC(LS(F1))))  	// Open
 				&kp LG(U) 
 				&kp LG(B) 
@@ -780,7 +780,7 @@
 
 			bindings = <
 
-				&none
+				&kp F13
 				&none
 				&kp LG(LS(EQUAL)) // block
 				&none
@@ -840,7 +840,7 @@
 
 			bindings = <
 
-				&none
+				&kp F13
 				&kp LG(J)
 				&kp LG(D)
 				&kp LG(U) 
@@ -900,7 +900,7 @@
 
 			bindings = <
 			
-				&none
+				&kp F13
 				&kp LA(LG(J))
 				&kp LA(LG(D))
 				&kp LA(LG(U))
@@ -958,7 +958,7 @@
 
 			bindings = <
 			
-				&none
+				&kp F13
 				&kp LS(LG(J))
 				&kp LS(LG(D))
 				&kp LS(LG(U))
@@ -1018,7 +1018,7 @@
 
 			bindings = <
 
-				&none
+				&kp F13
 				&kp LGUI
 				&kp LG(LS(LEFT)) 
 				&kp DELETE
@@ -1270,7 +1270,7 @@
 
 			bindings = <
 				
-				&none
+				&kp F13
 				&kp LS(N3)
 				&kp NUBS
 				&kp LS(NUBS)			
@@ -1331,7 +1331,7 @@
 
 			bindings = <
 
-				&none
+				&kp F13
 				&kp LS(N3)
 				&kp RA(N8)
 				&kp RA(N9)
@@ -1391,7 +1391,7 @@
 
 			bindings = <
 
-				&none
+				&kp F13
 				&kp F1
 				&kp F2
 				&kp F3
@@ -1451,7 +1451,7 @@
 
 			bindings = <
 
-				&none
+				&kp F13
 				&bt BT_PRV
 				&kp C_VOLUME_DOWN 
 				&bt BT_SEL 0
@@ -1512,7 +1512,7 @@
 
 			bindings = <
 
-				&none
+				&kp F13
 				&kp LG(LA(N1))
 				&kp LG(LA(N2))
 				&kp LG(LA(N3))
@@ -1573,7 +1573,7 @@
 
 			bindings = <
 
-				&none
+				&kp F13
 				&none
 				&none
 				&none
@@ -1634,7 +1634,7 @@
 
 			bindings = <
 	
-				&none
+				&kp F13
 				&kp F5
 				&kp LC(LS(U)) 
 				&kp LC(LS(F)) 
@@ -1694,7 +1694,7 @@
 
 			bindings = <
 
-				&none
+				&kp F13
 				&none
 				&kp LC(LS(SINGLE_QUOTE))
 				&none				
@@ -1754,7 +1754,7 @@
 
 			bindings = <
 
-				&none
+				&kp F13
 				&kp LC(J)
 				&kp LC(D)
 				&kp LC(U) 
@@ -1814,7 +1814,7 @@
 
 			bindings = <
 			
-				&none
+				&kp F13
 				&kp LS(LC(J))
 				&kp LS(LC(D))
 				&kp LS(LC(U))
@@ -1872,7 +1872,7 @@
 
 			bindings = <
 			
-				&none
+				&kp F13
 				&kp LA(J)
 				&kp LA(D)
 				&kp LA(U) 
@@ -1932,7 +1932,7 @@
 
 			bindings = <
 
-				&none
+				&kp F13
 				&kp LALT
 				&kp LS(HOME)
 				&kp DELETE
