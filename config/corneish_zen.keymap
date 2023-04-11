@@ -7,53 +7,50 @@
 // MAC
 
 #define mCHAR 0
-#define mBCHAR 1
+#define mNR 1
 
-#define mNR 2
-#define mNAV 3
+#define mSYM 2
+#define mSSYM 3
 
-#define mSYM 4
-#define mSSYM 5
+#define mPFUNC 4
+#define mSPFUNC 5
 
-#define mPFUNC 6
-#define mSPFUNC 7
+#define mPRG 6
+#define mSPRG 7
 
-#define mPRG 8
-#define mSPRG 9
+#define mFUNC 8
+#define mSFUNC 9
 
-#define mFUNC 10
-#define mSFUNC 11
+#define mMOD 10
+#define mSMOD 11
 
-#define mMOD 12
-#define mSMOD 13
-
-#define mNAV2 14
+#define mNAV 12
 
 
 
 
 // WINDOWS
 
-#define wCHAR 15
-#define wBCHAR 16
+#define wCHAR 13
+#define wBCHAR 14
 
-#define wNR 17
-#define wNAV 18
+#define wNR 15
+#define wNAV 16
 
-#define wSYM 19
-#define wSSYM 20
+#define wSYM 17
+#define wSSYM 18
 
-#define wPFUNC 21
-#define wSPFUNC 22
+#define wPFUNC 19
+#define wSPFUNC 20
 
-#define wPRG 23
-#define wSPRG 24
+#define wPRG 20
+#define wSPRG 21
 
-#define wFUNC 25
-#define wSFUNC 26
+#define wFUNC 22
+#define wSFUNC 23
 
-#define wMOD 27
-#define wSMOD 28
+#define wMOD 24
+#define wSMOD 25
 
 
 
@@ -149,7 +146,7 @@
         	label = "STICKY_KEY_QUICK_RELEASE";
         	#binding-cells = <1>;
         	bindings = <&kp>;
-        	release-after-ms = <1000>;
+        	release-after-ms = <5000>;
         	quick-release;
     	};
 	};
@@ -237,66 +234,7 @@
 			>;
 		};
 
-		// --------------------------------------
-		// Layer 1 - mBCHAR =	GROSS-BUCHSTABEN
-		// --------------------------------------
-
-
-		mac_bchar
-		{
-
-			label = "MAC";
-
-			bindings = <
-
-				&kp ESC
-				&kp LS(J) 
-				&kp LS(D)
-				&kp LS(U) 
-				&kp LS(A) 
-				&kp LS(X)
-				&kp LS(P) 
-				&kp LS(H) 
-				&kp LS(L) 
-				&kp LS(M) 
-				&kp LS(W) 
-				&kp BACKSPACE
-		
-				&none
-				&kp LS(C)
-				&kp LS(T)
-				&kp LS(I)
-				&kp LS(E)
-				&kp LS(O)	
-				&kp LS(B) 
-				&kp LS(N) 
-				&kp LS(R) 
-				&kp LS(S) 
-				&kp LS(G) 
-				&kp ENTER
-				
-				&kp LSHIFT
-				&kp LS(F)
-				&kp LS(V)
-				&kp LS(MINUS)
-				&kp LS(Y)
-				&kp LS(Q)
-				&kp LS(Z)
-				&kp LS(SEMICOLON)
-				&kp LS(LEFT_BRACKET)
-				&kp LS(SINGLE_QUOTE)
-				&kp LS(K) 
-				&kp LSHIFT
-		
-				&sl mFUNC
-				&lt mNAV SPACE 
-				&sl mPRG
-				&sl mPFUNC						
-				&sl mNR
-				&sl mMOD
-			>;
-		};
-
+	
 
 		// --------------------------------------
 		// Layer 2 - mNR = 	  Zahlen	
@@ -356,64 +294,6 @@
 			>;		
 		};
 
-
-		// --------------------------------------
-		// Layer = 13 - mNAV	  Navigation
-		// --------------------------------------
-
-		mac_navigation
-		{		
-			label = "MAC";
-
-			bindings = <
-
-				&kp F13
-				&kp LGUI
-				&kp LG(LS(LEFT)) 
-				&kp DELETE
-				&kp LG(LS(RIGHT)) 
-				&kp LG(LA(LC(LS(F9))))
-				&kp LG(UP)
-				&kp LG(LEFT) 
-				&kp UP
-				&kp LG(RIGHT)
-				&kp PG_UP 
-				&kp BACKSPACE
-
-				&trans 
-				&kp LG(LALT)
-				&kp LC(LS(TAB))
-				&kp LC(TAB)
-				&kp LCTL
-				&kp LG(LA(LC(LS(F10))))
-				&kp LG(DOWN) 
-				&kp LEFT 
-				&kp DOWN
-				&kp RIGHT 	
-				&kp PG_DN
-				&kp ENTER
-				
-				&kp LSHIFT
-				&none
-				&kp LS(LA(LEFT))
-				&kp LS(LA(RIGHT))
-				&kp INSERT
-				&kp LG(LA(LC(LS(F11))))
-				&kp LG(LA(LC(LS(F12))))
-				&kp LS(TAB)
-				&kp LA(LEFT)
-				&kp LA(RIGHT)
-				&kp TAB
-				&kp DELETE
-
-				&trans
-				&kp SPACE 
-				&trans
-				&trans
-				&trans
-				&trans
-			>;
-		};
 
 
 		// --------------------------------------
@@ -949,7 +829,7 @@
 				&kp LA(DELETE)
 		
 				&trans
-				&sl mNAV2
+				&sl mNAV
 				&trans
 				&trans
 				&trans
@@ -1019,10 +899,10 @@
 
 
 		// --------------------------------------
-		// Layer = 14 - mNAV2	  Navigation
+		// Layer = 14 - mNAV	  Navigation
 		// --------------------------------------
 
-		mac_navigation2
+		mac_navigation
 		{		
 			label = "MAC";
 
@@ -1068,7 +948,7 @@
 				&kp DELETE
 
 				&trans
-				&kp SPACE 
+				&trans
 				&trans
 				&trans
 				&trans
@@ -1270,7 +1150,7 @@
 
 
 		// --------------------------------------
-		// Layer = 29 - mNAV	  Navigation
+		// Layer = 29 - wNAV	  Navigation
 		// --------------------------------------
 
 		win_navigation
