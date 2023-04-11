@@ -7,10 +7,10 @@
 // MAC
 
 #define mCHAR 0
+
 #define mNAV 1
   
 #define mNR 2
-
 #define mSYM 3
 #define mSSYM 4
 
@@ -26,7 +26,7 @@
 #define mMOD 11
 #define mSMOD 12
 
-#define mNAV2 13
+#define mNAVosl 13
 
 
 
@@ -152,14 +152,6 @@
         	release-after-ms = <5000>;
         	quick-release;
     	};
-
-    	td_space: tap_dance_mod_tap {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_MOD_TAP";
-            #binding-cells = <0>;
-            tapping-term-ms = <160>;
-            bindings = <&lt mNAV SPACE>, <&sl mNAV>;
-        };
 	};
 };
 
@@ -898,7 +890,7 @@
 				&kp LA(DELETE)
 		
 				&trans
-				&sl mNAV2
+				&sl mNAVosl
 				&trans
 				&trans
 				&trans
@@ -941,7 +933,7 @@
 				&kp LA(LG(N))
 				&kp LA(LG(R))
 				&kp LA(LG(S))
-				&kp LA(LG(G)) 
+				&kp LA(LG(G))
 				&kp LA(LG(ENTER))
 
 				&none
@@ -968,11 +960,11 @@
 
 
 		// --------------------------------------
-		// Layer = 14 - mNAV2	  Navigation
+		// Layer = 14 - mNAVosl	  Navigation
 		// --------------------------------------
 
-		mac_navigation2
-		{		
+		mac_navigationosl
+	{		
 			label = "MAC";
 
 			bindings = <
