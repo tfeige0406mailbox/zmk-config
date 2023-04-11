@@ -27,33 +27,33 @@
 #define mMOD 12
 #define mSMOD 13
 
-
+#define mNAV2 14
 
 
 
 
 // WINDOWS
 
-#define wCHAR 14
-#define wBCHAR 15
+#define wCHAR 15
+#define wBCHAR 16
 
-#define wNR 16
-#define wNAV 17
+#define wNR 17
+#define wNAV 18
 
-#define wSYM 18
-#define wSSYM 19
+#define wSYM 19
+#define wSSYM 20
 
-#define wPFUNC 20
-#define wSPFUNC 21
+#define wPFUNC 21
+#define wSPFUNC 22
 
-#define wPRG 22
-#define wSPRG 23
+#define wPRG 23
+#define wSPRG 24
 
-#define wFUNC 24
-#define wSFUNC 25
+#define wFUNC 25
+#define wSFUNC 26
 
-#define wMOD 26
-#define wSMOD 27
+#define wMOD 27
+#define wSMOD 28
 
 
 
@@ -949,7 +949,7 @@
 				&kp LA(DELETE)
 		
 				&trans
-				&sl mNAV
+				&sl mNAV2
 				&trans
 				&trans
 				&trans
@@ -1010,6 +1010,65 @@
 
 				&trans
 				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+			>;
+		};
+
+
+		// --------------------------------------
+		// Layer = 14 - mNAV2	  Navigation
+		// --------------------------------------
+
+		mac_navigation2
+		{		
+			label = "MAC";
+
+			bindings = <
+
+				&kp F13
+				&kp LGUI
+				&kp LG(LS(LEFT)) 
+				&kp DELETE
+				&kp LG(LS(RIGHT)) 
+				&kp LG(LA(LC(LS(F9))))
+				&kp LG(UP)
+				&kp LG(LEFT) 
+				&kp UP
+				&kp LG(RIGHT)
+				&kp PG_UP 
+				&kp BACKSPACE
+
+				&trans 
+				&kp LG(LALT)
+				&kp LC(LS(TAB))
+				&kp LC(TAB)
+				&kp LCTL
+				&kp LG(LA(LC(LS(F10))))
+				&kp LG(DOWN) 
+				&kp LEFT 
+				&kp DOWN
+				&kp RIGHT 	
+				&kp PG_DN
+				&kp ENTER
+				
+				&kp LSHIFT
+				&none
+				&kp LS(LA(LEFT))
+				&kp LS(LA(RIGHT))
+				&kp INSERT
+				&kp LG(LA(LC(LS(F11))))
+				&kp LG(LA(LC(LS(F12))))
+				&kp LS(TAB)
+				&kp LA(LEFT)
+				&kp LA(RIGHT)
+				&kp TAB
+				&kp DELETE
+
+				&trans
+				&kp SPACE 
 				&trans
 				&trans
 				&trans
