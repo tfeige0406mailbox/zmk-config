@@ -237,7 +237,7 @@
 				&kp LSHIFT
 
 				&sl mFUNC
-				&lt mNAV SPACE 
+				&td_space
 				&sl mPRG
 				&sl mPFUNC
 				&sl mNR
@@ -355,7 +355,7 @@
 				&kp LSHIFT
 		
 				&sl mFUNC
-				&lt mNAV SPACE
+				&td_space
 				&sl mPRG
 				&sl mPFUNC						
 				&sl mSYM
@@ -415,7 +415,7 @@
 				&none
 		
 				&trans
-				&lt mNAV SPACE
+				&trans
 				&trans
 				&trans
 				&sl mSSYM
@@ -477,7 +477,7 @@
 				&none
 
 				&trans
-				&kp SPACE 
+				&trans
 				&trans			
 				&trans
 				&trans
