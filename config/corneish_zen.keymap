@@ -9,48 +9,50 @@
 #define mCHAR 0
 #define mNR 1
 
-#define mSYM 2
-#define mSSYM 3
+#define mNAV 2
 
-#define mPFUNC 4
-#define mSPFUNC 5
+#define mSYM 3
+#define mSSYM 4
 
-#define mPRG 6
-#define mSPRG 7
+#define mPFUNC 5
+#define mSPFUNC 6
 
-#define mFUNC 8
-#define mSFUNC 9
+#define mPRG 7 
+#define mSPRG 8
 
-#define mMOD 10
-#define mSMOD 11
+#define mFUNC 9
+#define mSFUNC 10
 
-#define mNAV 12
+#define mMOD 11
+#define mSMOD 12
+
+#define mNAV2 13
 
 
 
 
 // WINDOWS
 
-#define wCHAR 13
-#define wBCHAR 14
+#define wCHAR 14
+#define wBCHAR 15
 
-#define wNR 15
-#define wNAV 16
+#define wNR 16
+#define wNAV 17
 
-#define wSYM 17
-#define wSSYM 18
+#define wSYM 18
+#define wSSYM 19
 
-#define wPFUNC 19
-#define wSPFUNC 20
+#define wPFUNC 20
+#define wSPFUNC 21
 
-#define wPRG 20
-#define wSPRG 21
+#define wPRG 22
+#define wSPRG 23
 
-#define wFUNC 22
-#define wSFUNC 23
+#define wFUNC 24
+#define wSFUNC 25
 
-#define wMOD 24
-#define wSMOD 25
+#define wMOD 26
+#define wSMOD 27
 
 
 
@@ -229,10 +231,11 @@
 				&lt mNAV SPACE 
 				&sl mPRG
 				&sl mPFUNC
-				&sl mNR
+				&mo mNR
 				&sl mMOD
 			>;
 		};
+
 
 	
 
@@ -292,6 +295,64 @@
 				&sl mSYM
 				&sl mMOD
 			>;		
+		};
+
+		// --------------------------------------
+		// Layer = 14 - mNAV	  Navigation
+		// --------------------------------------
+
+		mac_navigation
+		{		
+			label = "MAC";
+
+			bindings = <
+
+				&kp F13
+				&kp LGUI
+				&kp LG(LS(LEFT)) 
+				&kp DELETE
+				&kp LG(LS(RIGHT)) 
+				&kp LG(LA(LC(LS(F9))))
+				&kp LG(UP)
+				&kp LG(LEFT) 
+				&kp UP
+				&kp LG(RIGHT)
+				&kp PG_UP 
+				&kp BACKSPACE
+
+				&trans 
+				&kp LG(LALT)
+				&kp LC(LS(TAB))
+				&kp LC(TAB)
+				&kp LCTL
+				&kp LG(LA(LC(LS(F10))))
+				&kp LG(DOWN) 
+				&kp LEFT 
+				&kp DOWN
+				&kp RIGHT 	
+				&kp PG_DN
+				&kp ENTER
+				
+				&kp LSHIFT
+				&none
+				&kp LS(LA(LEFT))
+				&kp LS(LA(RIGHT))
+				&kp INSERT
+				&kp LG(LA(LC(LS(F11))))
+				&kp LG(LA(LC(LS(F12))))
+				&kp LS(TAB)
+				&kp LA(LEFT)
+				&kp LA(RIGHT)
+				&kp TAB
+				&kp DELETE
+
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+			>;
 		};
 
 
