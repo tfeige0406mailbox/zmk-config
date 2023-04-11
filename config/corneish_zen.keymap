@@ -1675,7 +1675,7 @@
 				&trans
 				&trans
 				&trans
-				&to wNR 
+				&trans
 				&trans           
 			>;
 		};
@@ -1732,7 +1732,7 @@
 				&kp LC(DELETE)
 		
 				&trans
-				&to wCHAR
+				&trans
 				&trans
 				&trans
 				&trans
