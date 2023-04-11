@@ -8,24 +8,26 @@
 
 #define mCHAR 0
 #define mBCHAR 1
+
 #define mNR 2
+#define mNAV 3
 
-#define mSYM 3
-#define mSSYM 4
+#define mSYM 4
+#define mSSYM 5
 
-#define mPFUNC 5
-#define mSPFUNC 6
+#define mPFUNC 6
+#define mSPFUNC 7
 
-#define mPRG 7
-#define mSPRG 8
+#define mPRG 8
+#define mSPRG 9
 
-#define mFUNC 9
-#define mSFUNC 10
+#define mFUNC 10
+#define mSFUNC 11
 
-#define mMOD 11
-#define mSMOD 12
+#define mMOD 12
+#define mSMOD 13
 
-#define mNAV 13
+
 
 
 
@@ -34,24 +36,24 @@
 
 #define wCHAR 14
 #define wBCHAR 15
+
 #define wNR 16
+#define wNAV 17
 
-#define wSYM 17
-#define wSSYM 18
+#define wSYM 18
+#define wSSYM 19
 
-#define wPFUNC 19
-#define wSPFUNC 20
+#define wPFUNC 20
+#define wSPFUNC 21
 
-#define wPRG 21
-#define wSPRG 22
+#define wPRG 22
+#define wSPRG 23
 
-#define wFUNC 23
-#define wSFUNC 24
+#define wFUNC 24
+#define wSFUNC 25
 
-#define wMOD 25
-#define wSMOD 26
-
-#define wNAV 27
+#define wMOD 26
+#define wSMOD 27
 
 
 
@@ -339,6 +341,65 @@
 				&sl mSYM
 				&sl mMOD
 			>;		
+		};
+
+
+		// --------------------------------------
+		// Layer = 13 - mNAV	  Navigation
+		// --------------------------------------
+
+		mac_navigation
+		{		
+			label = "MAC";
+
+			bindings = <
+
+				&kp F13
+				&kp LGUI
+				&kp LG(LS(LEFT)) 
+				&kp DELETE
+				&kp LG(LS(RIGHT)) 
+				&kp LG(LA(LC(LS(F9))))
+				&kp LG(UP)
+				&kp LG(LEFT) 
+				&kp UP
+				&kp LG(RIGHT)
+				&kp PG_UP 
+				&kp BACKSPACE
+
+				&trans 
+				&kp LG(LALT)
+				&kp LC(LS(TAB))
+				&kp LC(TAB)
+				&kp LCTL
+				&kp LG(LA(LC(LS(F10))))
+				&kp LG(DOWN) 
+				&kp LEFT 
+				&kp DOWN
+				&kp RIGHT 	
+				&kp PG_DN
+				&kp ENTER
+				
+				&kp LSHIFT
+				&none
+				&kp LS(LA(LEFT))
+				&kp LS(LA(RIGHT))
+				&kp INSERT
+				&kp LG(LA(LC(LS(F11))))
+				&kp LG(LA(LC(LS(F12))))
+				&kp LS(TAB)
+				&kp LA(LEFT)
+				&kp LA(RIGHT)
+				&kp TAB
+				&kp DELETE
+
+				&trans
+				&kp SPACE 
+				&trans
+				&trans
+				&kp LSHIFT 
+				&trans
+			>;
 		};
 
 
@@ -945,67 +1006,6 @@
 
 
 
-
-		// --------------------------------------
-		// Layer = 13 - mNAV	  Navigation
-		// --------------------------------------
-
-		mac_navigation
-		{		
-			label = "MAC";
-
-			bindings = <
-
-				&kp F13
-				&kp LGUI
-				&kp LG(LS(LEFT)) 
-				&kp DELETE
-				&kp LG(LS(RIGHT)) 
-				&kp LG(LA(LC(LS(F9))))
-				&kp LG(UP)
-				&kp LG(LEFT) 
-				&kp UP
-				&kp LG(RIGHT)
-				&kp PG_UP 
-				&kp BACKSPACE
-
-				&trans 
-				&kp LG(LALT)
-				&kp LC(LS(TAB))
-				&kp LC(TAB)
-				&kp LCTL
-				&kp LG(LA(LC(LS(F10))))
-				&kp LG(DOWN) 
-				&kp LEFT 
-				&kp DOWN
-				&kp RIGHT 	
-				&kp PG_DN
-				&kp ENTER
-				
-				&none
-				&none
-				&kp LS(LA(LEFT))
-				&kp LS(LA(RIGHT))
-				&kp INSERT
-				&kp LG(LA(LC(LS(F11))))
-				&kp LG(LA(LC(LS(F12))))
-				&kp LS(TAB)
-				&kp LA(LEFT)
-				&kp LA(RIGHT)
-				&kp TAB
-				&kp DELETE
-
-				&trans
-				&kp SPACE 
-				&trans
-				&trans
-				&kp LSHIFT 
-				&trans
-			>;
-		};
-
-
-
 		// ------------------------------------------------------------------------------------------------------------------
 		//					WINDOWS
 		// ------------------------------------------------------------------------------------------------------------------
@@ -1196,6 +1196,64 @@
 
 
 
+
+		// --------------------------------------
+		// Layer = 29 - mNAV	  Navigation
+		// --------------------------------------
+
+		win_navigation
+		{		
+			label = "WIN";
+
+			bindings = <
+
+				&kp F13
+				&kp LALT
+				&kp LS(HOME)
+				&kp DELETE
+				&kp LS(END)
+				&none
+				&kp LC(HOME)
+				&kp HOME 
+				&kp UP
+				&kp END
+				&kp PG_UP 
+				&kp BACKSPACE
+
+				&trans 
+				&kp LALT
+				&kp LC(LS(TAB))
+				&kp LC(TAB)
+				&kp LCTL
+				&none
+				&kp LC(END)
+				&kp LEFT 
+				&kp DOWN
+				&kp RIGHT 	
+				&kp PG_DN
+				&kp ENTER
+				
+				&none
+				&none
+				&kp LS(LC(LEFT))
+				&kp LS(LC(RIGHT))
+				&kp INSERT
+				&none
+				&kp LC(LS(F10))
+				&kp LS(TAB)
+				&kp LC(LEFT)
+				&kp LC(RIGHT)
+				&kp TAB
+				&kp DELETE
+
+				&trans
+				&kp SPACE 
+				&trans
+				&trans
+				&kp LSHIFT 
+				&trans
+			>;
+		};
 
 
 		// --------------------------------------
@@ -1801,66 +1859,7 @@
 		};
 
   
-				
-
-
-		// --------------------------------------
-		// Layer = 29 - mNAV	  Navigation
-		// --------------------------------------
-
-		win_navigation
-		{		
-			label = "WIN";
-
-			bindings = <
-
-				&kp F13
-				&kp LALT
-				&kp LS(HOME)
-				&kp DELETE
-				&kp LS(END)
-				&none
-				&kp LC(HOME)
-				&kp HOME 
-				&kp UP
-				&kp END
-				&kp PG_UP 
-				&kp BACKSPACE
-
-				&trans 
-				&kp LALT
-				&kp LC(LS(TAB))
-				&kp LC(TAB)
-				&kp LCTL
-				&none
-				&kp LC(END)
-				&kp LEFT 
-				&kp DOWN
-				&kp RIGHT 	
-				&kp PG_DN
-				&kp ENTER
-				
-				&none
-				&none
-				&kp LS(LC(LEFT))
-				&kp LS(LC(RIGHT))
-				&kp INSERT
-				&none
-				&kp LC(LS(F10))
-				&kp LS(TAB)
-				&kp LC(LEFT)
-				&kp LC(RIGHT)
-				&kp TAB
-				&kp DELETE
-
-				&trans
-				&kp SPACE 
-				&trans
-				&trans
-				&kp LSHIFT 
-				&trans
-			>;
-		};
+			
 		
 		// ------------------------------------------------------------------------------------------------------------------
 		// ------------------------------------------------------------------------------------------------------------------
