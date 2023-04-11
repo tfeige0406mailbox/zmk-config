@@ -143,7 +143,8 @@
     };
 
 	behaviors {
-    skq: sticky_key_quick_release {
+
+    	skq: sticky_key_quick_release {
         	compatible = "zmk,behavior-sticky-key";
         	label = "STICKY_KEY_QUICK_RELEASE";
         	#binding-cells = <1>;
@@ -151,6 +152,14 @@
         	release-after-ms = <5000>;
         	quick-release;
     	};
+
+    	td_space: tap_dance_mod_tap {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_MOD_TAP";
+            #binding-cells = <0>;
+            tapping-term-ms = <160>;
+            bindings = <&lt mNAV SPACE>, <&sl mNAV>;
+        };
 	};
 };
 
