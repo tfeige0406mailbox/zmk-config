@@ -237,7 +237,7 @@
 				&kp LSHIFT
 
 				&sl mFUNC
-				&td_space
+				&lt mNAV SPACE
 				&sl mPRG
 				&sl mPFUNC
 				&sl mNR
@@ -355,7 +355,7 @@
 				&kp LSHIFT
 		
 				&sl mFUNC
-				&td_space
+				&lt mNAV SPACE
 				&sl mPRG
 				&sl mPFUNC						
 				&sl mSYM
