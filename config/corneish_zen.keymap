@@ -24,37 +24,34 @@
 
 #define mMOD 11
 #define mSMOD 12
-#define mSSMOD 13
 
-#define mNAV 14
+#define mNAV 13
 
 
 
 
 // WINDOWS
 
-#define wCHAR 15
-#define wBCHAR 16
-#define wNR 17
+#define wCHAR 14
+#define wBCHAR 15
+#define wNR 16
 
+#define wSYM 17
+#define wSSYM 18
 
-#define wSYM 18
-#define wSSYM 19
+#define wPFUNC 19
+#define wSPFUNC 20
 
-#define wPFUNC 20
-#define wSPFUNC 21
+#define wPRG 21
+#define wSPRG 22
 
-#define wPRG 22
-#define wSPRG 23
+#define wFUNC 23
+#define wSFUNC 24
 
-#define wFUNC 24
-#define wSFUNC 25
+#define wMOD 25
+#define wSMOD 26
 
-#define wMOD 26
-#define wSMOD 27
-#define wSSMOD 28
-
-#define wNAV 29
+#define wNAV 27
 
 
 
@@ -141,11 +138,7 @@
 				, <&macro_wait_time 500>
                 , <&macro_release &kp LGUI>
                 ;
-        };
-
-
-
-	
+        };	
     };
 };
 
@@ -542,52 +535,50 @@
 			bindings = <
 
 				&kp F13
-				&bt BT_PRV
-				&kp C_VOLUME_DOWN 
-				&bt BT_SEL 0
-				&kp C_VOLUME_UP 
-				&bt BT_CLR 	
-				&bt BT_CLR 	
-				&kp C_PREVIOUS 
-				&kp C_PP 
-				&kp C_NEXT 
-				&bt BT_NXT
+				&kp LS(LG(J))
+				&kp LS(LG(D))
+				&kp LS(LG(U))
+				&kp LS(LG(A))
+				&kp LS(LG(X))
+				&kp LS(LG(P))
+				&kp LS(LG(H)) 
+				&kp LS(LG(L)) 
+				&kp LS(LG(M)) 
+				&kp LS(LG(W)) 
 				&none
-
-				&none	
-				&none	
-				&kp LG(LA(LC(KP_PLUS)))
-				&none
-				&kp LG(LA(LC(KP_MINUS)))
-				&none
-				&none
-				&kp LG(LA(LC(KP_PLUS)))
-				&none
-				&kp LG(LA(LC(KP_MINUS)))
-				&none
-				&none
-
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none	
-				
-				&none 
-				&none 
-				&none 
-				&none
-				&none
-				&none	
-
 		
+				&none
+				&kp LS(LG(C))
+				&kp LS(LG(T))
+				&kp LS(LG(I))
+				&kp LS(LG(E))
+				&kp LS(LG(O))	
+				&kp LS(LG(B))
+				&kp LS(LG(N))
+				&kp LS(LG(R))
+				&kp LS(LG(S))
+				&kp LS(LG(G)) 
+				&none
+
+				&none
+				&kp LS(LG(F))
+				&kp LS(LG(V))
+				&kp LS(LG(MINUS))
+				&kp LS(LG(Y))
+				&kp LS(LG(Q))
+				&kp LS(LG(Z))
+				&kp LS(LG(SEMICOLON))
+				&kp LS(LG(LEFT_BRACKET))
+				&kp LS(LG(SINGLE_QUOTE))
+				&kp LS(LG(K)) 
+				&none
+
+				&none 
+				&none 
+				&none 
+				&none 
+				&none 
+				&none			
 			>;
 		};	
 
@@ -952,68 +943,11 @@
 			>;
 		};
 
-		// --------------------------------------
-		// Layer 13 - mSSMOD =	Super Spezial Mod
-		// --------------------------------------
 
-		mac_ssmod
-		{	
-			label = "MAC";
-
-			bindings = <
-			
-				&kp F13
-				&kp LS(LG(J))
-				&kp LS(LG(D))
-				&kp LS(LG(U))
-				&kp LS(LG(A))
-				&kp LS(LG(X))
-				&kp LS(LG(P))
-				&kp LS(LG(H)) 
-				&kp LS(LG(L)) 
-				&kp LS(LG(M)) 
-				&kp LS(LG(W)) 
-				&none
-		
-				&none
-				&kp LS(LG(C))
-				&kp LS(LG(T))
-				&kp LS(LG(I))
-				&kp LS(LG(E))
-				&kp LS(LG(O))	
-				&kp LS(LG(B))
-				&kp LS(LG(N))
-				&kp LS(LG(R))
-				&kp LS(LG(S))
-				&kp LS(LG(G)) 
-				&none
-
-				&none
-				&kp LS(LG(F))
-				&kp LS(LG(V))
-				&kp LS(LG(MINUS))
-				&kp LS(LG(Y))
-				&kp LS(LG(Q))
-				&kp LS(LG(Z))
-				&kp LS(LG(SEMICOLON))
-				&kp LS(LG(LEFT_BRACKET))
-				&kp LS(LG(SINGLE_QUOTE))
-				&kp LS(LG(K)) 
-				&none
-
-				&none 
-				&none 
-				&none 
-				&none 
-				&none 
-				&none
-			>;
-		};    
-				
 
 
 		// --------------------------------------
-		// Layer = 14 - mNAV	  Navigation
+		// Layer = 13 - mNAV	  Navigation
 		// --------------------------------------
 
 		mac_navigation
@@ -1450,59 +1384,58 @@
 		// --------------------------------------------
 
 		win_spfunc
-		{
+		{	
 			label = "WIN";
 
 			bindings = <
-
+			
 				&kp F13
-				&bt BT_PRV
-				&kp C_VOLUME_DOWN 
-				&bt BT_SEL 0
-				&kp C_VOLUME_UP 
-				&bt BT_CLR 	
-				&bt BT_CLR 	
-				&kp C_PREVIOUS 
-				&kp C_PP 
-				&kp C_NEXT 
-				&bt BT_NXT
+				&kp LA(J)
+				&kp LA(D)
+				&kp LA(U) 
+				&kp LA(A)
+				&kp LA(X)
+				&kp LA(P)
+				&kp LA(H)
+				&kp LA(L) 
+				&kp LA(M)
+				&kp LA(W) 
 				&none
+	
+				&none
+				&kp LA(C)
+				&kp LA(T)
+				&kp LA(I)
+				&kp LA(E)
+				&kp LA(O)	
+				&kp LA(B)
+				&kp LA(N)
+				&kp LA(R)
+				&kp LA(S)
+				&kp LA(G)
+				&kp LA(ENTER)
 
-				&none	
-				&none	
-				&kp LG(LA(LC(KP_PLUS)))
 				&none
-				&kp LG(LA(LC(KP_MINUS)))
+				&kp LA(F)
+				&kp LA(V)
+				&kp LA(MINUS)
+				&kp LA(Y)
+				&kp LA(Q)
+				&kp LA(Z)
+				&kp LA(SEMICOLON)
+				&kp LA(LEFT_BRACKET)
+				&kp LA(SINGLE_QUOTE)
+				&kp LA(K) 
 				&none
-				&none
-				&kp LG(LA(LC(KP_PLUS)))
-				&none
-				&kp LG(LA(LC(KP_MINUS)))
-				&none
-				&none
-
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none	
 
 				&none 
 				&none 
 				&none 
+				&none 
+				&none 
 				&none
-				&none
-				&none	
-		
 			>;
-		};	
+		}; 
 
 
 
@@ -1577,51 +1510,7 @@
 
 			bindings = <
 
-				&kp F13
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&kp LC(LS(ESC))    // Sofort beenden
-		
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&kp LS(LA(TAB))
 
-				&kp LG(LA(LC(LS(NUBS))))
-				&none
-				&none
-				&kp LG(LC(LA(N1)))
-				&kp LG(LC(LA(N0)))
-				&none
-				&kp LG(T)
-				&swleft
-				&kp LG(LC(LA(LEFT)))
-				&kp LG(LC(LA(RIGHT)))
-				&swright
-				&kp LG(D)
-		
-				&none 
-				&none 
-				&none
-				&none 
-				&none 
-				&none 
 			>;
 		};
 
@@ -1866,63 +1755,7 @@
 			>;
 		};
 
-		// --------------------------------------
-		// Layer 28 - mSSMOD =	Super Spezial Mod
-		// --------------------------------------
-
-		win_ssmod
-		{	
-			label = "WIN";
-
-			bindings = <
-			
-				&kp F13
-				&kp LA(J)
-				&kp LA(D)
-				&kp LA(U) 
-				&kp LA(A)
-				&kp LA(X)
-				&kp LA(P)
-				&kp LA(H)
-				&kp LA(L) 
-				&kp LA(M)
-				&kp LA(W) 
-				&none
-	
-				&none
-				&kp LA(C)
-				&kp LA(T)
-				&kp LA(I)
-				&kp LA(E)
-				&kp LA(O)	
-				&kp LA(B)
-				&kp LA(N)
-				&kp LA(R)
-				&kp LA(S)
-				&kp LA(G)
-				&kp LA(ENTER)
-
-				&none
-				&kp LA(F)
-				&kp LA(V)
-				&kp LA(MINUS)
-				&kp LA(Y)
-				&kp LA(Q)
-				&kp LA(Z)
-				&kp LA(SEMICOLON)
-				&kp LA(LEFT_BRACKET)
-				&kp LA(SINGLE_QUOTE)
-				&kp LA(K) 
-				&none
-
-				&none 
-				&none 
-				&none 
-				&none 
-				&none 
-				&none
-			>;
-		};    
+  
 				
 
 
