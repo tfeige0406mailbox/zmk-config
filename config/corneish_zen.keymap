@@ -832,7 +832,7 @@
 				&trans
 				&trans
 				&trans
-				&sk LSHIFT
+				&skq LSHIFT
 				&trans
 			>;
 		};
