@@ -397,7 +397,7 @@
 				&kp SPACE 
 				&trans
 				&trans
-				&kp LSHIFT 
+				&trans
 				&trans
 			>;
 		};
