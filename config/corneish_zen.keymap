@@ -154,6 +154,10 @@
    	release-after-ms = <5000>;
 };
 
+&mt {
+    tapping-term-ms = <160>;
+};
+
 
 // ------------------------------------------------------------------------------------------------------------------
 //					 MAC
@@ -217,7 +221,7 @@
 				&kp LSHIFT
 
 				&sl mFUNC
-				&kp SPACE 
+				&lt mNAV SPACE 
 				&sl mPRG
 				&sl mPFUNC
 				&sl mNR
@@ -277,7 +281,7 @@
 				&kp LSHIFT
 		
 				&sl mFUNC
-				&kp SPACE 
+				&lt mNAV SPACE 
 				&sl mPRG
 				&sl mPFUNC						
 				&sl mNR
@@ -336,7 +340,7 @@
 				&kp LSHIFT
 		
 				&sl mFUNC
-				&kp SPACE 
+				&lt mNAV SPACE 
 				&sl mPRG
 				&sl mPFUNC						
 				&sl mSYM
