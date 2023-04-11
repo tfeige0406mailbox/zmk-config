@@ -7,9 +7,9 @@
 // MAC
 
 #define mCHAR 0
-#define mNR 1
-
-#define mNAV 2
+#define mNAV 1
+  
+#define mNR 2
 
 #define mSYM 3
 #define mSSYM 4
@@ -51,8 +51,8 @@
 #define wFUNC 24
 #define wSFUNC 25
 
-#define wMOD 26
-#define wSMOD 27
+#define wMOD 25
+#define wSMOD 26
 
 
 
@@ -231,70 +231,9 @@
 				&lt mNAV SPACE 
 				&sl mPRG
 				&sl mPFUNC
-				&mo mNR
+				&sl mNR
 				&sl mMOD
 			>;
-		};
-
-
-	
-
-		// --------------------------------------
-		// Layer 2 - mNR = 	  Zahlen	
-		// --------------------------------------
-
-		mac_zahlen
-		{
-			label = "MAC";
-
-			bindings = <
-
-				&kp ESC	
-				&kp LS(N3)
-				&kp NUBS
-				&kp LS(NUBS)			
-				&kp NUHS
-				&kp X
-				&kp LS(N4)
-				&kp LA(E)
-				&kp LA(M)
-				&kp M
-				&kp LS(N5)			
-				&kp BSPC
-
-				&none
-				&kp N1				
-				&kp N2				
-				&kp N3				
-				&kp N4					
-				&kp N5				
-				&kp N6				
-				&kp N7				
-				&kp N8				
-				&kp N9				
-				&kp N0				
-				&kp ENTER 
-
-				&kp LSHIFT
-				&kp LS(N7)
-				&kp LS(N8)
-				&kp LS(N9)
-				&kp LS(RBRC)
-				&kp LS(N0)
-				&kp LS(N2)
-				&kp RBKT
-				&kp COMMA
-				&kp DOT
-				&kp SLASH		
-				&kp LSHIFT
-		
-				&sl mFUNC
-				&lt mNAV SPACE 
-				&sl mPRG
-				&sl mPFUNC						
-				&sl mSYM
-				&sl mMOD
-			>;		
 		};
 
 		// --------------------------------------
@@ -355,6 +294,66 @@
 			>;
 		};
 
+	
+
+		// --------------------------------------
+		// Layer 2 - mNR = 	  Zahlen	
+		// --------------------------------------
+
+		mac_zahlen
+		{
+			label = "MAC";
+
+			bindings = <
+
+				&kp ESC	
+				&kp LS(N3)
+				&kp NUBS
+				&kp LS(NUBS)			
+				&kp NUHS
+				&kp X
+				&kp LS(N4)
+				&kp LA(E)
+				&kp LA(M)
+				&kp M
+				&kp LS(N5)			
+				&kp BSPC
+
+				&none
+				&kp N1				
+				&kp N2				
+				&kp N3				
+				&kp N4					
+				&kp N5				
+				&kp N6				
+				&kp N7				
+				&kp N8				
+				&kp N9				
+				&kp N0				
+				&kp ENTER 
+
+				&kp LSHIFT
+				&kp LS(N7)
+				&kp LS(N8)
+				&kp LS(N9)
+				&kp LS(RBRC)
+				&kp LS(N0)
+				&kp LS(N2)
+				&kp RBKT
+				&kp COMMA
+				&kp DOT
+				&kp SLASH		
+				&kp LSHIFT
+		
+				&sl mFUNC
+				&lt mNAV SPACE
+				&sl mPRG
+				&sl mPFUNC						
+				&sl mSYM
+				&sl mMOD
+			>;		
+		};
+
 
 
 		// --------------------------------------
@@ -407,7 +406,7 @@
 				&none
 		
 				&trans
-				&kp SPACE 
+				&lt mNAV SPACE
 				&trans
 				&trans
 				&sl mSSYM
@@ -890,7 +889,7 @@
 				&kp LA(DELETE)
 		
 				&trans
-				&sl mNAV
+				&sl mNAV2
 				&trans
 				&trans
 				&trans
@@ -960,10 +959,10 @@
 
 
 		// --------------------------------------
-		// Layer = 14 - mNAV	  Navigation
+		// Layer = 14 - mNAV2	  Navigation
 		// --------------------------------------
 
-		mac_navigation
+		mac_navigation2
 		{		
 			label = "MAC";
 
