@@ -1025,6 +1025,310 @@
 		// ------------------------------------------------------------------------------------------------------------------
 
 
+		// --------------------------------------
+		// Layer 14 - mCHAR = 	  Buchstaben	
+		// --------------------------------------
+	
+		win_buchstaben
+		{
+			label = "win";
+
+			bindings = <
+
+				&kp ESC
+				&kp J 
+				&kp D	 
+				&kp U
+				&kp A
+				&kp X
+				&kp P
+				&kp H
+				&kp L
+				&kp M
+				&kp W
+				&kp BSPC
+	
+				&kp DEL
+				&kp C
+				&kp T
+				&kp I
+				&kp E
+				&kp O
+				&kp B
+				&kp N
+				&kp R
+				&kp S
+				&kp G
+				&kp RET
+	
+				&kp LSHIFT
+				&kp F
+				&kp V
+				&kp MINUS
+				&kp Y
+				&kp Q
+				&kp Z
+				&kp SEMI
+				&kp LBKT
+				&kp SQT
+				&kp K
+				&kp LSHIFT
+
+				&sl wPFUNC
+				&lt wNAV SPACE 
+				&sl wPRG
+				&sl wFUNC
+				&sl wNR
+				&sl wMOD
+			>;
+		};
+
+
+		// --------------------------------------
+		// Layer =	15 - wNAV	  Navigation
+		// --------------------------------------
+
+		win_navigation
+		{		
+			label = "WIN";
+
+			bindings = <
+
+				&kp ESC
+				&kp LC(PG_UP)
+				&kp LS(HOME)
+				&kp INSERT
+				&kp LS(END)
+				&kp LC(LS(HOME))
+				&kp LC(HOME)
+				&kp HOME 
+				&kp UP
+				&kp END
+				&kp PG_UP 
+				&kp BACKSPACE
+
+				&kp DEL 
+				&kp LC(PG_DN)
+				&kp LALT
+				&kp LALT
+				&kp LCTL
+				&kp LC(LS(END))
+				&kp LC(END)
+				&kp LEFT 
+				&kp DOWN
+				&kp RIGHT 	
+				&kp PG_DN
+				&kp ENTER
+				
+				&kp LSHIFT
+				&kp LC(LS(TAB))
+				&kp LS(LC(LEFT))
+				&kp LS(LC(RIGHT))
+				&kp LC(TAB)
+				&kp LC(SPACE)
+				&kp LC(ENTER)
+				&kp LS(TAB)
+				&kp LC(LEFT)
+				&kp LC(RIGHT)
+				&kp TAB
+				&kp LSHIFT
+
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+			>;
+		};
+
+	
+
+
+		
+
+
+
+
+		// --------------------------------------
+		// Layer 16 - mNR = 	  Zahlen	
+		// --------------------------------------
+
+		win_zahlen
+		{
+			label = "WIN";
+
+			bindings = <
+
+				&kp ESC	
+				&kp LS(N3)
+				&kp NUBS
+				&kp LS(NUBS)			
+				&kp NUHS
+				&kp X
+				&kp LS(N4)
+				&kp RA(E)
+				&kp RA(M)
+				&kp M
+				&kp LS(N5)			
+				&kp BSPC
+
+				&kp DEL
+				&kp N1				
+				&kp N2				
+				&kp N3				
+				&kp N4					
+				&kp N5				
+				&kp N6				
+				&kp N7				
+				&kp N8				
+				&kp N9				
+				&kp N0				
+				&kp ENTER 
+
+				&kp LSHIFT
+				&kp LS(N7)
+				&kp LS(N8)
+				&kp LS(N9)
+				&kp LS(RBRC)
+				&kp LS(N0)
+				&kp LS(N2)
+				&kp RBKT
+				&kp COMMA
+				&kp DOT
+				&kp SLASH		
+				&kp LSHIFT
+		
+				&trans
+				&trans
+				&trans
+				&trans
+				&sl wSYM
+				&trans
+			>;		
+		};
+
+
+
+
+		// --------------------------------------
+		// Layer 17 - mSYM =	Symoble
+		// --------------------------------------
+
+		win_symbole
+		{
+			label = "WIN";
+
+			bindings = <
+				
+				&kp ESC
+				&kp LS(N3)
+				&kp NUBS
+				&kp LS(NUBS)			
+				&kp NUHS
+				&kp X
+				&kp LS(N4)
+				&kp RA(E)
+				&kp RA(M)
+				&kp M
+				&kp LS(N5)			
+				&kp BACKSPACE
+
+				&kp DEL
+				&kp RA(NUBS)				
+				&kp RA(RBKT)				
+				&kp GRAVE				
+				&kp RA(Q)					
+				&kp LS(N6)				
+				&kp EQUAL	
+				&kp LS(N1)				
+				&kp LS(COMMA)				
+				&kp LS(DOT)	
+				&kp LS(MINUS)				
+				&kp RA(N2)
+
+				&kp LSHIFT
+				&kp LS(N7)
+				&kp LS(N8)
+				&kp LS(N9)
+				&kp LS(RBRC)
+				&kp LS(N0)
+				&kp LS(N2)
+				&kp RBKT
+				&kp COMMA
+				&kp DOT
+				&kp SLASH		
+				&kp LSHIFT
+		
+				&trans
+				&trans
+				&trans
+				&trans
+				&sl wSSYM
+				&trans
+			>;
+		};
+
+
+
+
+		// --------------------------------------
+		// Layer 18 - mSSYM =	Special Symbole
+		// --------------------------------------
+
+		win_specialsonderzeichen
+		{
+			label = "WIN";
+
+			bindings = <
+
+				&kp ESC
+				&kp LS(N3)
+				&kp RA(N8)
+				&kp RA(N9)
+				&kp NUHS	
+				&kp X
+				&kp LS(N4)
+				&kp RA(E)
+				&kp RA(M)
+				&kp M
+				&kp LS(N5)			
+				&kp BACKSPACE
+
+				&kp DEL
+				&kp RA(NUBS)				
+				&kp RA(RBKT)				
+				&kp LS(GRAVE)
+				&kp RA(Q)						
+				&kp LS(N6)				
+				&kp LS(EQUAL)
+				&kp LS(N1)				
+				&kp LS(COMMA)	
+				&kp LS(DOT)				
+				&kp LS(MINUS)				
+				&kp RA(N3)
+
+				&kp LSHIFT
+				&kp RA(MINUS)
+				&kp RA(N7)
+				&kp RA(N0)
+				&kp LS(RBRC)
+				&kp LS(N0)
+				&kp LS(NUHS)
+				&kp RBKT
+				&kp COMMA
+				&kp DOT
+				&kp LS(SLASH)	
+				&kp LSHIFT
+
+				&trans
+				&trans
+				&trans			
+				&trans
+				&trans
+				&trans
+			>;
+		};
 
 		
   
