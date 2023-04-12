@@ -249,9 +249,9 @@
 			bindings = <
 
 				&kp ESC
-				&kp LC(PG_UP)
+				&kp LC(PG_UP)				// möglicher Shortcut
 				&kp LG(LS(LEFT)) 
-				&kp INSERT
+				&kp INSERT					// möglicher Shortcut
 				&kp LG(LS(RIGHT)) 
 				&kp LG(LS(UP))
 				&kp LG(UP)
@@ -262,7 +262,7 @@
 				&kp BACKSPACE
 
 				&kp DEL 
-				&kp LC(PG_UP)
+				&kp LC(PG_UP)				// möglicher Shortcut
 				&kp LG(LALT)
 				&kp LGUI
 				&kp LCTL
@@ -279,8 +279,8 @@
 				&kp LS(LA(LEFT))
 				&kp LS(LA(RIGHT))
 				&kp LC(TAB)  
-				&kp LG(LA(LC(LS(F11))))
-				&kp LG(LA(LC(LS(F12))))
+				&kp LC(SPACE)				// Excel Function
+				&kp LS(SPACE)				// Excel Function
 				&kp LS(TAB)
 				&kp LA(LEFT)
 				&kp LA(RIGHT)
@@ -334,7 +334,7 @@
 				&kp N0				
 				&kp ENTER 
 
-				&kp LSHIFT
+				&kp LCTL
 				&kp LS(N7)
 				&kp LS(N8)
 				&kp LS(N9)
@@ -345,7 +345,7 @@
 				&kp COMMA
 				&kp DOT
 				&kp SLASH		
-				&kp LSHIFT
+				&kp LCTL
 		
 				&trans
 				&trans
@@ -491,42 +491,42 @@
 			bindings = <
 
 				&kp ESC
-				&kp F1
-				&kp F2
-				&kp F3
-				&kp F4
-				&kp F5
-				&kp F6
-				&kp F7
-				&kp F8
-				&kp F9
-				&kp F10
+				&kp LA(LG(LC(J)))
+				&kp LA(LG(LC(D)))
+				&kp LA(LG(LC(U)))
+				&kp LA(LG(LC(A)))
+				&kp LA(LG(LC(X)))
+				&kp LA(LG(LC(P)))
+				&kp LA(LG(LC(H)))
+				&kp LA(LG(LC(L)))
+				&kp LA(LG(LC(M)))
+				&kp LA(LG(LC(W))) 
 				&kp BACKSPACE
 
 				&kp DEL
-				&kp LG(N1)
-				&kp LG(N2)
-				&kp LG(N3)
-				&kp LG(N4)
-				&kp LG(N5)
-				&kp LG(N6)
-				&kp LG(N7)
-				&kp LG(N8)
-				&kp LG(N9)
-				&kp LG(N0)
+				&kp LA(LG(LC(C)))
+				&kp LA(LG(LC(T)))
+				&kp LA(LG(LC(I)))
+				&kp LA(LG(LC(E)))
+				&kp LA(LG(LC(O)))
+				&kp LA(LG(LC(B)))
+				&kp LA(LG(LC(N)))
+				&kp LA(LG(LC(R)))
+				&kp LA(LG(LC(S)))
+				&kp LA(LG(LC(G)))
 				&kp ENTER
 
 				&kp LSHIFT
-				&kp LG(N1)
-				&kp LG(N2)
-				&kp LG(N3)
-				&kp LG(N4)
-				&kp LG(N5)
-				&kp LG(N6)
-				&kp LG(N7)
-				&kp LG(N8)
-				&kp LG(N9)
-				&kp LG(N0)
+				&kp LA(LG(LC(F)))
+				&kp LA(LG(LC(V)))
+				&kp LA(LG(LC(MINUS)))
+				&kp LA(LG(LC(Y)))
+				&kp LA(LG(LC(Q)))
+				&kp LA(LG(LC(Z)))
+				&kp LA(LG(LC(SEMICOLON)))
+				&kp LA(LG(LC(LEFT_BRACKET)))
+				&kp LA(LG(LC(SINGLE_QUOTE)))
+				&kp LA(LG(LC(K))) 
 				&kp LSHIFT
 		
 				&sl mSPFUNC
@@ -929,7 +929,7 @@
 				&kp LA(LG(T))
 				&kp LA(LG(I))
 				&kp LA(LG(E))
-				&kp LA(LG(O))	
+				&kp LA(LG(O))
 				&kp LA(LG(B))
 				&kp LA(LG(N))
 				&kp LA(LG(R))
