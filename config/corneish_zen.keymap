@@ -1095,12 +1095,12 @@
 
 			bindings = <
 
-				&kp F13
-				&kp LALT
+				&kp ESC
+				&kp LC(PG_UP)
 				&kp LS(HOME)
-				&kp DELETE
+				&kp INSERT
 				&kp LS(END)
-				&none
+				&kp LC(LS(HOME))
 				&kp LC(HOME)
 				&kp HOME 
 				&kp UP
@@ -1109,11 +1109,11 @@
 				&kp BACKSPACE
 
 				&kp DEL 
+				&kp LC(PG_DOWN)
 				&kp LALT
-				&kp LC(LS(TAB))
-				&kp LC(TAB)
+				&kp LALT
 				&kp LCTL
-				&none
+				&kp LC(LS(END))
 				&kp LC(END)
 				&kp LEFT 
 				&kp DOWN
@@ -1121,13 +1121,13 @@
 				&kp PG_DN
 				&kp ENTER
 				
-				&none
-				&none
+				&kp LSHIFT
+				&kp LC(LS(TAB))
 				&kp LS(LC(LEFT))
 				&kp LS(LC(RIGHT))
-				&kp INSERT
-				&none
-				&kp LC(LS(F10))
+				&kp LC(TAB)
+				&kp LC(SPACE)
+				&kp LC(ENTER)
 				&kp LS(TAB)
 				&kp LC(LEFT)
 				&kp LC(RIGHT)
@@ -1225,7 +1225,7 @@
 
 			bindings = <
 				
-				&kp F13
+				&kp ESC
 				&kp LS(N3)
 				&kp NUBS
 				&kp LS(NUBS)			
@@ -1236,7 +1236,7 @@
 				&kp RA(M)
 				&kp M
 				&kp LS(N5)			
-				&none
+				&kp BACKSPACE
 
 				&kp DEL
 				&kp RA(NUBS)				
@@ -1251,7 +1251,7 @@
 				&kp LS(MINUS)				
 				&kp RA(N2)
 
-				&none
+				&kp LSHIFT
 				&kp LS(N7)
 				&kp LS(N8)
 				&kp LS(N9)
@@ -1262,7 +1262,7 @@
 				&kp COMMA
 				&kp DOT
 				&kp SLASH		
-				&none
+				&kp LSHIFT
 		
 				&trans
 				&trans
@@ -1286,7 +1286,7 @@
 
 			bindings = <
 
-				&kp F13
+				&kp ESC
 				&kp LS(N3)
 				&kp RA(N8)
 				&kp RA(N9)
@@ -1297,7 +1297,7 @@
 				&kp RA(M)
 				&kp M
 				&kp LS(N5)			
-				&none
+				&kp BACKSPACE
 
 				&kp DEL
 				&kp RA(NUBS)				
@@ -1312,7 +1312,7 @@
 				&kp LS(MINUS)				
 				&kp RA(N3)
 
-				&none
+				&kp LSHIFT
 				&kp RA(MINUS)
 				&kp RA(N7)
 				&kp RA(N0)
@@ -1323,7 +1323,7 @@
 				&kp COMMA
 				&kp DOT
 				&kp LS(SLASH)	
-				&none
+				&kp LSHIFT
 
 				&trans
 				&trans
@@ -1346,7 +1346,7 @@
 
 			bindings = <
 
-				&kp F13
+				&kp ESC
 				&kp F1
 				&kp F2
 				&kp F3
@@ -1357,9 +1357,9 @@
 				&kp F8
 				&kp F9
 				&kp F10
-				&none
+				&kp LG(L)
 
-				&none
+				&kp DEL
 				&kp LC(N1)
 				&kp LC(N2)
 				&kp LC(N3)
@@ -1370,20 +1370,20 @@
 				&kp LC(N8)
 				&kp LC(N9)
 				&kp LC(N0)
-				&none
+				&kp ENTER
 
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
+				&kp LSHIFT
+				&bt BT_PRV
+				&kp C_PREVIOUS 
+				&kp C_PP 
+				&kp C_NEXT 
+				&bt BT_CLR 	
+				&bt BT_CLR 	
+				&kp C_VOLUME_DOWN 
+				&bt BT_SEL 0
+				&kp C_VOLUME_UP 
+				&bt BT_NXT
+				&kp LSHIFT
 		
 				&trans
 				&trans
@@ -1406,7 +1406,7 @@
 
 			bindings = <
 			
-				&kp F13
+				&kp ESC
 				&kp LA(J)
 				&kp LA(D)
 				&kp LA(U) 
@@ -1417,9 +1417,9 @@
 				&kp LA(L) 
 				&kp LA(M)
 				&kp LA(W) 
-				&none
+				&kp LG(X)
 	
-				&none
+				&kp DEL
 				&kp LA(C)
 				&kp LA(T)
 				&kp LA(I)
@@ -1432,7 +1432,7 @@
 				&kp LA(G)
 				&kp LA(ENTER)
 
-				&none
+				&kp LSHIFT
 				&kp LA(F)
 				&kp LA(V)
 				&kp LA(MINUS)
@@ -1443,7 +1443,7 @@
 				&kp LA(LEFT_BRACKET)
 				&kp LA(SINGLE_QUOTE)
 				&kp LA(K) 
-				&none
+				&kp LSHIFT
 
 				&trans
 				&trans
@@ -1466,7 +1466,7 @@
 
 			bindings = <
 
-				&kp F13
+				&kp ESC
 				&kp LG(LA(N1))
 				&kp LG(LA(N2))
 				&kp LG(LA(N3))
@@ -1477,9 +1477,9 @@
 				&kp LG(LA(N8))
 				&kp LG(LA(N9))
 				&kp LG(LA(N0))
-				&kp LA(F4)
+				&kp LA(SPACE)
 
-				&none				
+				&kp DEL				
 				&kp LG(LC(N1))
 				&kp LG(LC(N2))
 				&kp LG(LC(N3))
@@ -1492,18 +1492,18 @@
 				&kp LG(LC(N0))
 				&kp LA(TAB)
 
-				&kp LA(SPACE)
-				&kp LG(I)
-				&none
+				&kp LSHIFT
+				&kp LC(N1)
+				&kp LC(N2)
 				&kp LG(PG_DN)
 				&kp LG(PG_UP)
-				&none
+				&kp LG(I)
 				&kp LG(TAB)
 				&swleft
 				&kp LG(LC(LA(LEFT)))
 				&kp LG(LC(LA(RIGHT)))
 				&swright
-				&kp LA(SPACE)
+				&kp LSHIFT
 		
 				&trans
 				&trans
@@ -1527,44 +1527,44 @@
 
 			bindings = <
 
-				&kp F13
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&kp LC(LS(ESC))    // Sofort beenden
+				&kp ESC
+				&kp LG(LA(N1))
+				&kp LG(LA(N2))
+				&kp LG(LA(N3))
+				&kp LG(LA(N4))
+				&kp LG(LA(N5))
+				&kp LG(LA(N6))
+				&kp LG(LA(N7))
+				&kp LG(LA(N8))
+				&kp LG(LA(N9))
+				&kp LG(LA(N0))
+				&kp LA(F4)
 		
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
-				&none
+				&kp DEL
+				&kp LG(LC(N1))
+				&kp LG(LC(N2))
+				&kp LG(LC(N3))
+				&kp LG(LC(N4))
+				&kp LG(LC(N5))
+				&kp LG(LC(N6))
+				&kp LG(LC(N7))
+				&kp LG(LC(N8))
+				&kp LG(LC(N9))
+				&kp LG(LC(N0))
 				&kp LS(LA(TAB))
 
-				&kp LG(LA(LC(LS(NUBS))))
-				&none
-				&none
+				&kp LSHIFT
 				&kp LG(LC(LA(N1)))
 				&kp LG(LC(LA(N0)))
+				&kp LA(LG(D))
+				&kp LA(LC(S))
 				&none
 				&kp LG(T)
 				&swleft
 				&kp LG(LC(LA(LEFT)))
 				&kp LG(LC(LA(RIGHT)))
 				&swright
-				&kp LG(D)
+				&kp LSHIFT
 		
 				&none 
 				&none 
@@ -1589,8 +1589,8 @@
 
 			bindings = <
 	
-				&kp F13
-				&kp F5
+				&kp ESC
+				&kp LC(LS(C)) 
 				&kp LC(LS(U)) 
 				&kp LC(LS(F)) 
 				&kp LC(LS(K))
@@ -1600,33 +1600,33 @@
 				&windowup				// window up
 				&kp LC(Z) 
 				&kp LC(KP_PLUS)
-				&none
+				&kp BACKSPACE
 		
-				&trans
+				&kp DEL
+				&kp F2
+				&kp LG(V)
 				&kp LA(E)
-				&kp LC(LS(C))
-				&kp LC(LS(V)) 
 				&kp LG(S)
-				&none
 				&kp LALT
+				&kp LC(LS(F10))
 				&windowleft					// window
 				&windowdown 				// window
 				&windowright 				// window
 				&kp LC(KP_MINUS)
-				&kp F2
+				&kp F5
 				
-				&kp LG(N)
+				&kp LSHIFT
 				&kp F12						//Seitenleiste links
 				&kp LA(LEFT) 
 				&kp LA(RIGHT)
 				&kp LG(A)					// Seitenleiste rechts
-				&kp LS(LG(S))
 				&kp LC(NUHS)    		 	//Fokus
+				&kp LS(LG(S))
 				&kp LC(LS(TAB))
 				&kp LA(UP)
 				&kp ENTER
 				&kp LC(TAB)
-				&none
+				&kp LSHIFT
 				
 				&sl wSFUNC
 				&trans
@@ -1649,7 +1649,7 @@
 
 			bindings = <
 
-				&kp F13
+				&kp ESC
 				&none
 				&kp LC(LS(SINGLE_QUOTE))
 				&none				
@@ -1660,9 +1660,9 @@
 				&none
 				&none
 				&none
-				&kp LG(X)
+				&kp LC(LS(ESC))
 		
-				&trans
+				&kp DEL
 				&none
 				&kp LG(LA(LC(V)))
 				&kp LG(V)
@@ -1673,9 +1673,9 @@
 				&none
 				&none
 				&none
-				&none
+				&kp LS(LG(S))
 
-				&kp LA(LG(D))
+				&kp LSHIFT
 				&none
 				&kp LC(LEFT)
 				&kp LC(RIGHT)
@@ -1686,7 +1686,7 @@
 				&kp LC(LEFT)
 				&kp LC(RIGHT)
 				&none
-				&none
+				&kp LSHIFT
 		
 				&trans
 				&trans
@@ -1709,7 +1709,7 @@
 
 			bindings = <
 
-				&kp F13
+				&kp ESC
 				&kp LC(J)
 				&kp LC(D)
 				&kp LC(U) 
@@ -1722,7 +1722,7 @@
 				&kp LC(W) 
 				&kp LC(BACKSPACE)
 		
-				&none
+				&kp LC(DEL)
 				&kp LC(C)
 				&kp LC(T)
 				&kp LC(I)
@@ -1735,7 +1735,7 @@
 				&kp LC(G)
 				&kp LC(ENTER)
 
-				&none
+				&kp LSHIFT
 				&kp LC(F)
 				&kp LC(V)
 				&kp LC(MINUS)
@@ -1746,7 +1746,7 @@
 				&kp LC(LEFT_BRACKET)
 				&kp LC(SINGLE_QUOTE)
 				&kp LC(K) 
-				&kp LC(DELETE)
+				&kp LSHIFT
 		
 				&trans
 				&trans
@@ -1769,7 +1769,7 @@
 
 			bindings = <
 			
-				&kp F13
+				&kp ESC
 				&kp LS(LC(J))
 				&kp LS(LC(D))
 				&kp LS(LC(U))
@@ -1782,7 +1782,7 @@
 				&kp LS(LC(W)) 
 				&kp LS(BACKSPACE)
 		
-				&none
+				&kp LS(DELETE)
 				&kp LS(LC(C))
 				&kp LS(LC(T))
 				&kp LS(LC(I))
@@ -1795,7 +1795,7 @@
 				&kp LS(LC(G)) 
 				&kp LS(LC(ENTER))
 
-				&none
+				&kp LSHIFT
 				&kp LS(LC(F))
 				&kp LS(LC(V))
 				&kp LS(LC(MINUS))
@@ -1806,7 +1806,67 @@
 				&kp LS(LC(LEFT_BRACKET))
 				&kp LS(LC(SINGLE_QUOTE))
 				&kp LS(LC(K)) 
-				&kp LS(DELETE)
+				&kp LSHIFT
+
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+			>;
+		};
+
+
+
+		// --------------------------------------
+		// Layer = 29 - wNAVosl	  Navigation
+		// --------------------------------------
+
+		win_navigationosl
+		{		
+			label = "WIN";
+
+			bindings = <
+
+				&kp ESC
+				&kp LC(PG_UP)
+				&kp LS(HOME)
+				&kp INSERT
+				&kp LS(END)
+				&kp LC(LS(HOME))
+				&kp LC(HOME)
+				&kp HOME 
+				&kp UP
+				&kp END
+				&kp PG_UP 
+				&kp BACKSPACE
+
+				&kp DEL 
+				&kp LC(PG_DOWN)
+				&kp LALT
+				&kp LALT
+				&kp LCTL
+				&kp LC(LS(END))
+				&kp LC(END)
+				&kp LEFT 
+				&kp DOWN
+				&kp RIGHT 	
+				&kp PG_DN
+				&kp ENTER
+				
+				&kp LSHIFT
+				&kp LC(LS(TAB))
+				&kp LS(LC(LEFT))
+				&kp LS(LC(RIGHT))
+				&kp LC(TAB)
+				&kp LC(SPACE)
+				&kp LC(ENTER)
+				&kp LS(TAB)
+				&kp LC(LEFT)
+				&kp LC(RIGHT)
+				&kp TAB
+				&kp DELETE
 
 				&trans
 				&trans
