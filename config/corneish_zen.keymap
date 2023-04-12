@@ -719,65 +719,7 @@
 		};
 
 
-		// --------------------------------------
-		// Layer 9 - mFUNC =	Funktionen
-		// --------------------------------------
-
-		mac_function
-		{
-			label = "MAC";
-
-			bindings = <
-	
-				&kp ESC	
-				&kp LG(LS(B))				// Craft Format
-				&kp LG(U) 					// Craft Format
-				&kp LG(B) 					// Craft Format
-				&kp LG(I)					// Craft Format
-				&kp LG(LS(C))				// Craft Format
-				&kp LG(LC(SPACE))   		// Smily
-				&kp LG(Y)					// Zurück
-				&kp LG(LC(UP))			    // Window Move
-				&kp LG(LS(Y)) 				// Vor
-				&kp LG(RBKT)				// Plus +
-				&kp LG(LA(H))				// Andere ausblenden
 		
-				&kp DEL						
-				&kp LG(LA(LC(LS(F1))))		// Umbennen
-				&kp LG(LA(LC(LS(F2))))		// Clipboard
-				&kp LG(LS(G)) 				// Pfadsuche
-				&kp LG(SPACE)  				// Spotlight
-				&kp LG(LA(LC(LS(F2))))  	// Shortcat
-				&kp LG(LA(LC(LS(F3))))  	// Dropdown
-				&kp LG(LC(LEFT))			// Window Move
-				&kp LG(LC(DOWN))			// Window Move
-				&kp LG(LC(RIGHT))			// Window Move
-				&kp LG(SLASH)				// Minus -
-				&kp ENTER
-
-				&kp LSHIFT
-				&kp LG(LA(LC(LS(F4))))		// Seitenleiste links
-				&kp LG(LA(LC(LS(F5))))  	// Zurück
-				&kp LG(LA(LC(LS(F6))))  	// Vor
-				&kp LG(LA(LC(LS(F7))))  	// Seitenleiste rechts
-				&kp LG(LA(LC(LS(F8))))  	// Fokus
-				&kp LC(N1)					// Craft Format
-				&kp LC(N2)					// Craft Format
-				&kp LC(N3)					// Craft Format
-				&kp LC(N4)					// Craft Format
-				&kp LC(N5)					// Craft Format
-				&kp LSHIFT					
-				
-				&trans
-				&trans
-				&trans
-				&sl mSFUNC
-				&skq LSHIFT
-				&trans
-			>;
-		};
-
-
 
 
 
