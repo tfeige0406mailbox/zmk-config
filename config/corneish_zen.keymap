@@ -285,7 +285,7 @@
 				&kp LA(LEFT)
 				&kp LA(RIGHT)
 				&kp TAB
-				&kp DELETE
+				&kp LSHIFT
 
 				&trans
 				&trans
@@ -1007,7 +1007,7 @@
 				&kp LA(LEFT)
 				&kp LA(RIGHT)
 				&kp TAB
-				&kp DELETE
+				&kp LSHIFT
 
 				&trans
 				&trans
