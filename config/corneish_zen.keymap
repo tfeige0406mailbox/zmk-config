@@ -755,6 +755,19 @@
 				&kp LG(SLASH)				// Minus -
 				&kp ENTER
 
+				&kp LSHIFT
+				&kp LG(LA(LC(LS(F4))))		// Seitenleiste links
+				&kp LG(LA(LC(LS(F5))))  	// Zurück
+				&kp LG(LA(LC(LS(F6))))  	// Vor
+				&kp LG(LA(LC(LS(F7))))  	// Seitenleiste rechts
+				&kp LG(LA(LC(LS(F8))))  	// Fokus
+				&kp LC(N1)					// Craft Format
+				&kp LC(N2)					// Craft Format
+				&kp LC(N3)					// Craft Format
+				&kp LC(N4)					// Craft Format
+				&kp LC(N5)					// Craft Format
+				&kp LSHIFT					
+				
 			>;
 		};
 
