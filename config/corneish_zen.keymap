@@ -747,8 +747,8 @@
 				&kp LG(LA(LC(LS(F2))))		// Clipboard
 				&kp LG(LS(G)) 				// Pfadsuche
 				&kp LG(SPACE)  				// Spotlight
-				&kp LG(LA(LC(LS(F2))))  	// Shortcat
-				&kp LG(LA(LC(LS(F3))))  	// Dropdown
+				&kp LG(LA(LC(LS(F3))))  	// Shortcat
+				&kp LG(LA(LC(LS(F4))))  	// Dropdown
 				&kp LG(LC(LEFT))			// Window Move
 				&kp LG(LC(DOWN))			// Window Move
 				&kp LG(LC(RIGHT))			// Window Move
@@ -756,11 +756,11 @@
 				&kp ENTER
 
 				&kp LSHIFT
-				&kp LG(LA(LC(LS(F4))))		// Seitenleiste links
-				&kp LG(LA(LC(LS(F5))))  	// Zurück
-				&kp LG(LA(LC(LS(F6))))  	// Vor
-				&kp LG(LA(LC(LS(F7))))  	// Seitenleiste rechts
-				&kp LG(LA(LC(LS(F8))))  	// Fokus
+				&kp LG(LA(LC(LS(F5))))		// Seitenleiste links
+				&kp LG(LA(LC(LS(F6))))  	// Zurück
+				&kp LG(LA(LC(LS(F7))))  	// Vor
+				&kp LG(LA(LC(LS(F8))))  	// Seitenleiste rechts
+				&kp LG(LA(LC(LS(F9))))  	// Fokus
 				&kp LC(N1)					// Craft Format
 				&kp LC(N2)					// Craft Format
 				&kp LC(N3)					// Craft Format
@@ -797,13 +797,13 @@
 				&trans
 				&trans				
 				&trans
-				&kp LG(LA(LC(LS(F9))))		// drehen
+				&kp LG(LA(LC(LS(F10))))		// drehen
 				&kp LG(LS(ESC))		        // Sofort Beenden
 
 				&kp DEL				
 				&trans
 				&kp LG(LS(T))				// Craft (Ausklappen)
-				&kp LG(LA(LC(LS(F10))))		// hyper
+				&trans
 				&kp LG(LA(LC(LS(F11))))		// Spotlight deep
 				&kp LG(LA(C)) 				// Format Kopieren
 				&kp LG(LA(V)) 				// Format Einfügen
@@ -814,11 +814,11 @@
 				&kp LS(SPACE)				// Übergang Craft einf
 
 				&trans
-				&trans
-				&kp LG(UP)					// Pfad Zurück 
-				&kp LG(DOWN)				// Pfad Vor 	
-				&trans
-				&trans				
+				&kp LG(LA(LC(LS(F13))))		// Lesebereich Outlook
+				&kp LG(LA(LC(LS(F14))))		// Pfad zurück
+				&kp LG(LA(LC(LS(F15))))		// Pfad vor
+				&kp LG(LA(LC(LS(F16))))		// Lesebereich Outlook
+				&kp LG(LA(LC(LS(F17))))		// Lesebereich Outlook
 				&trans
 				&trans
 				&kp LG(LA(LEFT)) 			// Überang Craft zurück
