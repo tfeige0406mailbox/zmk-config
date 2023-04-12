@@ -34,25 +34,26 @@
 // WINDOWS
 
 #define wCHAR 14
-#define wBCHAR 15
+
+#define wNAV 15
 
 #define wNR 16
-#define wNAV 17
+#define wSYM 17
+#define wSSYM 18
 
-#define wSYM 18
-#define wSSYM 19
+#define wPFUNC 19
+#define wSPFUNC 20
 
-#define wPFUNC 20
-#define wSPFUNC 21
+#define wPRG 21
+#define wSPRG 22
 
-#define wPRG 22
-#define wSPRG 23
-
-#define wFUNC 24
-#define wSFUNC 25
+#define wFUNC 23
+#define wSFUNC 24
 
 #define wMOD 25
 #define wSMOD 26
+
+#define wNAVosl 27
 
 
 
@@ -202,7 +203,7 @@
 				&kp W
 				&kp BSPC
 	
-				&none
+				&kp DEL
 				&kp C
 				&kp T
 				&kp I
@@ -228,10 +229,10 @@
 				&kp K
 				&kp LSHIFT
 
-				&sl mFUNC
+				&sl mPFUNC
 				&lt mNAV SPACE
 				&sl mPRG
-				&sl mPFUNC
+				&sl mFUNC
 				&sl mNR
 				&sl mMOD
 			>;
@@ -247,7 +248,7 @@
 
 			bindings = <
 
-				&kp F13
+				&kp ESC
 				&kp LGUI
 				&kp LG(LS(LEFT)) 
 				&kp DELETE
@@ -260,7 +261,7 @@
 				&kp PG_UP 
 				&kp BACKSPACE
 
-				&trans 
+				&kp DEL 
 				&kp LG(LALT)
 				&kp LC(LS(TAB))
 				&kp LC(TAB)
@@ -320,7 +321,7 @@
 				&kp LS(N5)			
 				&kp BSPC
 
-				&none
+				&kp DEL
 				&kp N1				
 				&kp N2				
 				&kp N3				
@@ -346,11 +347,11 @@
 				&kp SLASH		
 				&kp LSHIFT
 		
-				&sl mFUNC
+				&sl mPFUNC
 				&lt mNAV SPACE
 				&sl mPRG
-				&sl mPFUNC						
-				&sl mSYM
+				&sl mFUNC
+				&sl mNR
 				&sl mMOD
 			>;		
 		};
@@ -380,7 +381,7 @@
 				&kp LS(N5)			
 				&none
 
-				&none
+				&kp DEL
 				&kp LA(N7)				
 				&kp LA(N)				
 				&kp GRAVE				
@@ -442,7 +443,7 @@
 				&kp LS(N5)			
 				&none
 
-				&none
+				&kp DEL
 				&kp LA(N7)				
 				&kp LA(N)				
 				&kp LS(GRAVE)
@@ -502,7 +503,7 @@
 				&kp F10
 				&none
 
-				&none
+				&kp DEL
 				&kp LG(N1)
 				&kp LG(N2)
 				&kp LG(N3)
@@ -562,7 +563,7 @@
 				&kp LS(LG(W)) 
 				&none
 		
-				&none
+				&kp DEL
 				&kp LS(LG(C))
 				&kp LS(LG(T))
 				&kp LS(LG(I))
@@ -622,7 +623,7 @@
 				&kp LG(LA(LS(N0)))
 				&kp LG(Q)
 
-				&none
+				&kp DEL
 				&kp LG(LA(N1))
 				&kp LG(LA(N2))
 				&kp LG(LA(N3))
@@ -743,7 +744,7 @@
 				&kp LG(RBKT)
 				&none
 		
-				&trans
+				&kp DEL
 				&kp LG(LS(G)) 
 				&kp LG(LA(C)) 
 				&kp LG(LA(V)) 
@@ -1048,7 +1049,7 @@
 				&kp W
 				&kp BSPC
 	
-				&sl wNAV
+				&kp DEL
 				&kp C
 				&kp T
 				&kp I
@@ -1074,77 +1075,78 @@
 				&kp K
 				&kp LSHIFT
 
-				&sl wFUNC
+				&sl wPFUNC
 				&lt wNAV SPACE 
 				&sl wPRG
-				&sl wPFUNC
+				&sl wFUNC
 				&sl wNR
 				&sl wMOD
+			>;
+		};
+
+
+		// --------------------------------------
+		// Layer = 29 - wNAV	  Navigation
+		// --------------------------------------
+
+		win_navigation
+		{		
+			label = "WIN";
+
+			bindings = <
+
+				&kp F13
+				&kp LALT
+				&kp LS(HOME)
+				&kp DELETE
+				&kp LS(END)
+				&none
+				&kp LC(HOME)
+				&kp HOME 
+				&kp UP
+				&kp END
+				&kp PG_UP 
+				&kp BACKSPACE
+
+				&kp DEL 
+				&kp LALT
+				&kp LC(LS(TAB))
+				&kp LC(TAB)
+				&kp LCTL
+				&none
+				&kp LC(END)
+				&kp LEFT 
+				&kp DOWN
+				&kp RIGHT 	
+				&kp PG_DN
+				&kp ENTER
+				
+				&none
+				&none
+				&kp LS(LC(LEFT))
+				&kp LS(LC(RIGHT))
+				&kp INSERT
+				&none
+				&kp LC(LS(F10))
+				&kp LS(TAB)
+				&kp LC(LEFT)
+				&kp LC(RIGHT)
+				&kp TAB
+				&kp DELETE
+
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
 			>;
 		};
 
 	
 
 
-		// --------------------------------------
-		// Layer 16 - mBCHAR =	GROSS-BUCHSTABEN
-		// --------------------------------------
-
-
-		win_bchar
-		{
-
-			label = "WIN";
-
-			bindings = <
-
-				&kp ESC
-				&kp LS(J) 
-				&kp LS(D)
-				&kp LS(U) 
-				&kp LS(A) 
-				&kp LS(X)
-				&kp LS(P) 
-				&kp LS(H) 
-				&kp LS(L) 
-				&kp LS(M) 
-				&kp LS(W) 
-				&kp BACKSPACE
 		
-				&sl wNAV
-				&kp LS(C)
-				&kp LS(T)
-				&kp LS(I)
-				&kp LS(E)
-				&kp LS(O)	
-				&kp LS(B) 
-				&kp LS(N) 
-				&kp LS(R) 
-				&kp LS(S) 
-				&kp LS(G) 
-				&kp ENTER
-				
-				&kp LSHIFT
-				&kp LS(F)
-				&kp LS(V)
-				&kp LS(MINUS)
-				&kp LS(Y)
-				&kp LS(Q)
-				&kp LS(Z)
-				&kp LS(SEMICOLON)
-				&kp LS(LEFT_BRACKET)
-				&kp LS(SINGLE_QUOTE)
-				&kp LS(K) 
-				&kp LSHIFT
-		
-				&sl wFUNC
-				&lt wNAV SPACE 
-				&sl wPRG
-				&sl wPFUNC						
-				&sl wNR
-				&sl wMOD
-			>;
-		};
 
 
 
@@ -1172,7 +1174,7 @@
 				&kp LS(N5)			
 				&kp BSPC
 
-				&sl wNAV
+				&kp DEL
 				&kp N1				
 				&kp N2				
 				&kp N3				
@@ -1198,75 +1200,19 @@
 				&kp SLASH		
 				&kp LSHIFT
 		
-				&sl wFUNC
-				&lt wNAV SPACE 
-				&sl wPRG
-				&sl wPFUNC						
+				&trans
+				&trans
+				&trans
+				&trans
 				&sl wSYM
-				&sl wMOD
+				&trans
 			>;		
 		};
 
 
 
 
-		// --------------------------------------
-		// Layer = 29 - wNAV	  Navigation
-		// --------------------------------------
 
-		win_navigation
-		{		
-			label = "WIN";
-
-			bindings = <
-
-				&kp F13
-				&kp LALT
-				&kp LS(HOME)
-				&kp DELETE
-				&kp LS(END)
-				&none
-				&kp LC(HOME)
-				&kp HOME 
-				&kp UP
-				&kp END
-				&kp PG_UP 
-				&kp BACKSPACE
-
-				&trans 
-				&kp LALT
-				&kp LC(LS(TAB))
-				&kp LC(TAB)
-				&kp LCTL
-				&none
-				&kp LC(END)
-				&kp LEFT 
-				&kp DOWN
-				&kp RIGHT 	
-				&kp PG_DN
-				&kp ENTER
-				
-				&none
-				&none
-				&kp LS(LC(LEFT))
-				&kp LS(LC(RIGHT))
-				&kp INSERT
-				&none
-				&kp LC(LS(F10))
-				&kp LS(TAB)
-				&kp LC(LEFT)
-				&kp LC(RIGHT)
-				&kp TAB
-				&kp DELETE
-
-				&trans
-				&kp SPACE 
-				&trans
-				&trans
-				&kp LSHIFT 
-				&trans
-			>;
-		};
 
 
 		// --------------------------------------
@@ -1292,7 +1238,7 @@
 				&kp LS(N5)			
 				&none
 
-				&none
+				&kp DEL
 				&kp RA(NUBS)				
 				&kp RA(RBKT)				
 				&kp GRAVE				
@@ -1319,7 +1265,7 @@
 				&none
 		
 				&trans
-				&kp SPACE 
+				&trans
 				&trans
 				&trans
 				&sl wSSYM
@@ -1353,7 +1299,7 @@
 				&kp LS(N5)			
 				&none
 
-				&none
+				&kp DEL
 				&kp RA(NUBS)				
 				&kp RA(RBKT)				
 				&kp LS(GRAVE)
@@ -1380,7 +1326,7 @@
 				&none
 
 				&trans
-				&kp SPACE 
+				&trans
 				&trans			
 				&trans
 				&trans
