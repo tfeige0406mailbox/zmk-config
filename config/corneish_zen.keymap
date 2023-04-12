@@ -651,7 +651,7 @@
 				&kp LSHIFT
 		
 				&trans
-				&trans
+				&sl mNAVosl
 				&sl mSPRG
 				&trans
 				&trans
@@ -775,7 +775,7 @@
 				&trans
 				&trans
 				&sl mSFUNC
-				&trans
+				&skq LSHIFT
 				&trans
 			>;
 		};
@@ -1508,10 +1508,10 @@
 				&kp LSHIFT
 		
 				&trans
-				&trans
+				&sl wNAVosl
 				&sl wSPRG
 				&trans
-				&skq LSHIFT
+				&trans
 				&trans
 			>;
 		};
@@ -1629,10 +1629,10 @@
 				&kp LSHIFT
 				
 				&trans
-				&sl wNAVosl
+				&trans
 				&trans
 				&sl wSFUNC
-				&trans
+				&skq LSHIFT
 				&trans
 			>;
 		};
