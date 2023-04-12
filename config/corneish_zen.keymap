@@ -768,6 +768,12 @@
 				&kp LC(N5)					// Craft Format
 				&kp LSHIFT					
 				
+				&trans
+				&trans
+				&trans
+				&sl mSFUNC
+				&skq LSHIFT
+				&trans
 			>;
 		};
 
