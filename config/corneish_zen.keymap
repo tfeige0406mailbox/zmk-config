@@ -252,7 +252,7 @@
 				&kp ESC
 				&kp LC(PG_UP)				// möglicher Shortcut
 				&kp LG(LS(LEFT)) 
-				&kp INSERT					// möglicher Shortcut
+				&kp INSERT					// Programm Auswahl
 				&kp LG(LS(RIGHT)) 
 				&kp LG(LS(UP))
 				&kp LG(UP)
@@ -620,7 +620,7 @@
 				&kp LG(LA(LS(N8)))
 				&kp LG(LA(LS(N9)))
 				&kp LG(LA(LS(N0)))
-				&kp LG(H)					// Hide
+				&kp LG(Q) 					// Programm schließen
 
 				&kp LG(LS(TAB))				// Letztes Programm
 				&kp LG(LA(N1))
@@ -681,7 +681,7 @@
 				&kp LG(LA(LS(F8)))
 				&kp LG(LA(LS(F9)))
 				&kp LG(LA(LS(F10)))
-				&kp LG(Q) 						// Programm schließen
+				&kp LG(H)						// Hide
 		
 				&kp LA(LG(LC(LS(HOME)))) 		// Swap
 				&kp LG(LA(F1))
@@ -740,7 +740,7 @@
 				&kp LG(LC(UP))			    // Window Move
 				&kp LG(LS(Y)) 				// Vor
 				&kp LG(RBKT)				// Plus +
-				&kp LG(LA(H))				// Andere ausblenden
+				&kp LG(LS(ESC))		        // Sofort Beenden
 		
 				&kp DEL						
 				&kp LG(LA(LC(LS(F1))))		// Umbennen
@@ -798,7 +798,7 @@
 				&trans				
 				&trans
 				&kp LG(LA(LC(LS(F10))))		// drehen
-				&kp LG(LS(ESC))		        // Sofort Beenden
+				&kp LG(LA(H))				// Andere ausblenden
 
 				&kp DEL				
 				&trans
@@ -969,7 +969,7 @@
 				&kp ESC
 				&kp LC(PG_UP)				// möglicher Shortcut
 				&kp LG(LS(LEFT)) 
-				&kp INSERT					// möglicher Shortcut
+				&kp INSERT					// Programm Auswahl
 				&kp LG(LS(RIGHT)) 
 				&kp LG(LS(UP))
 				&kp LG(UP)
@@ -1474,7 +1474,7 @@
 				&kp LG(LA(N8))
 				&kp LG(LA(N9))
 				&kp LG(LA(N0))
-				&kp LA(SPACE)
+				&kp LA(F4)
 
 				&kp LA(LS(TAB))				
 				&kp LG(N1)
@@ -1535,7 +1535,7 @@
 				&kp LG(LA(N8))
 				&kp LG(LA(N9))
 				&kp LG(LA(N0))
-				&kp LA(F4)
+				&kp LA(SPACE)
 		
 				&kp LG(PG_DN)
 				&kp LG(LC(N1))
@@ -1595,7 +1595,7 @@
 				&windowup					// window up
 				&kp LC(Z) 
 				&kp LC(KP_PLUS)
-				&kp LG(D)
+				&kp LC(LS(ESC))
 		
 				&kp LS(DEL)
 				&kp F2
@@ -1655,13 +1655,13 @@
 				&none
 				&none
 				&none
-				&kp LC(LS(ESC))
+				&kp LG(D)
 		
 				&kp DEL
 				&none
 				&kp LC(LS(T))
 				&kp LG(LA(LC(V)))
-				&kp LA(SPACE)
+				&kp LA(LG(LC(SPACE)))
 				&kp LC(LS(Y))
 				&kp LC(LS(Z))
 				&kp LC(LEFT)
