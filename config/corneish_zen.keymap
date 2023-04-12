@@ -742,7 +742,19 @@
 				&kp LG(RBKT)				// Plus +
 				&kp LG(LA(H))				// Andere ausblenden
 		
-				
+				&kp DEL						
+				&kp LG(LA(LC(LS(F1))))		// Umbennen
+				&kp LG(LA(LC(LS(F2))))		// Clipboard
+				&kp LG(LS(G)) 				// Pfadsuche
+				&kp LG(SPACE)  				// Spotlight
+				&kp LG(LA(LC(LS(F2))))  	// Shortcat
+				&kp LG(LA(LC(LS(F3))))  	// Dropdown
+				&kp LG(LC(LEFT))			// Window Move
+				&kp LG(LC(DOWN))			// Window Move
+				&kp LG(LC(RIGHT))			// Window Move
+				&kp LG(SLASH)				// Minus -
+				&kp ENTER
+
 			>;
 		};
 
