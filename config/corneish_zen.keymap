@@ -1573,6 +1573,126 @@
 			>;
 		};
 
+
+		// --------------------------------------
+		// Layer 23 - mFUNC =	Funktionen
+		// --------------------------------------
+
+		win_function
+		{
+			label = "WIN";
+
+			bindings = <
+	
+				&kp ESC
+				&kp LC(LS(C)) 
+				&kp LC(LS(U)) 
+				&kp LC(LS(F)) 
+				&kp LC(LS(K))
+				&kp LC(LS(B)) 
+				&kp LG(DOT)
+				&kp LC(Y)
+				&windowup				// window up
+				&kp LC(Z) 
+				&kp LC(KP_PLUS)
+				&kp BACKSPACE
+		
+				&kp DEL
+				&kp F2
+				&kp LG(V)
+				&kp LA(E)
+				&kp LG(S)
+				&kp LALT
+				&kp LC(LS(F10))
+				&windowleft					// window
+				&windowdown 				// window
+				&windowright 				// window
+				&kp LC(KP_MINUS)
+				&kp F5
+				
+				&kp LSHIFT
+				&kp F12						//Seitenleiste links
+				&kp LA(LEFT) 
+				&kp LA(RIGHT)
+				&kp LG(A)					// Seitenleiste rechts
+				&kp LC(NUHS)    		 	//Fokus
+				&kp LS(LG(S))
+				&kp LC(LS(TAB))
+				&kp LA(UP)
+				&kp ENTER
+				&kp LC(TAB)
+				&kp LSHIFT
+				
+				&trans
+				&sl wNAVosl
+				&trans
+				&sl wSFUNC
+				&trans
+				&trans
+			>;
+		};
+
+
+
+		// --------------------------------------
+		// Layer 24 - mSFUNC =	Spezial Funktionen
+		// --------------------------------------
+
+		win_specialfunction
+		{
+			label = "WIN";
+
+			bindings = <
+
+				&kp ESC
+				&none
+				&kp LC(LS(SINGLE_QUOTE))
+				&none				
+				&none
+				&none
+				&none
+				&none
+				&none
+				&none
+				&none
+				&kp LC(LS(ESC))
+		
+				&kp DEL
+				&none
+				&kp LG(LA(LC(V)))
+				&kp LG(V)
+				&kp LA(SPACE)
+				&kp LC(LS(Y))
+				&kp LC(LS(Z))
+				&none
+				&none
+				&none
+				&none
+				&kp LS(LG(S))
+
+				&kp LSHIFT
+				&none
+				&kp LC(LEFT)
+				&kp LC(RIGHT)
+				&none
+				&none
+				&none
+				&none
+				&kp LC(LEFT)
+				&kp LC(RIGHT)
+				&none
+				&kp LSHIFT
+		
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans           
+			>;
+		};
+
+
 		
   
 			
