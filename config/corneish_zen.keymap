@@ -1612,8 +1612,8 @@
 				
 				&kp LSHIFT
 				&kp F12						//Seitenleiste links
-				&kp LA(LEFT) 
-				&kp LA(RIGHT)
+				&kp LA(UP)
+				&kp ENTER
 				&kp LG(A)					// Seitenleiste rechts
 				&kp LC(NUHS)    		 	//Fokus
 				&kp LC(LS(N1))
@@ -1672,8 +1672,8 @@
 
 				&kp LSHIFT
 				&none
-				&kp LA(UP)
-				&kp ENTER
+				&kp LA(LEFT) 
+				&kp LA(RIGHT)
 				&none
 				&none
 				&none
