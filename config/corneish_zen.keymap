@@ -516,16 +516,16 @@
 				&kp LA(LG(LC(LS(PG_DN)))) 		// Hyper
 
 				&kp LSHIFT
-				&kp LA(LG(LC(F)))
-				&kp LA(LG(LC(V)))
-				&kp LA(LG(LC(MINUS)))
-				&kp LA(LG(LC(Y)))
-				&kp LA(LG(LC(Q)))
-				&kp LA(LG(LC(Z)))
-				&kp LA(LG(LC(SEMICOLON)))
-				&kp LA(LG(LC(LEFT_BRACKET)))
-				&kp LA(LG(LC(SINGLE_QUOTE)))
-				&kp LA(LG(LC(K))) 
+				&bt BT_PRV
+				&kp C_PREVIOUS 
+				&kp C_PP 
+				&kp C_NEXT 
+				&bt BT_CLR 	
+				&bt BT_CLR 	
+				&kp C_VOLUME_DOWN 
+				&bt BT_SEL 0
+				&kp C_VOLUME_UP 
+				&bt BT_NXT
 				&kp LSHIFT
 		
 				&sl mSPFUNC
@@ -576,16 +576,16 @@
 				&kp LA(LG(LC(LS(GRAVE)))) 		// Hyper
 
 				&kp LSHIFT
-				&bt BT_PRV
-				&kp C_PREVIOUS 
-				&kp C_PP 
-				&kp C_NEXT 
-				&bt BT_CLR 	
-				&bt BT_CLR 	
-				&kp C_VOLUME_DOWN 
-				&bt BT_SEL 0
-				&kp C_VOLUME_UP 
-				&bt BT_NXT
+				&kp LS(LG(F))
+				&kp LS(LG(V))
+				&kp LS(LG(MINUS))
+				&kp LS(LG(Y))
+				&kp LS(LG(Q))
+				&kp LS(LG(Z))
+				&kp LS(LG(SEMICOLON))
+				&kp LS(LG(LEFT_BRACKET))
+				&kp LS(LG(SINGLE_QUOTE))
+				&kp LS(LG(K))
 				&kp LSHIFT
 
 				&trans
