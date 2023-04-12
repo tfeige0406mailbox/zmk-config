@@ -239,7 +239,7 @@
 		};
 
 		// --------------------------------------
-		// Layer = 14 - mNAV	  Navigation
+		// Layer = 1 - mNAV	  Navigation
 		// --------------------------------------
 
 		mac_navigation
@@ -249,11 +249,11 @@
 			bindings = <
 
 				&kp ESC
-				&kp LGUI
+				&kp LC(PG_UP)
 				&kp LG(LS(LEFT)) 
-				&kp DELETE
+				&kp INSERT
 				&kp LG(LS(RIGHT)) 
-				&kp LG(LA(LC(LS(F9))))
+				&kp LG(LS(UP))
 				&kp LG(UP)
 				&kp LG(LEFT) 
 				&kp UP
@@ -262,11 +262,11 @@
 				&kp BACKSPACE
 
 				&kp DEL 
+				&kp LC(PG_UP)
 				&kp LG(LALT)
-				&kp LC(LS(TAB))
-				&kp LC(TAB)
+				&kp LGUI
 				&kp LCTL
-				&kp LG(LA(LC(LS(F10))))
+				&kp LG(LS(DOWN)) 
 				&kp LG(DOWN) 
 				&kp LEFT 
 				&kp DOWN
@@ -275,10 +275,10 @@
 				&kp ENTER
 				
 				&kp LSHIFT
-				&none
+				&kp LS(LC(TAB))
 				&kp LS(LA(LEFT))
 				&kp LS(LA(RIGHT))
-				&kp INSERT
+				&kp LC(TAB)  
 				&kp LG(LA(LC(LS(F11))))
 				&kp LG(LA(LC(LS(F12))))
 				&kp LS(TAB)
@@ -347,12 +347,12 @@
 				&kp SLASH		
 				&kp LSHIFT
 		
-				&sl mPFUNC
-				&lt mNAV SPACE
-				&sl mPRG
-				&sl mFUNC
-				&sl mNR
-				&sl mMOD
+				&trans
+				&trans
+				&trans
+				&trans
+				&sl mSYM
+				&trans
 			>;		
 		};
 
@@ -368,7 +368,7 @@
 
 			bindings = <
 				
-				&kp F13	
+				&kp ESC	
 				&kp LS(N3)
 				&kp NUBS
 				&kp LS(NUBS)			
@@ -379,7 +379,7 @@
 				&kp LA(M)
 				&kp M
 				&kp LS(N5)			
-				&none
+				&kp BACKSPACE
 
 				&kp DEL
 				&kp LA(N7)				
@@ -392,9 +392,9 @@
 				&kp LS(COMMA)	
 				&kp LS(DOT)				
 				&kp LS(MINUS)				
-				&none
+				&kp ENTER
 
-				&none
+				&kp LSHIFT
 				&kp LS(N7)
 				&kp LS(N8)
 				&kp LS(N9)
@@ -405,7 +405,7 @@
 				&kp COMMA
 				&kp DOT
 				&kp SLASH		
-				&none
+				&kp LSHIFT
 		
 				&trans
 				&trans
@@ -961,7 +961,7 @@
 
 
 		// --------------------------------------
-		// Layer = 14 - mNAVosl	  Navigation
+		// Layer = 13 - mNAVosl	  Navigation
 		// --------------------------------------
 
 		mac_navigationosl
@@ -1027,7 +1027,7 @@
 
 
 		// --------------------------------------
-		// Layer 15 - mCHAR = 	  Buchstaben	
+		// Layer 14 - mCHAR = 	  Buchstaben	
 		// --------------------------------------
 	
 		win_buchstaben
@@ -1086,7 +1086,7 @@
 
 
 		// --------------------------------------
-		// Layer = 29 - wNAV	  Navigation
+		// Layer =	15 - wNAV	  Navigation
 		// --------------------------------------
 
 		win_navigation
@@ -1152,7 +1152,7 @@
 
 
 		// --------------------------------------
-		// Layer 17 - mNR = 	  Zahlen	
+		// Layer 16 - mNR = 	  Zahlen	
 		// --------------------------------------
 
 		win_zahlen
@@ -1216,7 +1216,7 @@
 
 
 		// --------------------------------------
-		// Layer 18 - mSYM =	Symoble
+		// Layer 17 - mSYM =	Symoble
 		// --------------------------------------
 
 		win_symbole
@@ -1277,7 +1277,7 @@
 
 
 		// --------------------------------------
-		// Layer 19 - mSSYM =	Special Symbole
+		// Layer 18 - mSSYM =	Special Symbole
 		// --------------------------------------
 
 		win_specialsonderzeichen
@@ -1337,7 +1337,7 @@
 
 
 		// --------------------------------------------
-		// Layer 20 - mPFUNC =	Programm-Funkionen
+		// Layer 19 - mPFUNC =	Programm-Funkionen
 		// --------------------------------------------
 
 		win_pfunc
@@ -1397,7 +1397,7 @@
 
 
 		// --------------------------------------------
-		// Layer 21 - mSPFUNC =	Special Programm-Funkionen
+		// Layer 20 - mSPFUNC =	Special Programm-Funkionen
 		// --------------------------------------------
 
 		win_spfunc
@@ -1457,7 +1457,7 @@
 
 
 		// --------------------------------------
-		// Layer 22 - mPRG =	Programme
+		// Layer 21 - mPRG =	Programme
 		// --------------------------------------
 
 		win_programme
@@ -1516,7 +1516,7 @@
 
 
 		// --------------------------------------
-		// Layer 23 -mSPRG =	Spezial Prgramme
+		// Layer 22 -mSPRG =	Spezial Prgramme
 		// --------------------------------------
 
 
@@ -1580,7 +1580,7 @@
 
 
 		// --------------------------------------
-		// Layer 24 - mFUNC =	Funktionen
+		// Layer 23 - mFUNC =	Funktionen
 		// --------------------------------------
 
 		win_function
@@ -1640,7 +1640,7 @@
 
 
 		// --------------------------------------
-		// Layer 25 - mSFUNC =	Spezial Funktionen
+		// Layer 24 - mSFUNC =	Spezial Funktionen
 		// --------------------------------------
 
 		win_specialfunction
@@ -1700,7 +1700,7 @@
 
 
 		// --------------------------------------
-		// Layer	26 - mMOD =	CTL
+		// Layer	25 - mMOD =	CTL
 		// --------------------------------------
 
 		win_mod
@@ -1760,7 +1760,7 @@
 
 
 		// --------------------------------------
-		// Layer 27 - mSMOD =	Spezial Mod
+		// Layer 26 - mSMOD =	Spezial Mod
 		// --------------------------------------
 
 		win_smod
@@ -1820,7 +1820,7 @@
 
 
 		// --------------------------------------
-		// Layer = 29 - wNAVosl	  Navigation
+		// Layer = 27 - wNAVosl	  Navigation
 		// --------------------------------------
 
 		win_navigationosl
