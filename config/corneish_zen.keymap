@@ -335,7 +335,7 @@
 				&kp N0				
 				&kp ENTER 
 
-				&kp LCTL
+				&kp LGUI
 				&kp LS(N7)
 				&kp LS(N8)
 				&kp LS(N9)
@@ -346,7 +346,7 @@
 				&kp COMMA
 				&kp DOT
 				&kp SLASH		
-				&kp LCTL
+				&kp LGUI
 		
 				&trans
 				&trans
@@ -575,7 +575,7 @@
 				&kp LS(LG(G)) 
 				&kp LA(LG(LC(LS(GRAVE)))) 		// Hyper
 
-				&kp LSHIFT
+				&kp LCTL
 				&kp LS(LG(F))
 				&kp LS(LG(V))
 				&kp LS(LG(MINUS))
@@ -586,7 +586,7 @@
 				&kp LS(LG(LEFT_BRACKET))
 				&kp LS(LG(SINGLE_QUOTE))
 				&kp LS(LG(K))
-				&kp LSHIFT
+				&kp LCTL
 
 				&trans
 				&trans
