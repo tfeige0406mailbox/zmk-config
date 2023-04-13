@@ -620,7 +620,7 @@
 				&kp LG(LA(LS(N8)))
 				&kp LG(LA(LS(N9)))
 				&kp LG(LA(LS(N0)))
-				&kp LG(Q) 					// Programm schließen
+				&kp LG(H) 					// Hide
 
 				&kp LG(LS(TAB))				// Letztes Programm
 				&kp LG(LA(N1))
@@ -681,7 +681,7 @@
 				&kp LG(LA(LS(F8)))
 				&kp LG(LA(LS(F9)))
 				&kp LG(LA(LS(F10)))
-				&kp LG(H)						// Hide
+				&kp LG(Q)						// Quit
 		
 				&kp LA(LG(LC(LS(HOME)))) 		// Swap
 				&kp LG(LA(F1))
