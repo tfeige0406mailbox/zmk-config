@@ -252,7 +252,7 @@
 				&kp ESC
 				&kp LC(PG_UP)				// möglicher Shortcut
 				&kp LG(LS(LEFT)) 
-				&kp INSERT					// Programm Auswahl
+				&kp LG(LALT)
 				&kp LG(LS(RIGHT)) 
 				&kp LG(LS(UP))
 				&kp LG(UP)
@@ -264,7 +264,7 @@
 
 				&kp DEL 
 				&kp LC(PG_UP)				// möglicher Shortcut
-				&kp LG(LALT)
+				&kp LSHIFT
 				&kp LGUI
 				&kp LCTL
 				&kp LG(LS(DOWN)) 
@@ -800,7 +800,7 @@
 				&kp LG(LA(LC(LS(F10))))		// drehen
 				&kp LG(LA(H))				// Andere ausblenden
 
-				&kp DEL				
+				&kp INSERT				
 				&trans
 				&kp LG(LS(T))				// Craft (Ausklappen)
 				&trans
@@ -969,7 +969,7 @@
 				&kp ESC
 				&kp LC(PG_UP)				// möglicher Shortcut
 				&kp LG(LS(LEFT)) 
-				&kp INSERT					// Programm Auswahl
+				&kp LG(LALT)
 				&kp LG(LS(RIGHT)) 
 				&kp LG(LS(UP))
 				&kp LG(UP)
@@ -981,7 +981,7 @@
 
 				&kp DEL 
 				&kp LC(PG_UP)				// möglicher Shortcut
-				&kp LG(LALT)
+				&kp LSHIFT
 				&kp LGUI
 				&kp LCTL
 				&kp LG(LS(DOWN)) 
@@ -1097,7 +1097,7 @@
 				&kp ESC
 				&kp LC(PG_UP)
 				&kp LS(HOME)
-				&kp INSERT
+				&kp LALT
 				&kp LS(END)
 				&kp LC(LS(HOME))
 				&kp LC(HOME)
@@ -1109,7 +1109,7 @@
 
 				&kp DEL 
 				&kp LC(PG_DN)
-				&kp LALT
+				&kp LSHIFT
 				&kp LALT
 				&kp LCTL
 				&kp LC(LS(END))
@@ -1657,7 +1657,7 @@
 				&none
 				&kp LG(D)
 		
-				&kp DEL
+				&kp INSERT
 				&none
 				&kp LC(LS(T))
 				&kp LG(LA(LC(V)))
@@ -1826,7 +1826,7 @@
 				&kp ESC
 				&kp LC(PG_UP)
 				&kp LS(HOME)
-				&kp INSERT
+				&kp LALT
 				&kp LS(END)
 				&kp LC(LS(HOME))
 				&kp LC(HOME)
@@ -1838,7 +1838,7 @@
 
 				&kp DEL 
 				&kp LC(PG_DN)
-				&kp LALT
+				&kp LSHIFT
 				&kp LALT
 				&kp LCTL
 				&kp LC(LS(END))
