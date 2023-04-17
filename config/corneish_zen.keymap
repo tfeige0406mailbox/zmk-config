@@ -553,9 +553,9 @@
 				&kp LG(I)					// Craft Format
 				&kp LG(LS(C))				// Craft Format
 				&trans
-				&trans 						// open
+				&kp LG(LA(LC(LS(EQUAL))))	// Increase Bright
 				&kp LG(LC(UP))			    // Window Move
-				&trans						// open
+				&kp LG(LA(LC(LS(GRAVE))))	// Decrease Bright
 				&kp LG(RBKT)				// Plus +
 				&kp LG(LC(Q))				// Sperren 
 				
