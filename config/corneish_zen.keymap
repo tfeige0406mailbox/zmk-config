@@ -663,7 +663,7 @@
 				&kp LSHIFT
 		
 				&trans
-				&sl mNAVosl
+				&trans 						//  &sl mNAVosl
 				&sl mSPRG
 				&trans
 				&trans
@@ -1515,7 +1515,7 @@
 				&kp LSHIFT
 		
 				&trans
-				&sl wNAVosl
+				&trans 						//  &sl wNAVosl
 				&sl wSPRG
 				&trans
 				&trans
