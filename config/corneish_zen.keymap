@@ -48,7 +48,7 @@
 #define wALT 24
  
 #define wNAV 25
-#define wNAV2 25
+#define wNAV2 26
 
 
 
