@@ -1706,7 +1706,7 @@
 
 				&kp DEL 
 				&kp LC(PG_DN)
-				&kp LSHIFT
+				&kp INSERT
 				&kp LALT
 				&kp LCTL
 				&kp LC(LS(END))
@@ -1766,7 +1766,7 @@
 				&kp DEL 
 				&kp LC(PG_DN)
 				&kp LSHIFT
-				&kp LALT
+				&kp INSERT
 				&kp LCTL
 				&kp LC(LS(END))
 				&kp LC(END)
