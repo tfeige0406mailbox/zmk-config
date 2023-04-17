@@ -161,7 +161,7 @@
             label = "TAP_DANCE_MOD_TAP";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&lt mNAV SPACE>, <&sl mNAV>;
+            bindings = <&kp SPACE>, <&sl mNAV>;
         };
 	};
 };
@@ -173,10 +173,6 @@
 
 &mt {
     tapping-term-ms = <160>;
-};
-
-&lt {
-    flavor = "balanced";
 };
 
 
