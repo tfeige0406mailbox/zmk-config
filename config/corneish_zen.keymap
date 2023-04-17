@@ -156,12 +156,20 @@
         	quick-release;
     	};
 
-        tdspace: tap_dance_mod_tap {
+        tdspacemac: tap_dance_mod_tap {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_MOD_TAP";
             #binding-cells = <0>;
             tapping-term-ms = <300>;
             bindings = <&kp SPACE>, <&sl mNAV>;
+        };
+
+		tdspacewin: tap_dance_mod_tap {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_MOD_TAP";
+            #binding-cells = <0>;
+            tapping-term-ms = <300>;
+            bindings = <&kp SPACE>, <&sl wNAV>;
         };
 	};
 };
@@ -236,7 +244,7 @@
 				&kp LSHIFT
 
 				&sl mPFUNC
-				&tdspace
+				&tdspacemac
 				&sl mPRG
 				&sl mFUNC
 				&sl mNR
@@ -1079,7 +1087,7 @@
 				&kp LSHIFT
 
 				&sl wPFUNC
-				&tdspace
+				&tdspacewin
 				&sl wPRG
 				&sl wFUNC
 				&sl wNR
