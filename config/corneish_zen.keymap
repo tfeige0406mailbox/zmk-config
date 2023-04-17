@@ -565,7 +565,7 @@
 				&kp LG(LA(LC(LS(F2))))		// Clipboard
 				&kp LG(SPACE)  				// Spotlight
 				&kp LG(LS(N4))    		   	// Screenshot
-				&trans
+				&kp LG(LC(F5))				// Run
 				&kp LG(LC(LEFT))			// Window Move
 				&kp LG(LC(DOWN))			// Window Move
 				&kp LG(LC(RIGHT))			// Window Move
@@ -578,11 +578,11 @@
 				&kp LG(LS(EQUAL))			// Craft Format (Block)
 				&kp LG(LA(LC(LS(F8))))  	// Seitenleiste rechts
 				&kp LG(LS(P))				// Craft Format (Page)
-				&kp LG(LA(LC(LS(F4))))  	// Dropdown 
-				&kp ESC						// Backrun
 				&trans
 				&trans
-				&kp LG(LC(F5))				// Run
+				&trans
+				&trans
+				&trans
 				&kp LSHIFT					
 				
 				&sl mSFUNC
@@ -814,8 +814,8 @@
 				&kp LS(LA(LEFT))
 				&kp LS(LA(RIGHT))
 				&kp LC(TAB)  
-				&kp LC(SPACE)				// Excel Function
-				&kp LS(SPACE)				// Excel Function
+				&kp LS(SPACE)				// Excel Function A
+				&kp LG(LA(LC(LS(F4))))  	// Dropdown 
 				&kp LS(TAB)
 				&kp LA(LEFT)
 				&kp LA(RIGHT)
@@ -872,8 +872,8 @@
 				&kp LS(LA(LEFT))
 				&kp LS(LA(RIGHT))
 				&kp LC(TAB)  
-				&kp LC(SPACE)				// Excel Function
-				&kp LS(SPACE)				// Excel Function
+				&kp LC(SPACE)				// Excel Function B
+				&kp LG(LA(LC(LS(F4))))  	// Dropdown 
 				&kp LS(TAB)
 				&kp LA(LEFT)
 				&kp LA(RIGHT)
@@ -1291,7 +1291,7 @@
 				&kp LG(V)
 				&kp LG(S)
 				&kp LS(LG(S))                   // Screenshot
-				&trans
+				&kp F5
 				&windowleft					    // window
 				&windowdown 				    // window
 				&windowright 				    // window
@@ -1304,11 +1304,11 @@
 				&kp LC(LS(NUHS))
 				&kp LG(A)					    // Seitenleiste rechts
 				&kp LC(LS(P))			
-				&kp LC(LS(F10))
-				&kp ESC
 				&trans
 				&trans
-				&kp F5
+				&trans
+				&trans
+				&trans
 				&kp LSHIFT
 				
 				&sl wSFUNC
@@ -1721,8 +1721,8 @@
 				&kp LS(LC(LEFT))
 				&kp LS(LC(RIGHT))
 				&kp LC(TAB)
-				&kp LS(SPACE)		
-				&kp LC(SPACE)
+				&kp LS(SPACE)
+				&kp LC(LS(F10))					// Drop Down		
 				&kp LS(TAB)
 				&kp LC(LEFT)
 				&kp LC(RIGHT)
@@ -1779,8 +1779,8 @@
 				&kp LS(LC(LEFT))
 				&kp LS(LC(RIGHT))
 				&kp LC(TAB)
-				&kp LS(SPACE)		
 				&kp LC(SPACE)
+				&kp LC(LS(F10))					// Drop Down	
 				&kp LS(TAB)
 				&kp LC(LEFT)
 				&kp LC(RIGHT)
