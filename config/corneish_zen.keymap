@@ -764,11 +764,11 @@
 				&kp LG(LA(LC(LS(F7))))  	// Vor
 				&kp LG(LA(LC(LS(F8))))  	// Seitenleiste rechts
 				&kp LG(LA(LC(LS(F9))))  	// Fokus
-				&kp LG(LA(LC(LS(F20))))		// Window Control
-				&kp LG(LA(LC(LS(F21))))		// Window Control
-				&kp LG(LA(LC(LS(F22))))		// Window Control
-				&kp LG(LA(LC(LS(F23))))		// Window Control
-				&kp LG(LA(LC(LS(F24))))		// Window Control
+				&kp LG(LA(F13))				// Window Control
+				&kp LG(LA(F14))				// Window Control
+				&kp LG(LA(F15))				// Window Control
+				&kp LG(LA(F16))				// Window Control
+				&kp LG(LA(F17))				// Window Control
 				&kp LSHIFT					
 				
 				&trans
