@@ -545,43 +545,43 @@
 
 			bindings = <
 	
-				&kp LG(LA(LC(LS(F4))))  	// Dropdown
+				&kp LG(LA(LC(LS(F9))))  	// Fokus
 				&kp LG(LS(B))				// Craft Format
 				&kp LG(U) 					// Craft Format
 				&kp LG(B) 					// Craft Format
 				&kp LG(I)					// Craft Format
 				&kp LG(LS(C))				// Craft Format
 				&kp LG(LA(LC(LS(DOWN))))	// Prg-Window
-				&kp LG(LA(LC(LS(PG_UP))))	// increase Window
+				&trans 						// open
 				&kp LG(LC(UP))			    // Window Move
-				&kp LG(LA(LC(LS(PG_DN))))	// decrease Window
+				&trans						// open
 				&kp LG(RBKT)				// Plus +
-				&kp LG(LS(N4))    		   	// Screenshot
+				&kp LG(LC(Q))				// Sperren 
 				
 				&kp LS(DEL)					// Delete Special
 				&kp LG(LS(G)) 				// Pfadsuche
 				&kp LG(LA(LC(LS(F1))))		// Umbennen
 				&kp LG(LA(LC(LS(F2))))		// Clipboard
 				&kp LG(SPACE)  				// Spotlight
-				&kp LG(LA(LC(LS(F3))))  	// Shortcat
+				&kp LG(LS(N4))    		   	// Screenshot
 				&kp LG(LA(LC(LS(TAB))))		// Mission-Control
 				&kp LG(LC(LEFT))			// Window Move
 				&kp LG(LC(DOWN))			// Window Move
 				&kp LG(LC(RIGHT))			// Window Move
 				&kp LG(SLASH)				// Minus -
-				&kp LG(LC(F5))				// Run
+				&kp LG(LA(LC(LS(F3))))  	// Shortcat
 
 				&kp LSHIFT
 				&kp LG(LA(LC(LS(F5))))		// Seitenleiste links
+				&kp LG(LS(NUHS))			// Craft Format (Focus)
+				&kp LG(LS(EQUAL))			// Craft Format (Block)
+				&kp LG(LA(LC(LS(F8))))  	// Seitenleiste rechts
+				&kp LG(LS(P))				// Craft Format (Page)
+				&kp LG(LA(LC(LS(F4))))  	// Dropdown 
+				&kp ESC						// Backrun
 				&kp LG(LA(LC(LS(F6))))  	// Zurück
 				&kp LG(LA(LC(LS(F7))))  	// Vor
-				&kp LG(LA(LC(LS(F8))))  	// Seitenleiste rechts
-				&kp LG(LA(LC(LS(F9))))  	// Fokus
-				&kp LG(LA(F13))				// Window Control
-				&kp LG(LA(F14))				// Window Control
-				&kp LG(LA(F15))				// Window Control
-				&kp LG(LA(F16))				// Window Control
-				&kp LG(LA(F17))				// Window Control
+				&kp LG(LC(F5))				// Run
 				&kp LSHIFT					
 				
 				&sl mSFUNC
@@ -609,37 +609,37 @@
 				&kp LC(N3)					// Craft Format 
 				&kp LC(N2)					// Craft Format 
 				&kp LC(N1)					// Craft Format 
-				&kp LG(LS(NUHS))			// Craft Format (Focus)
-				&kp LG(LS(EQUAL))			// Craft Format (Block)
-				&kp LG(LS(P))				// Craft Format (Page)
-				&kp LG(LS(SLASH))			// Craft Format (durch)
-				&kp LG(LA(LC(LS(F10))))		// drehen
 				&trans
+				&trans
+				&kp LG(LA(F16))				// Window Control
+				&trans
+				&kp LG(LA(LC(LS(PG_UP))))	// increase Window
+				&kp LC(LG(LS(C_EJECT)))		// Herunterfahren
 
-				&kp INSERT				
+				&kp LG(LA(LC(LS(F10))))		// drehen
 				&trans
 				&kp LG(LS(T))				// Craft (Ausklappen)
 				&trans
 				&kp LG(LA(LC(LS(F11))))		// Spotlight deep
 				&kp LG(LA(C)) 				// Format Kopieren
 				&kp LG(LA(V)) 				// Format Einfügen
-				&trans   
-				&trans   
-				&trans   
+				&kp LG(LA(F13))				// Window Control 
+				&kp LG(LA(F14))				// Window Control
+				&kp LG(LA(F15))				// Window Control
+				&kp LG(LA(LC(LS(PG_DN))))	// decrease Window
 				&kp LG(LA(LC(LS(F12))))		// drehen
-				&trans
 
 				&trans
 				&kp LG(LA(LC(LS(F13))))		// Lesebereich Outlook
-				&kp LG(LA(LC(LS(F14))))		// Pfad zurück
-				&kp LG(LA(LC(LS(F15))))		// Pfad vor
+				&trans
+				&trans
 				&kp LG(LA(LC(LS(F16))))		// Lesebereich Outlook
 				&kp LG(LA(LC(LS(F17))))		// Lesebereich Outlook
 				&trans
-				&trans
 				&kp LG(LA(LEFT)) 			// Überang Craft 
+				&kp LG(LA(LC(LS(F14))))		// Pfad zurück
+				&kp LG(LA(LC(LS(F15))))		// Pfad vor 
 				&kp LG(LA(RIGHT)) 			// Überang Craft 
-				&trans
 				&trans
 		
 				&trans
@@ -797,7 +797,7 @@
 
 				&kp DEL 
 				&kp LC(PG_DN)				// möglicher Shortcut
-				&kp LSHIFT
+				&kp INSERT
 				&kp LGUI
 				&kp LCTL
 				&kp LG(LS(DOWN)) 
