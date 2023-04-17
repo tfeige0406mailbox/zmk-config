@@ -539,63 +539,6 @@
 
 
 
-		// --------------------------------------------
-		// Layer 6 - mSPFUNC =	Special Programm-Funkionen
-		// --------------------------------------------
-
-		mac_spfunc
-		{
-			label = "MAC";
-
-			bindings = <
-
-				&kp LA(LG(LC(LS(EQUAL)))) 		// Hyper
-				&kp LS(LG(J))
-				&kp LS(LG(D))
-				&kp LS(LG(U))
-				&kp LS(LG(A))
-				&kp LS(LG(X))
-				&kp LS(LG(P))
-				&kp LS(LG(H)) 
-				&kp LS(LG(L)) 
-				&kp LS(LG(M)) 
-				&kp LS(LG(W)) 
-				&kp LC(LG(LS(C_EJECT)))			// Herunterfahren
-		
-				&kp LA(LG(LC(LS(GRAVE)))) 		// Hyper
-				&kp LS(LG(C))
-				&kp LS(LG(T))
-				&kp LS(LG(I))
-				&kp LS(LG(E))
-				&kp LS(LG(O))	
-				&kp LS(LG(B))
-				&kp LS(LG(N))
-				&kp LS(LG(R))
-				&kp LS(LG(S))
-				&kp LS(LG(G)) 
-				&kp LA(Enter)					// Excel Enter
-
-				&kp LCTL
-				&kp LS(LG(F))
-				&kp LS(LG(V))
-				&kp LS(LG(MINUS))
-				&kp LS(LG(Y))
-				&kp LS(LG(Q))
-				&kp LS(LG(Z))
-				&kp LS(LG(SEMICOLON))
-				&kp LS(LG(LEFT_BRACKET))
-				&kp LS(LG(SINGLE_QUOTE))
-				&kp LS(LG(K))
-				&kp LCTL
-
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans			
-			>;
-		};	
 		
 
 		
