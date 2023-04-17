@@ -1083,7 +1083,7 @@
 				&kp LSHIFT
 
 				&sl wPFUNC
-				&lt wNAV SPACE 
+				&tdspace
 				&sl wPRG
 				&sl wFUNC
 				&sl wNR
