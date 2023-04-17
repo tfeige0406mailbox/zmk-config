@@ -565,12 +565,13 @@
 				&kp LG(LA(LC(LS(F2))))		// Clipboard
 				&kp LG(SPACE)  				// Spotlight
 				&kp LG(LS(N4))    		   	// Screenshot
-				&kp LG(LC(F5))				// Run
+				&kp LG(LA(LC(LS(F3))))  	// Shortcat
 				&kp LG(LC(LEFT))			// Window Move
 				&kp LG(LC(DOWN))			// Window Move
 				&kp LG(LC(RIGHT))			// Window Move
 				&kp LG(SLASH)				// Minus -
-				&kp LG(LA(LC(LS(F3))))  	// Shortcat
+				&kp LG(LC(F5))				// Run
+				
 
 				&kp LSHIFT
 				&kp LG(LA(LC(LS(F5))))		// Seitenleiste links
@@ -1291,12 +1292,12 @@
 				&kp LG(V)
 				&kp LG(S)
 				&kp LS(LG(S))                   // Screenshot
-				&kp F5
+				&kp LALT						// Shortcat
 				&windowleft					    // window
 				&windowdown 				    // window
 				&windowright 				    // window
 				&kp LC(KP_MINUS)
-				&kp LALT
+				&kp F5
 				
 				&kp LSHIFT
 				&kp F12						    // Seitenleiste links
