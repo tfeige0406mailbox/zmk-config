@@ -156,7 +156,7 @@
         	quick-release;
     	};
 
-        td_mt: tap_dance_mod_tap {
+        tdspace: tap_dance_mod_tap {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_MOD_TAP";
             #binding-cells = <0>;
@@ -244,7 +244,7 @@
 				&kp LSHIFT
 
 				&sl mPFUNC
-				&lt mNAV SPACE
+				&tdspace
 				&sl mPRG
 				&sl mFUNC
 				&sl mNR
