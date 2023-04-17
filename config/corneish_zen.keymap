@@ -705,7 +705,7 @@
 				&kp LSHIFT				
 		
 				&trans
-				&trans
+				&kp LG(SPACE)
 				&trans
 				&trans
 				&trans
@@ -784,7 +784,7 @@
 
 			bindings = <
 
-				&kp ESC
+				&kp LG(LA(LC(LS(F4))))  	// Dropdown 
 				&kp LC(PG_UP)				// möglicher Shortcut
 				&kp LG(LS(LEFT)) 
 				&kp LG(LALT)
@@ -815,8 +815,8 @@
 				&kp LS(LA(LEFT))
 				&kp LS(LA(RIGHT))
 				&kp LC(TAB)  
-				&kp LS(SPACE)				// Excel Function A
-				&kp LG(LA(LC(LS(F4))))  	// Dropdown 
+				&kp LG(LA(LC(LS(F6))))  	// Zurück
+				&kp LG(LA(LC(LS(F7))))  	// Vor
 				&kp LS(TAB)
 				&kp LA(LEFT)
 				&kp LA(RIGHT)
@@ -826,9 +826,9 @@
 				&trans
 				&trans
 				&sl mNAV2
-				&kp LG(LA(LC(LS(F6))))  	// Zurück
+				&trans
 				&kp LSHIFT
-				&kp LG(LA(LC(LS(F7))))  	// Vor
+				&trans
 			>;
 		};
 
@@ -842,7 +842,7 @@
 
 			bindings = <
 
-				&kp ESC
+				&kp LG(LA(LC(LS(F4))))  	// Dropdown 
 				&kp LC(PG_UP)				// möglicher Shortcut
 				&kp LG(LS(LEFT)) 
 				&kp LG(LALT)
@@ -873,8 +873,8 @@
 				&kp LS(LA(LEFT))
 				&kp LS(LA(RIGHT))
 				&kp LC(TAB)  
-				&kp LC(SPACE)				// Excel Function B
-				&kp LG(LA(LC(LS(F4))))  	// Dropdown 
+				&kp LG(LA(LC(LS(F14))))		// Pfad zurück
+				&kp LG(LA(LC(LS(F15))))		// Pfad vor 
 				&kp LS(TAB)
 				&kp LA(LEFT)
 				&kp LA(RIGHT)
@@ -884,9 +884,9 @@
 				&trans
 				&trans
 				&trans
-				&kp LG(LA(LC(LS(F14))))		// Pfad zurück
+				&trans
 				&kp LSHIFT
-				&kp LG(LA(LC(LS(F15))))		// Pfad vor 		
+				&trans
 			>;
 		};
 
@@ -1432,7 +1432,7 @@
 				&kp LSHIFT
 		
 				&sl wZMOD
-				&trans
+				&kp LC(SPACE)
 				&trans
 				&trans
 				&sl wALT
@@ -1691,7 +1691,7 @@
 
 			bindings = <
 
-				&kp ESC
+				&kp LC(LS(F10))					// Drop Down
 				&kp LC(PG_UP)
 				&kp LS(HOME)
 				&kp LALT
@@ -1722,8 +1722,8 @@
 				&kp LS(LC(LEFT))
 				&kp LS(LC(RIGHT))
 				&kp LC(TAB)
-				&kp LS(SPACE)
-				&kp LC(LS(F10))					// Drop Down		
+				&kp LA(UP)
+				&kp ENTER		
 				&kp LS(TAB)
 				&kp LC(LEFT)
 				&kp LC(RIGHT)
@@ -1733,9 +1733,10 @@
 				&trans
 				&trans
 				&sl wNAV2
-				&kp LA(UP)
+				&trans
 				&kp LSHIFT
-				&kp ENTER
+				&trans
+				
 			>;
 		};
 
@@ -1749,7 +1750,7 @@
 
 			bindings = <
 
-				&kp ESC
+				&kp LC(LS(F10))					// Drop Down
 				&kp LC(PG_UP)
 				&kp LS(HOME)
 				&kp LALT
@@ -1780,8 +1781,8 @@
 				&kp LS(LC(LEFT))
 				&kp LS(LC(RIGHT))
 				&kp LC(TAB)
-				&kp LC(SPACE)
-				&kp LC(LS(F10))					// Drop Down	
+				&kp LA(LEFT)
+				&kp LA(RIGHT)
 				&kp LS(TAB)
 				&kp LC(LEFT)
 				&kp LC(RIGHT)
@@ -1791,9 +1792,9 @@
 				&trans
 				&trans
 				&trans
-				&kp LA(LEFT)
+				&trans
 				&kp LSHIFT
-				&kp LA(RIGHT)
+				&trans
 			>;
 		};
 
