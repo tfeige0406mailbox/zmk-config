@@ -457,8 +457,8 @@
 				&kp LG(LA(LC(N2)))			// Settings
 				&kp LG(LA(LC(N3)))			// Settings
 				&kp LG(LA(LC(N4)))			// Settings
-				&kp LG(LA(LC(N5)))			// Settings
-				&kp LG(LA(LC(N6)))			// Settings
+				&kp LG(LA(LC(LS(TAB))))		// Mission-Control
+				&kp LG(LA(LC(LS(DOWN))))	// Prg-Window
 				&kp LA(LG(LC(LS(HOME)))) 	// PRG swap alt
 				&kp LA(LG(LC(HOME)))	 	// PRG swap alt
 				&kp LA(LG(LC(END))) 		// PRG swap alt
@@ -552,7 +552,7 @@
 				&kp LG(B) 					// Craft Format
 				&kp LG(I)					// Craft Format
 				&kp LG(LS(C))				// Craft Format
-				&kp LG(LA(LC(LS(DOWN))))	// Prg-Window
+				&trans
 				&trans 						// open
 				&kp LG(LC(UP))			    // Window Move
 				&trans						// open
@@ -565,7 +565,7 @@
 				&kp LG(LA(LC(LS(F2))))		// Clipboard
 				&kp LG(SPACE)  				// Spotlight
 				&kp LG(LS(N4))    		   	// Screenshot
-				&kp LG(LA(LC(LS(TAB))))		// Mission-Control
+				&trans
 				&kp LG(LC(LEFT))			// Window Move
 				&kp LG(LC(DOWN))			// Window Move
 				&kp LG(LC(RIGHT))			// Window Move
@@ -1179,11 +1179,11 @@
 
 				&kp LSHIFT
 				&kp LG(I)                       // Settings
-				&kp LG(R)
-				&kp LG(A)                       
-				&kp LG(LA(D))                   // Kalender
 				&kp LG(C_PAUSE)                 
 				&kp LC(LA(S))                   // Swyx 
+				&kp LG(LA(D))                   // Kalender	
+				&kp LG(TAB)
+				&kp LG(T)
 				&kp LG(PG_UP)                   
 				&kp LA(LG(LC(LS(HOME)))) 		// Hyper
 				&kp LA(LG(LC(LS(END)))) 		// Hyper
@@ -1278,7 +1278,7 @@
 				&kp LC(LS(F)) 
 				&kp LC(LS(K))
 				&kp LC(LS(C)) 
-				&kp LG(T)
+				&trans
 				&trans
 				&windowup					    // window up
 				&trans
@@ -1291,7 +1291,7 @@
 				&kp LG(V)
 				&kp LG(S)
 				&kp LS(LG(S))                   // Screenshot
-				&kp LG(TAB)
+				&trans
 				&windowleft					    // window
 				&windowdown 				    // window
 				&windowright 				    // window
@@ -1306,8 +1306,8 @@
 				&kp LC(LS(P))			
 				&kp LC(LS(F10))
 				&kp ESC
-				&kp LA(UP)
-				&kp ENTER
+				&trans
+				&trans
 				&kp F5
 				&kp LSHIFT
 				
@@ -1366,8 +1366,8 @@
 				&trans
 				&trans
 				&kp LC(LEFT)                // Craft
-				&kp LA(LEFT) 
-				&kp LA(RIGHT)
+				&trans
+				&trans
 				&kp LC(RIGHT)               // Craft
 				&kp LSHIFT
 		
