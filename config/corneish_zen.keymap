@@ -579,9 +579,9 @@
 				&kp LG(LA(LC(LS(F8))))  	// Seitenleiste rechts
 				&kp LG(LS(P))				// Craft Format (Page)
 				&trans
-				&trans
-				&trans
-				&trans
+				&kp C_PREVIOUS 
+				&kp C_PP 
+				&kp C_NEXT 
 				&trans
 				&kp LSHIFT					
 				
@@ -611,9 +611,9 @@
 				&kp LC(N2)					// Craft Format 
 				&kp LC(N1)					// Craft Format 
 				&trans
-				&trans
+				&kp LG(LA(LEFT)) 			// Überang Craft 
 				&kp LG(LA(F16))				// Window Control
-				&trans
+				&kp LG(LA(RIGHT)) 			// Überang Craft 
 				&kp LG(LA(LC(LS(PG_UP))))	// increase Window
 				&kp LC(LG(LS(C_EJECT)))		// Herunterfahren
 
@@ -630,18 +630,18 @@
 				&kp LG(LA(LC(LS(PG_DN))))	// decrease Window
 				&kp LG(LA(LC(LS(F12))))		// drehen
 
-				&trans
+				&kp LSHIFT
 				&kp LG(LA(LC(LS(F13))))		// Lesebereich Outlook
 				&trans
 				&trans
 				&kp LG(LA(LC(LS(F16))))		// Lesebereich Outlook
 				&kp LG(LA(LC(LS(F17))))		// Lesebereich Outlook
 				&trans
-				&kp LG(LA(LEFT)) 			// Überang Craft 
+				&kp C_VOLUME_DOWN 
+				&kp C_MUTE
+				&kp C_VOLUME_UP 
 				&trans
-				&trans
-				&kp LG(LA(RIGHT)) 			// Überang Craft 
-				&trans
+				&kp LSHIFT
 		
 				&trans
 				&trans
@@ -1305,9 +1305,9 @@
 				&kp LG(A)					    // Seitenleiste rechts
 				&kp LC(LS(P))			
 				&trans
-				&trans
-				&trans
-				&trans
+				&kp C_PREVIOUS 
+				&kp C_PP 
+				&kp C_NEXT    
 				&trans
 				&kp LSHIFT
 				
@@ -1339,9 +1339,9 @@
 				&kp LC(LS(N2))
 				&kp LC(LS(N1))
 				&trans
-				&trans
+				&kp LC(LEFT)    	            // Craft
 				&kp LA(LG(LC(LS(F21)))) 		// Hyper
-				&trans
+				&kp LC(RIGHT)	                // Craft
 				&kp LG(LA(LC(N1)))				// Powertoys
 				&kp LG(X) 						// Herunterfahren
 		
@@ -1365,10 +1365,10 @@
 				&trans
 				&trans
 				&trans
-				&kp LC(LEFT)                // Craft
-				&trans
-				&trans
-				&kp LC(RIGHT)               // Craft
+				&kp C_VOLUME_DOWN 
+				&kp C_MUTE
+				&kp C_VOLUME_UP 
+				&trans				
 				&kp LSHIFT
 		
 				&trans
