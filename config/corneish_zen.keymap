@@ -52,8 +52,6 @@
 
 
 
-
-
 / {
   
   	chosen {
@@ -237,7 +235,7 @@
 	
 
 		// --------------------------------------
-		// Layer 2 - mNR = 	  Zahlen	
+		// Layer 1 - mNR = 	  Zahlen	
 		// --------------------------------------
 
 		mac_zahlen
@@ -297,7 +295,7 @@
 
 
 		// --------------------------------------
-		// Layer 3 - mSYM =	Symoble
+		// Layer 2 - mSYM =	Symoble
 		// --------------------------------------
 
 		mac_symbole
@@ -357,7 +355,7 @@
 
 
 		// --------------------------------------
-		// Layer 4 - mSSYM =	Special Symbole
+		// Layer 3 - mSSYM =	Special Symbole
 		// --------------------------------------
 
 		mac_specialsonderzeichen
@@ -417,7 +415,7 @@
 
 
 		// --------------------------------------
-		// Layer 7 - mPRG =	Programme
+		// Layer 4 - mPRG =	Programme
 		// --------------------------------------
 
 
@@ -470,14 +468,14 @@
 				&trans
 				&trans
 				&trans
-				&trans
+				&skq LSHIFT
 				&trans
 			>;
 		};
 
 
 		// --------------------------------------
-		// Layer 8 - mSPRG =	Spezial Prgramme
+		// Layer 5 - mSPRG =	Spezial Prgramme
 		// --------------------------------------
 
 
@@ -538,7 +536,7 @@
 
 
 		// --------------------------------------
-		// Layer 9 - mFUNC =	Funktionen
+		// Layer 6 - mFUNC =	Funktionen
 		// --------------------------------------
 
 		mac_function
@@ -596,7 +594,7 @@
 		};
 
 		// --------------------------------------
-		// Layer 10 - mSFUNC =	Spezial Funktionen
+		// Layer 7 - mSFUNC =	Spezial Funktionen
 		// --------------------------------------
 
 		mac_specialfunction
@@ -656,7 +654,7 @@
 
 
 		// --------------------------------------
-		// Layer 11 - mMOD =	GUI
+		// Layer 8 - mMOD =	GUI
 		// --------------------------------------
 
 		mac_mod
@@ -716,7 +714,7 @@
 
 
 		// --------------------------------------
-		// Layer 12 - mSMOD =	Spezial GUI
+		// Layer 9 - mSMOD =	Spezial GUI
 		// --------------------------------------
 
 		mac_smod
@@ -775,7 +773,7 @@
 
 
 		// --------------------------------------
-		// Layer = 13 - mNAV - Navigation
+		// Layer = 10 - mNAV - Navigation
 		// -------------------------------------
 
 		mac_navigation
@@ -827,7 +825,7 @@
 				&trans
 				&trans
 				&trans
-				&skq LSHIFT
+				&mo mNR
 				&trans
 			>;
 		};
@@ -843,7 +841,7 @@
 
 
 		// --------------------------------------
-		// Layer 14 - mCHAR = 	  Buchstaben	
+		// Layer 11 - mCHAR = 	  Buchstaben	
 		// --------------------------------------
 	
 		win_buchstaben
@@ -903,7 +901,7 @@
 
 
 		// --------------------------------------
-		// Layer 16 - mNR = 	  Zahlen	
+		// Layer 12 - mNR = 	  Zahlen	
 		// --------------------------------------
 
 		win_zahlen
@@ -964,7 +962,7 @@
 
 
 		// --------------------------------------
-		// Layer 17 - mSYM =	Symoble
+		// Layer 13 - mSYM =	Symoble
 		// --------------------------------------
 
 		win_symbole
@@ -1025,7 +1023,7 @@
 
 
 		// --------------------------------------
-		// Layer 18 - mSSYM =	Special Symbole
+		// Layer 14 - mSSYM =	Special Symbole
 		// --------------------------------------
 
 		win_specialsonderzeichen
@@ -1085,7 +1083,7 @@
 
 
 		// --------------------------------------
-		// Layer 21 - mPRG =	Programme
+		// Layer 15 - mPRG =	Programme
 		// --------------------------------------
 
 		win_programme
@@ -1137,14 +1135,14 @@
 				&trans
 				&trans				
 				&trans
-				&trans
+				&skq LSHIFT
 				&trans
 			>;
 		};
 
 
 		// --------------------------------------
-		// Layer 22 -mSPRG =	Spezial Prgramme
+		// Layer 16 -mSPRG =	Spezial Prgramme
 		// --------------------------------------
 
 
@@ -1206,7 +1204,7 @@
 
 
 		// --------------------------------------
-		// Layer 23 - mFUNC =	Funktionen
+		// Layer 17 - mFUNC =	Funktionen
 		// --------------------------------------
 
 		win_function
@@ -1266,7 +1264,7 @@
 
 
 		// --------------------------------------
-		// Layer 24 - mSFUNC =	Spezial Funktionen
+		// Layer 18 - mSFUNC =	Spezial Funktionen
 		// --------------------------------------
 
 		win_specialfunction
@@ -1325,7 +1323,7 @@
 
 
 		// --------------------------------------
-		// Layer	25 - mMOD =	CTL
+		// Layer	19 - mMOD =	CTL
 		// --------------------------------------
 
 		win_mod
@@ -1385,7 +1383,7 @@
 
 
 		// --------------------------------------
-		// Layer 26 - mSMOD =	Spezial CTL
+		// Layer 20 - mSMOD =	Spezial CTL
 		// --------------------------------------
 
 		win_smod
@@ -1444,7 +1442,7 @@
 
 
 		// --------------------------------------------
-		// Layer 19 - wZMOD =	Zahlen Mod
+		// Layer 21 - wZMOD =	Zahlen Mod
 		// --------------------------------------------
 
 		win_zmod
@@ -1504,7 +1502,7 @@
 
 
 		// --------------------------------------------
-		// Layer 20 - wFMOD =	FunctionMod
+		// Layer 22 - wFMOD =	FunctionMod
 		// --------------------------------------------
 
 		win_fmod
@@ -1564,7 +1562,7 @@
 
 
 		// --------------------------------------------
-		// Layer 28 - wALT
+		// Layer 23 - wALT
 		// --------------------------------------------
 
 		win_alt
@@ -1624,7 +1622,7 @@
 
 
 		// --------------------------------------
-		// Layer = 27 - wNAV	  Navigation
+		// Layer = 24 - wNAV	  Navigation
 		// --------------------------------------
 
 		win_navigation
@@ -1676,7 +1674,7 @@
 				&trans
 				&trans
 				&trans
-				&skq LSHIFT
+				&mo wNR
 				&trans
 			>;
 		};
