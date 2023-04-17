@@ -224,10 +224,10 @@
 				&kp K
 				&kp LSHIFT
 
-				&sl mPRG
+				&sl mFUNC
 				&kp SPACE
 				&sl mNAV
-				&sl mFUNC
+				&sl mPRG
 				&sl mNR
 				&sl mMOD
 			>;
@@ -464,11 +464,11 @@
 				&kp LA(LG(LC(LS(END)))) 	// PRG swap alt	
 				&kp LSHIFT
 		
+				&trans
+				&trans
+				&trans
 				&sl mSPRG
 				&trans
-				&trans
-				&trans
-				&skq LSHIFT
 				&trans
 			>;
 		};
@@ -584,10 +584,10 @@
 				&kp LG(LA(F17))				// Window Control
 				&kp LSHIFT					
 				
-				&trans
-				&trans
-				&trans
 				&sl mSFUNC
+				&trans
+				&trans
+				&trans
 				&trans
 				&trans
 			>;
@@ -825,7 +825,7 @@
 				&trans
 				&trans
 				&trans
-				&mo mNR
+				&kp LSHIFT
 				&trans
 			>;
 		};
@@ -889,10 +889,10 @@
 				&kp K
 				&kp LSHIFT
 
-				&sl wPRG
+				&sl wFUNC
 				&kp	SPACE 
 				&sl wNAV
-				&sl wFUNC
+				&sl wPRG
 				&sl wNR
 				&sl wMOD
 			>;
@@ -1131,11 +1131,11 @@
 				&kp LG(PG_DN)
 				&kp LSHIFT
 		
-				&sl wSPRG
+				&trans
 				&trans
 				&trans				
+				&sl wSPRG
 				&trans
-				&skq LSHIFT
 				&trans
 			>;
 		};
@@ -1252,10 +1252,10 @@
 				&kp LA(LG(LC(LS(F24)))) 		// Hyper
 				&kp LSHIFT
 				
-				&trans
-				&trans
-				&trans
 				&sl wSFUNC
+				&trans
+				&trans
+				&trans
 				&trans
 				&trans
 			>;
@@ -1674,7 +1674,7 @@
 				&trans
 				&trans
 				&trans
-				&mo wNR
+				&kp LSHIFT
 				&trans
 			>;
 		};
