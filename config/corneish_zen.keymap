@@ -1213,43 +1213,43 @@
 
 			bindings = <
 	
-				&kp LC(LS(F10))
+				&kp LC(NUHS)    		 	    //Fokus
 				&kp LC(LS(B)) 
 				&kp LC(LS(U)) 
 				&kp LC(LS(F)) 
 				&kp LC(LS(K))
 				&kp LC(LS(C)) 
 				&kp LG(T)
-				&kp LG(LA(LC(N1)))
+				&trans
 				&windowup					    // window up
-				&kp LG(LA(LC(N2)))
+				&trans
 				&kp LC(KP_PLUS)
-				&kp LS(LG(S))                   // Screenshot
+				&kp LG(L)						// Sperren
 		
 				&kp LS(DEL)
 				&kp LA(E)
 				&kp F2
 				&kp LG(V)
 				&kp LG(S)
-				&kp LALT
+				&kp LS(LG(S))                   // Screenshot
 				&kp LG(TAB)
 				&windowleft					    // window
 				&windowdown 				    // window
 				&windowright 				    // window
 				&kp LC(KP_MINUS)
-				&kp F5
+				&kp LALT
 				
 				&kp LSHIFT
 				&kp F12						    // Seitenleiste links
+				&kp LC(LS(SINGLE_QUOTE))
+				&kp LC(LS(NUHS))
+				&kp LG(A)					    // Seitenleiste rechts
+				&kp LC(LS(P))			
+				&kp LC(LS(F10))
+				&kp ESC
 				&kp LA(UP)
 				&kp ENTER
-				&kp LG(A)					    // Seitenleiste rechts
-				&kp LC(NUHS)    		 	    //Fokus
-				&kp LA(LG(LC(LS(F20)))) 		// Hyper
-				&kp LA(LG(LC(LS(F21)))) 		// Hyper
-				&kp LA(LG(LC(LS(F22)))) 		// Hyper
-				&kp LA(LG(LC(LS(F23)))) 		// Hyper
-				&kp LA(LG(LC(LS(F24)))) 		// Hyper
+				&kp F5
 				&kp LSHIFT
 				
 				&sl wSFUNC
@@ -1279,37 +1279,37 @@
 				&kp LC(LS(N3))
 				&kp LC(LS(N2))
 				&kp LC(LS(N1))
-				&kp LC(LS(P))			
-				&kp LC(LS(SINGLE_QUOTE))
-				&kp LC(LS(NUHS))
 				&trans
-				&kp LC(LS(Y))
 				&trans
+				&kp LA(LG(LC(LS(F21)))) 		// Hyper
+				&trans
+				&kp LG(LA(LC(N1)))				// Powertoys
+				&kp LG(X) 						// Herunterfahren
 		
-				&kp INSERT
+				&kp LC(LS(Y))
 				&trans
 				&kp LC(LS(T))
 				&kp LG(LA(LC(V)))
 				&kp LA(LG(LC(SPACE)))
 				&kp LC(LS(C))
                 &kp LC(LS(V))
-				&trans
-				&trans
-				&trans
-				&kp LC(LS(Z))
-				&trans
+				&kp LA(LG(LC(LS(F20)))) 		// Hyper
+				&kp LA(LG(LC(LS(F21)))) 		// Hyper
+				&kp LA(LG(LC(LS(F22)))) 		// Hyper
+				&kp LG(LA(LC(N2)))				// Powertoys
+				&kp LC(LS(Z))					// drehen
 
 				&kp LSHIFT
 				&trans
-				&kp LA(LEFT) 
-				&kp LA(RIGHT)
+				&trans
 				&trans
 				&trans
 				&trans
 				&trans
 				&kp LC(LEFT)                // Craft
+				&kp LA(LEFT) 
+				&kp LA(RIGHT)
 				&kp LC(RIGHT)               // Craft
-				&trans
 				&kp LSHIFT
 		
 				&trans
