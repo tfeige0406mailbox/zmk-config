@@ -160,7 +160,6 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_MOD_TAP";
             #binding-cells = <0>;
-			flavor = "tap-preferred"; 
             tapping-term-ms = <200>;
             bindings = <&lt mNAV SPACE>, <&sl mNAV>;
         };
@@ -176,6 +175,9 @@
     tapping-term-ms = <160>;
 };
 
+&lt {
+    flavor = "tap-preferred"; 
+};
 
 
 
