@@ -659,6 +659,70 @@
 		};
 
 
+		// --------------------------------------
+		// Layer 8 - mSPRG =	Spezial Prgramme
+		// --------------------------------------
+
+
+		mac_sprogramme
+		{
+
+			label = "MAC";
+
+			bindings = <
+
+				&kp LG(LA(H))					// Hard Hide
+				&kp LG(LA(LS(F1)))
+				&kp LG(LA(LS(F2)))
+				&kp LG(LA(LS(F3)))
+				&kp LG(LA(LS(F4)))
+				&kp LG(LA(LS(F5)))
+				&kp LG(LA(LS(F6)))
+				&kp LG(LA(LS(F7)))
+				&kp LG(LA(LS(F8)))
+				&kp LG(LA(LS(F9)))
+				&kp LG(LA(LS(F10)))
+				&kp LG(LA(ESC))					// Hard Quit
+		
+				&swleft							// OS Swap
+				&kp LG(LA(F1))
+				&kp LG(LA(F2))
+				&kp LG(LA(F3))
+				&kp LG(LA(F4))
+				&kp LG(LA(F5))
+				&kp LG(LA(F6))
+				&kp LG(LA(F7))
+				&kp LG(LA(F8))
+				&kp LG(LA(F9))
+				&kp LG(LA(F10))
+				&swright 						// OS Swap
+
+				&kp LSHIFT					
+				&kp LG(LA(LC(N1)))				// Settings
+				&kp LG(LA(LC(N2)))				// Settings
+				&kp LG(LA(LC(N3)))				// Settings
+				&kp LG(LA(LC(N4)))				// Settings
+				&kp LG(LA(LC(N5)))				// Settings
+				&kp LG(LA(LC(N6)))				// Settings
+				&kp LA(LG(LC(LS(HOME)))) 		// PRG swap alt
+				&kp LA(LG(LC(HOME)))	 		// PRG swap alt
+				&kp LA(LG(LC(END))) 			// PRG swap alt
+				&kp LA(LG(LC(LS(END)))) 		// PRG swap alt	
+				&kp LSHIFT				
+		
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+			>;
+		};
+
+
+		
+
+		
   
 			
 		
