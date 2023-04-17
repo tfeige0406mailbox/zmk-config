@@ -164,7 +164,7 @@
             bindings = <&kp SPACE>, <&sl mNAV>;
         };
 
-		tdspacewin: tap_dance_mod_tap {
+		tdspacewin: tap_dance_mod_tap2 {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_MOD_TAP";
             #binding-cells = <0>;
