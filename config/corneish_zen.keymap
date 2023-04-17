@@ -791,15 +791,15 @@
 			bindings = <
 
 				&kp ESC
+				&kp LC(N5)					// Craft Format
+				&kp LC(N4)					// Craft Format 
+				&kp LC(N3)					// Craft Format 
+				&kp LC(N2)					// Craft Format 
+				&kp LC(N1)					// Craft Format 
 				&kp LG(LS(NUHS))			// Craft Format (Focus)
 				&kp LG(LS(EQUAL))			// Craft Format (Block)
 				&kp LG(LS(P))				// Craft Format (Page)
 				&kp LG(LS(SLASH))			// Craft Format (durch)
-				&trans
-				&trans
-				&trans
-				&trans				
-				&trans
 				&kp LG(LA(LC(LS(F10))))		// drehen
 				&trans
 
