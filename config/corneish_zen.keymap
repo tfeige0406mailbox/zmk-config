@@ -22,32 +22,33 @@
 #define mSMOD 9			
 
 #define mNAV 10
-
+#define mNAV2 11
 
 
 
 // WINDOWS
 
-#define wCHAR 11 
-#define wNR 12
+#define wCHAR 12
+#define wNR 13
 
-#define wSYM 13
-#define wSSYM 14
+#define wSYM 14
+#define wSSYM 15
 
-#define wPRG 15
-#define wSPRG 16
+#define wPRG 16
+#define wSPRG 17
 
-#define wFUNC 17
-#define wSFUNC 18
+#define wFUNC 18
+#define wSFUNC 19
 
-#define wMOD 19
-#define wSMOD 20
+#define wMOD 20
+#define wSMOD 21
 
-#define wZMOD 21
-#define wFMOD 22
-#define wALT 23
+#define wZMOD 22
+#define wFMOD 23
+#define wALT 24
  
-#define wNAV 24
+#define wNAV 25
+#define wNAV2 25
 
 
 
@@ -579,8 +580,8 @@
 				&kp LG(LS(P))				// Craft Format (Page)
 				&kp LG(LA(LC(LS(F4))))  	// Dropdown 
 				&kp ESC						// Backrun
-				&kp LG(LA(LC(LS(F6))))  	// Zurück
-				&kp LG(LA(LC(LS(F7))))  	// Vor
+				&trans
+				&trans
 				&kp LG(LC(F5))				// Run
 				&kp LSHIFT					
 				
@@ -637,8 +638,8 @@
 				&kp LG(LA(LC(LS(F17))))		// Lesebereich Outlook
 				&trans
 				&kp LG(LA(LEFT)) 			// Überang Craft 
-				&kp LG(LA(LC(LS(F14))))		// Pfad zurück
-				&kp LG(LA(LC(LS(F15))))		// Pfad vor 
+				&trans
+				&trans
 				&kp LG(LA(RIGHT)) 			// Überang Craft 
 				&trans
 		
@@ -823,10 +824,68 @@
 
 				&trans
 				&trans
-				&trans
-				&trans
+				&sl mNAV2
+				&kp LG(LA(LC(LS(F6))))  	// Zurück
 				&kp LSHIFT
+				&kp LG(LA(LC(LS(F7))))  	// Vor
+			>;
+		};
+
+		// --------------------------------------
+		// Layer = 10 - mNAV2 - Navigation
+		// -------------------------------------
+
+		mac_navigation2
+		{		
+			label = "MAC";
+
+			bindings = <
+
+				&kp ESC
+				&kp LC(PG_UP)				// möglicher Shortcut
+				&kp LG(LS(LEFT)) 
+				&kp LG(LALT)
+				&kp LG(LS(RIGHT)) 
+				&kp LG(LS(UP))
+				&kp LG(UP)
+				&kp LG(LEFT) 
+				&kp UP
+				&kp LG(RIGHT)
+				&kp PG_UP 
+				&kp BACKSPACE
+
+				&kp DEL 
+				&kp LC(PG_DN)				// möglicher Shortcut
+				&kp INSERT
+				&kp LGUI
+				&kp LCTL
+				&kp LG(LS(DOWN)) 
+				&kp LG(DOWN) 
+				&kp LEFT 
+				&kp DOWN
+				&kp RIGHT 	
+				&kp PG_DN
+				&kp ENTER
+				
+				&kp LSHIFT
+				&kp LS(LC(TAB))
+				&kp LS(LA(LEFT))
+				&kp LS(LA(RIGHT))
+				&kp LC(TAB)  
+				&kp LC(SPACE)				// Excel Function
+				&kp LS(SPACE)				// Excel Function
+				&kp LS(TAB)
+				&kp LA(LEFT)
+				&kp LA(RIGHT)
+				&kp TAB
+				&kp LSHIFT
+
 				&trans
+				&trans
+				&trans
+				&kp LG(LA(LC(LS(F14))))		// Pfad zurück
+				&kp LSHIFT
+				&kp LG(LA(LC(LS(F15))))		// Pfad vor 		
 			>;
 		};
 
@@ -1672,10 +1731,68 @@
 
 				&trans
 				&trans
-				&trans
-				&trans
+				&sl wNAV2
+				&kp LA(UP)
 				&kp LSHIFT
+				&kp ENTER
+			>;
+		};
+
+		// --------------------------------------
+		// Layer = 24 - wNAV2	  Navigation
+		// --------------------------------------
+
+		win_navigation2
+		{		
+			label = "WIN";
+
+			bindings = <
+
+				&kp ESC
+				&kp LC(PG_UP)
+				&kp LS(HOME)
+				&kp LALT
+				&kp LS(END)
+				&kp LC(LS(HOME))
+				&kp LC(HOME)
+				&kp HOME 
+				&kp UP
+				&kp END
+				&kp PG_UP 
+				&kp BACKSPACE
+
+				&kp DEL 
+				&kp LC(PG_DN)
+				&kp LSHIFT
+				&kp LALT
+				&kp LCTL
+				&kp LC(LS(END))
+				&kp LC(END)
+				&kp LEFT 
+				&kp DOWN
+				&kp RIGHT 	
+				&kp PG_DN
+				&kp ENTER
+				
+				&kp LSHIFT
+				&kp LC(LS(TAB))
+				&kp LS(LC(LEFT))
+				&kp LS(LC(RIGHT))
+				&kp LC(TAB)
+				&kp LS(SPACE)		
+				&kp LC(SPACE)
+				&kp LS(TAB)
+				&kp LC(LEFT)
+				&kp LC(RIGHT)
+				&kp TAB
+				&kp LSHIFT
+
 				&trans
+				&trans
+				&trans
+				&kp LA(LEFT)
+				&kp LSHIFT
+				&kp LA(RIGHT)
 			>;
 		};
 
