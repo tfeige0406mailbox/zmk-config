@@ -51,6 +51,9 @@
 #define wNAV2 26
 
 
+// Both
+
+#define moNR 27
 
 
 / {
@@ -590,7 +593,7 @@
 				&trans
 				&trans
 				&trans
-				&trans
+				&skq LSHIFT 
 				&trans
 			>;
 		};
@@ -786,54 +789,54 @@
 
 				&kp LG(LA(LC(LS(F4))))  	// Dropdown 
 				&kp LC(PG_UP)				// möglicher Shortcut
-				&kp LG(LS(LEFT)) 
-				&kp LG(LALT)
-				&kp LG(LS(RIGHT)) 
-				&kp LG(LS(UP))
-				&kp LG(UP)
-				&kp LG(LEFT) 
-				&kp UP
-				&kp LG(RIGHT)
-				&kp PG_UP 
-				&kp BACKSPACE
+				&kp LG(LS(LEFT))  			// Zeile Sprung Markierung
+				&kp LG(LALT)				// Craft verschieben
+				&kp LG(LS(RIGHT)) 			// Zeile Sprung Markierung
+				&kp LG(LS(UP))				// Home Sprung Markierung
+				&kp LG(UP)					// Home Sprung
+				&kp LG(LEFT) 				// Home 
+				&kp UP						// 
+				&kp LG(RIGHT)				// End
+				&kp PG_UP 					// 
+				&kp BACKSPACE				// 
 
-				&kp DEL 
+				&kp DEL 					//
 				&kp LC(PG_DN)				// möglicher Shortcut
-				&kp INSERT
-				&kp LGUI
-				&kp LCTL
-				&kp LG(LS(DOWN)) 
-				&kp LG(DOWN) 
-				&kp LEFT 
-				&kp DOWN
-				&kp RIGHT 	
-				&kp PG_DN
-				&kp ENTER
+				&kp INSERT					//
+				&kp LGUI					//
+				&kp LCTL					//
+				&kp LG(LS(DOWN)) 			// End Sprung Markierung
+				&kp LG(DOWN) 				// End Sprung
+				&kp LEFT 					// 
+				&kp DOWN					//
+				&kp RIGHT 					//
+				&kp PG_DN					//
+				&kp ENTER					//
 				
-				&kp LSHIFT
-				&kp LS(LC(TAB))
-				&kp LS(LA(LEFT))
-				&kp LS(LA(RIGHT))
-				&kp LC(TAB)  
-				&kp LG(LA(LC(LS(F6))))  	// Zurück
-				&kp LG(LA(LC(LS(F7))))  	// Vor
-				&kp LS(TAB)
-				&kp LA(LEFT)
-				&kp LA(RIGHT)
-				&kp TAB
-				&kp LSHIFT
+				&kp LSHIFT					//
+				&kp LS(LC(TAB))				// Reiter Zurück
+				&kp LS(LA(LEFT))			// Wort Sprung Markierung
+				&kp LS(LA(RIGHT))			// Wort Sprung Markierung
+				&kp LC(TAB)  				// Reiter Vor
+				&kp LG(LA(LC(LS(F6))))  	// Seite Zurück 
+				&kp LG(LA(LC(LS(F7))))  	// Seite Vor
+				&kp LS(TAB)					// zurück
+				&kp LA(LEFT)				// Wort Sprung
+				&kp LA(RIGHT)				// Wort Sprung
+				&kp TAB						// vor
+				&kp LSHIFT					//
 
 				&trans
 				&trans
 				&sl mNAV2
 				&trans
-				&kp LSHIFT
+				&mo moNR
 				&trans
 			>;
 		};
 
 		// --------------------------------------
-		// Layer = 10 - mNAV2 - Navigation
+		// Layer = 11 - mNAV2 - Navigation
 		// -------------------------------------
 
 		mac_navigation2
@@ -844,48 +847,48 @@
 
 				&kp LG(LA(LC(LS(F4))))  	// Dropdown 
 				&kp LC(PG_UP)				// möglicher Shortcut
-				&kp LG(LS(LEFT)) 
-				&kp LG(LALT)
-				&kp LG(LS(RIGHT)) 
-				&kp LG(LS(UP))
-				&kp LG(UP)
-				&kp LG(LEFT) 
-				&kp UP
-				&kp LG(RIGHT)
-				&kp PG_UP 
-				&kp BACKSPACE
+				&kp LG(LS(LEFT))  			// Zeile Sprung Markierung
+				&kp LG(LALT)				// Craft verschieben
+				&kp LG(LS(RIGHT)) 			// Zeile Sprung Markierung
+				&kp LG(LS(UP))				// Home Sprung Markierung
+				&kp LG(UP)					// Home Sprung
+				&kp LG(LEFT) 				// Home 
+				&kp UP						// 
+				&kp LG(RIGHT)				// End
+				&kp PG_UP 					// 
+				&kp BACKSPACE				// 
 
-				&kp DEL 
+				&kp DEL 					//
 				&kp LC(PG_DN)				// möglicher Shortcut
-				&kp INSERT
-				&kp LGUI
-				&kp LCTL
-				&kp LG(LS(DOWN)) 
-				&kp LG(DOWN) 
-				&kp LEFT 
-				&kp DOWN
-				&kp RIGHT 	
-				&kp PG_DN
-				&kp ENTER
-				
+				&kp INSERT					//
+				&kp LGUI					//
+				&kp LCTL					//
+				&kp LG(LS(DOWN)) 			// End Sprung Markierung
+				&kp LG(DOWN) 				// End Sprung
+				&kp LEFT 					// 
+				&kp DOWN					//
+				&kp RIGHT 					//
+				&kp PG_DN					//
+				&kp ENTER					//
+	
 				&kp LSHIFT
-				&kp LS(LC(TAB))
-				&kp LS(LA(LEFT))
-				&kp LS(LA(RIGHT))
-				&kp LC(TAB)  
+				&kp LS(LC(TAB))				// Reiter Zurück
+				&kp LS(LA(LEFT))			// Wort Sprung Markierung
+				&kp LS(LA(RIGHT))			// Wort Sprung Markierung
+				&kp LC(TAB)  				// Reiter Vor
 				&kp LG(LA(LC(LS(F14))))		// Pfad zurück
 				&kp LG(LA(LC(LS(F15))))		// Pfad vor 
-				&kp LS(TAB)
-				&kp LA(LEFT)
-				&kp LA(RIGHT)
-				&kp TAB
+				&kp LS(TAB)					// zurück
+				&kp LA(LEFT)				// Wort Sprung
+				&kp LA(RIGHT)				// Wort Sprung
+				&kp TAB						// vor
 				&kp LSHIFT
 
 				&trans
 				&trans
 				&trans
 				&trans
-				&kp LSHIFT
+				&mo moNR
 				&trans
 			>;
 		};
@@ -901,7 +904,7 @@
 
 
 		// --------------------------------------
-		// Layer 11 - mCHAR = 	  Buchstaben	
+		// Layer 12 - mCHAR = 	  Buchstaben	
 		// --------------------------------------
 	
 		win_buchstaben
@@ -961,7 +964,7 @@
 
 
 		// --------------------------------------
-		// Layer 12 - mNR = 	  Zahlen	
+		// Layer 13 - mNR = 	  Zahlen	
 		// --------------------------------------
 
 		win_zahlen
@@ -1022,7 +1025,7 @@
 
 
 		// --------------------------------------
-		// Layer 13 - mSYM =	Symoble
+		// Layer 14 - mSYM =	Symoble
 		// --------------------------------------
 
 		win_symbole
@@ -1083,7 +1086,7 @@
 
 
 		// --------------------------------------
-		// Layer 14 - mSSYM =	Special Symbole
+		// Layer 15 - mSSYM =	Special Symbole
 		// --------------------------------------
 
 		win_specialsonderzeichen
@@ -1143,7 +1146,7 @@
 
 
 		// --------------------------------------
-		// Layer 15 - mPRG =	Programme
+		// Layer 16 - mPRG =	Programme
 		// --------------------------------------
 
 		win_programme
@@ -1179,16 +1182,16 @@
 				&kp LA(TAB)
 
 				&kp LSHIFT
-				&kp LG(I)                       // Settings
-				&kp LG(C_PAUSE)                 
+				&kp LG(I)                       // Settings B
+				&kp LG(C_PAUSE)                 // Settings B
 				&kp LC(LA(S))                   // Swyx 
 				&kp LG(LA(D))                   // Kalender	
-				&kp LG(TAB)
-				&kp LG(T)
-				&kp LG(PG_UP)                   
-				&kp LA(LG(LC(LS(HOME)))) 		// Hyper
-				&kp LA(LG(LC(LS(END)))) 		// Hyper
-				&kp LG(PG_DN)
+				&kp LG(TAB)						// Mission Control
+				&kp LG(T)						// Unterprogramme
+				&kp LG(PG_UP)              		//      
+				&kp LC(N1)						// Outlook Kal
+				&kp LC(N2)						// Outlook Kal
+				&kp LG(PG_DN)					// 
 				&kp LSHIFT
 		
 				&trans
@@ -1202,7 +1205,7 @@
 
 
 		// --------------------------------------
-		// Layer 16 -mSPRG =	Spezial Prgramme
+		// Layer 17 -	mSPRG =	Spezial Prgramme
 		// --------------------------------------
 
 
@@ -1264,7 +1267,7 @@
 
 
 		// --------------------------------------
-		// Layer 17 - mFUNC =	Funktionen
+		// Layer 18 - mFUNC =	Funktionen
 		// --------------------------------------
 
 		win_function
@@ -1316,7 +1319,7 @@
 				&trans
 				&trans
 				&trans
-				&trans
+				&skq LSHIFT
 				&trans
 			>;
 		};
@@ -1324,7 +1327,7 @@
 
 
 		// --------------------------------------
-		// Layer 18 - mSFUNC =	Spezial Funktionen
+		// Layer 19 - mSFUNC =	Spezial Funktionen
 		// --------------------------------------
 
 		win_specialfunction
@@ -1383,7 +1386,7 @@
 
 
 		// --------------------------------------
-		// Layer	19 - mMOD =	CTL
+		// Layer	20 - mMOD =	CTL
 		// --------------------------------------
 
 		win_mod
@@ -1443,7 +1446,7 @@
 
 
 		// --------------------------------------
-		// Layer 20 - mSMOD =	Spezial CTL
+		// Layer 21 - mSMOD =	Spezial CTL
 		// --------------------------------------
 
 		win_smod
@@ -1502,7 +1505,7 @@
 
 
 		// --------------------------------------------
-		// Layer 21 - wZMOD =	Zahlen Mod
+		// Layer 22 - wZMOD =	Zahlen Mod
 		// --------------------------------------------
 
 		win_zmod
@@ -1562,7 +1565,7 @@
 
 
 		// --------------------------------------------
-		// Layer 22 - wFMOD =	FunctionMod
+		// Layer 23 - wFMOD =	FunctionMod
 		// --------------------------------------------
 
 		win_fmod
@@ -1622,7 +1625,7 @@
 
 
 		// --------------------------------------------
-		// Layer 23 - wALT
+		// Layer 24 - wALT
 		// --------------------------------------------
 
 		win_alt
@@ -1682,7 +1685,7 @@
 
 
 		// --------------------------------------
-		// Layer = 24 - wNAV	  Navigation
+		// Layer = 25 - wNAV	  Navigation
 		// --------------------------------------
 
 		win_navigation
@@ -1734,14 +1737,14 @@
 				&trans
 				&sl wNAV2
 				&trans
-				&kp LSHIFT
+				&mo moNR
 				&trans
 				
 			>;
 		};
 
 		// --------------------------------------
-		// Layer = 24 - wNAV2	  Navigation
+		// Layer = 26 - wNAV2	  Navigation
 		// --------------------------------------
 
 		win_navigation2
@@ -1793,7 +1796,7 @@
 				&trans
 				&trans
 				&trans
-				&kp LSHIFT
+				&mo moNR
 				&trans
 			>;
 		};
@@ -1802,6 +1805,65 @@
 		
 		// ------------------------------------------------------------------------------------------------------------------
 		// ------------------------------------------------------------------------------------------------------------------
+
+
+		// --------------------------------------
+		// Layer 27 - modNR = 	  Zahlen	
+		// --------------------------------------
+
+		mo_nr
+		{
+			label = "WIN";
+
+			bindings = <
+
+				&kp ESC	
+				&kp LS(N3)
+				&kp NUBS
+				&kp LS(NUBS)			
+				&kp NUHS
+				&kp X
+				&kp LS(N4)
+				&kp RA(E)
+				&kp RA(M)
+				&kp M
+				&kp LS(N5)			
+				&kp BSPC
+
+				&kp DEL
+				&kp N1				
+				&kp N2				
+				&kp N3				
+				&kp N4					
+				&kp N5				
+				&kp N6				
+				&kp N7				
+				&kp N8				
+				&kp N9				
+				&kp N0				
+				&kp ENTER 
+
+				&kp LCTL
+				&kp LS(N7)
+				&kp LS(N8)
+				&kp LS(N9)
+				&kp LS(RBRC)
+				&kp LS(N0)
+				&kp LS(N2)
+				&kp RBKT
+				&kp COMMA
+				&kp DOT
+				&kp SLASH		
+				&kp LCTL
+		
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+			>;		
+		};
 	};		
 };
 
