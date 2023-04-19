@@ -1277,7 +1277,7 @@
 
 			bindings = <
 	
-				&kp LC(LS(T))					// Craft ausklappen
+				&kp LC(LA(T))					// Craft ausklappen
 				&kp LC(LS(P))					// Craft
 				&kp LC(LS(SLASH))				// Craft
 				&kp LC(LS(SINGLE_QUOTE))		// Craft
