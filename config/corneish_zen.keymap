@@ -1796,7 +1796,7 @@
 				&trans
 				&kp LALT
 				&trans
-				&kp LA(LG(SPACE))
+				&kp LA(LG(S))
 				&mo moNR
 				&trans
 			>;
