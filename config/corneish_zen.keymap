@@ -880,10 +880,10 @@
 				&kp LG(LA(LC(F17)))		  	// Open
 				&trans
 				&kp LG(LA(LC(GRAVE)))	  	// Kontext Menü
-				&kp LS(TAB)					// zurück
+				&kp LS(LC(TAB))				// zurück
 				&kp LA(LS(LEFT))			// Wort Sprung
 				&kp LA(LS(RIGHT))			// Wort Sprung
-				&kp TAB						// vor
+				&kp LC(TAB)					// vor
 				&kp LSHIFT
 
 				&trans
