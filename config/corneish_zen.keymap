@@ -464,10 +464,10 @@
 				&kp LG(LA(LC(N4)))			// Settings
 				&kp LG(LA(LC(LS(TAB))))		// Mission-Control
 				&kp LG(LA(LC(LS(DOWN))))	// Prg-Window
-				&kp LA(LG(LC(LS(HOME)))) 	// PRG swap alt
+				&kp LG(LA(LC(LS(LEFT))))
 				&kp LA(LG(LC(HOME)))	 	// PRG swap alt
 				&kp LA(LG(LC(END))) 		// PRG swap alt
-				&kp LA(LG(LC(LS(END)))) 	// PRG swap alt	
+				&kp LG(LA(LC(LS(RIGHT))))
 				&kp LSHIFT
 		
 				&trans
@@ -505,7 +505,7 @@
 				&kp LG(LA(LS(F10)))
 				&kp LG(LA(ESC))					// Hard Quit
 		
-				&swleft							// OS Swap
+				&kp LA(LG(LC(LS(HOME)))) 		// PRG swap alt
 				&kp LG(LA(F1))
 				&kp LG(LA(F2))
 				&kp LG(LA(F3))
@@ -516,7 +516,7 @@
 				&kp LG(LA(F8))
 				&kp LG(LA(F9))
 				&kp LG(LA(F10))
-				&swright 						// OS Swap
+				&kp LA(LG(LC(LS(END)))) 		// PRG swap alt	
 
 				&kp LSHIFT
 				&trans					
@@ -525,10 +525,10 @@
 				&trans
 				&trans
 				&trans					
+				&swleft						// OS Swap
 				&trans
 				&trans
-				&trans
-				&trans
+				&swright 					// OS Swap
 				&kp LSHIFT				
 		
 				&trans
@@ -1189,10 +1189,10 @@
 				&kp LG(LA(D))                   // Kalender	
 				&kp LG(TAB)						// Mission Control
 				&kp LG(T)						// Unterprogramme
-				&kp LG(PG_UP)              		//      
+				&kp LG(LA(LC(LS(LEFT))))   
 				&kp LC(N1)						// Outlook Kal
 				&kp LC(N2)						// Outlook Kal
-				&kp LG(PG_DN)					// 
+				&kp LG(LA(LC(LS(RIGHT))))
 				&kp LSHIFT
 		
 				&trans
@@ -1230,7 +1230,7 @@
 				&kp LG(LA(N0))
 				&kp LC(LS(ESC))
 		
-				&swleft
+				&kp LG(PG_UP)              		// 
 				&kp LG(LC(N1))
 				&kp LG(LC(N2))
 				&kp LG(LC(N3))
@@ -1241,7 +1241,7 @@
 				&kp LG(LC(N8))
 				&kp LG(LC(N9))
 				&kp LG(LC(N0))
-				&swright
+				&kp LG(PG_DN)					// 
 
 				&kp LSHIFT
 				&trans
@@ -1250,10 +1250,10 @@
 				&trans
 				&trans
 				&trans
+				&swleft
 				&trans
 				&trans
-				&trans
-				&trans
+				&swright
 				&kp LSHIFT
 		
 				&trans 
@@ -1760,11 +1760,11 @@
 				&kp LALT
 				&kp LS(END)
 				&kp LC(LS(HOME))
-				&kp LC(HOME)
-				&kp HOME 
-				&kp UP
-				&kp END
-				&kp PG_UP 
+				&kp LS(LC(HOME))
+				&kp LS(HOME)
+				&kp LS(UP)
+				&kp LS(END)
+				&kp LC(PG_UP)
 				&kp BACKSPACE
 
 				&kp DEL 
@@ -1773,25 +1773,25 @@
 				&kp INSERT
 				&kp LCTL
 				&kp LC(LS(END))
-				&kp LC(END)
-				&kp LEFT 
-				&kp DOWN
-				&kp RIGHT 	
-				&kp PG_DN
+				&kp LC(LS(END))
+				&kp LS(LEFT)
+				&kp LS(DOWN)
+				&kp LS(RIGHT)
+				&kp LC(PG_DN)
 				&kp ENTER
 				
-				&kp LSHIFT
+				&kp LCTL
 				&kp LC(LS(TAB))
 				&kp LS(LC(LEFT))
 				&kp LS(LC(RIGHT))
 				&kp LC(TAB)
 				&kp LA(LEFT)
 				&kp LA(RIGHT)
-				&kp LS(TAB)
-				&kp LC(LEFT)
-				&kp LC(RIGHT)
-				&kp TAB
-				&kp LSHIFT
+				&kp LC(LS(TAB))
+				&kp LC(LS(LEFT))
+				&kp LC(LS(RIGHT))
+				&kp LC(TAB)
+				&kp LCTL
 
 				&trans
 				&trans
