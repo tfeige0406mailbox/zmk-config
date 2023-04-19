@@ -1279,7 +1279,7 @@
 	
 				&kp LC(LA(T))					// Craft ausklappen
 				&kp LC(LS(P))					// Craft
-				&kp LC(LS(S))				// Craft
+				&kp LC(LS(S))					// Craft
 				&kp LC(LS(SINGLE_QUOTE))		// Craft
 				&kp LC(LS(NUHS))				// Craft
 				&kp LA(LS(F13))
