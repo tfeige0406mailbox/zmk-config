@@ -1780,7 +1780,7 @@
 				&kp LC(PG_DN)
 				&kp ENTER
 				
-				&kp LSHIFT
+				&kp LCTL
 				&kp LC(LS(TAB))
 				&kp LS(LC(LEFT))
 				&kp LS(LC(RIGHT))
@@ -1791,7 +1791,7 @@
 				&kp LC(LS(LEFT))
 				&kp LC(LS(RIGHT))
 				&kp LC(TAB)
-				&kp LSHIFT
+				&kp LCTL
 
 				&trans
 				&trans
