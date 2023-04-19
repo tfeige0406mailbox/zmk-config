@@ -1291,29 +1291,29 @@
 				&kp LG(L)						// Sperren
 		
 				&kp LS(DEL)
-				&kp LA(E)
-				&kp F2
-				&kp LG(V)
-				&kp LG(S)
-				&kp LS(LG(S))                   // Screenshot
-				&kp LALT						// Shortcat
+				&kp F12							// Seitenleitse
+				&kp LC(LS(SINGLE_QUOTE))		// Craft
+				&kp LC(LS(NUHS))				// Craft
+				&kp LG(A)						// Seitenleiste 
+				&kp LC(LS(P))					// Craft
+				&none
 				&windowleft					    // window
 				&windowdown 				    // window
 				&windowright 				    // window
 				&kp LC(KP_MINUS)
-				&kp F5
+				&kp INSERT
 				
 				&kp LSHIFT
-				&kp F12						    // Seitenleiste links
-				&kp LC(LS(SINGLE_QUOTE))
-				&kp LC(LS(NUHS))
-				&kp LG(A)					    // Seitenleiste rechts
-				&kp LC(LS(P))			
-				&trans
 				&kp C_PREVIOUS 
 				&kp C_PP 
+				&kp C_PP 
 				&kp C_NEXT    
-				&trans
+				&kp LC(LS(T))					// Craft
+				&kp LS(LG(S))                   // Screenshot
+				&kp LC(LS(TAB))
+				&kp LG(LA(LC(LS(EQUAL))))		// Increase Bright
+				&kp LG(LA(LC(LS(GRAVE))))		// Decrease Bright
+				&kp LC(TAB)
 				&kp LSHIFT
 				
 				&sl wSFUNC
@@ -1352,9 +1352,9 @@
 		
 				&kp LC(LS(Y))
 				&trans
-				&kp LC(LS(T))
-				&kp LG(LA(LC(V)))
-				&kp LA(LG(LC(SPACE)))
+				&trans
+				&trans
+				&trans
 				&kp LC(LS(C))
                 &kp LC(LS(V))
 				&kp LA(LG(LC(LS(F20)))) 		// Hyper
@@ -1364,15 +1364,15 @@
 				&kp LC(LS(Z))					// drehen
 
 				&kp LSHIFT
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
 				&kp C_VOLUME_DOWN 
 				&kp C_MUTE
+				&kp C_MUTE
 				&kp C_VOLUME_UP 
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
 				&trans				
 				&kp LSHIFT
 		
@@ -1695,43 +1695,43 @@
 
 			bindings = <
 
-				&kp LC(LS(F10))					// Drop Down
-				&kp LC(PG_UP)
-				&kp LS(HOME)
-				&kp LALT
-				&kp LS(END)
-				&kp LC(LS(HOME))
-				&kp LC(HOME)
-				&kp HOME 
-				&kp UP
-				&kp END
-				&kp PG_UP 
+				&kp ESC
+				&kp LC(F)
+				&trans
+				&trans
+				&trans
+				&trans
+				&kp LC(HOME)					// set
+				&kp HOME 						// set
+				&kp UP							// set
+				&kp END							// set
+				&kp PG_UP 						// set
 				&kp BACKSPACE
 
 				&kp DEL 
-				&kp LC(PG_DN)
-				&kp LSHIFT
+				&kp LA(E)
+				&kp F2
 				&kp LALT
-				&kp LCTL
-				&kp LC(LS(END))
-				&kp LC(END)
-				&kp LEFT 
-				&kp DOWN
-				&kp RIGHT 	
-				&kp PG_DN
-				&kp ENTER
+				&kp LCTL						
+				&kp LC(LS(O))					// Pfad kopieren
+				&kp LC(END)						// set
+				&kp LEFT 						// set
+				&kp DOWN						// set
+				&kp RIGHT 						// set
+				&kp PG_DN						// set
+				&kp ENTER						
 				
 				&kp LSHIFT
-				&kp LC(LS(TAB))
-				&kp LS(LC(LEFT))
-				&kp LS(LC(RIGHT))
-				&kp LC(TAB)
-				&kp LA(UP)
-				&kp ENTER		
-				&kp LS(TAB)
-				&kp LC(LEFT)
-				&kp LC(RIGHT)
-				&kp TAB
+				&kp LG(V)						// Clipboard History
+				&kp LA(UP)						// Pfad zurück 
+				&kp ENTER						// Pfad vor
+				&kp F5							// bestätigen
+				&trans							//
+				&kp LC(LS(F10))					// set 
+				&kp LS(TAB)						// set
+				&kp LC(LEFT)					// set
+				&kp LC(RIGHT)					// set
+				&kp TAB							// set
 				&kp LSHIFT
 
 				&trans
@@ -1754,12 +1754,12 @@
 
 			bindings = <
 
-				&kp LC(LS(F10))					// Drop Down
-				&kp LC(PG_UP)
-				&kp LS(HOME)
-				&kp LALT
-				&kp LS(END)
-				&kp LC(LS(HOME))
+				&kp ESC
+				&kp LC(F)
+				&trans
+				&trans
+				&trans
+				&trans
 				&kp LS(LC(HOME))
 				&kp LS(HOME)
 				&kp LS(UP)
@@ -1768,11 +1768,11 @@
 				&kp BACKSPACE
 
 				&kp DEL 
-				&kp LC(PG_DN)
-				&kp LSHIFT
-				&kp INSERT
-				&kp LCTL
-				&kp LC(LS(END))
+				&kp LA(E)
+				&kp F2
+				&kp LALT
+				&kp LCTL						
+				&kp LC(LS(O))					// Pfad kopieren
 				&kp LC(LS(END))
 				&kp LS(LEFT)
 				&kp LS(DOWN)
@@ -1781,22 +1781,22 @@
 				&kp ENTER
 				
 				&kp LCTL
-				&kp LC(LS(TAB))
-				&kp LS(LC(LEFT))
-				&kp LS(LC(RIGHT))
-				&kp LC(TAB)
+				&kp LG(LA(LC(V)))
 				&kp LA(LEFT)
 				&kp LA(RIGHT)
-				&kp LC(LS(TAB))
-				&kp LC(LS(LEFT))
-				&kp LC(LS(RIGHT))
-				&kp LC(TAB)
-				&kp LCTL
+				&kp F5
+				&trans
+				&kp LC(LS(F10))					// set
+				&kp LC(LS(TAB))					// CTL
+				&kp LC(LS(LEFT))				// set
+				&kp LC(LS(RIGHT))				// set
+				&kp LC(TAB)						// CTL
+				&kp LCTL						
 
 				&trans
+				&kp LALT
 				&trans
-				&trans
-				&trans
+				&kp LA(LG(LC(SPACE)))
 				&mo moNR
 				&trans
 			>;
