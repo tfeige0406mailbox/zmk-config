@@ -1157,42 +1157,42 @@
 			bindings = <
 
 				&kp LA(SPACE)
-				&kp LG(LA(N1))
-				&kp LG(LA(N2))
-				&kp LG(LA(N3))
-				&kp LG(LA(N4))
-				&kp LG(LA(N5))
-				&kp LG(LA(N6))
-				&kp LG(LA(N7))
-				&kp LG(LA(N8))
-				&kp LG(LA(N9))
-				&kp LG(LA(N0))
+				&kp LA(N1)
+				&kp LA(N2)
+				&kp LA(N3)
+				&kp LA(N4)
+				&kp LA(N5)
+				&kp LA(N6)
+				&kp LA(N7)
+				&kp LA(N8)
+				&kp LA(N9)
+				&kp LA(N0)
 				&kp LA(F4)
 
-				&kp LA(LS(TAB))			            	
-				&kp LG(N1)
-				&kp LG(N2)
-				&kp LG(N3)
-				&kp LG(N4)
-				&kp LG(N5)
-				&kp LG(N6)
-				&kp LG(N7)
-				&kp LG(N8)
-				&kp LG(N9)
-				&kp LG(N0)
+				&kp LG(TAB)
+				&kp LG(LC(N1))
+				&kp LG(LC(N2))
+				&kp LG(LC(N3))
+				&kp LG(LC(N4))
+				&kp LG(LC(N5))
+				&kp LG(LC(N6))
+				&kp LG(LC(N7))
+				&kp LG(LC(N8))
+				&kp LG(LC(N9))
+				&kp LG(LC(N0))
 				&kp LA(TAB)
 
 				&kp LSHIFT
-				&kp LG(I)                       // Settings B
-				&kp LG(C_PAUSE)                 // Settings B
-				&kp LC(LA(S))                   // Swyx 
-				&kp LG(LA(D))                   // Kalender	
-				&kp LG(TAB)						// Mission Control
-				&kp LG(T)						// Unterprogramme
-				&kp LG(LA(LC(LS(LEFT))))   
-				&kp LC(N1)						// Outlook Kal
-				&kp LC(N2)						// Outlook Kal
-				&kp LG(LA(LC(LS(RIGHT))))
+				&kp LA(LS(N1))
+				&kp LA(LS(N2))
+				&kp LA(LS(N3))
+				&kp LA(LS(N4))
+				&kp LA(LS(N5))
+				&kp LA(LS(N6))
+				&kp LA(LS(N7))
+				&kp LA(LS(N8))
+				&kp LA(LS(N9))
+				&kp LA(LS(N0))
 				&kp LSHIFT
 		
 				&trans
@@ -1218,19 +1218,19 @@
 			bindings = <
 
 				&kp LG(D)
-				&kp LG(LA(N1))
-				&kp LG(LA(N2))
-				&kp LG(LA(N3))
-				&kp LG(LA(N4))
-				&kp LG(LA(N5))
-				&kp LG(LA(N6))
-				&kp LG(LA(N7))
-				&kp LG(LA(N8))
-				&kp LG(LA(N9))
-				&kp LG(LA(N0))
+				&kp LA(N1)
+				&kp LA(N2)
+				&kp LA(N3)
+				&kp LA(N4)
+				&kp LA(N5)
+				&kp LA(N6)
+				&kp LA(N7)
+				&kp LA(N8)
+				&kp LA(N9)
+				&kp LA(N0)
 				&kp LC(LS(ESC))
 		
-				&kp LG(PG_UP)              		// 
+				&kp LG(T)
 				&kp LG(LC(N1))
 				&kp LG(LC(N2))
 				&kp LG(LC(N3))
@@ -1244,15 +1244,15 @@
 				&kp LG(PG_DN)					// 
 
 				&kp LSHIFT
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
+				&kp LA(LS(N1))
+				&kp LA(LS(N2))
+				&kp LA(LS(N3))
+				&kp LA(LS(N4))
+				&kp LA(LS(N5))
+				&kp LA(LS(N6))
 				&swleft
-				&trans
-				&trans
+				&kp LA(LS(N8))
+				&kp LA(LS(N9))
 				&swright
 				&kp LSHIFT
 		
@@ -1277,25 +1277,25 @@
 
 			bindings = <
 	
-				&kp LC(NUHS)    		 	    //Fokus
+				&kp LC(LS(T))					// Craft ausklappen
+				&kp LC(LS(P))					// Craft
+				&kp LC(LS(SLASH))				// Craft
+				&kp LC(LS(SINGLE_QUOTE))		// Craft
+				&kp LC(LS(NUHS))				// Craft
+				&kp LA(LS(F13))
+				&kp LA(LS(F14))
+				&kp LC(LS(C))					// Format
+				&windowup					    // window up
+				&kp LC(LS(V))					// Craft
+				&kp LC(KP_PLUS)
+				&kp LG(L)						// Sperren
+		
+				&kp LS(DEL)
 				&kp LC(LS(B)) 
 				&kp LC(LS(U)) 
 				&kp LC(LS(F)) 
 				&kp LC(LS(K))
 				&kp LC(LS(C)) 
-				&trans
-				&trans
-				&windowup					    // window up
-				&trans
-				&kp LC(KP_PLUS)
-				&kp LG(L)						// Sperren
-		
-				&kp LS(DEL)
-				&kp LC(LS(SINGLE_QUOTE))		// Craft
-				&kp LC(LS(NUHS))				// Craft
-				&kp LC(LS(P))					// Craft
-				&trans
-				&kp LC(LS(T))					// Craft
 				&kp LS(LG(S))                   // Screenshot
 				&windowleft					    // window
 				&windowdown 				    // window
@@ -1308,12 +1308,12 @@
 				&kp C_PP 
 				&kp C_PP 
 				&kp C_NEXT    
-				&trans
-				&trans
-				&trans
-				&kp LG(LA(LC(LS(EQUAL))))		// Increase Bright
-				&kp LG(LA(LC(LS(GRAVE))))		// Decrease Bright
-				&trans
+				&kp LA(LS(F15))
+				&kp LA(LS(F16))
+				&kp C_VOLUME_DOWN 
+				&kp C_MUTE
+				&kp C_MUTE
+				&kp C_VOLUME_UP 
 				&kp LSHIFT
 				
 				&sl wSFUNC
@@ -1338,36 +1338,36 @@
 			bindings = <
 
 				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&kp LG(X) 						// Herunterfahren
+		
+				&kp LC(LS(Y))					// drehen
 				&kp LC(LS(N5))
 				&kp LC(LS(N4))
 				&kp LC(LS(N3))
 				&kp LC(LS(N2))
 				&kp LC(LS(N1))
-				&trans
-				&kp LC(LEFT)    	            // Craft
-				&kp LA(LG(LC(LS(F21)))) 		// Hyper
-				&kp LC(RIGHT)	                // Craft
-				&kp LG(LA(LC(N1)))				// Powertoys
-				&kp LG(X) 						// Herunterfahren
-		
-				&kp LC(LS(Y))
+                &trans
 				&trans
 				&trans
 				&trans
 				&trans
-				&kp LC(LS(C))
-                &kp LC(LS(V))
-				&kp LA(LG(LC(LS(F20)))) 		// Hyper
-				&kp LA(LG(LC(LS(F21)))) 		// Hyper
-				&kp LA(LG(LC(LS(F22)))) 		// Hyper
-				&kp LG(LA(LC(N2)))				// Powertoys
 				&kp LC(LS(Z))					// drehen
 
 				&kp LSHIFT
-				&kp C_VOLUME_DOWN 
-				&kp C_MUTE
-				&kp C_MUTE
-				&kp C_VOLUME_UP 
+				&trans
+				&trans
+				&trans
+				&trans
 				&trans
 				&trans
 				&trans
@@ -1696,7 +1696,7 @@
 			bindings = <
 
 				&kp ESC
-				&kp LC(NUHS)
+				&kp LC(LS(F5))					// Fokus
 				&kp LC(KP_MINUS)
 				&kp LC(KP_PLUS)
 				&kp F5
@@ -1722,10 +1722,10 @@
 				&kp ENTER						
 				
 				&kp LSHIFT
-				&kp F12
-				&kp LA(UP)						// Pfad zurück 
-				&kp ENTER						// Pfad vor
-				&kp LG(A)						
+				&kp LC(LS(F1))
+				&kp LC(LS(F2))
+				&kp LC(LS(F3))
+				&kp LC(LS(F4))
 				&kp LC(F)
 				&kp LC(LS(F10))					// set 
 				&kp LS(TAB)						// set
@@ -1735,7 +1735,7 @@
 				&kp LSHIFT
 
 				&trans
-				&trans
+				&kp LALT
 				&sl wNAV2
 				&kp LG(S)
 				&mo moNR
@@ -1755,11 +1755,11 @@
 			bindings = <
 
 				&kp ESC
-				&kp LC(NUHS)
-				&kp LC(KP_MINUS)
-				&kp LC(KP_PLUS)
-				&kp F5
-				&kp LG(V)
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
 				&kp LS(LC(HOME))
 				&kp LS(HOME)
 				&kp LS(UP)
@@ -1781,10 +1781,10 @@
 				&kp ENTER
 				
 				&kp LCTL
-				&kp F12
-				&kp LA(LEFT)
-				&kp LA(RIGHT)
-				&kp LG(A)
+				&trans
+				&kp LC(LS(F6))
+				&kp LC(LS(F7))
+				&trans
 				&trans
 				&kp LC(LS(F10))					// set
 				&kp LC(LS(TAB))					// CTL
