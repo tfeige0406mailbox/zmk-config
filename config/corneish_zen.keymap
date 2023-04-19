@@ -730,7 +730,7 @@
 
 			bindings = <
 			
-				&kp LG(Z)					// Wiederholen
+				&kp LS(LG(Y))					// Wiederholen
 				&kp LA(LG(J))
 				&kp LA(LG(D))
 				&kp LA(LG(U))
@@ -1013,7 +1013,7 @@
 				&kp SLASH		
 				&kp LCTL
 		
-				&trans
+				&sk LALT 		// First Try
 				&trans
 				&trans
 				&trans
