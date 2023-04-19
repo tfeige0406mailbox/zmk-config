@@ -300,6 +300,246 @@
 
 
 
+		// --------------------------------------
+		// Layer 2 - mSYM =	Symoble
+		// --------------------------------------
+
+		mac_symbole
+		{
+			label = "MAC";
+
+			bindings = <
+				
+				&kp LG(LC(SPACE))   		// Sonderzeichen
+				&kp LS(N3)
+				&kp NUBS
+				&kp LS(NUBS)			
+				&kp NUHS
+				&kp X
+				&kp LS(N4)
+				&kp LA(E)
+				&kp LA(M)
+				&kp M
+				&kp LS(N5)			
+				&kp BACKSPACE
+
+				&kp GRAVE					// quadrat alt
+				&kp LA(N7)				
+				&kp LA(N)				
+				&kp GRAVE				
+				&kp LA(N)					
+				&kp LS(N6)	
+				&kp EQUAL		
+				&kp LS(N1)		
+				&kp LS(COMMA)	
+				&kp LS(DOT)				
+				&kp LS(MINUS)				
+				&kp ENTER
+
+				&kp LSHIFT
+				&kp LS(N7)
+				&kp LS(N8)
+				&kp LS(N9)
+				&kp LS(RBRC)
+				&kp LS(N0)
+				&kp LS(N2)
+				&kp RBKT
+				&kp COMMA
+				&kp DOT
+				&kp SLASH		
+				&kp LSHIFT
+		
+				&trans
+				&trans
+				&trans
+				&trans
+				&sl mSSYM
+				&trans
+			>;
+		};
+
+
+
+		// --------------------------------------
+		// Layer 3 - mSSYM =	Special Symbole
+		// --------------------------------------
+
+		mac_specialsonderzeichen
+		{
+			label = "MAC";
+
+			bindings = <
+
+				&kp LG(LC(SPACE))   		// Sonderzeichen
+				&kp LS(N3)
+				&kp LA(N5)
+				&kp LA(N6)			
+				&kp NUHS
+				&kp X
+				&kp LS(N4)
+				&kp LA(E)
+				&kp LA(M)
+				&kp M
+				&kp LS(N5)			
+				&kp BACKSPACE
+
+				&kp GRAVE					// quadrat alt
+				&kp LA(N7)				
+				&kp LA(N)				
+				&kp LS(GRAVE)
+				&kp LA(N)					
+				&kp LS(N6)				
+				&kp LS(EQUAL)	
+				&kp LS(N1)				
+				&kp LS(COMMA)	
+				&kp LS(DOT)				
+				&kp LS(MINUS)				
+				&kp ENTER
+
+				&kp LSHIFT
+				&kp LS(LA(N7))
+				&kp LA(N8)
+				&kp LA(N9)
+				&kp LS(RBRC)
+				&kp LS(N0)
+				&kp LS(NUHS)
+				&kp RBKT
+				&kp COMMA
+				&kp DOT
+				&kp LS(SLASH)	
+				&kp LSHIFT
+
+				&trans
+				&trans
+				&trans			
+				&trans
+				&trans
+				&trans
+			>;
+		};	
+
+
+
+		// --------------------------------------
+		// Layer 4 - mPRG =	Programme
+		// --------------------------------------
+
+
+		mac_programme
+		{
+			label = "MAC";
+
+			bindings = <
+
+				&kp LG(H)					// Hide
+				&kp LG(LA(LS(N1)))
+				&kp LG(LA(LS(N2)))
+				&kp LG(LA(LS(N3)))
+				&kp LG(LA(LS(N4)))
+				&kp LG(LA(LS(N5)))
+				&kp LG(LA(LS(N6)))
+				&kp LG(LA(LS(N7)))
+				&kp LG(LA(LS(N8)))
+				&kp LG(LA(LS(N9)))
+				&kp LG(LA(LS(N0)))
+				&kp LG(Q) 					// Quit
+
+				&kp LG(LS(TAB))				// Letztes Programm
+				&kp LG(LA(N1))
+				&kp LG(LA(N2))
+				&kp LG(LA(N3))
+				&kp LG(LA(N4))
+				&kp LG(LA(N5))
+				&kp LG(LA(N6))
+				&kp LG(LA(N7))
+				&kp LG(LA(N8))
+				&kp LG(LA(N9))
+				&kp LG(LA(N0))
+				&kp LG(TAB)					// Letztes Programm
+
+				&kp LSHIFT					
+				&kp LG(LA(LC(N1)))			// Settings
+				&kp LG(LA(LC(N2)))			// Settings
+				&kp LG(LA(LC(N3)))			// Settings
+				&kp LG(LA(LC(N4)))			// Settings
+				&kp LG(LA(LC(LS(TAB))))		// Mission-Control
+				&kp LG(LA(LC(LS(DOWN))))	// Prg-Window
+				&kp LG(LA(LC(LS(LEFT))))
+				&kp LA(LG(LC(HOME)))	 	// PRG swap alt
+				&kp LA(LG(LC(END))) 		// PRG swap alt
+				&kp LG(LA(LC(LS(RIGHT))))
+				&kp LSHIFT
+		
+				&trans
+				&trans
+				&trans
+				&sl mSPRG
+				&trans
+				&trans
+			>;
+		};
+
+
+		// --------------------------------------
+		// Layer 5 - mSPRG =	Spezial Prgramme
+		// --------------------------------------
+
+
+		mac_sprogramme
+		{
+
+			label = "MAC";
+
+			bindings = <
+
+				&kp LG(LA(H))					// Hard Hide
+				&kp LG(LA(LS(F1)))
+				&kp LG(LA(LS(F2)))
+				&kp LG(LA(LS(F3)))
+				&kp LG(LA(LS(F4)))
+				&kp LG(LA(LS(F5)))
+				&kp LG(LA(LS(F6)))
+				&kp LG(LA(LS(F7)))
+				&kp LG(LA(LS(F8)))
+				&kp LG(LA(LS(F9)))
+				&kp LG(LA(LS(F10)))
+				&kp LG(LA(ESC))					// Hard Quit
+		
+				&kp LA(LG(LC(LS(HOME)))) 		// PRG swap alt
+				&kp LG(LA(F1))
+				&kp LG(LA(F2))
+				&kp LG(LA(F3))
+				&kp LG(LA(F4))
+				&kp LG(LA(F5))
+				&kp LG(LA(F6))
+				&kp LG(LA(F7))
+				&kp LG(LA(F8))
+				&kp LG(LA(F9))
+				&kp LG(LA(F10))
+				&kp LA(LG(LC(LS(END)))) 		// PRG swap alt	
+
+				&kp LSHIFT
+				&trans					
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans					
+				&swleft						// OS Swap
+				&trans
+				&trans
+				&swright 					// OS Swap
+				&kp LSHIFT				
+		
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+			>;
+		};
+
 
 
 		// ----------
