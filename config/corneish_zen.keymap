@@ -7,7 +7,7 @@
 // MAC
 
 #define mCHAR 0
-#define mNR 1duj
+#define mNR 1
 
 #define mSYM 2
 #define mSSYM 3
@@ -540,6 +540,1331 @@
 			>;
 		};
 
+
+		// --------------------------------------
+		// Layer 6 - mFUNC =	Funktionen
+		// --------------------------------------
+
+		mac_function
+		{
+			label = "MAC";
+
+			bindings = <
+	
+				&kp LG(LA(LC(LS(F9))))  	// Fokus
+				&kp LG(LS(B))				// Craft Format
+				&kp LG(U) 					// Craft Format
+				&kp LG(B) 					// Craft Format
+				&kp LG(I)					// Craft Format
+				&kp LG(LS(C))				// Craft Format
+				&trans
+				&kp LG(LA(LC(LS(EQUAL))))	// Increase Bright
+				&kp LG(LC(UP))			    // Window Move
+				&kp LG(LA(LC(LS(GRAVE))))	// Decrease Bright
+				&kp LG(RBKT)				// Plus +
+				&kp LG(LC(Q))				// Sperren 
+				
+				&kp LS(DEL)					// Delete Special
+				&kp LG(LS(G)) 				// Pfadsuche
+				&kp LG(LA(LC(LS(F1))))		// Umbennen
+				&kp LG(LA(LC(LS(F2))))		// Clipboard
+				&kp LG(SPACE)  				// Spotlight
+				&kp LG(LS(N4))    		   	// Screenshot
+				&kp LG(LA(LC(LS(F3))))  	// Shortcat
+				&kp LG(LC(LEFT))			// Window Move
+				&kp LG(LC(DOWN))			// Window Move
+				&kp LG(LC(RIGHT))			// Window Move
+				&kp LG(SLASH)				// Minus -
+				&kp LG(LC(F5))				// Run
+				
+
+				&kp LSHIFT
+				&kp LG(LA(LC(LS(F5))))		// Seitenleiste links
+				&kp LG(LS(NUHS))			// Craft Format (Focus)
+				&kp LG(LS(EQUAL))			// Craft Format (Block)
+				&kp LG(LA(LC(LS(F8))))  	// Seitenleiste rechts
+				&kp LG(LS(P))				// Craft Format (Page)
+				&trans
+				&kp C_PREVIOUS 
+				&kp C_PP 
+				&kp C_NEXT 
+				&trans
+				&kp LSHIFT					
+				
+				&sl mSFUNC
+				&trans
+				&trans
+				&trans
+				&skq LSHIFT 
+				&trans
+			>;
+		};
+
+		// --------------------------------------
+		// Layer 7 - mSFUNC =	Spezial Funktionen
+		// --------------------------------------
+
+		mac_specialfunction
+		{
+			label = "MAC";
+
+			bindings = <
+
+				&kp ESC
+				&kp LC(N5)					// Craft Format
+				&kp LC(N4)					// Craft Format 
+				&kp LC(N3)					// Craft Format 
+				&kp LC(N2)					// Craft Format 
+				&kp LC(N1)					// Craft Format 
+				&trans
+				&kp LG(LA(LEFT)) 			// Überang Craft 
+				&kp LG(LA(F16))				// Window Control
+				&kp LG(LA(RIGHT)) 			// Überang Craft 
+				&kp LG(LA(LC(LS(PG_UP))))	// increase Window
+				&kp LC(LG(LS(C_EJECT)))		// Herunterfahren
+
+				&kp LG(LA(LC(LS(F10))))		// drehen
+				&trans
+				&kp LG(LS(T))				// Craft (Ausklappen)
+				&trans
+				&kp LG(LA(LC(LS(F11))))		// Spotlight deep
+				&kp LG(LA(C)) 				// Format Kopieren
+				&kp LG(LA(V)) 				// Format Einfügen
+				&kp LG(LA(F13))				// Window Control 
+				&kp LG(LA(F14))				// Window Control
+				&kp LG(LA(F15))				// Window Control
+				&kp LG(LA(LC(LS(PG_DN))))	// decrease Window
+				&kp LG(LA(LC(LS(F12))))		// drehen
+
+				&kp LSHIFT
+				&kp LG(LA(LC(LS(F13))))		// Lesebereich Outlook
+				&trans
+				&trans
+				&kp LG(LA(LC(LS(F16))))		// Lesebereich Outlook
+				&kp LG(LA(LC(LS(F17))))		// Lesebereich Outlook
+				&trans
+				&kp C_VOLUME_DOWN 
+				&kp C_MUTE
+				&kp C_VOLUME_UP 
+				&trans
+				&kp LSHIFT
+		
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans              
+			>;
+		};
+
+
+
+		// --------------------------------------
+		// Layer 8 - mMOD =	GUI
+		// --------------------------------------
+
+		mac_mod
+		{
+			label = "MAC";
+
+			bindings = <
+
+				&kp LG(Y)					// Zurück
+				&kp LG(J)
+				&kp LG(D)
+				&kp LG(U) 
+				&kp LG(A)
+				&kp LG(X)
+				&kp LG(P)
+				&kp LG(H)
+				&kp LG(L) 
+				&kp LG(M)
+				&kp LG(W) 
+				&kp LA(BACKSPACE)			// Wort enfternen
+		
+				&kp LA(DELETE)				// Wort entfernen
+				&kp LG(C)
+				&kp LG(T)
+				&kp LG(I)
+				&kp LG(E)
+				&kp LG(O)	
+				&kp LG(B)
+				&kp LG(N)
+				&kp LG(R)
+				&kp LG(S)
+				&kp LG(G)
+				&kp LG(ENTER)				// Enter Mod	
+
+				&kp LSHIFT
+				&kp LG(F)
+				&kp LG(V)
+				&kp LG(MINUS)
+				&kp LG(Y)
+				&kp LG(Q)
+				&kp LG(Z)
+				&kp LG(SEMICOLON)
+				&kp LG(LEFT_BRACKET)
+				&kp LG(SINGLE_QUOTE)
+				&kp LG(K) 
+				&kp LSHIFT				
+		
+				&trans
+				&kp LG(SPACE)
+				&trans
+				&trans
+				&trans
+				&sl mSMOD
+			>;
+		};
+
+
+
+		// --------------------------------------
+		// Layer 9 - mSMOD =	Spezial GUI
+		// --------------------------------------
+
+		mac_smod
+		{	
+			label = "MAC";
+
+			bindings = <
+			
+				&kp LG(Z)					// Wiederholen
+				&kp LA(LG(J))
+				&kp LA(LG(D))
+				&kp LA(LG(U))
+				&kp LA(LG(A))
+				&kp LA(LG(X))
+				&kp LA(LG(P))
+				&kp LA(LG(H)) 
+				&kp LA(LG(L)) 
+				&kp LA(LG(M)) 
+				&kp LA(LG(W)) 
+				&kp LG(BACKSPACE)			// Zeile enfternen
+		
+				&kp LG(DELETE)				// Zeile entfernen 
+				&kp LA(LG(C))
+				&kp LA(LG(T))
+				&kp LA(LG(I))
+				&kp LA(LG(E))
+				&kp LA(LG(O))
+				&kp LA(LG(B))
+				&kp LA(LG(N))
+				&kp LA(LG(R))
+				&kp LA(LG(S))
+				&kp LA(LG(G))
+				&kp LA(LG(ENTER))			// Enter Mod
+
+				&kp LSHIFT
+				&kp LA(LG(F))
+				&kp LA(LG(V))
+				&kp LA(LG(MINUS))
+				&kp LA(LG(Y))
+				&kp LA(LG(Q))
+				&kp LA(LG(Z))
+				&kp LA(LG(SEMICOLON))
+				&kp LA(LG(LEFT_BRACKET))
+				&kp LA(LG(SINGLE_QUOTE))
+				&kp LA(LG(K)) 
+				&kp LSHIFT
+
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+			>;
+		};
+
+
+		// --------------------------------------
+		// Layer = 10 - mNAV - Navigation
+		// -------------------------------------
+
+		mac_navigation
+		{		
+			label = "MAC";
+
+			bindings = <
+
+				&kp LG(LA(LC(LS(F4))))  	// Dropdown 
+				&kp LC(PG_UP)				// möglicher Shortcut
+				&kp LG(LS(LEFT))  			// Zeile Sprung Markierung
+				&kp LG(LALT)				// Craft verschieben
+				&kp LG(LS(RIGHT)) 			// Zeile Sprung Markierung
+				&kp LG(LS(UP))				// Home Sprung Markierung
+				&kp LG(UP)					// Home Sprung
+				&kp LG(LEFT) 				// Home 
+				&kp UP						// 
+				&kp LG(RIGHT)				// End
+				&kp PG_UP 					// 
+				&kp BACKSPACE				// 
+
+				&kp DEL 					//
+				&kp LC(PG_DN)				// möglicher Shortcut
+				&kp INSERT					//
+				&kp LGUI					//
+				&kp LCTL					//
+				&kp LG(LS(DOWN)) 			// End Sprung Markierung
+				&kp LG(DOWN) 				// End Sprung
+				&kp LEFT 					// 
+				&kp DOWN					//
+				&kp RIGHT 					//
+				&kp PG_DN					//
+				&kp ENTER					//
+				
+				&kp LSHIFT					//
+				&kp LS(LC(TAB))				// Reiter Zurück
+				&kp LS(LA(LEFT))			// Wort Sprung Markierung
+				&kp LS(LA(RIGHT))			// Wort Sprung Markierung
+				&kp LC(TAB)  				// Reiter Vor
+				&kp LG(LA(LC(LS(F6))))  	// Seite Zurück 
+				&kp LG(LA(LC(LS(F7))))  	// Seite Vor
+				&kp LS(TAB)					// zurück
+				&kp LA(LEFT)				// Wort Sprung
+				&kp LA(RIGHT)				// Wort Sprung
+				&kp TAB						// vor
+				&kp LSHIFT					//
+
+				&trans
+				&trans
+				&sl mNAV2
+				&trans
+				&mo moNR
+				&trans
+			>;
+		};
+
+		// --------------------------------------
+		// Layer = 11 - mNAV2 - Navigation
+		// -------------------------------------
+
+		mac_navigation2
+		{		
+			label = "MAC";
+
+			bindings = <
+
+				&kp LG(LA(LC(LS(F4))))  	// Dropdown 
+				&kp LC(PG_UP)				// möglicher Shortcut
+				&kp LG(LS(LEFT))  			// Zeile Sprung Markierung
+				&kp LG(LALT)				// Craft verschieben
+				&kp LG(LS(RIGHT)) 			// Zeile Sprung Markierung
+				&kp LG(LS(UP))				// Home Sprung Markierung
+				&kp LG(UP)					// Home Sprung
+				&kp LG(LEFT) 				// Home 
+				&kp UP						// 
+				&kp LG(RIGHT)				// End
+				&kp PG_UP 					// 
+				&kp BACKSPACE				// 
+
+				&kp DEL 					//
+				&kp LC(PG_DN)				// möglicher Shortcut
+				&kp INSERT					//
+				&kp LGUI					//
+				&kp LCTL					//
+				&kp LG(LS(DOWN)) 			// End Sprung Markierung
+				&kp LG(DOWN) 				// End Sprung
+				&kp LEFT 					// 
+				&kp DOWN					//
+				&kp RIGHT 					//
+				&kp PG_DN					//
+				&kp ENTER					//
+	
+				&kp LSHIFT
+				&kp LS(LC(TAB))				// Reiter Zurück
+				&kp LS(LA(LEFT))			// Wort Sprung Markierung
+				&kp LS(LA(RIGHT))			// Wort Sprung Markierung
+				&kp LC(TAB)  				// Reiter Vor
+				&kp LG(LA(LC(LS(F14))))		// Pfad zurück
+				&kp LG(LA(LC(LS(F15))))		// Pfad vor 
+				&kp LS(TAB)					// zurück
+				&kp LA(LEFT)				// Wort Sprung
+				&kp LA(RIGHT)				// Wort Sprung
+				&kp TAB						// vor
+				&kp LSHIFT
+
+				&trans
+				&trans
+				&trans
+				&trans
+				&mo moNR
+				&trans
+			>;
+		};
+
+	
+		
+		// -----------------------------------------------------------------------------------------------------------------
+		// -----------------------------------------------------------------------------------------------------------------
+		//				~	WINDOWS   ~
+		// ------------------------------------------------------------------------------------------------------------------
+		// -----------------------------------------------------------------------------------------------------------------
+
+
+		// --------------------------------------
+		// Layer 12 - mCHAR = 	  Buchstaben	
+		// --------------------------------------
+	
+		win_buchstaben
+		{
+			label = "win";
+
+			bindings = <
+
+				&kp ESC
+				&kp J 
+				&kp D	 
+				&kp U
+				&kp A
+				&kp X
+				&kp P
+				&kp H
+				&kp L
+				&kp M
+				&kp W
+				&kp BSPC
+	
+				&kp DEL
+				&kp C
+				&kp T
+				&kp I
+				&kp E
+				&kp O
+				&kp B
+				&kp N
+				&kp R
+				&kp S
+				&kp G
+				&kp RET
+	
+				&kp LSHIFT
+				&kp F
+				&kp V
+				&kp MINUS
+				&kp Y
+				&kp Q
+				&kp Z
+				&kp SEMI
+				&kp LBKT
+				&kp SQT
+				&kp K
+				&kp LSHIFT
+
+				&sl wFUNC
+				&kp	SPACE 
+				&sl wNAV
+				&sl wPRG
+				&sl wNR
+				&sl wMOD
+			>;
+		};
+
+
+
+		// --------------------------------------
+		// Layer 13 - mNR = 	  Zahlen	
+		// --------------------------------------
+
+		win_zahlen
+		{
+			label = "WIN";
+
+			bindings = <
+
+				&kp ESC	
+				&kp LS(N3)
+				&kp NUBS
+				&kp LS(NUBS)			
+				&kp NUHS
+				&kp X
+				&kp LS(N4)
+				&kp RA(E)
+				&kp RA(M)
+				&kp M
+				&kp LS(N5)			
+				&kp BSPC
+
+				&kp DEL
+				&kp N1				
+				&kp N2				
+				&kp N3				
+				&kp N4					
+				&kp N5				
+				&kp N6				
+				&kp N7				
+				&kp N8				
+				&kp N9				
+				&kp N0				
+				&kp ENTER 
+
+				&kp LCTL
+				&kp LS(N7)
+				&kp LS(N8)
+				&kp LS(N9)
+				&kp LS(RBRC)
+				&kp LS(N0)
+				&kp LS(N2)
+				&kp RBKT
+				&kp COMMA
+				&kp DOT
+				&kp SLASH		
+				&kp LCTL
+		
+				&trans
+				&trans
+				&trans
+				&trans
+				&sl wSYM
+				&trans
+			>;		
+		};
+
+
+
+
+		// --------------------------------------
+		// Layer 14 - mSYM =	Symoble
+		// --------------------------------------
+
+		win_symbole
+		{
+			label = "WIN";
+
+			bindings = <
+				
+				&kp LG(DOT)
+				&kp LS(N3)
+				&kp NUBS
+				&kp LS(NUBS)			
+				&kp NUHS
+				&kp X
+				&kp LS(N4)
+				&kp RA(E)
+				&kp RA(M)
+				&kp M
+				&kp LS(N5)			
+				&kp BACKSPACE
+
+				&kp RA(N2)
+				&kp RA(NUBS)				
+				&kp RA(RBKT)				
+				&kp GRAVE				
+				&kp RA(Q)					
+				&kp LS(N6)				
+				&kp EQUAL	
+				&kp LS(N1)				
+				&kp LS(COMMA)				
+				&kp LS(DOT)	
+				&kp LS(MINUS)				
+				&kp ENTER
+
+				&kp LSHIFT
+				&kp LS(N7)
+				&kp LS(N8)
+				&kp LS(N9)
+				&kp LS(RBRC)
+				&kp LS(N0)
+				&kp LS(N2)
+				&kp RBKT
+				&kp COMMA
+				&kp DOT
+				&kp SLASH		
+				&kp LSHIFT
+		
+				&trans
+				&trans
+				&trans
+				&trans
+				&sl wSSYM
+				&trans
+			>;
+		};
+
+
+
+
+		// --------------------------------------
+		// Layer 15 - mSSYM =	Special Symbole
+		// --------------------------------------
+
+		win_specialsonderzeichen
+		{
+			label = "WIN";
+
+			bindings = <
+
+				&kp LG(DOT)
+				&kp LS(N3)
+				&kp RA(N8)
+				&kp RA(N9)
+				&kp NUHS	
+				&kp X
+				&kp LS(N4)
+				&kp RA(E)
+				&kp RA(M)
+				&kp M
+				&kp LS(N5)			
+				&kp BACKSPACE
+
+				&kp RA(N3)
+				&kp RA(NUBS)				
+				&kp RA(RBKT)				
+				&kp LS(GRAVE)
+				&kp RA(Q)						
+				&kp LS(N6)				
+				&kp LS(EQUAL)
+				&kp LS(N1)				
+				&kp LS(COMMA)	
+				&kp LS(DOT)				
+				&kp LS(MINUS)				
+				&kp ENTER
+
+				&kp LSHIFT
+				&kp RA(MINUS)
+				&kp RA(N7)
+				&kp RA(N0)
+				&kp LS(RBRC)
+				&kp LS(N0)
+				&kp LS(NUHS)
+				&kp RBKT
+				&kp COMMA
+				&kp DOT
+				&kp LS(SLASH)	
+				&kp LSHIFT
+
+				&trans
+				&trans
+				&trans			
+				&trans
+				&trans
+				&trans
+			>;
+		};
+
+
+
+		// --------------------------------------
+		// Layer 16 - mPRG =	Programme
+		// --------------------------------------
+
+		win_programme
+		{
+			label = "WIN";
+
+			bindings = <
+
+				&kp LA(SPACE)
+				&kp LG(LA(N1))
+				&kp LG(LA(N2))
+				&kp LG(LA(N3))
+				&kp LG(LA(N4))
+				&kp LG(LA(N5))
+				&kp LG(LA(N6))
+				&kp LG(LA(N7))
+				&kp LG(LA(N8))
+				&kp LG(LA(N9))
+				&kp LG(LA(N0))
+				&kp LA(F4)
+
+				&kp LA(LS(TAB))			            	
+				&kp LG(N1)
+				&kp LG(N2)
+				&kp LG(N3)
+				&kp LG(N4)
+				&kp LG(N5)
+				&kp LG(N6)
+				&kp LG(N7)
+				&kp LG(N8)
+				&kp LG(N9)
+				&kp LG(N0)
+				&kp LA(TAB)
+
+				&kp LSHIFT
+				&kp LG(I)                       // Settings B
+				&kp LG(C_PAUSE)                 // Settings B
+				&kp LC(LA(S))                   // Swyx 
+				&kp LG(LA(D))                   // Kalender	
+				&kp LG(TAB)						// Mission Control
+				&kp LG(T)						// Unterprogramme
+				&kp LG(LA(LC(LS(LEFT))))   
+				&kp LC(N1)						// Outlook Kal
+				&kp LC(N2)						// Outlook Kal
+				&kp LG(LA(LC(LS(RIGHT))))
+				&kp LSHIFT
+		
+				&trans
+				&trans
+				&trans				
+				&sl wSPRG
+				&trans
+				&trans
+			>;
+		};
+
+
+		// --------------------------------------
+		// Layer 17 -	mSPRG =	Spezial Prgramme
+		// --------------------------------------
+
+
+		win_sprogramme
+		{
+
+			label = "WIN";
+
+			bindings = <
+
+				&kp LG(D)
+				&kp LG(LA(N1))
+				&kp LG(LA(N2))
+				&kp LG(LA(N3))
+				&kp LG(LA(N4))
+				&kp LG(LA(N5))
+				&kp LG(LA(N6))
+				&kp LG(LA(N7))
+				&kp LG(LA(N8))
+				&kp LG(LA(N9))
+				&kp LG(LA(N0))
+				&kp LC(LS(ESC))
+		
+				&kp LG(PG_UP)              		// 
+				&kp LG(LC(N1))
+				&kp LG(LC(N2))
+				&kp LG(LC(N3))
+				&kp LG(LC(N4))
+				&kp LG(LC(N5))
+				&kp LG(LC(N6))
+				&kp LG(LC(N7))
+				&kp LG(LC(N8))
+				&kp LG(LC(N9))
+				&kp LG(LC(N0))
+				&kp LG(PG_DN)					// 
+
+				&kp LSHIFT
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&swleft
+				&trans
+				&trans
+				&swright
+				&kp LSHIFT
+		
+				&trans 
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+
+			>;
+		};
+
+
+		// --------------------------------------
+		// Layer 18 - mFUNC =	Funktionen
+		// --------------------------------------
+
+		win_function
+		{
+			label = "WIN";
+
+			bindings = <
+	
+				&kp LC(NUHS)    		 	    //Fokus
+				&kp LC(LS(B)) 
+				&kp LC(LS(U)) 
+				&kp LC(LS(F)) 
+				&kp LC(LS(K))
+				&kp LC(LS(C)) 
+				&trans
+				&trans
+				&windowup					    // window up
+				&trans
+				&kp LC(KP_PLUS)
+				&kp LG(L)						// Sperren
+		
+				&kp LS(DEL)
+				&kp LA(E)
+				&kp F2
+				&kp LG(V)
+				&kp LG(S)
+				&kp LS(LG(S))                   // Screenshot
+				&kp LALT						// Shortcat
+				&windowleft					    // window
+				&windowdown 				    // window
+				&windowright 				    // window
+				&kp LC(KP_MINUS)
+				&kp F5
+				
+				&kp LSHIFT
+				&kp F12						    // Seitenleiste links
+				&kp LC(LS(SINGLE_QUOTE))
+				&kp LC(LS(NUHS))
+				&kp LG(A)					    // Seitenleiste rechts
+				&kp LC(LS(P))			
+				&trans
+				&kp C_PREVIOUS 
+				&kp C_PP 
+				&kp C_NEXT    
+				&trans
+				&kp LSHIFT
+				
+				&sl wSFUNC
+				&trans
+				&trans
+				&trans
+				&skq LSHIFT
+				&trans
+			>;
+		};
+
+
+
+		// --------------------------------------
+		// Layer 19 - mSFUNC =	Spezial Funktionen
+		// --------------------------------------
+
+		win_specialfunction
+		{
+			label = "WIN";
+
+			bindings = <
+
+				&trans
+				&kp LC(LS(N5))
+				&kp LC(LS(N4))
+				&kp LC(LS(N3))
+				&kp LC(LS(N2))
+				&kp LC(LS(N1))
+				&trans
+				&kp LC(LEFT)    	            // Craft
+				&kp LA(LG(LC(LS(F21)))) 		// Hyper
+				&kp LC(RIGHT)	                // Craft
+				&kp LG(LA(LC(N1)))				// Powertoys
+				&kp LG(X) 						// Herunterfahren
+		
+				&kp LC(LS(Y))
+				&trans
+				&kp LC(LS(T))
+				&kp LG(LA(LC(V)))
+				&kp LA(LG(LC(SPACE)))
+				&kp LC(LS(C))
+                &kp LC(LS(V))
+				&kp LA(LG(LC(LS(F20)))) 		// Hyper
+				&kp LA(LG(LC(LS(F21)))) 		// Hyper
+				&kp LA(LG(LC(LS(F22)))) 		// Hyper
+				&kp LG(LA(LC(N2)))				// Powertoys
+				&kp LC(LS(Z))					// drehen
+
+				&kp LSHIFT
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&kp C_VOLUME_DOWN 
+				&kp C_MUTE
+				&kp C_VOLUME_UP 
+				&trans				
+				&kp LSHIFT
+		
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans           
+			>;
+		};
+
+
+		// --------------------------------------
+		// Layer	20 - mMOD =	CTL
+		// --------------------------------------
+
+		win_mod
+		{
+			label = "win";
+
+			bindings = <
+
+				&kp LC(Y)
+				&kp LC(J)
+				&kp LC(D)
+				&kp LC(U) 
+				&kp LC(A)
+				&kp LC(X)
+				&kp LC(P)
+				&kp LC(H)
+				&kp LC(L) 
+				&kp LC(M)
+				&kp LC(W) 
+				&kp LC(BACKSPACE)
+		
+				&kp LC(DEL)
+				&kp LC(C)
+				&kp LC(T)
+				&kp LC(I)
+				&kp LC(E)
+				&kp LC(O)	
+				&kp LC(B)
+				&kp LC(N)
+				&kp LC(R)
+				&kp LC(S)
+				&kp LC(G)
+				&kp LC(ENTER)
+
+				&kp LSHIFT
+				&kp LC(F)
+				&kp LC(V)
+				&kp LC(MINUS)
+				&kp LC(Y)
+				&kp LC(Q)
+				&kp LC(Z)
+				&kp LC(SEMICOLON)
+				&kp LC(LEFT_BRACKET)
+				&kp LC(SINGLE_QUOTE)
+				&kp LC(K) 
+				&kp LSHIFT
+		
+				&sl wZMOD
+				&kp LC(SPACE)
+				&trans
+				&trans
+				&sl wALT
+				&sl wSMOD
+			>;
+		};
+
+
+
+		// --------------------------------------
+		// Layer 21 - mSMOD =	Spezial CTL
+		// --------------------------------------
+
+		win_smod
+		{	
+			label = "WIN";
+
+			bindings = <
+			
+				&kp LC(Z)
+				&kp LS(LC(J))
+				&kp LS(LC(D))
+				&kp LS(LC(U))
+				&kp LS(LC(A))
+				&kp LS(LC(X))
+				&kp LS(LC(P))
+				&kp LS(LC(H)) 
+				&kp LS(LC(L)) 
+				&kp LS(LC(M)) 
+				&kp LS(LC(W)) 
+				&kp LS(BACKSPACE)
+		
+				&kp LS(DELETE)
+				&kp LS(LC(C))
+				&kp LS(LC(T))
+				&kp LS(LC(I))
+				&kp LS(LC(E))
+				&kp LS(LC(O))	
+				&kp LS(LC(B))
+				&kp LS(LC(N))
+				&kp LS(LC(R))
+				&kp LS(LC(S))
+				&kp LS(LC(G)) 
+				&kp LS(LC(ENTER))
+
+				&kp LSHIFT
+				&kp LS(LC(F))
+				&kp LS(LC(V))
+				&kp LS(LC(MINUS))
+				&kp LS(LC(Y))
+				&kp LS(LC(Q))
+				&kp LS(LC(Z))
+				&kp LS(LC(SEMICOLON))
+				&kp LS(LC(LEFT_BRACKET))
+				&kp LS(LC(SINGLE_QUOTE))
+				&kp LS(LC(K)) 
+				&kp LSHIFT
+
+				&sl wFMOD
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+			>;
+		};
+
+
+		// --------------------------------------------
+		// Layer 22 - wZMOD =	Zahlen Mod
+		// --------------------------------------------
+
+		win_zmod
+		{
+			label = "WIN";
+
+			bindings = <
+
+				&trans
+				&kp LC(LA(N1))
+				&kp LC(LA(N2))
+				&kp LC(LA(N3))
+				&kp LC(LA(N4))
+				&kp LC(LA(N5))
+				&kp LC(LA(N6))
+				&kp LC(LA(N7))
+				&kp LC(LA(N8))
+				&kp LC(LA(N9))
+				&kp LC(LA(N0))
+				&kp LG(L)
+
+				&trans
+				&kp LC(N1)
+				&kp LC(N2)
+				&kp LC(N3)
+				&kp LC(N4)
+				&kp LC(N5)
+				&kp LC(N6)
+				&kp LC(N7)
+				&kp LC(N8)
+				&kp LC(N9)
+				&kp LC(N0)
+				&trans
+
+				&kp LSHIFT
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&kp LSHIFT
+		
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans			
+			>;
+		};	
+
+
+
+		// --------------------------------------------
+		// Layer 23 - wFMOD =	FunctionMod
+		// --------------------------------------------
+
+		win_fmod
+		{	
+			label = "WIN";
+
+			bindings = <
+			
+				&trans 	
+				&kp F11
+				&kp F12
+				&kp F13
+				&kp F14
+				&kp F15
+				&kp F16
+				&kp F17
+				&kp F18
+				&kp F19
+				&kp F20
+				&trans
+	
+				&trans
+				&kp F1
+				&kp F2
+				&kp F3
+				&kp F4
+				&kp F5
+				&kp F6
+				&kp F7
+				&kp F8
+				&kp F9
+				&kp F10
+				&trans
+
+				&kp LCTL
+				&bt BT_PRV
+				&bt BT_SEL 0
+				&bt BT_SEL 5
+				&bt BT_NXT
+				&bt BT_CLR
+				&bt BT_CLR 	
+				&bt BT_PRV
+				&bt BT_SEL 0
+				&bt BT_SEL 5
+				&bt BT_NXT
+				&kp LCTL
+
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+			>;
+		}; 
+
+
+
+		// --------------------------------------------
+		// Layer 24 - wALT
+		// --------------------------------------------
+
+		win_alt
+		{	
+			label = "WIN";
+
+			bindings = <
+			
+				&kp LA(ESC)
+				&kp LA(J)
+				&kp LA(D)
+				&kp LA(U) 
+				&kp LA(A)
+				&kp LA(X)
+				&kp LA(P)
+				&kp LA(H)
+				&kp LA(L) 
+				&kp LA(M)
+				&kp LA(W) 
+				&kp LG(X)
+	
+				&kp LA(DEL)
+				&kp LA(C)
+				&kp LA(T)
+				&kp LA(I)
+				&kp LA(E)
+				&kp LA(O)	
+				&kp LA(B)
+				&kp LA(N)
+				&kp LA(R)
+				&kp LA(S)
+				&kp LA(G)
+				&kp LA(ENTER)
+
+				&kp LSHIFT
+				&kp LA(F)
+				&kp LA(V)
+				&kp LA(MINUS)
+				&kp LA(Y)
+				&kp LA(Q)
+				&kp LA(Z)
+				&kp LA(SEMICOLON)
+				&kp LA(LEFT_BRACKET)
+				&kp LA(SINGLE_QUOTE)
+				&kp LA(K) 
+				&kp LSHIFT
+
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+			>;
+		}; 		
+
+
+
+		// --------------------------------------
+		// Layer = 25 - wNAV	  Navigation
+		// --------------------------------------
+
+		win_navigation
+		{		
+			label = "WIN";
+
+			bindings = <
+
+				&kp LC(LS(F10))					// Drop Down
+				&kp LC(PG_UP)
+				&kp LS(HOME)
+				&kp LALT
+				&kp LS(END)
+				&kp LC(LS(HOME))
+				&kp LC(HOME)
+				&kp HOME 
+				&kp UP
+				&kp END
+				&kp PG_UP 
+				&kp BACKSPACE
+
+				&kp DEL 
+				&kp LC(PG_DN)
+				&kp LSHIFT
+				&kp LALT
+				&kp LCTL
+				&kp LC(LS(END))
+				&kp LC(END)
+				&kp LEFT 
+				&kp DOWN
+				&kp RIGHT 	
+				&kp PG_DN
+				&kp ENTER
+				
+				&kp LSHIFT
+				&kp LC(LS(TAB))
+				&kp LS(LC(LEFT))
+				&kp LS(LC(RIGHT))
+				&kp LC(TAB)
+				&kp LA(UP)
+				&kp ENTER		
+				&kp LS(TAB)
+				&kp LC(LEFT)
+				&kp LC(RIGHT)
+				&kp TAB
+				&kp LSHIFT
+
+				&trans
+				&trans
+				&sl wNAV2
+				&trans
+				&mo moNR
+				&trans
+				
+			>;
+		};
+
+		// --------------------------------------
+		// Layer = 26 - wNAV2	  Navigation
+		// --------------------------------------
+
+		win_navigation2
+		{		
+			label = "WIN";
+
+			bindings = <
+
+				&kp LC(LS(F10))					// Drop Down
+				&kp LC(PG_UP)
+				&kp LS(HOME)
+				&kp LALT
+				&kp LS(END)
+				&kp LC(LS(HOME))
+				&kp LS(LC(HOME))
+				&kp LS(HOME)
+				&kp LS(UP)
+				&kp LS(END)
+				&kp LC(PG_UP)
+				&kp BACKSPACE
+
+				&kp DEL 
+				&kp LC(PG_DN)
+				&kp LSHIFT
+				&kp INSERT
+				&kp LCTL
+				&kp LC(LS(END))
+				&kp LC(LS(END))
+				&kp LS(LEFT)
+				&kp LS(DOWN)
+				&kp LS(RIGHT)
+				&kp LC(PG_DN)
+				&kp ENTER
+				
+				&kp LCTL
+				&kp LC(LS(TAB))
+				&kp LS(LC(LEFT))
+				&kp LS(LC(RIGHT))
+				&kp LC(TAB)
+				&kp LA(LEFT)
+				&kp LA(RIGHT)
+				&kp LC(LS(TAB))
+				&kp LC(LS(LEFT))
+				&kp LC(LS(RIGHT))
+				&kp LC(TAB)
+				&kp LCTL
+
+				&trans
+				&trans
+				&trans
+				&trans
+				&mo moNR
+				&trans
+			>;
+		};
+
+  
+		
+		// ------------------------------------------------------------------------------------------------------------------
+		// ------------------------------------------------------------------------------------------------------------------
+
+
+		// --------------------------------------
+		// Layer 27 - modNR = 	  Zahlen	
+		// --------------------------------------
+
+		mo_nr
+		{
+			label = "WIN";
+
+			bindings = <
+
+				&kp ESC	
+				&kp LS(N3)
+				&kp NUBS
+				&kp LS(NUBS)			
+				&kp NUHS
+				&kp X
+				&kp LS(N4)
+				&kp RA(E)
+				&kp RA(M)
+				&kp M
+				&kp LS(N5)			
+				&kp BSPC
+
+				&kp DEL
+				&kp N1				
+				&kp N2				
+				&kp N3				
+				&kp N4					
+				&kp N5				
+				&kp N6				
+				&kp N7				
+				&kp N8				
+				&kp N9				
+				&kp N0				
+				&kp ENTER 
+
+				&kp LCTL
+				&kp LS(N7)
+				&kp LS(N8)
+				&kp LS(N9)
+				&kp LS(RBRC)
+				&kp LS(N0)
+				&kp LS(N2)
+				&kp RBKT
+				&kp COMMA
+				&kp DOT
+				&kp SLASH		
+				&kp LCTL
+		
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+			>;		
+		};
 
 
 		// ----------
