@@ -875,8 +875,8 @@
 	
 				&kp LSHIFT
 				&kp LG(LA(LC(F14)))		  	// Open
-				&kp LG(LA(LC(F15)))		  	// Open
-				&kp LG(LA(LC(F16)))		  	// Open
+				&kp LG(LA(LC(F15)))		  	// Zurück History 
+				&kp LG(LA(LC(F16)))		  	// Vor History
 				&kp LG(LA(LC(F17)))		  	// Open
 				&trans
 				&kp LG(LA(LC(GRAVE)))	  	// Kontext Menü
