@@ -526,7 +526,7 @@
 				&kp LC(LA(LS(O)))
 				&kp LC(LA(LS(B)))
 				&swleft 						// OS Swap
-				&kp LC(LA(LS(R)))
+				&kp LC(LA(LS(R)))				
 				&kp LC(LA(LS(S)))
 				&swright 						// OS Swap
 				&kp LSHIFT				
@@ -558,9 +558,9 @@
 				&kp LG(LS(EQUAL))			// Craft Format (Block)
 				&kp LG(LC(LA(F13)))   		// Open Meh 
 				&kp LG(LC(LA(F14)))   		// Open Meh 
-				&kp LG(LA(C)) 				// Format Kopieren
+				&kp LG(LA(F19))				// Window Swap
 				&kp LG(LC(UP))			    // Window Move
-				&kp LG(LA(V)) 				// Format Einfügen
+				&kp LG(LA(F20))				// Window Swap
 				&kp LG(RBKT)				// Plus +
 				&kp LG(LC(Q))				// Sperren 
 				
@@ -616,11 +616,11 @@
 				&trans
 				&trans
 				&trans
-				&trans
+				&kp LG(LA(F21))				// Window deep
 				&kp LG(LA(F16))				// Window Control
-				&trans
-				&kp LG(LA(F17))				// Window Size
-				&kp LC(LG(LS(C_EJECT)))		// Herunterfahren
+				&kp LG(LA(F22))				// Window deep
+				&kp LG(LA(F17))				// Window size
+				&kp LC(LG(LS(ESC)))			// Herunterfahren
 
 				&kp LG(LA(LC(Y)))			// drehen
 				&kp LC(N5)					// Craft Format 
@@ -636,16 +636,16 @@
 				&kp LG(LA(LC(Z)))			// drehen
 
 				&kp LSHIFT
-				&kp LG(LA(LC(PG_DN)))		// Bright
+				&kp LG(LA(C)) 				// Format Kopieren
+				&kp LG(LA(V)) 				// Format Einfügen
+				&trans
+				&trans
 				&trans
 				&trans
 				&kp LG(LA(LC(PG_UP)))		// Bright
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
+				&kp LG(LA(PG_UP))			// Slow Bright
+				&kp LG(LA(PG_DN))			// Slow Bright 
+				&kp LG(LA(LC(PG_DN)))		// Bright
 				&kp LSHIFT
 		
 				&none
@@ -730,42 +730,42 @@
 			bindings = <
 			
 				&kp LS(LG(Y))					// Wiederholen
-				&kp LA(LG(J))
-				&kp LA(LG(D))
-				&kp LA(LG(U))
-				&kp LA(LG(A))
-				&kp LA(LG(X))
-				&kp LA(LG(P))
-				&kp LA(LG(H)) 
-				&kp LA(LG(L)) 
-				&kp LA(LG(M)) 
-				&kp LA(LG(W)) 
+				&kp LA(LG(LC(J)))
+				&kp LA(LG(LC(D)))
+				&kp LA(LG(LC(U)))
+				&kp LA(LG(LC(A)))
+				&kp LA(LG(LC(X)))
+				&kp LA(LG(LC(P)))
+				&kp LA(LG(LC(H))) 
+				&kp LA(LG(LC(L))) 
+				&kp LA(LG(LC(M)))
+				&kp LA(LG(LC(W)))
 				&kp LG(BACKSPACE)			// Zeile enfternen
 		
 				&kp LG(DELETE)				// Zeile entfernen 
-				&kp LA(LG(C))
-				&kp LA(LG(T))
-				&kp LA(LG(I))
-				&kp LA(LG(E))
-				&kp LA(LG(O))
-				&kp LA(LG(B))
-				&kp LA(LG(N))
-				&kp LA(LG(R))
-				&kp LA(LG(S))
-				&kp LA(LG(G))
+				&kp LA(LG(LC(C)))
+				&kp LA(LG(LC(T)))
+				&kp LA(LG(LC(I)))
+				&kp LA(LG(LC(E)))
+				&kp LA(LG(LC(O)))
+				&kp LA(LG(LC(B)))
+				&kp LA(LG(LC(N)))
+				&kp LA(LG(LC(R)))
+				&kp LA(LG(LC(S)))
+				&kp LA(LG(LC(G)))
 				&kp LA(LG(ENTER))			// Enter Mod
 
 				&kp LSHIFT
-				&kp LA(LG(F))
-				&kp LA(LG(V))
-				&kp LA(LG(MINUS))
-				&kp LA(LG(Y))
-				&kp LA(LG(Q))
-				&kp LA(LG(Z))
-				&kp LA(LG(SEMICOLON))
-				&kp LA(LG(LEFT_BRACKET))
-				&kp LA(LG(SINGLE_QUOTE))
-				&kp LA(LG(K)) 
+				&kp LA(LG(LC(F)))
+				&kp LA(LG(LC(V)))
+				&kp LA(LG(LC(MINUS)))
+				&kp LA(LG(LC(Y)))
+				&kp LA(LG(LC(Q)))
+				&kp LA(LG(LC(Z)))
+				&kp LA(LG(LC(SEMICOLON)))
+				&kp LA(LG(LC(LEFT_BRACKET)))
+				&kp LA(LG(LC(SINGLE_QUOTE)))
+				&kp LA(LG(LC(K)))
 				&kp LSHIFT
 
 				&none
@@ -789,9 +789,9 @@
 			bindings = <
 
 				&kp ESC
-				&kp LG(LA(LC(F5)))		  	// Fokus
-				&kp LG(LA(LC(F6)))		  	// Zoom in
-				&kp LG(LA(LC(F7)))		  	// Zoom out
+				&kp LG(LA(LC(F12)))		  	// Pfad öffnen
+				&kp LG(LA(LC(F6)))		  	// open
+				&kp LG(LA(LC(F7)))		  	// open
 				&kp LG(LA(LC(F8)))		  	// bestätigen
 				&kp LG(LA(LC(F9)))		  	// Clipboard History
 				&kp LG(HOME)				// Home Sprung
@@ -806,7 +806,7 @@
 				&kp LG(LA(LC(F11)))		  	// Umbennen
 				&kp LGUI					//
 				&kp LCTL					// 
-				&kp LG(LA(LC(F12)))		  	// Pfadsuche
+				&kp LG(LA(LC(F5)))		  	// Fokus
 				&kp LG(END) 				// End Sprung
 				&kp LEFT 					// 
 				&kp DOWN					//
@@ -847,10 +847,10 @@
 			bindings = <
 
 				&kp ESC
-				&kp LG(LA(LC(F13)))		  	// Open
-				&trans
-				&trans
-				&trans
+				&kp LG(LA(LC(F19)))		  	// Open
+				&kp LG(LA(LC(F20)))		  	// Open
+				&kp LG(LA(LC(F21)))		  	// Open
+				&kp LG(LA(LC(F22)))		  	// Open
 				&trans
 				&kp LG(LS(HOME))			// Home Sprung
 				&kp LS(HOME) 				// Home 
@@ -864,7 +864,7 @@
 				&trans
 				&trans
 				&kp LCTL					//
-				&trans
+				&kp LG(LA(LC(F13)))		  	// Deep Fokus
 				&kp LG(LS(END)) 			// End Sprung Markierung
 				&kp LS(LEFT) 				// 
 				&kp LS(DOWN)				//
@@ -1369,10 +1369,10 @@
 				&trans
 				&trans
 				&trans
-				&trans
-				&trans
-				&trans
-				&trans				
+				&kp LG(LA(LC(PG_UP)))		// Bright
+				&kp LG(LA(PG_UP))			// Slow Bright
+				&kp LG(LA(PG_DN))			// Slow Bright 
+				&kp LG(LA(LC(PG_DN)))		// Bright
 				&kp LSHIFT
 		
 				&trans
@@ -1695,7 +1695,7 @@
 			bindings = <
 
 				&kp ESC
-				&kp LC(LS(F5))					// Fokus
+				&kp LC(LS(O))					// Pfad kopieren
 				&kp LC(KP_MINUS)
 				&kp LC(KP_PLUS)
 				&kp F5
@@ -1712,7 +1712,7 @@
 				&kp F2
 				&kp LALT
 				&kp LCTL						
-				&kp LC(LS(O))					// Pfad kopieren
+				&kp LC(LS(F5))					// Fokus
 				&kp LC(END)						// set
 				&kp LEFT 						// set
 				&kp DOWN						// set
