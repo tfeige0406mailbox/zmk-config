@@ -789,10 +789,10 @@
 			bindings = <
 
 				&kp ESC
-				&kp LG(LA(LC(F12)))		  	// Pfad öffnen
+				&kp LG(LA(LC(F12)))		  	// open Pfad
 				&kp LG(LA(LC(F6)))		  	// open
 				&kp LG(LA(LC(F7)))		  	// open
-				&kp LG(LA(LC(F8)))		  	// bestätigen
+				&kp LG(LA(LC(F8)))		  	// open bestätigen
 				&kp LG(LA(LC(F9)))		  	// Clipboard History
 				&kp LG(HOME)				// Home Sprung
 				&kp HOME	 				// Home 
@@ -804,7 +804,7 @@
 				&kp DEL 					//
 				&kp LG(LA(LC(F10)))		  	// Pfadsuche
 				&kp LG(LA(LC(F11)))		  	// Umbennen
-				&kp LGUI					//
+				&kp LGUI					// 
 				&kp LCTL					// 
 				&kp LG(LA(LC(F5)))		  	// Fokus
 				&kp LG(END) 				// End Sprung
@@ -999,7 +999,7 @@
 				&kp N0				
 				&kp ENTER 
 
-				&kp LCTL
+				&kp LSHIFT
 				&kp LS(N7)
 				&kp LS(N8)
 				&kp LS(N9)
@@ -1010,14 +1010,14 @@
 				&kp COMMA
 				&kp DOT
 				&kp SLASH		
-				&kp LCTL
+				&kp LSHIFT
 		
-				&sk LALT 		// First Try
-				&trans
-				&trans
-				&trans
+				&none
+				&none
+				&none
+				&none
 				&sl wSYM
-				&trans
+				&sk LALT 		
 			>;		
 		};
 
@@ -1073,12 +1073,12 @@
 				&kp SLASH		
 				&kp LSHIFT
 		
-				&trans
-				&trans
-				&trans
-				&trans
+				&none
+				&none
+				&none
+				&none
 				&sl wSSYM
-				&trans
+				&none
 			>;
 		};
 
@@ -1134,12 +1134,12 @@
 				&kp LS(SLASH)	
 				&kp LSHIFT
 
-				&trans
-				&trans
-				&trans			
-				&trans
-				&trans
-				&trans
+				&none
+				&none
+				&none
+				&none
+				&none
+				&none
 			>;
 		};
 
@@ -1194,12 +1194,12 @@
 				&kp LA(LS(N0))
 				&kp LSHIFT
 		
-				&trans
-				&trans
-				&trans				
+				&none
+				&none
+				&none
 				&sl wSPRG
-				&trans
-				&trans
+				&none
+				&none
 			>;
 		};
 
@@ -1255,12 +1255,12 @@
 				&swright
 				&kp LSHIFT
 		
-				&trans 
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
+				&none 
+				&none
+				&none
+				&none
+				&none
+				&none
 
 			>;
 		};
@@ -1283,9 +1283,9 @@
 				&kp LC(LS(NUHS))				// Craft
 				&kp LA(LS(F13))
 				&kp LA(LS(F14))
-				&kp LC(LS(C))					// Format
+				&kp LA(LC(LG(N1)))
 				&windowup					    // window up
-				&kp LC(LS(V))					// Craft
+				&kp LA(LC(LG(N2)))
 				&kp LC(KP_PLUS)
 				&kp LG(L)						// Sperren
 		
@@ -1316,11 +1316,11 @@
 				&kp LSHIFT
 				
 				&sl wSFUNC
-				&trans
-				&trans
-				&trans
-				&skq LSHIFT
-				&trans
+				&none
+				&none
+				&none
+				&kp LSHIFT
+				&none
 			>;
 		};
 
@@ -1343,9 +1343,9 @@
 				&trans
 				&trans
 				&trans
+				&kp LA(LC(LG(N3)))
 				&trans
-				&trans
-				&trans
+				&kp LA(LC(LG(N4)))
 				&trans
 				&kp LG(X) 						// Herunterfahren
 		
@@ -1363,8 +1363,8 @@
 				&kp LC(LS(Z))					// drehen
 
 				&kp LSHIFT
-				&trans
-				&trans
+				&kp LC(LS(C))					// Craft
+				&kp LC(LS(V))					// Craft
 				&trans
 				&trans
 				&trans
@@ -1375,12 +1375,12 @@
 				&kp LG(LA(LC(PG_DN)))		// Bright
 				&kp LSHIFT
 		
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans           
+				&none
+				&none
+				&none
+				&none
+				&none
+				&none
 			>;
 		};
 
@@ -1434,11 +1434,11 @@
 				&kp LC(K) 
 				&kp LSHIFT
 		
-				&sl wZMOD
+				&none
 				&kp LC(SPACE)
-				&trans
-				&trans
-				&sl wALT
+				&none
+				&none
+				&sl wZMOD
 				&sl wSMOD
 			>;
 		};
@@ -1494,12 +1494,12 @@
 				&kp LS(LC(K)) 
 				&kp LSHIFT
 
+				&none
+				&kp LS(LC(SPACE))
+				&none
+				&none
 				&sl wFMOD
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
+				&sl wALT
 			>;
 		};
 
@@ -1515,16 +1515,7 @@
 			bindings = <
 
 				&trans
-				&kp LC(LA(N1))
-				&kp LC(LA(N2))
-				&kp LC(LA(N3))
-				&kp LC(LA(N4))
-				&kp LC(LA(N5))
-				&kp LC(LA(N6))
-				&kp LC(LA(N7))
-				&kp LC(LA(N8))
-				&kp LC(LA(N9))
-				&kp LC(LA(N0))
+
 				&kp LG(L)
 
 				&trans
@@ -1541,24 +1532,24 @@
 				&trans
 
 				&kp LSHIFT
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
+				&kp F1
+				&kp F2
+				&kp F3
+				&kp F4
+				&kp F5
+				&kp F6
+				&kp F7
+				&kp F8
+				&kp F9
+				&kp F10
 				&kp LSHIFT
 		
+				&none
+				&none
+				&none
+				&none
 				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans			
+				&none
 			>;
 		};	
 
@@ -1575,6 +1566,19 @@
 			bindings = <
 			
 				&trans 	
+				&kp LC(LA(N1))
+				&kp LC(LA(N2))
+				&kp LC(LA(N3))
+				&kp LC(LA(N4))
+				&kp LC(LA(N5))
+				&kp LC(LA(N6))
+				&kp LC(LA(N7))
+				&kp LC(LA(N8))
+				&kp LC(LA(N9))
+				&kp LC(LA(N0))
+				&trans
+	
+				&trans
 				&kp F11
 				&kp F12
 				&kp F13
@@ -1585,19 +1589,6 @@
 				&kp F18
 				&kp F19
 				&kp F20
-				&trans
-	
-				&trans
-				&kp F1
-				&kp F2
-				&kp F3
-				&kp F4
-				&kp F5
-				&kp F6
-				&kp F7
-				&kp F8
-				&kp F9
-				&kp F10
 				&trans
 
 				&kp LCTL
@@ -1613,12 +1604,12 @@
 				&bt BT_NXT
 				&kp LCTL
 
+				&none
+				&none
+				&none
+				&none
 				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
+				&none
 			>;
 		}; 
 
@@ -1637,7 +1628,7 @@
 				&kp LA(ESC)
 				&kp LA(J)
 				&kp LA(D)
-				&kp LA(U) 
+				&kp LA(U)
 				&kp LA(A)
 				&kp LA(X)
 				&kp LA(P)
@@ -1673,11 +1664,11 @@
 				&kp LA(K) 
 				&kp LSHIFT
 
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
+				&none
+				&kp LA(SPACE)
+				&none
+				&none
+				&none
 				&trans
 			>;
 		}; 		
@@ -1696,8 +1687,8 @@
 
 				&kp ESC
 				&kp LC(LS(O))					// Pfad kopieren
-				&kp LC(KP_MINUS)
-				&kp LC(KP_PLUS)
+				&kp LS(LA(F8))
+				&kp LS(LA(F9))
 				&kp F5
 				&kp LG(V)						// Clipboard History
 				&kp LC(HOME)					// set
@@ -1712,7 +1703,7 @@
 				&kp F2
 				&kp LALT
 				&kp LCTL						
-				&kp LC(LS(F5))					// Fokus
+				&kp LA(LS(F5))					// Fokus
 				&kp LC(END)						// set
 				&kp LEFT 						// set
 				&kp DOWN						// set
@@ -1721,11 +1712,11 @@
 				&kp ENTER						
 				
 				&kp LSHIFT
-				&kp LC(LS(F1))
-				&kp LC(LS(F2))
-				&kp LC(LS(F3))
-				&kp LC(LS(F4))
-				&kp LC(F)
+				&kp LA(LS(F1))
+				&kp LA(LS(F2))
+				&kp LA(LS(F3))
+				&kp LA(LS(F4))
+				&kp LA(F)
 				&kp LC(LS(F10))					// set 
 				&kp LS(TAB)						// set
 				&kp LC(LEFT)					// set
@@ -1733,12 +1724,12 @@
 				&kp TAB							// set
 				&kp LSHIFT
 
-				&trans
+				&none
 				&kp LALT
 				&sl wNAV2
 				&kp LG(S)
 				&mo moNR
-				&trans
+				&none
 				
 			>;
 		};
@@ -1754,11 +1745,11 @@
 			bindings = <
 
 				&kp ESC
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
+				&kp LS(LA(F10))
+				&kp LS(LA(F11))
+				&kp LS(LA(F12))
+				&kp LS(LA(F13))
+				&kp LG(V)
 				&kp LS(LC(HOME))
 				&kp LS(HOME)
 				&kp LS(UP)
@@ -1767,9 +1758,9 @@
 				&kp BACKSPACE
 
 				&kp DEL 
-				&trans
-				&trans
-				&trans
+				&kp LS(LA(F14))
+				&kp LS(LA(F15))
+				&kp LALT
 				&kp LCTL						
 				&trans
 				&kp LC(LS(END))
@@ -1784,7 +1775,7 @@
 				&kp LC(LS(F6))
 				&kp LC(LS(F7))
 				&trans
-				&trans
+				&kp LC(F)
 				&kp LC(LS(F10))					// set
 				&kp LC(LS(TAB))					// CTL
 				&kp LC(LS(LEFT))				// set
@@ -1792,12 +1783,12 @@
 				&kp LC(TAB)						// CTL
 				&kp LCTL						
 
-				&trans
+				&none
 				&kp LALT
 				&trans
 				&kp LA(LG(S))
 				&mo moNR
-				&trans
+				&none
 			>;
 		};
 
@@ -1841,9 +1832,9 @@
 				&kp N8				
 				&kp N9				
 				&kp N0				
-				&kp ENTER 
+				&kp ENTER
 
-				&kp LCTL
+				&kp LSHIFT
 				&kp LS(N7)
 				&kp LS(N8)
 				&kp LS(N9)
@@ -1854,14 +1845,14 @@
 				&kp COMMA
 				&kp DOT
 				&kp SLASH		
-				&kp LCTL
+				&kp LSHIFT
 		
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
+				&none
+				&none
+				&none
+				&none
+				&none
+				&none
 			>;		
 		};
 
