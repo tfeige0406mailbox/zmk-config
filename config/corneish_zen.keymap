@@ -289,12 +289,12 @@
 				&kp SLASH		
 				&kp LGUI
 		
-				&trans
-				&trans
-				&trans
-				&trans
+				&none
+				&none
+				&none
+				&none
 				&sl mSYM
-				&trans
+				&sl LALT
 			>;		
 		};
 
@@ -349,12 +349,12 @@
 				&kp SLASH		
 				&kp LSHIFT
 		
-				&trans
-				&trans
-				&trans
-				&trans
+				&none
+				&none
+				&none
+				&none
 				&sl mSSYM
-				&trans
+				&none
 			>;
 		};
 
@@ -409,12 +409,12 @@
 				&kp LS(SLASH)	
 				&kp LSHIFT
 
-				&trans
-				&trans
-				&trans			
-				&trans
-				&trans
-				&trans
+				&none
+				&none
+				&none
+				&none
+				&none
+				&none
 			>;
 		};	
 
@@ -470,12 +470,12 @@
 				&kp LC(LA(G))
 				&kp LSHIFT
 		
-				&trans
-				&trans
-				&trans
+				&none
+				&none
+				&none
 				&sl mSPRG
-				&trans
-				&trans
+				&skq LSHIFT
+				&none
 			>;
 		};
 
@@ -531,12 +531,12 @@
 				&swright 						// OS Swap
 				&kp LSHIFT				
 		
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
+				&none
+				&none
+				&none
+				&none
+				&none
+				&none
 			>;
 		};
 
@@ -591,11 +591,11 @@
 				&kp LSHIFT					
 				
 				&sl mSFUNC
-				&trans
-				&trans
-				&trans
-				&skq LSHIFT 
-				&trans
+				&none
+				&none
+				&none
+				&kp LSHIFT 
+				&none
 			>;
 		};
 
@@ -648,12 +648,12 @@
 				&trans
 				&kp LSHIFT
 		
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans              
+				&none
+				&none
+				&none
+				&none
+				&none
+				&none            
 			>;
 		};
 
@@ -708,11 +708,11 @@
 				&kp LG(K) 
 				&kp LSHIFT				
 		
-				&trans
+				&none
 				&kp LG(SPACE)
-				&trans
-				&trans
-				&trans
+				&none
+				&none
+				&none
 				&sl mSMOD
 			>;
 		};
@@ -768,12 +768,12 @@
 				&kp LA(LG(K)) 
 				&kp LSHIFT
 
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
+				&none
+				&none
+				&none
+				&none
+				&none
+				&none
 			>;
 		};
 
@@ -827,12 +827,12 @@
 				&kp TAB						// vor
 				&kp LSHIFT					//
 
-				&trans
+				&none
 				&kp LG(LA(LC(F18)))		  	// Shortcat
 				&sl mNAV2
 				&kp LG(SPACE)
 				&mo moNR
-				&trans
+				&none
 			>;
 		};
 
@@ -854,9 +854,9 @@
 				&trans
 				&kp LG(LS(HOME))			// Home Sprung
 				&kp LS(HOME) 				// Home 
-				&kp UP						// 
+				&kp LS(UP)					// 
 				&kp LS(END)					// End
-				&kp PG_UP 					// 
+				&kp LC(PG_UP) 				// 
 				&kp BACKSPACE				// 
 
 				&kp DEL 					//
@@ -866,10 +866,10 @@
 				&kp LCTL					//
 				&trans
 				&kp LG(LS(END)) 			// End Sprung Markierung
-				&kp LEFT 					// 
-				&kp DOWN					//
-				&kp RIGHT 					//
-				&kp PG_DN					//
+				&kp LS(LEFT) 				// 
+				&kp LS(DOWN)				//
+				&kp LS(RIGHT) 				//
+				&kp LC(PG_DN)				//
 				&kp ENTER					//
 	
 				&kp LSHIFT
@@ -885,12 +885,12 @@
 				&kp LC(TAB)					// vor
 				&kp LSHIFT
 
-				&trans
+				&none
 				&kp LG(LA(LC(F18)))		  	// Shortcat
 				&trans
 				&kp LG(LA(LC(SPACE)))	 	// Maestro Spotlight
 				&mo moNR
-				&trans
+				&none
 			>;
 		};
 
