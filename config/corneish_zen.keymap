@@ -1006,7 +1006,7 @@
 				&kp LA(LS(F2))					// powertoys
 				&kp LA(LS(F3))					// powertoys
 				&kp LA(LS(F4))					// powertoys
-				&kp LA(F)						// set
+				&kp LC(F)						// set
 				&kp LC(LS(F10))					// set 
 				&kp LS(TAB)						// set
 				&kp LC(LEFT)					// set
