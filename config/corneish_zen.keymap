@@ -884,9 +884,9 @@
 				&kp LA(LG(LC(K)))
 				&kp LSHIFT
 
-				&kp C_AC_ZOOM_OUT
+				&kp LG(KP_MINUS)			// Minus alt
 				&none
-				&kp C_AC_ZOOM_IN
+				&kp LG(KP_PLUS)				// Plus alt
 				&none
 				&none
 				&none
