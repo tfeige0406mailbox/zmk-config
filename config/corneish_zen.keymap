@@ -281,7 +281,7 @@
 				&kp LG(LA(LC(F9)))		  	// Pfad vor
 				&kp LG(LA(LC(F10)))		  	// Seitenleiste rechts
 				&kp LG(LA(LC(F11)))		  	// open
-				&kp LG(LA(LC(GRAVE)))	  	// Kontext Menü
+				&kp LG(LA(LC(LS(F19))))	  	// Kontext Menü
 				&kp LS(TAB)					// zurück
 				&kp LA(LEFT)				// Wort Sprung
 				&kp LA(RIGHT)				// Wort Sprung
@@ -632,7 +632,7 @@
 				&kp LG(LA(LC(N8)))
 				&kp LG(LA(LC(N9)))
 				&kp LG(LA(LC(N0)))
-				&kp LA(LG(LC(LS(F1)))) 			// PRG swap alt (hyper open)
+				&kp LA(LG(LC(LS(TAB)))) 		// Prg Intern Cycle
 
 				&kp LSHIFT
 				&kp LC(LA(LS(C)))
@@ -667,30 +667,30 @@
 
 			bindings = <
 	
-				&kp LG(LS(T))				// Craft Ausklappen
-				&kp LG(LS(P))				// Craft Format (Seite)
-				&kp LG(LS(SLASH))			// Craft Format (Durch)
-				&kp LG(LS(NUHS))			// Craft Format (Focus)
-				&kp LG(LS(EQUAL))			// Craft Format (Block)
-				&kp LG(LA(LC(LS(F5))))		// open
-				&kp LG(LA(LC(LS(F6))))		// open
-				&kp LG(LA(LC(LS(F7))))		// Window Swap
+				&kp LC(N6)					// Craft Format 
+				&kp LC(N5)					// Craft Format 
+				&kp LC(N4)					// Craft Format 
+				&kp LC(N3)					// Craft Format 
+				&kp LC(N2)					// Craft Format 
+				&kp LC(N1)					// Craft Format 
+				&kp LG(LA(LC(F17)))			// free
+				&kp LG(LA(LC(LS(F5))))		// Window Swap
 				&kp LG(LC(UP))				// Window Move
-				&kp LG(LA(LC(LS(F8))))		// Window Swap
-				&kp LG(RBKT)				// Plus +
+				&kp LG(LA(LC(LS(F6))))		// Window Swap
+				&kp LG(LA(LC(LS(F7))))		// Plus +
 				&kp LG(LC(Q))				// Sperren 
 				
 				&kp LS(DEL)					// Delete Special
 				&kp LG(LS(B))				// Craft Format
 				&kp LG(U) 					// Craft Format
-				&kp LG(B) 					// Craft Format
 				&kp LG(I)					// Craft Format
+				&kp LG(B) 					// Craft Format
 				&kp LG(LS(C))				// Craft Format
-				&kp LG(LC(LA(NUHS)))   		// Screenshot
+				&kp LG(LA(LC(F18)))			// free
 				&kp LG(LC(LEFT))			// Window Move
 				&kp LG(LC(DOWN))			// Window Move
 				&kp LG(LC(RIGHT))			// Window Move
-				&kp LG(SLASH)				// Minus -
+				&kp LG(LA(LC(LS(F8))))		// Minus -
 				&kp INSERT
 
 				&kp LSHIFT
@@ -698,8 +698,8 @@
 				&kp C_PP 
 				&kp C_PP 
 				&kp C_NEXT 
-				&kp LG(LA(LC(LS(F9))))		// 
-				&kp LG(LA(LC(LS(F10))))		//
+				&none
+				&none
 				&kp C_VOLUME_DOWN 
 				&kp C_MUTE
 				&kp C_MUTE
@@ -725,13 +725,13 @@
 
 			bindings = <
 
+				&kp LG(LC(LA(NUHS)))   		// Screenshot
 				&trans
 				&trans
 				&trans
 				&trans
 				&trans
-				&trans
-				&trans
+				&kp LG(LA(LC(LS(F10))))		// deep
 				&kp LG(LA(LC(LS(F11))))		// deep
 				&kp LG(LA(LC(LS(F12))))		// Size
 				&kp LG(LA(LC(LS(F13))))		// deep
@@ -739,12 +739,12 @@
 				&kp LC(LG(LS(ESC)))			// Herunterfahren
 
 				&kp LG(LA(LC(Y)))			// drehen
-				&kp LC(N5)					// Craft Format 
-				&kp LC(N4)					// Craft Format 
-				&kp LC(N3)					// Craft Format 
-				&kp LC(N2)					// Craft Format 
-				&kp LC(N1)					// Craft Format 
-				&trans
+				&kp LG(LS(SLASH))			// Craft Format (Durch)
+				&kp LG(LS(P))				// Craft Format (Seite)
+				&kp LG(LS(NUHS))			// Craft Format (Focus)
+				&kp LG(LS(EQUAL))			// Craft Format (Block)
+				&kp LG(LS(T))				// Craft Ausklappen
+				&kp LG(LA(LC(LS(F9))))		// deep
 				&kp LG(LA(LC(LS(F15))))		// Size 
 				&kp LG(LA(LC(LS(F16))))		// Size
 				&kp LG(LA(LC(LS(F17))))		// Size
@@ -758,10 +758,10 @@
 				&trans
 				&trans
 				&trans
-				&kp LG(LA(LC(PG_UP)))		// Bright
-				&kp LG(LA(PG_UP))			// Slow Bright
-				&kp LG(LA(PG_DN))			// Slow Bright 
-				&kp LG(LA(LC(PG_DN)))		// Bright
+				&kp LG(LA(LC(GRAVE)))		// Bright
+				&trans
+				&trans
+				&kp LG(LA(LC(EQUAL)))		// Bright
 				&kp LSHIFT
 		
 				&none
@@ -824,9 +824,9 @@
 				&kp LG(K) 
 				&kp LSHIFT				
 		
-				&none
+				&kp LG(RBKT)				// Plus +
 				&kp LG(SPACE)
-				&none
+				&kp LG(SLASH)				// Minus -
 				&none
 				&none
 				&sl mSMOD
@@ -884,9 +884,9 @@
 				&kp LA(LG(LC(K)))
 				&kp LSHIFT
 
+				&kp LC(KP_PLUS)				// + alt
 				&none
-				&none
-				&none
+				&kp LC(KP_MINUS)			// - alt
 				&none
 				&none
 				&none
@@ -1397,30 +1397,30 @@
 
 			bindings = <
 	
-				&kp LC(LA(T))					// Craft ausklappen
-				&kp LC(LS(P))					// Craft
-				&kp LC(LS(S))					// Craft
-				&kp LC(LS(SINGLE_QUOTE))		// Craft
-				&kp LC(LS(NUHS))				// Craft
-				&trans
-				&trans
-				&kp LA(LS(F15))					// layout
+				&kp LC(LS(N6))					// craft
+				&kp LC(LS(N5))					// craft
+				&kp LC(LS(N4))					// craft
+				&kp LC(LS(N3))					// craft
+				&kp LC(LS(N2))					// craft
+				&kp LC(LS(N1))					// craft
+				&kp LA(LC(LS(F1)))				// free
+				&kp LA(LC(LS(F3)))				// free
 				&windowup					    // window up
-				&kp LA(LS(F16))					// layout
-				&kp LC(KP_PLUS)					// +
+				&kp LA(LC(LS(F4)))				// free
+				&kp LA(LC(LS(F5)))				// free
 				&kp LG(L)						// Sperren
 		
 				&kp LS(DEL)						// delete
 				&kp LC(LS(B)) 					// Craft
 				&kp LC(LS(U)) 					// Craft
-				&kp LC(LS(F)) 					// Craft
 				&kp LC(LS(K))					// Craft
+				&kp LC(LS(F)) 					// Craft
 				&kp LC(LS(C)) 					// Craft
-				&kp LS(LG(S))                   // Screenshot
+				&kp LA(LC(LS(F2)))				// free
 				&windowleft					    // window
 				&windowdown 				    // window
 				&windowright 				    // window
-				&kp LC(KP_MINUS)				// -
+				&kp LA(LC(LS(F6)))				// free
 				&kp INSERT						// insert
 				
 				&kp LSHIFT							
@@ -1457,43 +1457,43 @@
 
 			bindings = <
 
+				&kp LS(LG(S))
+				&kp LA(LC(LS(F13)))				// free
+				&kp LA(LC(LS(F14)))				// free
+				&kp LA(LC(LS(F15)))				// free
+				&kp LA(LC(LS(F16)))				// free
+				&kp LA(LC(LS(F17)))				// free
 				&trans
+				&kp LA(LC(LS(F9)))				// free
 				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&kp LA(LC(LG(LS(F17))))			// swap
-				&trans
-				&kp LA(LC(LG(LS(F18))))			// swap
-				&trans
+				&kp LA(LC(LS(F10)))				// free
+				&kp LA(LC(LS(F11)))				// free
 				&kp LG(X) 						// Herunterfahren
 		
 				&kp LC(LS(Y))					// drehen
-				&kp LC(LS(N5))					// craft
-				&kp LC(LS(N4))					// craft
-				&kp LC(LS(N3))					// craft
-				&kp LC(LS(N2))					// craft
-				&kp LC(LS(N1))					// craft
+				&kp LC(LS(S))					// Craft Durch
+				&kp LC(LS(P))					// Craft Seite
+				&kp LC(LS(NUHS))				// Craft Fokus
+				&kp LC(LS(SINGLE_QUOTE))		// Craft Block
+				&kp LC(LA(T))					// Craft ausklappen
                 &trans
 				&trans
 				&trans
 				&trans
-				&trans
+				&kp LA(LC(LS(F12)))				// free
 				&kp LC(LS(Z))					// drehen
 
 				&kp LSHIFT
-				&kp LC(LS(C))					// Craft
-				&kp LC(LS(V))					// Craft
 				&trans
 				&trans
 				&trans
 				&trans
-				&kp LG(LA(LC(PG_UP)))			// Bright
-				&kp LG(LA(PG_UP))				// Slow Bright
-				&kp LG(LA(PG_DN))				// Slow Bright 
-				&kp LG(LA(LC(PG_DN)))			// Bright
+				&trans
+				&trans
+				&kp LG(LA(LC(GRAVE)))			// Bright
+				&trans
+				&trans
+				&kp LG(LA(LC(EQUAL)))			// Bright
 				&kp LSHIFT
 		
 				&none
@@ -1555,9 +1555,9 @@
 				&kp LC(K) 
 				&kp LSHIFT
 		
-				&none
+				&kp LC(KP_PLUS)					// +
 				&kp LC(SPACE)
-				&none
+				&kp LC(KP_MINUS)				// -
 				&none
 				&sl wZMOD
 				&sl wSMOD
@@ -1615,9 +1615,9 @@
 				&kp LS(LC(K)) 
 				&kp LSHIFT
 
-				&none
+				&kp LC(RBKT)					// + alt
 				&kp LS(LC(SPACE))
-				&none
+				&kp LC(SLASH)					// - alt
 				&none
 				&sl wFMOD
 				&sl wALT
