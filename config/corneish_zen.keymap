@@ -824,9 +824,9 @@
 				&kp LG(K) 
 				&kp LSHIFT				
 		
-				&kp LG(RBKT)				// Plus +
-				&kp LG(SPACE)
 				&kp LG(SLASH)				// Minus -
+				&kp LG(SPACE)
+				&kp LG(RBKT)				// Plus +
 				&none
 				&none
 				&sl mSMOD
@@ -884,9 +884,9 @@
 				&kp LA(LG(LC(K)))
 				&kp LSHIFT
 
-				&kp LC(KP_PLUS)				// + alt
+				&kp C_AC_ZOOM_OUT
 				&none
-				&kp LC(KP_MINUS)			// - alt
+				&kp C_AC_ZOOM_IN
 				&none
 				&none
 				&none
@@ -1555,9 +1555,9 @@
 				&kp LC(K) 
 				&kp LSHIFT
 		
-				&kp LC(KP_PLUS)					// +
-				&kp LC(SPACE)
 				&kp LC(KP_MINUS)				// -
+				&kp LC(SPACE)
+				&kp LC(KP_PLUS)					// +
 				&none
 				&sl wZMOD
 				&sl wSMOD
@@ -1615,9 +1615,9 @@
 				&kp LS(LC(K)) 
 				&kp LSHIFT
 
-				&kp LC(RBKT)					// + alt
-				&kp LS(LC(SPACE))
 				&kp LC(SLASH)					// - alt
+				&kp LS(LC(SPACE))
+				&kp LC(RBKT)					// + alt
 				&none
 				&sl wFMOD
 				&sl wALT
