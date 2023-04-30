@@ -731,7 +731,7 @@
 				&trans
 				&trans
 				&trans
-				&trans
+				&kp LG(LA(LC(LS(PG_UP))))	// deep
 				&kp LG(LA(LC(LS(F11))))		// deep
 				&kp LG(LA(LC(LS(F12))))		// Size
 				&kp LG(LA(LC(LS(F13))))		// deep
@@ -744,7 +744,7 @@
 				&kp LG(LS(NUHS))			// Craft Format (Focus)
 				&kp LG(LS(EQUAL))			// Craft Format (Block)
 				&kp LG(LS(T))				// Craft Ausklappen
-				&trans
+				&kp LG(LA(LC(LS(PG_DN))))	// deep
 				&kp LG(LA(LC(LS(F15))))		// Size 
 				&kp LG(LA(LC(LS(F16))))		// Size
 				&kp LG(LA(LC(LS(F17))))		// Size
@@ -1463,7 +1463,7 @@
 				&kp LA(LC(LS(F15)))				// free
 				&kp LA(LC(LS(F16)))				// free
 				&kp LA(LC(LS(F17)))				// free
-				&none
+				&kp LA(LC(LS(F18)))				// free
 				&kp LA(LC(LS(F9)))				// free
 				&trans
 				&kp LA(LC(LS(F10)))				// free
@@ -1476,7 +1476,7 @@
 				&kp LC(LS(NUHS))				// Craft Fokus
 				&kp LC(LS(SINGLE_QUOTE))		// Craft Block
 				&kp LC(LA(T))					// Craft ausklappen
-                &none
+                &kp LA(LC(LS(F19)))				// free
 				&trans
 				&trans
 				&trans
