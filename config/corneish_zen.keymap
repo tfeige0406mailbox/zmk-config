@@ -292,7 +292,7 @@
 				&kp LGUI
 		
 				&none
-				&none
+				&kp SPACE 
 				&none
 				&none
 				&to mCHAR
@@ -1881,7 +1881,7 @@
 
 
 		// --------------------------------------
-		// Layer 1 - mNR = 	  Zahlen	
+		// Layer 28 - mNR = 	  Zahlen	
 		// --------------------------------------
 
 		mac_zahlen
