@@ -291,12 +291,12 @@
 				&kp SLASH		
 				&kp LGUI
 		
-				&none
+				&sl mFUNC
 				&kp SPACE 
-				&none
-				&none
+				&sl mNAV
+				&sl mPRG
 				&to mCHAR
-				&none
+				&sl mMOD
 			>;		
 		};
 
