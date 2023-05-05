@@ -352,14 +352,16 @@
 				&kp LSHIFT					// Shift
 
 				&none
-				&sl 
+				&sl bCHAR
 				&sl mNAV2					// deep
-				&kp LG(SPACE)				// Spotlight
-				&mo mNR						// Zahlen
+				&sl mSYM
+				&trans
 				&none
 
 
 				//&kp LG(LA(LC(F12)))		  	// Shortcat
+				//&kp LG(SPACE)					// Spotlight
+				//&kp LG(LA(LC(SPACE)))	 	    // Maestro Spotlight
 			>;
 		};
 
@@ -413,10 +415,10 @@
 				&kp LSHIFT					// Shift
 
 				&none
-				&kp LG(LA(LC(F12)))		  	// Shortcat
+				&sl bCHAR
 				&trans						// higher
-				&kp LG(LA(LC(SPACE)))	 	// Maestro Spotlight
-				&mo mNR						// Zahlen
+				&sl mSSYM
+				&trans
 				&none
 			>;
 		};
