@@ -1827,7 +1827,7 @@
 		// Layer 27 - bChar = 	  Buchstaben	
 		// --------------------------------------
 	
-		mac_buchstaben
+		mac_bigbuchstaben
 		{
 			label = "MAC";
 
@@ -1886,7 +1886,7 @@
 		// Layer 28 - mNR = 	  Zahlen	
 		// --------------------------------------
 
-		mac_zahlen
+		mac_zahlen2
 		{
 			label = "MAC";
 
