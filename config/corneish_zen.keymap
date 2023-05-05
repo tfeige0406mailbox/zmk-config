@@ -6,11 +6,10 @@
 // MAC
 
 #define mCHAR 0
+#define mNR 1
 
-#define mNAV 1
-#define mNAV2 2
-
-#define mNR 3
+#define mNAV 2
+#define mNAV2 3
 
 #define mSYM 4
 #define mSSYM 5
@@ -231,16 +230,74 @@
 				&kp SPACE
 				&sl mNAV
 				&sl mPRG
-				&sl mNR
+				&to mNR
 				&sl mMOD
 			>;
 		};
 
 
+		// --------------------------------------
+		// Layer 1 - mNR = 	  Zahlen	
+		// --------------------------------------
+
+		mac_zahlen
+		{
+			label = "MAC";
+
+			bindings = <
+
+				&kp ESC	
+				&kp LS(N3)
+				&kp NUBS
+				&kp LS(NUBS)			
+				&kp NUHS
+				&kp X
+				&kp LS(N4)
+				&kp LA(E)
+				&kp LA(M)
+				&kp M
+				&kp LS(N5)			
+				&kp BSPC
+
+				&kp DEL
+				&kp N1				
+				&kp N2				
+				&kp N3				
+				&kp N4					
+				&kp N5				
+				&kp N6				
+				&kp N7				
+				&kp N8				
+				&kp N9				
+				&kp N0				
+				&kp ENTER 
+
+				&kp LGUI
+				&kp LS(N7)
+				&kp LS(N8)
+				&kp LS(N9)
+				&kp LS(RBRC)
+				&kp LS(N0)
+				&kp LS(N2)
+				&kp RBKT
+				&kp COMMA
+				&kp DOT
+				&kp SLASH		
+				&kp LGUI
+		
+				&none
+				&none
+				&none
+				&none
+				&to mCHARs
+				&none
+			>;		
+		};
+
 
 
 		// --------------------------------------
-		// Layer = 1 - mNAV - Navigation
+		// Layer = 2 - mNAV - Navigation
 		// -------------------------------------
 
 		mac_navigation
@@ -298,7 +355,7 @@
 		};
 
 		// --------------------------------------
-		// Layer = 2 - mNAV2 - Navigation
+		// Layer = 3 - mNAV2 - Navigation
 		// -------------------------------------
 
 		mac_navigation2
@@ -354,65 +411,7 @@
 				&none
 			>;
 		};
-	
 
-		// --------------------------------------
-		// Layer 3 - mNR = 	  Zahlen	
-		// --------------------------------------
-
-		mac_zahlen
-		{
-			label = "MAC";
-
-			bindings = <
-
-				&kp ESC	
-				&kp LS(N3)
-				&kp NUBS
-				&kp LS(NUBS)			
-				&kp NUHS
-				&kp X
-				&kp LS(N4)
-				&kp LA(E)
-				&kp LA(M)
-				&kp M
-				&kp LS(N5)			
-				&kp BSPC
-
-				&kp DEL
-				&kp N1				
-				&kp N2				
-				&kp N3				
-				&kp N4					
-				&kp N5				
-				&kp N6				
-				&kp N7				
-				&kp N8				
-				&kp N9				
-				&kp N0				
-				&kp ENTER 
-
-				&kp LGUI
-				&kp LS(N7)
-				&kp LS(N8)
-				&kp LS(N9)
-				&kp LS(RBRC)
-				&kp LS(N0)
-				&kp LS(N2)
-				&kp RBKT
-				&kp COMMA
-				&kp DOT
-				&kp SLASH		
-				&kp LGUI
-		
-				&none
-				&none
-				&none
-				&none
-				&sl mSYM
-				&none
-			>;		
-		};
 
 
 
@@ -443,7 +442,7 @@
 				&kp LA(N7)				
 				&kp LA(N)				
 				&kp GRAVE				
-				&kp LA(N)					
+				&kp LA(L)					
 				&kp LS(N6)	
 				&kp EQUAL		
 				&kp LS(N1)		
@@ -503,7 +502,7 @@
 				&kp LA(N7)				
 				&kp LA(N)				
 				&kp LS(GRAVE)
-				&kp LA(N)					
+				&kp LA(L)					
 				&kp LS(N6)				
 				&kp LS(EQUAL)	
 				&kp LS(N1)				
