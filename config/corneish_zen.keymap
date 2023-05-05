@@ -49,6 +49,12 @@
 #define wZMOD 24
 #define wFMOD 25
 #define wALT 26
+
+
+// BOTH
+
+#define bCHAR 27
+#define bNR 28
  
 
 
@@ -346,11 +352,14 @@
 				&kp LSHIFT					// Shift
 
 				&none
-				&kp LG(LA(LC(F12)))		  	// Shortcat
+				&sl 
 				&sl mNAV2					// deep
 				&kp LG(SPACE)				// Spotlight
 				&mo mNR						// Zahlen
 				&none
+
+
+				//&kp LG(LA(LC(F12)))		  	// Shortcat
 			>;
 		};
 
@@ -1806,7 +1815,129 @@
 	
 	
 
-		// ----------------------------------
+		// --------------------------------------------------------------------
+		// --------------------------------------------------------------------
+
+
+
+
+		// --------------------------------------
+		// Layer 27 - bChar = 	  Buchstaben	
+		// --------------------------------------
+	
+		mac_buchstaben
+		{
+			label = "MAC";
+
+			bindings = <
+
+				&kp ESC
+				&kp LS(J) 
+				&kp LS(D)	 
+				&kp LS(U)
+				&kp LS(A)
+				&kp LS(X)
+				&kp LS(P)
+				&kp LS(H)
+				&kp LS(L)
+				&kp LS(M)
+				&kp LS(W)
+				&kp LS(BSPC)
+	
+				&kp LS(DEL)
+				&kp LS(C)
+				&kp LS(T)
+				&kp LS(I)
+				&kp LS(E)
+				&kp LS(O)
+				&kp LS(B)
+				&kp LS(N)
+				&kp LS(R)
+				&kp LS(S)
+				&kp LS(G)
+				&kp LS(RET)
+	
+				&kp LSHIFT
+				&kp LS(F)
+				&kp LS(V)
+				&kp LS(MINUS)
+				&kp LS(Y)
+				&kp LS(Q)
+				&kp LS(Z)
+				&kp LS(SEMI)
+				&kp LS(LBKT)
+				&kp LS(SQT)
+				&kp LS(K)
+				&kp LSHIFT
+
+				&none
+				&kp SPACE
+				&none
+				&none
+				&none
+				&none
+			>;
+		};
+
+
+		// --------------------------------------
+		// Layer 1 - mNR = 	  Zahlen	
+		// --------------------------------------
+
+		mac_zahlen
+		{
+			label = "MAC";
+
+			bindings = <
+
+				&kp ESC	
+				&kp LS(N3)
+				&kp NUBS
+				&kp LS(NUBS)			
+				&kp NUHS
+				&kp X
+				&kp LS(N4)
+				&kp LA(E)
+				&kp LA(M)
+				&kp M
+				&kp LS(N5)			
+				&kp BSPC
+
+				&kp DEL
+				&kp N1				
+				&kp N2				
+				&kp N3				
+				&kp N4					
+				&kp N5				
+				&kp N6				
+				&kp N7				
+				&kp N8				
+				&kp N9				
+				&kp N0				
+				&kp ENTER 
+
+				&kp LGUI
+				&kp LS(N7)
+				&kp LS(N8)
+				&kp LS(N9)
+				&kp LS(RBRC)
+				&kp LS(N0)
+				&kp LS(N2)
+				&kp RBKT
+				&kp COMMA
+				&kp DOT
+				&kp SLASH		
+				&kp LGUI
+		
+				&none
+				&kp SPACE
+				&none
+				&none
+				&trans
+				&none
+			>;		
+		};
+
 	};		
 };
 
