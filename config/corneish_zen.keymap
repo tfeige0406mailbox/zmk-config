@@ -155,19 +155,26 @@
         	release-after-ms = <5000>;
         	quick-release;
     	}; 
-		mD1: tap_dance_0 {
+		mDnr: tap_dance_0 {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_0";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&to mNR>, <&sl mSYM>, <&sl mSSYM>;
         };
-		mD0: tap_dance_1 {
+		mDchar: tap_dance_1 {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_0";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&to mCHAR>, <&sl mSYM>, <&sl mSSYM>;
+        };
+		mDspace: tap_dance_space {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_0";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp SPACE>, <&sl mSYM>, <&sl mSSYM>;
         };
 	};
 };
@@ -247,10 +254,10 @@
 				&kp LSHIFT
 
 				&sl mFUNC
-				&kp SPACE
+				&mDspace
 				&sl mNAV
 				&sl mPRG
-				&mD1
+				&mDnr
 				&sl mMOD
 			>;
 		};
@@ -309,7 +316,7 @@
 				&kp SPACE 
 				&sl mNAV
 				&sl mPRG
-				&mD0
+				&mDchar
 				&sl mMOD
 			>;		
 		};
