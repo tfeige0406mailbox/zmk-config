@@ -160,7 +160,7 @@
             label = "TAP_DANCE_nr";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&sl mNR>, <&to mNR>;
+            bindings = <&sl bNR>, <&to mNR>;
         };
 	};
 };
@@ -361,8 +361,8 @@
 				&none
 				&sl bCHAR
 				&sl mNAV2					// deep
-				&none
-				&trans
+				&kp LG(SPACE)
+				&mDnr
 				&none
 			>;
 		};
@@ -417,10 +417,10 @@
 				&to mCHAR					// back
 
 				&none
-				&none
-				&none
-				&none
+				&sl bCHAR
 				&trans
+				&kp LG(LA(LC(SPACE)))	 	 	// Maestro Spotlight
+				&mDnr
 				&none
 			>;
 		};
@@ -543,7 +543,7 @@
 				&none
 				&none
 				&trans
-				&sl mSSYM
+				&sl mSYM
 				&none
 			>;
 		};
@@ -600,11 +600,11 @@
 				&to mCHAR					// back		
 				
 				&sl mSFUNC
-				&kp LG(SPACE)
-				&none
-				&none
-				&none
 				&kp LG(LA(LC(LS(MINUS))))		// Shortcat
+				&none
+				&none
+				&none
+				&none
 			>;
 		};
 
@@ -658,7 +658,7 @@
 				&to mCHAR					// back
 		
 				&trans
-				&kp LG(LA(LC(SPACE)))	 	 	// Maestro Spotlight
+				&kp LG(LA(LC(LS(MINUS))))		// Shortcat
 				&none
 				&none
 				&none
@@ -717,12 +717,12 @@
 				&kp SLASH		
 				&to mCHAR					// back
 		
-				&sl mSSYM
+				&trans 
 				&kp SPACE
 				&trans
 				&trans
-				&trans
 				&sl mSSYM
+				&trans
 			>;
 		};
 
@@ -777,12 +777,12 @@
 				&kp LS(SLASH)	
 				&to mCHAR					// back
 
-				&trans
+				&none
 				&kp SPACE
 				&none
 				&none
 				&trans
-				&trans
+				&none
 			>;
 		};	
 
@@ -838,7 +838,7 @@
 				&kp LG(K) 
 				&to mCHAR					// back			
 		
-				&kp LG(LA(LC(LS(MINUS))))		  	// Shortcat
+				&none
 				&kp LG(SPACE)
 				&none
 				&none
@@ -899,7 +899,7 @@
 				&to mCHAR					// back
 
 				&none
-				&none
+				&kp LA(LG(LC(SPACE)))
 				&none
 				&none
 				&none
@@ -1874,13 +1874,13 @@
 				&kp LS(LBKT)
 				&kp LS(SQT)
 				&kp LS(K)
-				&kp LSHIFT
+				&trans
 
 				&none
-				&kp SPACE
+				&trans
 				&none
 				&none
-				&none
+				&trans
 				&none
 			>;
 		};
@@ -1922,7 +1922,7 @@
 				&kp N0				
 				&kp ENTER 
 
-				&kp LGUI
+				&kp LSHIFT
 				&kp LS(N7)
 				&kp LS(N8)
 				&kp LS(N9)
@@ -1933,10 +1933,10 @@
 				&kp COMMA
 				&kp DOT
 				&kp SLASH		
-				&kp LGUI
+				&trans
 		
 				&none
-				&kp SPACE
+				&trans
 				&none
 				&none
 				&trans
