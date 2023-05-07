@@ -361,7 +361,7 @@
 				&none
 				&sl bCHAR
 				&sl mNAV2					// deep
-				&sl mSYM
+				&none
 				&trans
 				&none
 			>;
@@ -417,9 +417,9 @@
 				&to mCHAR					// back
 
 				&none
-				&sl bCHAR
-				&trans
-				&sl mSYM
+				&none
+				&none
+				&none
 				&trans
 				&none
 			>;
@@ -479,10 +479,10 @@
 				&to mCHAR					// back
 		
 				&none
-				&kp LG(SPACE)				// Spotlight
-				&sl mSYM
+				&none
+				&none
 				&sl mSPRG
-				&sl bNR
+				&sl mSYM
 				&none
 			>;
 		};
@@ -540,13 +540,14 @@
 				&to mCHAR						// back			
 		
 				&none
-				&kp LG(LA(LC(SPACE)))	 	 	// Maestro Spotlight
-				&sl mSYM
+				&none
+				&none
 				&trans
-				&sl bNR 
+				&sl mSSYM
 				&none
 			>;
 		};
+
 
 
 		// --------------------------------------
@@ -599,7 +600,7 @@
 				&to mCHAR					// back		
 				
 				&sl mSFUNC
-				&none
+				&kp LG(SPACE)
 				&none
 				&none
 				&none
@@ -657,7 +658,7 @@
 				&to mCHAR					// back
 		
 				&trans
-				&none
+				&kp LG(LA(LC(SPACE)))	 	 	// Maestro Spotlight
 				&none
 				&none
 				&none
