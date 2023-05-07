@@ -155,23 +155,23 @@
         	release-after-ms = <5000>;
         	quick-release;
     	}; 
-		mDnr: tap_dance_0 {
+		mDnr: tap_dance_nr {
             compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_0";
+            label = "TAP_DANCE_nr";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&to mNR>, <&sl mSYM>, <&sl mSSYM>;
         };
-		mDchar: tap_dance_1 {
+		mDchar: tap_dance_char {
             compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_0";
+            label = "TAP_DANCE_char";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&to mCHAR>, <&sl mSYM>, <&sl mSSYM>;
         };
 		mDspace: tap_dance_space {
             compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_0";
+            label = "TAP_DANCE_space";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp SPACE>, <&sl mSYM>, <&sl mSSYM>;
@@ -313,7 +313,7 @@
 				&kp LGUI
 		
 				&sl mFUNC
-				&kp SPACE 
+				&mDspace 
 				&sl mNAV
 				&sl mPRG
 				&mDchar
