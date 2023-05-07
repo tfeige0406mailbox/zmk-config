@@ -160,14 +160,14 @@
             label = "TAP_DANCE_0";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&to 1>, <&sl mSYM>, <&sl mSSYM>;
+            bindings = <&to mNR>, <&sl mSYM>, <&sl mSSYM>;
         };
 		mD0: tap_dance_0 {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_0";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&to 1>, <&sl mSYM>, <&sl mSSYM>;
+            bindings = <&to mCHAR>, <&sl mSYM>, <&sl mSSYM>;
         };
 	};
 };
