@@ -162,7 +162,7 @@
             tapping-term-ms = <200>;
             bindings = <&to mNR>, <&sl mSYM>, <&sl mSSYM>;
         };
-		mD0: tap_dance_0 {
+		mD0: tap_dance_1 {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_0";
             #binding-cells = <0>;
