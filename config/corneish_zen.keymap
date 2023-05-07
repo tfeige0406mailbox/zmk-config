@@ -250,7 +250,7 @@
 				&kp SPACE
 				&sl mNAV
 				&sl mPRG
-				&to mNR
+				&mD1
 				&sl mMOD
 			>;
 		};
@@ -309,7 +309,7 @@
 				&kp SPACE 
 				&sl mNAV
 				&sl mPRG
-				&to mCHAR
+				&mD0
 				&sl mMOD
 			>;		
 		};
