@@ -839,7 +839,7 @@
 				&to mCHAR					// back			
 		
 				&kp LG(LA(LC(LS(MINUS))))		  	// Shortcat
-				&none
+				&kp LG(SPACE)
 				&none
 				&none
 				&none
