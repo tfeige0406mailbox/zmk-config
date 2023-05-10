@@ -65,7 +65,6 @@
                 , <&kp LG(LA(LC(RIGHT)))> 	// einen rechts
                 ;
         };
-
     };
 
 
