@@ -159,7 +159,7 @@
 				&kp LBKT
 				&kp SQT
 				&kp K
-				&none
+				&mDrs
 
 				&sl mFUNC
 				&kp SPACE
@@ -219,7 +219,7 @@
 				&kp COMMA
 				&kp DOT
 				&kp SLASH		
-				&none
+				&mDrs
 		
 				&sl mFUNC
 				&kp SPACE 
