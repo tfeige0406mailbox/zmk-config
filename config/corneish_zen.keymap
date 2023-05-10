@@ -251,7 +251,7 @@
 				&kp G
 				&kp RET
 	
-				&kp LSHIFT
+				&mDls
 				&kp F
 				&kp V
 				&kp MINUS
@@ -310,7 +310,7 @@
 				&kp N0				
 				&kp ENTER 
 
-				&kp LGUI
+				&mDls
 				&kp LS(N7)
 				&kp LS(N8)
 				&kp LS(N9)
