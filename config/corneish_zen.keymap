@@ -262,7 +262,7 @@
 				&kp LBKT
 				&kp SQT
 				&kp K
-				&kp LSHIFT
+				&mDrightshift
 
 				&sl mFUNC
 				&kp SPACE
@@ -321,7 +321,7 @@
 				&kp COMMA
 				&kp DOT
 				&kp SLASH		
-				&kp LGUI
+				&mDrightshift
 		
 				&sl mFUNC
 				&kp SPACE 
