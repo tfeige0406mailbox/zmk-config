@@ -321,7 +321,7 @@
 				&kp COMMA
 				&kp DOT
 				&kp SLASH		
-				&mDrs
+				&none
 		
 				&sl mFUNC
 				&kp SPACE 
