@@ -171,6 +171,14 @@
             bindings = <&to mCHAR>, <&to mNR>;
         };
 
+		mDls: tap_dance_ls {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_ls";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&sl bCHAR>, <&to bCHAR>;
+        };
+
 	};
 };
 
