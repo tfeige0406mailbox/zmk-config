@@ -50,17 +50,17 @@
 
 	behaviors {
 
-		mDnr: tap_dance_nr {
+		mdNRon: tap_dance_mdNRon {
 			compatible = "zmk,behavior-tap-dance";
-			label = "TAP_DANCE_nr";
+			label = "TAP_DANCE_mdNRon";
 			#binding-cells = <0>;
 			tapping-term-ms = <200>;
-			bindings = <&sl bNR>, <&to mNR>;
+			bindings = <&sl mNR>, <&to mNR>;
 		};
 
-		mDnroff: tap_dance_nroff {
+		mdNRoff: tap_dance_mdNRoff {
 			compatible = "zmk,behavior-tap-dance";
-			label = "TAP_DANCE_nroff";
+			label = "TAP_DANCE_mdNRoff";
 			#binding-cells = <0>;
 			tapping-term-ms = <200>;
 			bindings = <&to mCHAR>, <&to mNR>;
