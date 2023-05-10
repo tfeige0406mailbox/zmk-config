@@ -148,7 +148,7 @@
 				&kp G
 				&kp RET
 	
-				&none
+				&mDls
 				&kp F
 				&kp V
 				&kp MINUS
@@ -208,7 +208,7 @@
 				&kp N0				
 				&kp ENTER 
 
-				&none
+				&mDls
 				&kp LS(N7)
 				&kp LS(N8)
 				&kp LS(N9)
