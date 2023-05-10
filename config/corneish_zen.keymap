@@ -169,7 +169,7 @@
 				&kp SPACE
 				&sl mNAV
 				&sl mPRG
-				&mDnr
+				&none
 				&sl mMOD
 			>;
 		};
@@ -229,7 +229,7 @@
 				&kp SPACE 
 				&sl mNAV
 				&sl mPRG
-				&mDnroff
+				&none
 				&sl mMOD
 			>;		
 		};
