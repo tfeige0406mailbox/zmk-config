@@ -179,12 +179,12 @@
             bindings = <&sl bCHAR>, <&to bCHAR>;
         };
 
-		aaa: tap_dance_aaa {
+		mDrs: tap_dance_rs {
             compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_aaa";
+            label = "TAP_DANCE_rs";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&sl bCHAR>, <&to bCHAR>;
+            bindings = <&sl bCHAR>, <&to mCHAR>;
         };
 
 	};
@@ -262,7 +262,7 @@
 				&kp LBKT
 				&kp SQT
 				&kp K
-				&aaaa
+				&none
 
 				&sl mFUNC
 				&kp SPACE
@@ -321,7 +321,7 @@
 				&kp COMMA
 				&kp DOT
 				&kp SLASH		
-				&kp LGUI
+				&mDrs
 		
 				&sl mFUNC
 				&kp SPACE 
