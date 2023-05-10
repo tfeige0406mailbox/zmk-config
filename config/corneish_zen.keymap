@@ -27,8 +27,8 @@
 
 // BOTH
 
-#define bCHAR 12
-#define bNR 13
+#define mBCHAR 12
+#define mBNR 13
  
 
 
@@ -44,27 +44,7 @@
     macros {
 
 
-		// --- Left and Right ---
 
-
-        swleft: SwitchLeft {				
-            label = "SwitchLeft";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&to mCHAR>
-                , <&kp LG(LA(LC(TAB)))>		// zum ersten Desk
-                ;
-        };
-		swright: SwitchRight {
-            label = "SwitchRight";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&to wCHAR>
-                , <&kp LG(LA(LC(RIGHT)))> 	// einen rechts
-                ;
-        };
     };
 
 	
@@ -265,7 +245,7 @@
 				&to mCHAR					// back
 
 				&none
-				&sl bCHAR
+				&sl mBCHAR
 				&sl mNAV2					// deep
 				&kp LG(SPACE)
 				&trans
@@ -323,7 +303,7 @@
 				&to mCHAR					// back
 
 				&none
-				&sl bCHAR
+				&sl mBCHAR
 				&trans
 				&kp LG(LA(LC(SPACE)))	 	 	// Maestro Spotlight
 				&trans
@@ -816,7 +796,7 @@
 
 
 		// --------------------------------------
-		// Layer 27 - bChar = 	  Buchstaben	
+		// Layer 12 - mBCHAR = 	  Buchstaben	
 		// --------------------------------------
 	
 		mac_bigbuchstaben
@@ -875,7 +855,7 @@
 
 
 		// --------------------------------------
-		// Layer 28 - mNR = 	  Zahlen	
+		// Layer 13 - mBNR = 	  Zahlen	
 		// --------------------------------------
 
 		mac_zahlen2
