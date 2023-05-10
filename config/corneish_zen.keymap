@@ -252,7 +252,7 @@
 				&kp LBKT
 				&kp SQT
 				&kp K
-				&mDrs
+				&none
 
 				&sl mFUNC
 				&kp SPACE
@@ -262,7 +262,7 @@
 				&sl mMOD
 			>;
 		};
-		
+
 
 
 		// --------------------------------------
@@ -312,7 +312,7 @@
 				&kp COMMA
 				&kp DOT
 				&kp SLASH		
-				&mDrs
+				&none
 		
 				&sl mFUNC
 				&kp SPACE 
