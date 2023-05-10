@@ -66,21 +66,6 @@
 			bindings = <&to mCHAR>, <&to mNR>;
 		};
 
-		mDlshift: tap_dance_mDlshift {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_mDlshift";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&sl mBCHAR>, <&to mBCHAR>;
-        };
-
-		mDrshift: tap_dance_mDrshift {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_mDrshift";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&sl bCHAR>, <&to mCHAR>;
-        };
 
 	};
 
