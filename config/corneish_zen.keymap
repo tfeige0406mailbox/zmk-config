@@ -91,7 +91,7 @@
             label = "TAP_DANCE_ls";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&sl bCHAR>, <&to bCHAR>;
+            bindings = <&kp X>, <&kp N>;
         };
 
 		mDrs: tap_dance_rs {
@@ -99,7 +99,7 @@
             label = "TAP_DANCE_rs";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&sl bCHAR>, <&to mCHAR>;
+            bindings = <&kp X>, <&kp N>;
         };
 
 
