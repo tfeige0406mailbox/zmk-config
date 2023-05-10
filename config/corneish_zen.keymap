@@ -184,7 +184,7 @@
             label = "TAP_DANCE_aaa";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&sl bCHAR>, <&to mCHAR>;
+            bindings = <&sl bCHAR>, <&to bCHAR>;
         };
 
 	};
@@ -262,7 +262,7 @@
 				&kp LBKT
 				&kp SQT
 				&kp K
-				&aaa
+				&aaaa
 
 				&sl mFUNC
 				&kp SPACE
