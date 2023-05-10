@@ -167,7 +167,7 @@
 				&kp G
 				&kp RET
 	
-				&mDls
+				&none
 				&kp F
 				&kp V
 				&kp MINUS
@@ -178,7 +178,7 @@
 				&kp LBKT
 				&kp SQT
 				&kp K
-				&mDrs
+				&none
 
 				&sl mFUNC
 				&kp SPACE
@@ -227,7 +227,7 @@
 				&kp N0				
 				&kp ENTER 
 
-				&mDls
+				&none
 				&kp LS(N7)
 				&kp LS(N8)
 				&kp LS(N9)
@@ -238,7 +238,7 @@
 				&kp COMMA
 				&kp DOT
 				&kp SLASH		
-				&mDrs
+				&none
 		
 				&sl mFUNC
 				&kp SPACE 
