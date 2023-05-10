@@ -262,7 +262,7 @@
 				&kp LBKT
 				&kp SQT
 				&kp K
-				&sl bChar
+				&none
 
 				&sl mFUNC
 				&kp SPACE
