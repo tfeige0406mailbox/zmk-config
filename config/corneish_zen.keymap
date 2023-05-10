@@ -439,10 +439,10 @@
 				&kp LC(LA(LS(E)))
 				&kp LC(LA(LS(O)))
 				&kp LC(LA(LS(B)))
-				&swleft 						// OS Swap
+				&none 						// OS Swap
 				&kp LC(LA(LS(R)))				
 				&kp LC(LA(LS(S)))
-				&swright 						// OS Swap
+				&none 						// OS Swap
 				&to mCHAR						// back			
 		
 				&none
