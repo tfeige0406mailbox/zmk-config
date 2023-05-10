@@ -289,7 +289,7 @@
 				&sl bCHAR
 				&sl mNAV2					// deep
 				&kp LG(SPACE)
-				&mDnr
+				&trans
 				&none
 			>;
 		};
@@ -347,7 +347,7 @@
 				&sl bCHAR
 				&trans
 				&kp LG(LA(LC(SPACE)))	 	 	// Maestro Spotlight
-				&mDnr
+				&trans
 				&none
 			>;
 		};
