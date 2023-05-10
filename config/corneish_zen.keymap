@@ -1899,7 +1899,7 @@
 				&kp LS(LBKT)
 				&kp LS(SQT)
 				&kp LS(K)
-				&trans
+				&kp LSHIFT
 
 				&none
 				&trans
