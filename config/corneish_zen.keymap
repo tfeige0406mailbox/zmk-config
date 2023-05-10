@@ -172,13 +172,7 @@
             bindings = <&sl bCHAR>, <&to bCHAR>;
         };
 
-		mDrs: tap_dance_rs {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_rs";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&sl bCHAR>, <&to mCHAR>;
-        };
+
 	};
 };
 
