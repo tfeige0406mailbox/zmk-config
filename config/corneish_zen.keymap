@@ -171,9 +171,9 @@
             bindings = <&to mCHAR>, <&to mNR>;
         };
 
-		mDls: tap_dance_ls {
+		mDleftshift: tap_dance_leftshift {
             compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_ls";
+            label = "TAP_DANCE_leftshift";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&sl bCHAR>, <&to bCHAR>;
@@ -251,7 +251,7 @@
 				&kp G
 				&kp RET
 	
-				&mDls
+				&mDleftshift
 				&kp F
 				&kp V
 				&kp MINUS
@@ -310,7 +310,7 @@
 				&kp N0				
 				&kp ENTER 
 
-				&mDls
+				&mDleftshift
 				&kp LS(N7)
 				&kp LS(N8)
 				&kp LS(N9)
