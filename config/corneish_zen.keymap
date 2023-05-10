@@ -65,6 +65,25 @@
 			tapping-term-ms = <200>;
 			bindings = <&to mCHAR>, <&to mNR>;
 		};
+
+		mDls: tap_dance_ls {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_ls";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&sl mBCHAR>, <&to mBCHAR>;
+        };
+
+		mDrs: tap_dance_rs {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_rs";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&sl bCHAR>, <&to mCHAR>;
+        };
+
+
+
 	};
 
 	
@@ -439,10 +458,10 @@
 				&kp LC(LA(LS(E)))
 				&kp LC(LA(LS(O)))
 				&kp LC(LA(LS(B)))
-				&none 						// OS Swap
+				&none 							// OS Swap
 				&kp LC(LA(LS(R)))				
 				&kp LC(LA(LS(S)))
-				&none 						// OS Swap
+				&none 							// OS Swap
 				&to mCHAR						// back			
 		
 				&none
