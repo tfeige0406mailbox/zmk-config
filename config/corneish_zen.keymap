@@ -115,5 +115,66 @@
 			>;
 		};
 
+
+
+		// --------------------------------------
+		// Layer 1 - mNR = 	  Zahlen	
+		// --------------------------------------
+
+		mac_zahlen
+		{
+			label = "MAC";
+
+			bindings = <
+
+				&kp ESC	
+				&kp LS(N3)
+				&kp NUBS
+				&kp LS(NUBS)			
+				&kp NUHS
+				&kp X
+				&kp LS(N4)
+				&kp LA(E)
+				&kp LA(M)
+				&kp M
+				&kp LS(N5)			
+				&kp BSPC
+
+				&kp DEL
+				&kp N1				
+				&kp N2				
+				&kp N3				
+				&kp N4					
+				&kp N5				
+				&kp N6				
+				&kp N7				
+				&kp N8				
+				&kp N9				
+				&kp N0				
+				&kp ENTER 
+
+				&mdLs
+				&kp LS(N7)
+				&kp LS(N8)
+				&kp LS(N9)
+				&kp LS(RBRC)
+				&kp LS(N0)
+				&kp LS(N2)
+				&kp RBKT
+				&kp COMMA
+				&kp DOT
+				&kp SLASH		
+				&to mCHAR
+		
+				&sl mFUNC
+				&kp SPACE 
+				&sl mNAV
+				&sl mPRG
+				&none
+				&sl mMOD
+			>;		
+		};
+
+
 	};
 };
