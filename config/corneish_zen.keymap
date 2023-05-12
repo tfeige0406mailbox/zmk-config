@@ -176,5 +176,64 @@
 		};
 
 
+		// --------------------------------------
+		// Layer = 2 - mNAV - Navigation
+		// -------------------------------------
+
+		mac_navigation
+		{		
+			label = "MAC";
+
+			bindings = <
+
+				&kp ESC
+				&kp LG(LA(LC(F1)))		  	// open
+				&kp LC(LS(TAB))				// Tap Switch
+				&kp LC(TAB)		  			// Tab Switch 
+				&kp LG(LA(LC(F2)))		  	// open
+				&kp LG(LA(LC(F3)))		  	// Clipboard History
+				&kp LG(HOME)				// Home Sprung
+				&kp HOME	 				// Home 
+				&kp UP						// Up
+				&kp END						// End
+				&kp PG_UP 					// Page Up
+				&kp BACKSPACE				// Backspace
+
+				&kp DEL 					// Delete
+				&kp LG(LA(LC(F4)))		  	// Pfadsuche
+				&kp LG(LA(LC(F5)))		  	// Umbennen
+				&kp LGUI					// App Switch
+				&kp LCTL					// Craft
+				&kp LG(LA(LC(F6)))		  	// Fokus
+				&kp LG(END) 				// End Sprung
+				&kp LEFT 					// Left
+				&kp DOWN					// Down
+				&kp RIGHT 					// Right
+				&kp PG_DN					// Page Down
+				&kp ENTER					// Enter
+				
+				&kp LSHIFT					// Shift
+				&kp LG(LA(LC(F7)))		  	// Seitenleiste links
+				&kp LG(LA(LC(F8)))		  	// Pfad zurück
+				&kp LG(LA(LC(F9)))		  	// Pfad vor
+				&kp LG(LA(LC(F10)))		  	// Seitenleiste rechts
+				&kp LG(LA(LC(F11)))		  	// open
+				&kp LG(LA(LC(F12)))		  	// open
+				&kp LS(TAB)					// zurück
+				&kp LA(LEFT)				// Wort Sprung
+				&kp LA(RIGHT)				// Wort Sprung
+				&kp TAB						// vor
+				&to mCHAR					// back
+
+				&none
+				&none
+				&sl mNAV2					// deep
+				&trans
+				&trans
+				&trans						// testen !!
+			>;
+		};
+
+
 	};
 };
