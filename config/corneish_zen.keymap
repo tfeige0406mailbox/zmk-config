@@ -416,5 +416,64 @@
 		};
 
 
+
+		// --------------------------------------
+		// Layer 6 - mFUNC =	Funktionen
+		// --------------------------------------
+
+		mac_function
+		{
+			label = "MAC";
+
+			bindings = <
+	
+				&kp INSERT
+				&kp LC(N2)					// Craft Format 
+				&kp LC(N3)					// Craft Format 
+				&kp LC(N4)					// Craft Format 
+				&kp LC(N5)					// Craft Format 
+				&kp LC(N6)					// Craft Format 
+				&kp LG(LA(LC(LS(F8))))		// 
+				&kp LG(LA(LC(LS(F9))))		// 
+				&kp LG(LC(UP))				// Window Move
+				&kp LG(LA(LC(LS(F10))))		// 
+				&kp LG(LA(LC(LS(F11))))		// 
+				&kp LG(LC(Q))				// Sperren 
+				
+				&kp LG(LA(LC(Y)))			// drehen
+				&kp LG(LS(B))				// Craft Format
+				&kp LG(U) 					// Craft Format
+				&kp LG(I)					// Craft Format
+				&kp LG(B) 					// Craft Format
+				&kp LG(LS(C))				// Craft Format
+				&kp LG(LA(LC(LS(F12))))		// 
+				&kp LG(LC(LEFT))			// Window Move
+				&kp LG(LC(DOWN))			// Window Move
+				&kp LG(LC(RIGHT))			// Window Move
+				&kp LG(LA(LC(LS(F13))))		// 
+				&kp LG(LA(LC(Z)))			// drehen
+
+				&kp LSHIFT
+				&kp C_PREVIOUS 
+				&kp C_PP
+				&kp C_PP 
+				&kp C_NEXT 
+				&bt BT_SEL 0
+				&bt BT_NXT 
+				&kp C_VOLUME_DOWN 
+				&kp C_MUTE
+				&kp C_MUTE
+				&kp C_VOLUME_UP 
+				&to mCHAR					// back		
+				
+				&sl mSFUNC
+				&none
+				&none
+				&none
+				&none
+				&none
+			>;
+		};
+
 	};
 };
