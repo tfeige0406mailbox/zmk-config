@@ -36,7 +36,7 @@
             label = "TAP_DANCE_0";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&to mBCHAR>, <to mNR>, <&kp N3>;
+            bindings = <&sl mBCHAR>, <sl mNR>, <&kp N3>;
         };
     };
 };
