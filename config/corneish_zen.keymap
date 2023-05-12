@@ -234,6 +234,65 @@
 			>;
 		};
 
+		// --------------------------------------
+		// Layer = 3 - mNAV2 - Navigation
+		// -------------------------------------
+
+		mac_navigation2
+		{		
+			label = "MAC";
+
+			bindings = <
+
+				&kp LG(SLASH)				// Plus Alt
+				&kp LG(LA(LC(F13)))		  	// Open
+				&kp LG(LA(LC(F14)))		  	// Open
+				&kp LG(LA(LC(F15)))		  	// Open
+				&kp LG(LA(LC(F16)))		  	// Open
+				&kp LG(LA(LC(F17)))		  	// Open
+				&kp LG(LS(HOME))			// Home Sprung
+				&kp LS(HOME) 				// Home 
+				&kp LS(UP)					// Shift Up
+				&kp LS(END)					// End
+				&kp LC(PG_UP) 				// deep page
+				&kp LC(RBKT)				// Minus Alt
+
+				&kp LG(KP_MINUS) 			// Delete
+				&kp LG(LA(LC(F18)))		  	// Open
+				&kp LG(LA(LC(F19)))		  	// Open
+				&kp LGUI					// GUI
+				&kp LCTL					// CTL
+				&kp LG(LA(LC(LS(F1))))	  	// Outlook
+				&kp LG(LS(END)) 			// End Sprung Markierung
+				&kp LS(LEFT) 				// Shift Left
+				&kp LS(DOWN)				// Shift Down
+				&kp LS(RIGHT) 				// Shift Right
+				&kp LC(PG_DN)				// Control Page
+				&kp LG(KP_PLUS)				// Enter
+	
+				&kp LSHIFT					// Shift
+				&kp LG(LA(LC(LS(F2))))		// Outlook
+				&kp LG(LA(LC(LS(F3))))		// Zurück History 
+				&kp LG(LA(LC(LS(F4))))		// Vor History
+				&kp LG(LA(LC(LS(F5))))		// Outlook
+				&kp LG(LA(LC(LS(F6))))		// open			
+				&kp LG(LA(LC(LS(F7))))		// open
+				&kp LG(LA(LS(TAB)))			// TAB Alt
+				&kp LA(LS(LEFT))			// Shift Wort Sprung
+				&kp LA(LS(RIGHT))			// Shift Wort Sprung
+				&kp LG(LA(TAB))				// TAB Alt
+				&to mCHAR					// back
+
+				&none
+				&none
+				&trans
+				&trans
+				&trans
+				&trans
+			>;
+		};
+
+
 
 	};
 };
