@@ -24,7 +24,6 @@
 #define mMOD 10
 #define mSMOD 11			
 
-
 // BOTH
 
 #define mBCHAR 12
@@ -308,7 +307,7 @@
 
 
 		// --------------------------------------
-		// Layer 6 - mPRG =	Programme
+		// Layer 4 - mPRG =	Programme
 		// --------------------------------------
 
 
@@ -368,7 +367,7 @@
 
 
 		// --------------------------------------
-		// Layer 7 - mSPRG =	Spezial Prgramme
+		// Layer 5 - mSPRG =	Spezial Prgramme
 		// --------------------------------------
 
 
@@ -430,7 +429,7 @@
 
 
 		// --------------------------------------
-		// Layer 8 - mFUNC =	Funktionen
+		// Layer 6 - mFUNC =	Funktionen
 		// --------------------------------------
 
 		mac_function
@@ -488,7 +487,7 @@
 		};
 
 		// --------------------------------------
-		// Layer 9 - mSFUNC =	Spezial Funktionen
+		// Layer 7 - mSFUNC =	Spezial Funktionen
 		// --------------------------------------
 
 		mac_specialfunction
@@ -548,7 +547,7 @@
 
 
 		// --------------------------------------
-		// Layer 4 - mSYM =	Symoble
+		// Layer 8 - mSYM =	Symoble
 		// --------------------------------------
 
 		mac_symbole
@@ -608,7 +607,7 @@
 
 
 		// --------------------------------------
-		// Layer 5 - mSSYM =	Special Symbole
+		// Layer 9 - mSSYM =	Special Symbole
 		// --------------------------------------
 
 		mac_specialsonderzeichen
@@ -681,7 +680,7 @@
 				&kp LG(Y)					// Zurück
 				&kp LG(J)
 				&kp LG(D)
-				&kp LG(U) 
+				&kp LG(U)
 				&kp LG(A)
 				&kp LG(X)
 				&kp LG(P)
