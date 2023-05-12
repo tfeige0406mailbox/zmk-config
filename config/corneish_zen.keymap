@@ -428,20 +428,20 @@
 
 			bindings = <
 	
-				&kp LC(N6)					// Craft Format 
-				&kp LC(N5)					// Craft Format 
-				&kp LC(N4)					// Craft Format 
-				&kp LC(N3)					// Craft Format 
+				&kp INSERT
 				&kp LC(N2)					// Craft Format 
-				&kp LC(N1)					// Craft Format 
+				&kp LC(N3)					// Craft Format 
+				&kp LC(N4)					// Craft Format 
+				&kp LC(N5)					// Craft Format 
+				&kp LC(N6)					// Craft Format 
 				&kp LG(LA(LC(LS(F8))))		// 
-				&kp LG(LA(LC(LS(F9))))		// Window Swap
+				&kp LG(LA(LC(LS(F9))))		// 
 				&kp LG(LC(UP))				// Window Move
-				&kp LG(LA(LC(LS(F10))))		// Window Swap
+				&kp LG(LA(LC(LS(F10))))		// 
 				&kp LG(LA(LC(LS(F11))))		// 
 				&kp LG(LC(Q))				// Sperren 
 				
-				&kp LS(DEL)					// Delete Special
+				&kp LG(LA(LC(Y)))			// drehen
 				&kp LG(LS(B))				// Craft Format
 				&kp LG(U) 					// Craft Format
 				&kp LG(I)					// Craft Format
@@ -452,7 +452,7 @@
 				&kp LG(LC(DOWN))			// Window Move
 				&kp LG(LC(RIGHT))			// Window Move
 				&kp LG(LA(LC(LS(F13))))		// 
-				&kp INSERT
+				&kp LG(LA(LC(Z)))			// drehen
 
 				&kp LSHIFT
 				&kp C_PREVIOUS 
@@ -486,7 +486,7 @@
 
 			bindings = <
 
-				&kp LG(LC(LA(NUHS)))   		// Screenshot
+				&kp INSERT
 				&kp LG(LA(LC(LS(F14))))		// 
 				&kp LG(LA(LC(LS(F15))))		// 
 				&kp LG(LA(LC(LS(F16))))		// 
@@ -499,7 +499,7 @@
 				&kp LG(LA(LS(F4)))			//
 				&kp LC(LG(LS(ESC)))			// Herunterfahren
 
-				&kp LG(LA(LC(Y)))			// drehen
+				&kp LS(DEL)					// Delete Special
 				&kp LG(LS(SLASH))			// Craft Format (Durch)
 				&kp LG(LS(P))				// Craft Format (Seite)
 				&kp LG(LS(NUHS))			// Craft Format (Focus)
@@ -510,7 +510,7 @@
 				&kp LG(LA(LS(F7)))			//
 				&kp LG(LA(LS(F8)))			//
 				&kp LG(LA(LS(F9)))			//
-				&kp LG(LA(LC(Z)))			// drehen
+				&kp LG(LC(LA(NUHS)))   		// Screenshot
 
 				&kp LSHIFT
 				&trans
@@ -526,7 +526,7 @@
 				&to mCHAR					// back
 		
 				&trans
-				&kp LG(LA(LC(LS(MINUS))))		// Shortcat
+				&none
 				&none
 				&none
 				&none
