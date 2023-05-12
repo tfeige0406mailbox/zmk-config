@@ -24,28 +24,15 @@
 #define mMOD 10
 #define mSMOD 11			
 
-// BOTH
-
 #define mBCHAR 12
 #define mBNR 13
  
 
-
+chosen {
+	zmk,matrix_transform = &default_transform;
+};
 
 / {
-  	chosen {
-    	zmk,matrix_transform = &default_transform;
-    	//zmk,matrix_transform = &five_column_transform;
-  	};
-
-	&sl {
-		release-after-ms = <2000>;
-	};
-
-	&mt {
-		tapping-term-ms = <160>;
-	};
-
 
 	keymap
 	{	
