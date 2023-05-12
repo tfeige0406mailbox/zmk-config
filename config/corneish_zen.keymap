@@ -31,7 +31,11 @@
     };
 };
 
-behaviors {
+
+
+/ {
+
+    behaviors {
         td0: tap_dance_0 {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_0";
@@ -41,7 +45,6 @@ behaviors {
         };
     };
 
-/ {
 	keymap
 	{	
 		compatible = "zmk,keymap";
