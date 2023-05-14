@@ -230,7 +230,7 @@
 				&kp LA(LEFT)				// Wort Sprung
 				&kp LA(RIGHT)				// Wort Sprung
 				&kp TAB						// vor
-				&to mCHAR					// back
+				&mdRs						// back
 
 				&none
 				&none
@@ -288,7 +288,7 @@
 				&kp LA(LS(LEFT))			// Shift Wort Sprung
 				&kp LA(LS(RIGHT))			// Shift Wort Sprung
 				&kp LG(LA(TAB))				// TAB Alt
-				&to mCHAR					// back
+				&mdRs						// back
 
 				&none
 				&none
@@ -350,7 +350,7 @@
 				&kp LC(LA(R))
 				&kp LC(LA(S))
 				&kp LC(LA(G))
-				&to mCHAR					// back
+				&mdRs						// back
 		
 				&none
 				&kp LG(LA(LC(LS(MINUS))))		// Shortcat
@@ -411,7 +411,7 @@
 				&kp LC(LA(LS(R)))				
 				&kp LC(LA(LS(S)))
 				&none 							// OS Swap
-				&to mCHAR						// back			
+				&mdRs						// back	
 		
 				&none
 				&none
@@ -471,7 +471,7 @@
 				&kp C_MUTE
 				&kp C_MUTE
 				&kp C_VOLUME_UP 
-				&to mCHAR					// back		
+				&mdRs						// back
 				
 				&sl mSFUNC
 				&none
@@ -530,7 +530,7 @@
 				&trans
 				&trans
 				&kp LG(LA(LC(EQUAL)))		// Bright
-				&to mCHAR					// back
+				&mdRs						// back
 		
 				&trans
 				&none
@@ -590,7 +590,7 @@
 				&kp COMMA
 				&kp DOT
 				&kp SLASH		
-				&to mCHAR					// back
+				&mdRs						// back
 		
 				&trans 
 				&kp SPACE
@@ -650,7 +650,7 @@
 				&kp COMMA
 				&kp DOT
 				&kp LS(SLASH)	
-				&to mCHAR					// back
+				&mdRs						// back
 
 				&none
 				&kp SPACE
@@ -711,7 +711,7 @@
 				&kp LG(LEFT_BRACKET)
 				&kp LG(SINGLE_QUOTE)
 				&kp LG(K) 
-				&to mCHAR					// back			
+				&mdRs						// back	
 		
 				&none
 				&kp LG(SPACE)
@@ -771,7 +771,7 @@
 				&kp LA(LG(LC(LEFT_BRACKET)))
 				&kp LA(LG(LC(SINGLE_QUOTE)))
 				&kp LA(LG(LC(K)))
-				&to mCHAR					// back
+				&mdRs						// back
 
 				&none
 				&kp LA(LG(LC(SPACE)))
@@ -831,7 +831,7 @@
 				&kp LS(LBKT)
 				&kp LS(SQT)
 				&kp LS(K)
-				&to mCHAR
+				&mdRs						// back
 
 				&trans
 				&trans
@@ -890,7 +890,7 @@
 				&kp COMMA
 				&kp DOT
 				&kp SLASH		
-				&to mCHAR
+				&mdRs						// back
 		
 				&trans
 				&trans
