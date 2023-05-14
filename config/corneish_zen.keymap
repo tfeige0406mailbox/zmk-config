@@ -50,6 +50,13 @@
             tapping-term-ms = <200>;
             bindings = <&sl mBCHAR>, <&to mBCHAR>;
         };
+		mdRs: tap_dance_mdRs {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_mdRs";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&sl mBCHAR>, <&to mCHAR>;
+        };
     };
 	
 
@@ -104,7 +111,7 @@
 				&kp LBKT
 				&kp SQT
 				&kp K
-				&kp LSHIFT
+				&mdRs
 
 				&sl mFUNC
 				&kp SPACE
@@ -164,7 +171,7 @@
 				&kp COMMA
 				&kp DOT
 				&kp SLASH		
-				&to mCHAR
+				&mdRs
 		
 				&sl mFUNC
 				&kp SPACE 
