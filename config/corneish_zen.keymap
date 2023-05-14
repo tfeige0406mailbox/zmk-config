@@ -833,12 +833,12 @@
 				&kp LS(K)
 				&to mCHAR
 
-				&none
 				&trans
-				&none
-				&none
 				&trans
-				&none
+				&trans
+				&trans
+				&trans
+				&trans
 			>;
 		};
 
@@ -892,12 +892,12 @@
 				&kp SLASH		
 				&to mCHAR
 		
-				&none
 				&trans
-				&none
-				&none
 				&trans
-				&none
+				&trans
+				&trans
+				&trans
+				&trans
 			>;		
 		};
 
