@@ -41,28 +41,28 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_mdNr";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <3000>;
             bindings = <&sl mNR>, <&to mNR>;
         };
 		mdNrOff: tap_dance_mdNrOff {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_mdNrOff";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <3000>;
             bindings = <&to mCHAR>, <&to mNR>;
         };
 		mdLs: tap_dance_mdLs {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_mdLs";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <3000>;
             bindings = <&sl mBCHAR>, <&to mBCHAR>;
         };
 		mdRs: tap_dance_mdRs {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_mdRs";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <3000>;
             bindings = <&sl mBCHAR>, <&to mCHAR>;
         };
     };
