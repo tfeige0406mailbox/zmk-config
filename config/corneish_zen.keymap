@@ -901,10 +901,10 @@
 				&to mCHAR
 		
 				&trans
+				&kp SPACE
 				&trans
 				&trans
-				&trans
-				&trans
+				&mdNrOff
 				&trans
 			>;		
 		};
