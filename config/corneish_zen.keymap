@@ -207,10 +207,10 @@
 				&kp LC(TAB)		  			// Tab Switch 
 				&kp LG(LA(LC(F2)))		  	// open
 				&kp LG(LA(LC(F3)))		  	// Clipboard History
-				&kp LG(HOME)				// Home Sprung
-				&kp HOME	 				// Home 
+				&kp LG(UP)					// Home Sprung
+				&kp LC(LEFT) 				// Home 
 				&kp UP						// Up
-				&kp END						// End
+				&kp LC(RIGHT) 				// END 
 				&kp PG_UP 					// Page Up
 				&kp BACKSPACE				// Backspace
 
@@ -220,7 +220,7 @@
 				&kp LGUI					// App Switch
 				&kp LCTL					// Craft
 				&kp LG(LA(LC(F6)))		  	// Fokus
-				&kp LG(END) 				// End Sprung
+				&kp LG(DOWN) 				// End Sprung
 				&kp LEFT 					// Left
 				&kp DOWN					// Down
 				&kp RIGHT 					// Right
@@ -265,10 +265,10 @@
 				&kp LG(LA(LC(F15)))		  	// Open
 				&kp LG(LA(LC(F16)))		  	// Open
 				&kp LG(LA(LC(F17)))		  	// Open
-				&kp LG(LS(HOME))			// Home Sprung
-				&kp LS(HOME) 				// Home 
+				&kp LG(LS(UP))				// Home Sprung
+				&kp LC(LS(LEFT)) 			// Home 
 				&kp LS(UP)					// Shift Up
-				&kp LS(END)					// End
+				&kp LC(LS(RGIHT))				// End
 				&kp LC(PG_UP) 				// deep page
 				&kp LC(RBKT)				// Minus Alt
 
@@ -278,7 +278,7 @@
 				&kp LALT					// LALT
 				&kp LCTL					// CTL
 				&kp LG(LA(LC(LS(F1))))	  	// Outlook
-				&kp LG(LS(END)) 			// End Sprung Markierung
+				&kp LG(LS(DOWN)) 			// End Sprung Markierung
 				&kp LS(LEFT) 				// Shift Left
 				&kp LS(DOWN)				// Shift Down
 				&kp LS(RIGHT) 				// Shift Right
