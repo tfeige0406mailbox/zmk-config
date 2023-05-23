@@ -275,7 +275,7 @@
 				&kp LG(KP_MINUS) 			// Delete
 				&kp LG(LA(LC(F18)))		  	// Open
 				&kp LG(LA(LC(F19)))		  	// Open
-				&kp LGUI					// GUI
+				&kp LALT					// LALT
 				&kp LCTL					// CTL
 				&kp LG(LA(LC(LS(F1))))	  	// Outlook
 				&kp LG(LS(END)) 			// End Sprung Markierung
