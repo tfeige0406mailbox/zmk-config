@@ -245,7 +245,7 @@
 				&sl mNAV2					// deep
 				&trans
 				&trans
-				&trans						// testen !!
+				&trans						
 			>;
 		};
 
@@ -268,7 +268,7 @@
 				&kp LG(LS(UP))				// Home Sprung
 				&kp LC(LS(LEFT)) 			// Home 
 				&kp LS(UP)					// Shift Up
-				&kp LC(LS(RGIHT))				// End
+				&kp LC(LS(RGIHT))			// End
 				&kp LC(PG_UP) 				// deep page
 				&kp LC(RBKT)				// Minus Alt
 
