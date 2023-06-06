@@ -208,9 +208,9 @@
 				&kp LG(LA(LC(F2)))		  	// open
 				&kp LG(LA(LC(F3)))		  	// Clipboard History
 				&kp LC(UP)					// Home Sprung
-				&kp LC(LEFT) 				// Home 
+				&kp LG(LEFT) 				// Home 
 				&kp UP						// Up
-				&kp LC(RIGHT) 				// END 
+				&kp LG(RIGHT) 				// END 
 				&kp PG_UP 					// Page Up
 				&kp BACKSPACE				// Backspace
 
@@ -266,9 +266,9 @@
 				&kp LG(LA(LC(F16)))		  	// Open
 				&kp LG(LA(LC(F17)))		  	// Open
 				&kp LC(LS(UP))				// Home Sprung
-				&kp LC(LS(LEFT)) 			// Home 
+				&kp LG(LS(LEFT)) 			// Home 
 				&kp LS(UP)					// Shift Up
-				&kp LC(LS(RIGHT))			// End
+				&kp LG(LS(RIGHT))			// End
 				&kp LC(PG_UP) 				// deep page
 				&kp LC(RBKT)				// Minus Alt
 
