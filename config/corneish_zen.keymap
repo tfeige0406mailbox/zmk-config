@@ -241,7 +241,7 @@
 				&mdRs						// back
 
 				&none
-				&none
+				&kp LG(LA(LC(LS(MINUS))))	// Shortcat
 				&sl mNAV2					// deep
 				&trans
 				&trans
@@ -299,7 +299,7 @@
 				&mdRs						// back
 
 				&none
-				&none
+				&trans
 				&trans
 				&trans
 				&trans
@@ -361,7 +361,7 @@
 				&mdRs						// back
 		
 				&none
-				&kp LG(LA(LC(LS(MINUS))))		// Shortcat
+				&none
 				&kp LG(SPACE)
 				&sl mSPRG
 				&sl mSYM
