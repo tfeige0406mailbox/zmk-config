@@ -514,7 +514,7 @@
 				&kp LG(LA(LS(F4)))			//
 				&kp LC(LG(LS(ESC)))			// Herunterfahren
 
-				/open
+				&trans
 				&kp LG(LS(P))				// Craft Format (Seite)
 				&kp LG(LS(SLASH))			// Craft Format (Durch)
 				&kp LG(LS(C))				// Craft Format
@@ -525,7 +525,7 @@
 				&kp LG(LA(LS(F7)))			//
 				&kp LG(LA(LS(F8)))			//
 				&kp LG(LA(LS(F9)))			//
-				/open
+				&trans
 
 				&kp LSHIFT
 				&kp LG(LA(LC(GRAVE)))		// Bright
