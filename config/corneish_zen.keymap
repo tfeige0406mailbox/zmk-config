@@ -484,9 +484,9 @@
 				&sl mSFUNC
 				&none
 				&none
-				&kp C_VOLUME_DOWN 
-				&kp C_MUTE
-				&kp C_VOLUME_UP 
+				&kp C_PREVIOUS 
+				&kp C_PP
+				&kp C_NEXT  
 			>;
 		};
 
@@ -543,9 +543,10 @@
 				&trans
 				&none
 				&none
-				&kp C_PREVIOUS 
-				&kp C_PP
-				&kp C_NEXT   
+				&kp C_VOLUME_DOWN 
+				&kp C_MUTE
+				&kp C_VOLUME_UP 
+ 
 			>;
 		};
 
