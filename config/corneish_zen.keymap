@@ -469,8 +469,8 @@
 				&kp LG(LC(LA(NUHS)))   		// Screenshot
 				
 				&kp LSHIFT
+				&kp LC(LG(F17))				// Format Macro
 				&kp LC(LG(F18))				// Format Macro
-				&kp LC(LG(F19))				// Format Macro
 				&kp LG(LS(NUHS))			// Craft Format (Focus)
 				&kp LG(LS(EQUAL))			// Craft Format (Block)
 				&trans
