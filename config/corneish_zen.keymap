@@ -201,7 +201,7 @@
 
 			bindings = <
 
-				&kp ESC
+				&kp LS(ESC)
 				&kp LG(LA(LC(F1)))		  	// open
 				&kp LC(LS(TAB))				// Tap Switch
 				&kp LC(TAB)		  			// Tab Switch 
@@ -259,7 +259,7 @@
 
 			bindings = <
 
-				&kp ESC
+				&kp LG(ESC)
 				&kp LG(LA(LC(F13)))		  	// Open
 				&kp LG(LA(LC(F14)))		  	// Open
 				&kp LG(LA(LC(F15)))		  	// Open
