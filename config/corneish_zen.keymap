@@ -442,7 +442,7 @@
 
 			bindings = <
 	
-				&kp INSERT
+				&kp LS(ESC)
 				&kp LC(N3)					// Craft Format 
 				&kp LC(N4)					// Craft Format 
 				&kp LC(N5)					// Craft Format 
@@ -501,7 +501,7 @@
 
 			bindings = <
 
-				&kp INSERT
+				&trans
 				&kp LG(LA(LC(LS(F14))))		// 
 				&kp LG(LA(LC(LS(F15))))		// 
 				&kp LG(LA(LC(LS(F16))))		// 
