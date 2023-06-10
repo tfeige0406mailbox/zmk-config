@@ -513,33 +513,33 @@
 				&kp LG(LA(LC(LS(F15))))		// 
 				&kp LG(LA(LC(LS(F16))))		// 
 				&kp LG(LA(LC(LS(F17))))		// 
-				&kp LG(LA(LC(LS(F18))))		// 
-				&kp LG(LA(LC(LS(F19))))		// 
-				&kp LG(LA(LS(F1)))			//
-				&kp LG(LA(LS(F2)))			//
-				&kp LG(LA(LS(F3)))			//
-				&kp LG(LA(LS(F4)))			//
+				&bt BT_CLR 	
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
 				&kp LC(LG(LS(ESC)))			// Herunterfahren
 
 				&trans
-				&kp LG(LS(P))				// Craft Format (Seite)
-				&kp LG(LS(SLASH))			// Craft Format (Durch)
-				&kp LG(LS(C))				// Craft Format
-				&kp LG(LS(B))				// Craft Format
-				&kp LG(LS(T))				// Craft Ausklappen
 				&kp LG(LA(LS(F5)))			//
 				&kp LG(LA(LS(F6)))			//
 				&kp LG(LA(LS(F7)))			//
 				&kp LG(LA(LS(F8)))			//
-				&kp LG(LA(LS(F9)))			//
+				&bt BT_SEL 0
+				&kp LG(LS(T))				// Craft Ausklappen
+				&kp LG(LS(B))				// Craft Format
+				&kp LG(LS(C))				// Craft Format
+				&kp LG(LS(SLASH))			// Craft Format (Durch)
+				&kp LG(LS(P))				// Craft Format (Seite)
 				&trans
 
 				&kp LSHIFT
 				&kp LG(LA(LC(GRAVE)))		// Bright
-				&bt BT_SEL 0
-				&bt BT_NXT 
+				&kp LG(LA(LC(LS(F18))))		// 
+				&kp LG(LA(LC(LS(F19))))		// 
 				&kp LG(LA(LC(EQUAL)))		// Bright
-				&bt BT_CLR 	
+				&bt BT_NXT 
 				&none
 				&none
 				&none
