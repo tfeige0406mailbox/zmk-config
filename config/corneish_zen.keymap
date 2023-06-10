@@ -443,10 +443,10 @@
 			bindings = <
 	
 				&kp LS(ESC)
-				&kp LC(N3)					// Craft Format 
-				&kp LC(N4)					// Craft Format 
-				&kp LC(N5)					// Craft Format 
-				&kp LC(N6)					// Craft Format 
+				&kp LC(LG(F18))				// FREE REAL
+				&kp LC(LG(F19))				// Format Macro
+				&kp LG(U) 					// Craft Format
+				&kp LG(I)					// Craft Format
 				&trans
 				&kp LG(LA(LC(LS(F8))))		// Window size
 				&kp LG(LA(LC(LS(F11))))		// Window size
@@ -456,10 +456,10 @@
 				&kp LG(LC(Q))				// Sperren 
 				
 				&kp LS(DEL)					// Delete Special
-				&kp LC(LG(F19))				// FREE REAL
-				&kp LG(U) 					// Craft Format
-				&kp LG(I)					// Craft Format
-				&kp LG(B) 					// Craft Format
+				&kp LC(N3)					// Craft Format 
+				&kp LC(N4)					// Craft Format 
+				&kp LC(N5)					// Craft Format 
+				&kp LC(N6)					// Craft Format 
 				&trans
 				&kp LG(LA(LC(LS(F12))))		// Window size
 				&kp LG(LC(LEFT))			// Window Move
@@ -470,9 +470,9 @@
 				
 				&kp LSHIFT
 				&kp LC(LG(F17))				// Format Macro
-				&kp LC(LG(F18))				// Format Macro
 				&kp LG(LS(NUHS))			// Craft Format (Focus)
 				&kp LG(LS(EQUAL))			// Craft Format (Block)
+				&kp LG(B) 					// Craft Format
 				&trans
 				&kp LC(LG(F20))				// FREE REAL
 				&kp LG(LA(LC(Y)))			// drehen
