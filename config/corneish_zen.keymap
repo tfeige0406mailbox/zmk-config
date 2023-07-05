@@ -526,7 +526,7 @@
 				&kp LC(LA(LS(R)))				
 				&kp LC(LA(LS(S)))
 				&none 							// OS Swap
-				&mdRs							// back	
+				&mdRs						// back	
 		
 				&none
 				&none
