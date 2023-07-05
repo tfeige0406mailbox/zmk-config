@@ -550,18 +550,31 @@
 
 			bindings = <
 	
+				&kp LS(DEL)
+				&kp LG(LA(LC(Y)))			// drehen
+				&kp LG(LA(LC(LS(F11))))		// Window size
+				&kp LG(LC(UP))				// Window Move
+				&kp LG(LA(LC(LS(F13))))		// Window size
 				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
+				&kp LC(N6)					// Craft Format
+				&kp LC(N5)					// Craft Format
+				&kp LC(N4)					// Craft Format
+				&kp LC(N3)					// Craft Format   
+				&kp LG(KP_PLUS)				// Plus
+				&kp LG(LC(Q))				// Sperren 
+
+				&to mCHAR
+				&kp LG(LA(LC(Z)))			// drehen	
+				&kp LG(LC(LEFT))			// Window Move
+				&kp LG(LC(DOWN))			// Window Move
+				&kp LG(LC(RIGHT))			// Window Move
+				&trans			
+				&kp LG(I)					// Craft Format
+				&kp LG(B) 					// Craft Format
+				&kp LG(LS(NUHS))			// Craft Format (Focus)
+				&kp LG(LS(EQUAL))			// Craft Format (Block)
+				&kp LG(KP_MINUS) 			// Minus
+				&kp LG(LC(LA(NUHS)))   		// Screenshot
 
 				&trans
 				&trans
@@ -569,25 +582,12 @@
 				&trans
 				&trans
 				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
+				&kp LG(U) 					// Craft Format
+				&kp LG(LS(B))				// Craft Format
+				&kp LG(LS(C))				// Craft Format
+				&kp LG(LS(SLASH))			// Craft Format (Durch)
+				&kp LG(LS(P))				// Craft Format (Seite)
+				&kp LSHIFT
 
 				&sl mFUNCdeep
 				&none
