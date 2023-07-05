@@ -672,44 +672,44 @@
 
 			bindings = <
 				
+				&kp LA(N7)					// |
+				&kp LS(NUHS)				// '
+				&kp NUBS					// <
+				&kp LS(NUBS)				// >
+				&kp LS(N2)					// "
+				&kp X						// X
+				&kp LS(N4)					// $
+				&kp LA(E)					// €
+				&kp LA(M)					// µ
+				&kp M						// m
+				&kp LS(N5)					// %
+				&kp BACKSPACE			
+
+				&kp mCHAR
+				&kp LS(SLASH)				// _
+				&kp GRAVE					// ^
+				&kp LA(N)					// ~
+				&kp LA(L)					// @
+				&kp LS(N6)					// &
+				&kp LS(COMMA)				// ;
+				&kp LS(N1)					// !
+				&kp LS(N3)					// §
+				&kp NUHS					// #
+				&kp LS(MINUS)				// ?
 				&kp LG(LC(SPACE))   		// Sonderzeichen
-				&kp LS(N3)
-				&kp NUBS
-				&kp LS(NUBS)			
-				&kp NUHS
-				&kp X
-				&kp LS(N4)
-				&kp LA(E)
-				&kp LA(M)
-				&kp M
-				&kp LS(N5)			
-				&kp BACKSPACE
 
-				&kp GRAVE					// quadrat alt
-				&kp LA(N7)				
-				&kp LA(N)				
-				&kp GRAVE				
-				&kp LA(L)					
-				&kp LS(N6)	
-				&kp EQUAL		
-				&kp LS(N1)		
-				&kp LS(COMMA)	
-				&kp LS(DOT)				
-				&kp LS(MINUS)				
-				&kp ENTER
-
-				&kp LSHIFT
-				&kp LS(N7)
-				&kp LS(N8)
-				&kp LS(N9)
-				&kp LS(RBRC)
-				&kp LS(N0)
-				&kp LS(N2)
-				&kp RBKT
-				&kp COMMA
-				&kp DOT
-				&kp SLASH		
-				&kp LSHIFT
+				&kp EQUAL					// ´
+				&kp LS(N7)					// /
+				&kp LS(N8)					// (
+				&kp LS(N9)					// )
+				&kp LS(RBRC)				// *
+				&kp LS(N0)					// =
+				&kp LS(DOT)					// :
+				&kp RBKT					// +
+				&kp COMMA					// ,
+				&kp DOT						// .
+				&kp SLASH					// -
+				&kp LSHIFT					
 		
 				&trans 
 				&kp SPACE
@@ -732,44 +732,44 @@
 
 			bindings = <
 
-				&kp LG(LC(SPACE))   		// Sonderzeichen
-				&kp LS(N3)
-				&kp LA(N5)
-				&kp LA(N6)			
-				&kp NUHS
-				&kp X
-				&kp LS(N4)
-				&kp LA(E)
-				&kp LA(M)
-				&kp M
-				&kp LS(N5)			
+				&kp LA(N7)					// |
+				&kp LS(NUHS)				// '
+				&kp LA(N5)					// [
+				&kp LA(N6)					// ]
+				&kp LS(N2)					// "
+				&kp X						// x
+				&kp LS(N4)					// $
+				&kp LA(E)					// €
+				&kp LA(M)					// µ
+				&kp M						// m
+				&kp LS(N5)					// %
 				&kp BACKSPACE
 
 				&kp GRAVE					// quadrat alt
-				&kp LA(N7)				
-				&kp LA(N)				
-				&kp LS(GRAVE)
-				&kp LA(L)					
-				&kp LS(N6)				
-				&kp LS(EQUAL)	
-				&kp LS(N1)				
-				&kp LS(COMMA)	
-				&kp LS(DOT)				
-				&kp LS(MINUS)				
-				&kp ENTER
+				&kp LS(SLASH)				// _
+				&kp GRAVE					// ^
+				&kp LA(N)					// ~
+				&kp LA(L)					// @
+				&kp LS(N6)					// &
+				&kp LS(COMMA)				// ;
+				&kp LS(N1)					// !
+				&kp LS(N3)					// §
+				&kp NUHS					// #
+				&kp LS(MINUS)				// ?
+				&kp LG(LC(SPACE))   		// Sonderzeichen
 
-				&kp LSHIFT
-				&kp LS(LA(N7))
-				&kp LA(N8)
-				&kp LA(N9)
-				&kp LS(RBRC)
-				&kp LS(N0)
-				&kp LS(NUHS)
-				&kp RBKT
-				&kp COMMA
-				&kp DOT
-				&kp LS(SLASH)	
-				&kp LSHIFT
+				&kp LS(EQUAL)				// `
+				&kp LS(LA(N7))				// backsl
+				&kp LA(N8)					// {
+				&kp LA(N9)					// }
+				&kp LS(RBRC)				// *
+				&kp LS(N0)					// =
+				&kp LS(DOT)					// :
+				&kp RBKT					// +
+				&kp COMMA					// ,
+				&kp DOT						// .
+				&kp LS(SLASH)				// _
+				&kp LSHIFT				
 
 				&none
 				&kp SPACE
@@ -779,6 +779,7 @@
 				&none
 			>;
 		};	
+
 
 
 
@@ -793,7 +794,7 @@
 
 			bindings = <
 
-				&kp LG(Y)					// Zurück
+				&kp LA(DELETE)				// Wort entfernen
 				&kp LG(J)
 				&kp LG(D)
 				&kp LG(U)
@@ -806,7 +807,7 @@
 				&kp LG(W) 
 				&kp LA(BACKSPACE)			// Wort enfternen
 		
-				&kp LA(DELETE)				// Wort entfernen
+				&to mCHAR
 				&kp LG(C)
 				&kp LG(T)
 				&kp LG(I)
@@ -819,7 +820,7 @@
 				&kp LG(G)
 				&kp LG(ENTER)				// Enter Mod	
 
-				&kp LSHIFT
+				&kp LG(Y)					// Zurück
 				&kp LG(F)
 				&kp LG(V)
 				&kp LG(MINUS)
@@ -830,7 +831,7 @@
 				&kp LG(LEFT_BRACKET)
 				&kp LG(SINGLE_QUOTE)
 				&kp LG(K) 
-				&kp LSHIFT
+				&kp LG(LS(Y))				// Vor
 		
 				&none
 				&kp LG(SPACE)
@@ -853,7 +854,7 @@
 
 			bindings = <
 			
-				&kp LS(LG(Y))					// Wiederholen
+				&kp LG(DELETE)				// Zeile entfernen 
 				&kp LA(LG(LC(J)))
 				&kp LA(LG(LC(D)))
 				&kp LA(LG(LC(U)))
@@ -866,7 +867,7 @@
 				&kp LA(LG(LC(W)))
 				&kp LG(BACKSPACE)			// Zeile enfternen
 		
-				&kp LG(DELETE)				// Zeile entfernen 
+				&to mCHAR
 				&kp LA(LG(LC(C)))
 				&kp LA(LG(LC(T)))
 				&kp LA(LG(LC(I)))
