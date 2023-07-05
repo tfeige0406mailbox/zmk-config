@@ -550,33 +550,18 @@
 
 			bindings = <
 	
-
-				&kp LS(DEL)
-				&kp LG(LA(LC(Y)))			// drehen
-				&kp LG(LA(LC(LS(F11))))		// Window size
-				&kp LG(LC(UP))				// Window Move
-				&kp LG(LA(LC(LS(F13))))		// Window size
 				&trans
-				&kp LC(N6)					// Craft Format
-				&kp LC(N5)					// Craft Format
-				&kp LC(N4)					// Craft Format
-				&kp LC(N3)					// Craft Format   
-				&kp LG(KP_PLUS)				// Plus
-				&kp LG(LC(Q))				// Sperren 
-
-
-				&to mCHAR
-				&kp LG(LA(LC(Z)))			// drehen	
-				&kp LG(LC(LEFT))			// Window Move
-				&kp LG(LC(DOWN))			// Window Move
-				&kp LG(LC(RIGHT))			// Window Move
-				&trans			
-				&kp LG(I)					// Craft Format
-				&kp LG(B) 					// Craft Format
-				&kp LG(LS(NUHS))			// Craft Format (Focus)
-				&kp LG(LS(EQUAL))			// Craft Format (Block)
-				&kp LG(KP_MINUS) 			// Minus
-				&kp LG(LC(LA(NUHS)))   		// Screenshot
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
 
 				&trans
 				&trans
@@ -584,13 +569,25 @@
 				&trans
 				&trans
 				&trans
-				&kp LG(U) 					// Craft Format
-				&kp LG(LS(B))				// Craft Format
-				&kp LG(LS(C))				// Craft Format
-				&kp LG(LS(SLASH))			// Craft Format (Durch)
-				&kp LG(LS(P))				// Craft Format (Seite)
-				&kp LSHIFT
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
 
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
 
 				&sl mFUNCdeep
 				&none
@@ -614,41 +611,41 @@
 
 				&trans
 				&trans
-				&kp C_VOLUME_DOWN 
-				&kp C_MUTE
-				&kp C_VOLUME_UP 
-				&bt BT_CLR 	
-				&kp LG(LA(LC(LS(F18))))		// 
-				&kp LG(LA(LC(LS(F14))))		// 
-				&kp LG(LA(LC(LS(F15))))		// 
-				&kp LG(LA(LC(LS(F16))))		// 
-				&kp LG(LA(LC(LS(F17))))		// 
-				&kp LC(LG(LS(ESC)))			// Herunterfahren
-
-				&to mCHAR
 				&trans
-				&kp C_PREVIOUS 
-				&kp C_PP
-				&kp C_NEXT  
-				&bt BT_SEL 0
-				&kp LG(LA(LC(LS(F19))))		// 
-				&kp LG(LA(LS(F5)))			//
-				&kp LG(LA(LS(F6)))			//
-				&kp LG(LA(LS(F7)))			//
-				&kp LG(LA(LS(F8)))			//
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
 				&trans
 
 				&trans
 				&trans
-				&kp LG(LA(LC(GRAVE)))		// Bright
 				&trans
-				&kp LG(LA(LC(EQUAL)))		// Bright
-				&bt BT_NXT 
 				&trans
-				&kp LG(LA(LC(LS(F8))))		// Window size
-				&kp LG(LA(LC(LS(F9))))		// Window size
-				&kp LG(LA(LC(LS(F10))))		// Window size
-				&kp LG(LA(LC(LS(F12))))		// Window size
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
 				&trans
 		
 				&trans
