@@ -745,7 +745,7 @@
 				&kp LS(N5)					// %
 				&kp BACKSPACE
 
-				&kp GRAVE					// quadrat alt
+				&to mCHAR
 				&kp LS(SLASH)				// _
 				&kp GRAVE					// ^
 				&kp LA(N)					// ~
