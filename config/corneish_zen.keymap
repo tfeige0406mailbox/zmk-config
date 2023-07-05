@@ -7,30 +7,31 @@
 #define mCHAR 0
 #define mNR 1
 
-#define mNAV 2
-#define mNAV2 3
+#define mBCHAR 2
+#define mSHIFT 3
 
-#define mPRG 4
-#define mSPRG 5
+#define mNAV 4
+#define mNAVdeep 5
 
-#define mFUNC 6
-#define mSFUNC 7
+#define mPRG 6
+#define mPRGdeep 7
 
-#define mSYM 8
-#define mSSYM 9
+#define mFUNC 8
+#define mFUNCdeep 9
 
-#define mMOD 10
-#define mSMOD 11			
+#define mSYM 10
+#define mSYMdeep 11
 
-#define mBCHAR 12
-#define mBNR 13
+#define mMOD 12
+#define mMODdeep 13
+
+
  
 / {
     chosen {
     	zmk,matrix_transform = &default_transform;
     };
 };
-
 
 
 
@@ -44,26 +45,12 @@
             tapping-term-ms = <3000>;
             bindings = <&sl mNR>, <&to mNR>;
         };
-		mdNrOff: tap_dance_mdNrOff {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_mdNrOff";
-            #binding-cells = <0>;
-            tapping-term-ms = <3000>;
-            bindings = <&to mCHAR>, <&to mNR>;
-        };
 		mdLs: tap_dance_mdLs {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_mdLs";
             #binding-cells = <0>;
             tapping-term-ms = <3000>;
-            bindings = <&sl mBCHAR>, <&to mBCHAR>;
-        };
-		mdRs: tap_dance_mdRs {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_mdRs";
-            #binding-cells = <0>;
-            tapping-term-ms = <3000>;
-            bindings = <&sl mBCHAR>, <&to mCHAR>;
+            bindings = <&sl mSHIFT>, <&to mBCHAR>;
         };
     };
 	
@@ -95,7 +82,7 @@
 				&kp W
 				&kp BSPC
 	
-				&kp DEL
+				&to 0
 				&kp C
 				&kp T
 				&kp I
@@ -119,7 +106,7 @@
 				&kp LBKT
 				&kp SQT
 				&kp K
-				&mdRs
+				&mdLs
 
 				&sl mFUNC
 				&kp SPACE
@@ -155,7 +142,7 @@
 				&kp LS(N5)			
 				&kp BSPC
 
-				&kp DEL
+				&to 0
 				&kp N1				
 				&kp N2				
 				&kp N3				
@@ -174,25 +161,145 @@
 				&kp LS(N9)
 				&kp LS(RBRC)
 				&kp LS(N0)
-				&kp LS(N2)
+				&kp LS(DOT)
 				&kp RBKT
 				&kp COMMA
 				&kp DOT
 				&kp SLASH		
-				&mdRs
+				&mdLs
 		
 				&sl mFUNC
 				&kp SPACE 
 				&sl mNAV
 				&sl mPRG
-				&mdNrOff
+				&mdNr
 				&sl mMOD
 			>;		
 		};
 
 
+
 		// --------------------------------------
-		// Layer = 2 - mNAV - Navigation
+		// Layer 2 - mBCHAR = 	 Großbuchstaben	
+		// --------------------------------------
+	
+		mac_bigbuchstaben
+		{
+			label = "MAC";
+
+			bindings = <
+
+				&kp ESC
+				&kp LS(J) 
+				&kp LS(D)	 
+				&kp LS(U)
+				&kp LS(A)
+				&kp LS(X)
+				&kp LS(P)
+				&kp LS(H)
+				&kp LS(L)
+				&kp LS(M)
+				&kp LS(W)
+				&kp BSPC
+	
+				&to 0
+				&kp LS(C)
+				&kp LS(T)
+				&kp LS(I)
+				&kp LS(E)
+				&kp LS(O)
+				&kp LS(B)
+				&kp LS(N)
+				&kp LS(R)
+				&kp LS(S)
+				&kp LS(G)
+				&kp RET
+	
+				&mdLs
+				&kp LS(F)
+				&kp LS(V)
+				&kp LS(MINUS)
+				&kp LS(Y)
+				&kp LS(Q)
+				&kp LS(Z)
+				&kp LS(SEMI)
+				&kp LS(LBKT)
+				&kp LS(SQT)
+				&kp LS(K)
+				&mdLs
+
+				&sl mFUNC
+				&kp SPACE 
+				&sl mNAV
+				&sl mPRG
+				&mdNr
+				&sl mMOD
+			>;
+		};
+
+
+
+		// --------------------------------------
+		// Layer 3 - mSHIFT = 	  Shift Buchstaben	
+		// --------------------------------------
+	
+		mac_shiftChar
+		{
+			label = "MAC";
+
+			bindings = <
+
+				&kp LS(DELETE)
+				&kp LS(J) 
+				&kp LS(D)	 
+				&kp LS(U)
+				&kp LS(A)
+				&kp LS(X)
+				&kp LS(P)
+				&kp LS(H)
+				&kp LS(L)
+				&kp LS(M)
+				&kp LS(W)
+				&kp LS(BSPC)
+	
+				&to 0
+				&kp LS(C)
+				&kp LS(T)
+				&kp LS(I)
+				&kp LS(E)
+				&kp LS(O)
+				&kp LS(B)
+				&kp LS(N)
+				&kp LS(R)
+				&kp LS(S)
+				&kp LS(G)
+				&kp LS(RET)
+	
+				&mdLs
+				&kp LS(F)
+				&kp LS(V)
+				&kp LS(MINUS)
+				&kp LS(Y)
+				&kp LS(Q)
+				&kp LS(Z)
+				&kp LS(SEMI)
+				&kp LS(LBKT)
+				&kp LS(SQT)
+				&kp LS(K)
+				&mdLs
+
+				&trans
+				&kp LS(SPACE)
+				&trans
+				&trans
+				&mdNr
+				&trans
+			>;
+		};
+
+
+		// --------------------------------------
+		// Layer = 4 - mNAV - Navigation
 		// -------------------------------------
 
 		mac_navigation
@@ -242,7 +349,7 @@
 
 				&none
 				&kp LG(LA(LC(LS(MINUS))))	// Shortcat
-				&sl mNAV2					// deep
+				&sl mNAVdeep					// deep
 				&trans
 				&trans
 				&trans						
@@ -250,7 +357,7 @@
 		};
 
 		// --------------------------------------
-		// Layer = 3 - mNAV2 - Navigation
+		// Layer = 5 - mNAVdeep - deep Navigation
 		// -------------------------------------
 
 		mac_navigation2
@@ -311,7 +418,7 @@
 
 
 		// --------------------------------------
-		// Layer 4 - mPRG =	Programme
+		// Layer 6 - mPRG =	Programme
 		// --------------------------------------
 
 
@@ -363,7 +470,7 @@
 				&none
 				&none
 				&kp LG(SPACE)
-				&sl mSPRG
+				&sl mPRGdeep
 				&sl mSYM
 				&none
 			>;
@@ -371,7 +478,7 @@
 
 
 		// --------------------------------------
-		// Layer 5 - mSPRG =	Spezial Prgramme
+		// Layer 7 - mPRGdeep =	deep Programme
 		// --------------------------------------
 
 
@@ -433,7 +540,7 @@
 
 
 		// --------------------------------------
-		// Layer 6 - mFUNC =	Funktionen
+		// Layer 8 - mFUNC =	Funktionen
 		// --------------------------------------
 
 		mac_function
@@ -488,7 +595,7 @@
 				&mdRs						// back
 
 
-				&sl mSFUNC
+				&sl mFUNCdeep
 				&none
 				&none
 				&kp C_PREVIOUS 
@@ -499,7 +606,7 @@
 
 
 		// --------------------------------------
-		// Layer 7 - mSFUNC =	Spezial Funktionen
+		// Layer 9 - mFUNCdeep =	deep Funktionen
 		// --------------------------------------
 
 		mac_specialfunction
@@ -560,7 +667,7 @@
 
 
 		// --------------------------------------
-		// Layer 8 - mSYM =	Symoble
+		// Layer 10 - mSYM =	Symoble
 		// --------------------------------------
 
 		mac_symbole
@@ -612,7 +719,7 @@
 				&kp SPACE
 				&trans
 				&trans
-				&sl mSSYM
+				&sl mSYMdeep
 				&trans
 			>;
 		};
@@ -620,7 +727,7 @@
 
 
 		// --------------------------------------
-		// Layer 9 - mSSYM =	Special Symbole
+		// Layer 11 - mSYMdeep =	deep Symbole
 		// --------------------------------------
 
 		mac_specialsonderzeichen
@@ -681,7 +788,7 @@
 
 
 		// --------------------------------------
-		// Layer 10 - mMOD =	GUI
+		// Layer 12 - mMOD =	GUI
 		// --------------------------------------
 
 		mac_mod
@@ -734,14 +841,14 @@
 				&none
 				&none
 				&none
-				&sl mSMOD
+				&sl mMODdeep
 			>;
 		};
 
 
 
 		// --------------------------------------
-		// Layer 11 - mSMOD =	Spezial GUI
+		// Layer 13 - mMODdeep =	deep GUI
 		// --------------------------------------
 
 		mac_smod
@@ -790,131 +897,12 @@
 				&mdRs						// back
 
 				&none
-				&kp LA(LG(LC(SPACE)))
+				&kp LS(SPACE)
 				&none
 				&none
 				&none
 				&trans
 			>;
-		};
-
-
-
-		// --------------------------------------
-		// Layer 12 - mBCHAR = 	  Buchstaben	
-		// --------------------------------------
-	
-		mac_bigbuchstaben
-		{
-			label = "MAC";
-
-			bindings = <
-
-				&kp ESC
-				&kp LS(J) 
-				&kp LS(D)	 
-				&kp LS(U)
-				&kp LS(A)
-				&kp LS(X)
-				&kp LS(P)
-				&kp LS(H)
-				&kp LS(L)
-				&kp LS(M)
-				&kp LS(W)
-				&kp LS(BSPC)
-	
-				&kp LS(DEL)
-				&kp LS(C)
-				&kp LS(T)
-				&kp LS(I)
-				&kp LS(E)
-				&kp LS(O)
-				&kp LS(B)
-				&kp LS(N)
-				&kp LS(R)
-				&kp LS(S)
-				&kp LS(G)
-				&kp LS(RET)
-	
-				&kp LSHIFT
-				&kp LS(F)
-				&kp LS(V)
-				&kp LS(MINUS)
-				&kp LS(Y)
-				&kp LS(Q)
-				&kp LS(Z)
-				&kp LS(SEMI)
-				&kp LS(LBKT)
-				&kp LS(SQT)
-				&kp LS(K)
-				&mdRs						// back
-
-				&trans
-				&kp SPACE
-				&trans
-				&trans
-				&mdNrOff
-				&trans
-			>;
-		};
-
-
-		// --------------------------------------
-		// Layer 13 - mBNR = 	  Zahlen	
-		// --------------------------------------
-
-		mac_zahlen2
-		{
-			label = "MAC";
-
-			bindings = <
-
-				&kp ESC	
-				&kp LS(N3)
-				&kp NUBS
-				&kp LS(NUBS)			
-				&kp NUHS
-				&kp X
-				&kp LS(N4)
-				&kp LA(E)
-				&kp LA(M)
-				&kp M
-				&kp LS(N5)			
-				&kp BSPC
-
-				&kp DEL
-				&kp N1				
-				&kp N2				
-				&kp N3				
-				&kp N4					
-				&kp N5				
-				&kp N6				
-				&kp N7				
-				&kp N8				
-				&kp N9				
-				&kp N0				
-				&kp ENTER 
-
-				&to mCHAR
-				&kp LS(N7)
-				&kp LS(N8)
-				&kp LS(N9)
-				&kp LS(RBRC)
-				&kp LS(N0)
-				&kp LS(N2)
-				&kp RBKT
-				&kp COMMA
-				&kp DOT
-				&kp SLASH		
-				&to mCHAR
-		
-				&trans
-				&kp SPACE
-				&trans
-				&trans
-				&mdNrOff
-				&trans
-			>;		
 		};
 
 	};
