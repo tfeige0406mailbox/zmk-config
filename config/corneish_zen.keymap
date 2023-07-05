@@ -611,41 +611,41 @@
 
 				&trans
 				&trans
+				&kp C_VOLUME_DOWN 
+				&kp C_MUTE
+				&kp C_VOLUME_UP 
+				&bt BT_CLR 	
+				&kp LG(LA(LC(LS(F18))))		// 
+				&kp LG(LA(LC(LS(F14))))		// 
+				&kp LG(LA(LC(LS(F15))))		// 
+				&kp LG(LA(LC(LS(F16))))		// 
+				&kp LG(LA(LC(LS(F17))))		// 
+				&kp LC(LG(LS(ESC)))			// Herunterfahren
+
+				&to mCHAR
 				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
+				&kp C_PREVIOUS 
+				&kp C_PP
+				&kp C_NEXT  
+				&bt BT_SEL 0
+				&kp LG(LA(LC(LS(F19))))		// 
+				&kp LG(LA(LS(F5)))			//
+				&kp LG(LA(LS(F6)))			//
+				&kp LG(LA(LS(F7)))			//
+				&kp LG(LA(LS(F8)))			//
 				&trans
 
 				&trans
 				&trans
+				&kp LG(LA(LC(GRAVE)))		// Bright
 				&trans
+				&kp LG(LA(LC(EQUAL)))		// Bright
+				&bt BT_NXT 
 				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
+				&kp LG(LA(LC(LS(F8))))		// Window size
+				&kp LG(LA(LC(LS(F9))))		// Window size
+				&kp LG(LA(LC(LS(F10))))		// Window size
+				&kp LG(LA(LC(LS(F12))))		// Window size
 				&trans
 		
 				&trans
