@@ -82,7 +82,7 @@
 				&kp W
 				&kp BSPC
 	
-				&to 0
+				&to mCHAR
 				&kp C
 				&kp T
 				&kp I
@@ -142,7 +142,7 @@
 				&kp LS(N5)			
 				&kp BSPC
 
-				&to 0
+				&to mCHAR
 				&kp N1				
 				&kp N2				
 				&kp N3				
@@ -202,7 +202,7 @@
 				&kp LS(W)
 				&kp BSPC
 	
-				&to 0
+				&to mCHAR
 				&kp LS(C)
 				&kp LS(T)
 				&kp LS(I)
@@ -262,7 +262,7 @@
 				&kp LS(W)
 				&kp LS(BSPC)
 	
-				&to 0
+				&to mCHAR
 				&kp LS(C)
 				&kp LS(T)
 				&kp LS(I)
@@ -308,7 +308,7 @@
 
 			bindings = <
 
-				&kp LS(ESC)
+				&kp DEL 					// Delete
 				&kp LG(LA(LC(F1)))		  	// open
 				&kp LC(LS(TAB))				// Tap Switch
 				&kp LC(TAB)		  			// Tab Switch 
@@ -321,7 +321,7 @@
 				&kp PG_UP 					// Page Up
 				&kp BACKSPACE				// Backspace
 
-				&kp DEL 					// Delete
+				&to mCHAR
 				&kp LG(LA(LC(F4)))		  	// Pfadsuche
 				&kp LG(LA(LC(F5)))		  	// Umbennen
 				&kp LGUI					// App Switch
@@ -345,7 +345,7 @@
 				&kp LA(LEFT)				// Wort Sprung
 				&kp LA(RIGHT)				// Wort Sprung
 				&kp TAB						// vor
-				&mdRs						// back
+				&kp LSHIFT					// Shift
 
 				&none
 				&kp LG(LA(LC(LS(MINUS))))	// Shortcat
@@ -366,7 +366,7 @@
 
 			bindings = <
 
-				&kp LG(ESC)
+				&kp DELETE
 				&kp LG(LA(LC(F13)))		  	// Open
 				&kp LG(LA(LC(F14)))		  	// Open
 				&kp LG(LA(LC(F15)))		  	// Open
@@ -379,7 +379,7 @@
 				&kp LC(PG_UP) 				// deep page
 				&kp BACKSPACE
 
-				&kp DELETE
+				&to mCHAR
 				&kp LG(LA(LC(F18)))		  	// Open
 				&kp LG(LA(LC(F19)))		  	// Open
 				&kp LALT					// LALT
@@ -526,7 +526,7 @@
 				&kp LC(LA(LS(R)))				
 				&kp LC(LA(LS(S)))
 				&none 							// OS Swap
-				&mdRs						// back	
+				&mdRs							// back	
 		
 				&none
 				&none
