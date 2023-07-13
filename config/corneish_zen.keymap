@@ -42,14 +42,21 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_mdNr";
             #binding-cells = <0>;
-            tapping-term-ms = <3000>;
+            tapping-term-ms = <1000>;
             bindings = <&sl mNR>, <&to mNR>;
         };
 		mdLs: tap_dance_mdLs {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_mdLs";
             #binding-cells = <0>;
-            tapping-term-ms = <3000>;
+            tapping-term-ms = <1000>;
+            bindings = <&sl mSHIFT>, <&to mBCHAR>;
+        };
+		mdRs: tap_dance_mdRs {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_mdLs";
+            #binding-cells = <0>;
+            tapping-term-ms = <1000>;
             bindings = <&sl mSHIFT>, <&to mBCHAR>;
         };
     };
@@ -106,7 +113,7 @@
 				&kp LBKT
 				&kp SQT
 				&kp K
-				&mdLs
+				&mdRs
 
 				&sl mFUNC
 				&kp SPACE
@@ -166,7 +173,7 @@
 				&kp COMMA
 				&kp DOT
 				&kp SLASH		
-				&mdLs
+				&mdRs
 		
 				&sl mFUNC
 				&kp SPACE 
@@ -226,7 +233,7 @@
 				&kp LS(LBKT)
 				&kp LS(SQT)
 				&kp LS(K)
-				&mdLs
+				&mdRs
 
 				&sl mFUNC
 				&kp SPACE 
@@ -275,7 +282,7 @@
 				&kp LS(G)
 				&kp LS(RET)
 	
-				&mdLs
+				&sl mSHIFT
 				&kp LS(F)
 				&kp LS(V)
 				&kp LS(MINUS)
@@ -286,7 +293,7 @@
 				&kp LS(LBKT)
 				&kp LS(SQT)
 				&kp LS(K)
-				&mdLs
+				&sl mSHIFT
 
 				&trans
 				&kp LS(SPACE)
