@@ -584,11 +584,11 @@
 				&kp LG(LC(F19))				// free
 
 				&trans
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
+				&kp LC(F13)
+				&kp LC(F14)
+				&kp LC(F15)
+				&kp LC(F16)
+				&kp LC(F17)
 				&kp LG(U) 					// Craft Format
 				&kp LG(LS(B))				// Craft Format
 				&kp LG(LS(C))				// Craft Format
